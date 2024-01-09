@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>pseudocode.js - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<script src="/assets/js/pseudocode/build/pseudocode.js">
+</script>
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Getting Started</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Introduction</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.2 The Development Environment</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.2 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ry">A Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">A.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">A.2 List of tables</a>
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            <a id="miT1" data-title="myRIO system with an analog current amplifier" onclick="set_v_ts('T1')" href=#>T1 <span>myRIO system with an analog current amplifier</span></a>
+<a id="miT2" data-title="myRIO system with an digital (PWM) voltage amplifier" onclick="set_v_ts('T2')" href=#>T2 <span>myRIO system with an digital (PWM) voltage amplifier</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Eclipse dev system" onclick="set_v_ds('D1')" href=#>D1 <span>Eclipse dev system</span></a>
+<a id="miD1a" data-title="D1 system with for x86, VirtualBox hypervisor, Windows 10 Pro VM OS, and Eclipse Kepler SR2. For a T1 target system." onclick="set_v_ds('D1a')" href=#>D1a <span>D1 system with for x86, VirtualBox hypervisor, Windows 10 Pro VM OS, and Eclipse Kepler SR2. For a T1 target system.</span></a>
+
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!-- pseudocode.js -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <h1 id="pseudocodejs">pseudocode.js</h1>
+
+<p><img align="right" width="40%" src="docs/screenshot.png" /></p>
+
+<p><strong>pseudocode.js</strong> is a JavaScript library that typesets pseudocode beautifully to 
+HTML.</p>
+
+<ul>
+  <li><em>Intuitive grammar:</em> Pseudocode.js takes a LaTeX-style input that supports 
+the algorithmic constructs from LaTeX’s algorithm packages. With or without 
+LaTeX experience, a user should find the grammar fairly intuitive.</li>
+  <li><em>Print quality:</em> The HTML output produced by pseudocode.js is (almost) 
+identical with the pretty algorithms printed on publications that are 
+typeset by LaTeX.</li>
+  <li><em>Math formula support:</em> Inserting math formulas in pseudocode.js is as easy 
+as LaTeX. Just enclose math expression in <code class="language-plaintext highlighter-rouge">$...$</code> or <code class="language-plaintext highlighter-rouge">\(...\)</code>.</li>
+</ul>
+
+<p>It supports all modern browsers, including Chrome, Safari, Firefox, Edge, and
+IE 9 - IE 11.</p>
+
+<p>Visit the <a href="https://saswatpadhi.github.io/pseudocode.js">project website</a> for a demo.</p>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="quick-start">Quick Start</h3>
+
+<p>pseudocode.js can render math formulas using either
+<a href="https://github.com/Khan/KaTeX">KaTeX</a>, or <a href="https://www.mathjax.org/">MathJax</a>.</p>
+
+<h4 id="step-1a--for-katex-users">Step 1A · For KaTeX users</h4>
+<p>Include the following in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your page:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js"</span>
+        <span class="na">integrity=</span><span class="s">"sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="step-1b--for-mathjax-2x-users">Step 1B · For MathJax 2.x users</h4>
+<p>Include the following in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your page:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML'</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/x-mathjax-config"</span><span class="nt">&gt;</span>
+    <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">({</span>
+        <span class="na">tex2jax</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">inlineMath</span><span class="p">:</span> <span class="p">[[</span><span class="dl">'</span><span class="s1">$</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">$</span><span class="dl">'</span><span class="p">],</span> <span class="p">[</span><span class="dl">'</span><span class="se">\\</span><span class="s1">(</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="se">\\</span><span class="s1">)</span><span class="dl">'</span><span class="p">]],</span>
+            <span class="na">displayMath</span><span class="p">:</span> <span class="p">[[</span><span class="dl">'</span><span class="s1">$$</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">$$</span><span class="dl">'</span><span class="p">],</span> <span class="p">[</span><span class="dl">'</span><span class="se">\\</span><span class="s1">[</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="se">\\</span><span class="s1">]</span><span class="dl">'</span><span class="p">]],</span>
+            <span class="na">processEscapes</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="na">processEnvironments</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="step-1c--for-mathjax-3x-users">Step 1C · For MathJax 3.x users</h4>
+<p>Include the following in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your page:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+    <span class="nx">MathJax</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">tex</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">inlineMath</span><span class="p">:</span> <span class="p">[[</span><span class="dl">'</span><span class="s1">$</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">$</span><span class="dl">'</span><span class="p">],</span> <span class="p">[</span><span class="dl">'</span><span class="se">\\</span><span class="s1">(</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="se">\\</span><span class="s1">)</span><span class="dl">'</span><span class="p">]],</span>
+            <span class="na">displayMath</span><span class="p">:</span> <span class="p">[[</span><span class="dl">'</span><span class="s1">$$</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">$$</span><span class="dl">'</span><span class="p">],</span> <span class="p">[</span><span class="dl">'</span><span class="se">\\</span><span class="s1">[</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="se">\\</span><span class="s1">]</span><span class="dl">'</span><span class="p">]],</span>
+            <span class="na">processEscapes</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="na">processEnvironments</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-chtml.js"</span>
+        <span class="na">integrity=</span><span class="s">"sha256-3Fdoa5wQb+JYfEmTpQHx9sc/GuwpfC/0R9EpBki+mf8="</span> <span class="na">crossorigin</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="step-2--grab-pseudocodejs">Step 2 · Grab pseudocode.js</h4>
+<p>Include the following in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> of your page:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="step-3--write-your-pseudocode-inside-a-pre">Step 3 · Write your pseudocode inside a <code class="language-plaintext highlighter-rouge">&lt;pre&gt;</code></h4>
+<p>We assume the pseudocode to be rendered is in a <code class="language-plaintext highlighter-rouge">&lt;pre&gt;</code> DOM element.
+Here is an example that illustrates a quicksort algorithm:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;pre</span> <span class="na">id=</span><span class="s">"quicksort"</span> <span class="na">style=</span><span class="s">"display:hidden;"</span><span class="nt">&gt;</span>
+    % This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+    \begin{algorithm}
+    \caption{Quicksort}
+    \begin{algorithmic}
+    \PROCEDURE{Quicksort}{$A, p, r$}
+        \IF{$p <span class="nt">&lt;</span> <span class="nt">r</span><span class="err">$}</span> 
+            <span class="err">\</span><span class="na">STATE</span> <span class="err">$</span><span class="na">q = </span><span class="s">$</span> <span class="err">\</span><span class="na">CALL</span><span class="err">{</span><span class="na">Partition</span><span class="err">}{$</span><span class="na">A</span><span class="err">,</span> <span class="na">p</span><span class="err">,</span> <span class="na">r</span><span class="err">$}</span>
+            <span class="err">\</span><span class="na">STATE</span> <span class="err">\</span><span class="na">CALL</span><span class="err">{</span><span class="na">Quicksort</span><span class="err">}{$</span><span class="na">A</span><span class="err">,</span> <span class="na">p</span><span class="err">,</span> <span class="na">q</span> <span class="na">-</span> <span class="err">1$}</span>
+            <span class="err">\</span><span class="na">STATE</span> <span class="err">\</span><span class="na">CALL</span><span class="err">{</span><span class="na">Quicksort</span><span class="err">}{$</span><span class="na">A</span><span class="err">,</span> <span class="na">q</span> <span class="err">+</span> <span class="err">1,</span> <span class="na">r</span><span class="err">$}</span>
+        <span class="err">\</span><span class="na">ENDIF</span>
+    <span class="err">\</span><span class="na">ENDPROCEDURE</span>
+    <span class="err">\</span><span class="na">PROCEDURE</span><span class="err">{</span><span class="na">Partition</span><span class="err">}{$</span><span class="na">A</span><span class="err">,</span> <span class="na">p</span><span class="err">,</span> <span class="na">r</span><span class="err">$}</span>
+        <span class="err">\</span><span class="na">STATE</span> <span class="err">$</span><span class="na">x = </span><span class="s">A[r]$</span>
+        <span class="err">\</span><span class="na">STATE</span> <span class="err">$</span><span class="na">i = </span><span class="s">p</span> <span class="na">-</span> <span class="err">1$</span>
+        <span class="err">\</span><span class="na">FOR</span><span class="err">{$</span><span class="na">j = </span><span class="s">p$</span> <span class="err">\</span><span class="na">TO</span> <span class="err">$</span><span class="na">r</span> <span class="na">-</span> <span class="err">1$}</span>
+            <span class="err">\</span><span class="na">IF</span><span class="err">{$</span><span class="na">A</span><span class="err">[</span><span class="na">j</span><span class="err">]</span> <span class="err">&lt;</span> <span class="na">x</span><span class="err">$}</span>
+                <span class="err">\</span><span class="na">STATE</span> <span class="err">$</span><span class="na">i = </span><span class="s">i</span> <span class="err">+</span> <span class="err">1$</span>
+                <span class="err">\</span><span class="na">STATE</span> <span class="na">exchange</span>
+                <span class="err">$</span><span class="na">A</span><span class="err">[</span><span class="na">i</span><span class="err">]$</span> <span class="na">with</span> <span class="err">$</span><span class="na">A</span><span class="err">[</span><span class="na">j</span><span class="err">]$</span>
+            <span class="err">\</span><span class="na">ENDIF</span>
+            <span class="err">\</span><span class="na">STATE</span> <span class="na">exchange</span> <span class="err">$</span><span class="na">A</span><span class="err">[</span><span class="na">i</span><span class="err">]$</span> <span class="na">with</span> <span class="err">$</span><span class="na">A</span><span class="err">[</span><span class="na">r</span><span class="err">]$</span>
+        <span class="err">\</span><span class="na">ENDFOR</span>
+    <span class="err">\</span><span class="na">ENDPROCEDURE</span>
+    <span class="err">\</span><span class="na">end</span><span class="err">{</span><span class="na">algorithmic</span><span class="err">}</span>
+    <span class="err">\</span><span class="na">end</span><span class="err">{</span><span class="na">algorithm</span><span class="err">}</span>
+<span class="err">&lt;/</span><span class="na">pre</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h4 id="step-4--render-the-element-using-pseudocodejs">Step 4 · Render the element using pseudocode.js</h4>
+<p>Insert the following Javascript snippet at the end of your document:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+    <span class="nx">pseudocode</span><span class="p">.</span><span class="nx">renderElement</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">quicksort</span><span class="dl">"</span><span class="p">));</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="grammar">Grammar</h3>
+<p>There are several packages for typesetting algorithms in LaTeX, among which 
+<a href="http://mirror.ctan.org/tex-archive/macros/latex/contrib/algorithms/algorithms.pdf"><code class="language-plaintext highlighter-rouge">algorithmic</code></a>
+package is the most simple and intuitive, and is chosen by IEEE in its 
+<a href="http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran">LaTeX template file</a>. 
+The grammar of pseudocode.js is mostly compatible with <code class="language-plaintext highlighter-rouge">algorithmic</code> package with 
+a few improvement to make it even more easier to use.</p>
+
+<p>Commands for typesetting algorithms must be enclosed in an <code class="language-plaintext highlighter-rouge">algorithmic</code> environment:</p>
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{algorithmic}</span>
+# A precondition is optional
+<span class="k">\REQUIRE</span> &lt;text&gt;
+# A postcondition is optional
+<span class="k">\ENSURE</span> &lt;text&gt;
+# An input is optional
+<span class="k">\INPUT</span> &lt;text&gt;
+# An output is optional
+<span class="k">\OUTPUT</span> &lt;text&gt;
+# The body of your code is a &lt;block&gt;
+<span class="k">\STATE</span> ...
+<span class="nt">\end{algorithmic}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;block&gt;</code> can include zero or more <code class="language-plaintext highlighter-rouge">&lt;statement&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;control&gt;</code>,  <code class="language-plaintext highlighter-rouge">&lt;comment&gt;</code> 
+and <code class="language-plaintext highlighter-rouge">&lt;function&gt;</code>:</p>
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code># A &lt;statement&gt; can be:
+<span class="k">\STATE</span> &lt;text&gt;
+<span class="k">\RETURN</span> &lt;text&gt;
+<span class="k">\PRINT</span> &lt;text&gt;
+
+# A &lt;control&gt; can be:
+# A conditional
+<span class="k">\IF</span><span class="p">{</span>&lt;condition&gt;<span class="p">}</span>
+    &lt;block&gt;
+<span class="k">\ELIF</span><span class="p">{</span>&lt;condition&gt;<span class="p">}</span>
+    &lt;block&gt;
+<span class="k">\ELSE</span>
+    &lt;block&gt;
+<span class="k">\ENDIF</span>
+# Or a loop: <span class="k">\WHILE</span>, <span class="k">\FOR</span> or <span class="k">\FORALL</span>
+<span class="k">\WHILE</span><span class="p">{</span>&lt;condition&gt;<span class="p">}</span>
+    &lt;block&gt;
+<span class="k">\ENDWHILE</span>
+# Or a repeat: <span class="k">\REPEAT</span> &lt;block&gt; <span class="k">\UNTIL</span><span class="p">{</span>&lt;cond&gt;<span class="p">}</span>
+<span class="k">\REPEAT</span>
+    &lt;block&gt;
+<span class="k">\UNTIL</span><span class="p">{</span>&lt;cond&gt;<span class="p">}</span>
+
+# A &lt;function&gt; can by defined by either <span class="k">\FUNCTION</span> or <span class="k">\PROCEDURE</span>
+# Both are exactly the same
+<span class="k">\FUNCTION</span><span class="p">{</span>&lt;name&gt;<span class="p">}{</span>&lt;params&gt;<span class="p">}</span>
+    &lt;block&gt; 
+<span class="k">\ENDFUNCTION</span>
+
+# A &lt;comment&gt; is:
+<span class="k">\COMMENT</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>
+</code></pre></div></div>
+
+<p>A <code class="language-plaintext highlighter-rouge">&lt;text&gt;</code> (or <code class="language-plaintext highlighter-rouge">&lt;condition&gt;</code>) can include the following:</p>
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Normal characters
+Hello world
+# Escaped characters
+<span class="k">\\</span>, <span class="k">\{</span>, <span class="k">\}</span>, <span class="k">\$</span>, <span class="k">\&amp;</span>, <span class="k">\#</span>, <span class="k">\%</span> and <span class="k">\_</span>
+# Math formula
+<span class="p">$</span><span class="nb">i </span><span class="nv">\gets</span><span class="nb"> i </span><span class="o">+</span><span class="nb"> </span><span class="m">1</span><span class="p">$</span>
+# Function call
+<span class="k">\CALL</span><span class="p">{</span>&lt;func&gt;<span class="p">}{</span>&lt;args&gt;<span class="p">}</span>
+# Keywords
+<span class="k">\AND</span>, <span class="k">\OR</span>, <span class="k">\XOR</span>, <span class="k">\NOT</span>, <span class="k">\TO</span>, <span class="k">\DOWNTO</span>, <span class="k">\TRUE</span>, <span class="k">\FALSE</span>
+# LaTeX's sizing commands
+<span class="k">\tiny</span>, <span class="k">\scriptsize</span>, <span class="k">\footnotesize</span>, <span class="k">\small</span> <span class="k">\normalsize</span>, <span class="k">\large</span>, <span class="k">\Large</span>, <span class="k">\LARGE</span>, 
+<span class="k">\huge</span>, <span class="k">\HUGE</span>
+# LaTeX's font declarations
+<span class="k">\rmfamily</span>, <span class="k">\sffamily</span>, <span class="k">\ttfamily</span>
+<span class="k">\upshape</span>, <span class="k">\itshape</span>, <span class="k">\slshape</span>, <span class="k">\scshape</span>
+<span class="k">\bfseries</span>, <span class="k">\mdseries</span>, <span class="k">\lfseries</span>
+# LaTeX's font commands
+<span class="k">\textnormal</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\textrm</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\textsf</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\texttt</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>
+<span class="k">\textup</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\textit</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\textsl</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\textsc</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>
+<span class="k">\uppercase</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>, <span class="k">\lowercase</span><span class="p">{</span>&lt;text&gt;<span class="p">}</span>
+<span class="k">\textbf</span>, <span class="k">\textmd</span>, <span class="k">\textlf</span>
+# And it's possible to group text with braces
+normal text <span class="p">{</span><span class="k">\small</span> the size gets smaller<span class="p">}</span> back to normal again
+</code></pre></div></div>
+
+<p>Note that although pseudocode.js recognizes some LaTeX commands, it is by no 
+means a full-featured LaTeX implementation in JavaScript.
+It only support a subset of LaTeX commands that are most relevant to 
+typesetting algorithms.</p>
+
+<p>To display the caption of an algorithm, use <code class="language-plaintext highlighter-rouge">algorithm</code> environment as a ‘float’ wrapper :</p>
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{algorithm}</span>
+<span class="k">\caption</span><span class="p">{</span>The caption of your algorithm<span class="p">}</span>
+<span class="nt">\begin{algorithmic}</span>
+<span class="k">\STATE</span> ...
+<span class="nt">\end{algorithmic}</span>
+<span class="nt">\end{algorithm}</span>
+</code></pre></div></div>
+
+<h3 id="options">Options</h3>
+<p><code class="language-plaintext highlighter-rouge">pseudocode.renderElement</code> can accept an option as the last argument,
+such as</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pseudocode</span><span class="p">.</span><span class="nx">renderElement</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">quicksort</span><span class="dl">"</span><span class="p">),</span>
+                         <span class="p">{</span> <span class="na">lineNumber</span><span class="p">:</span> <span class="kc">true</span> <span class="p">});</span>
+</code></pre></div></div>
+
+<p>The following options are currently supported:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">indentSize</code>: The indent size of inside a control block, e.g. if, for,
+     etc. The unit must be in ‘em’.</li>
+  <li><code class="language-plaintext highlighter-rouge">commentDelimiter</code>: The delimiters used to start and end a comment region.
+     Note that only line comments are supported.</li>
+  <li><code class="language-plaintext highlighter-rouge">lineNumber</code>: Whether line numbering is enabled.</li>
+  <li><code class="language-plaintext highlighter-rouge">lineNumberPunc</code>: The punctuation that follows line number.</li>
+  <li><code class="language-plaintext highlighter-rouge">noEnd</code>: Whether block ending, like <code class="language-plaintext highlighter-rouge">end if</code>, end procedure`, etc., are
+     showned.</li>
+  <li><code class="language-plaintext highlighter-rouge">captionCount</code>: Reset the caption counter to this number.</li>
+</ul>
+
+<p>The default values of these options are:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">DEFAULT_OPTIONS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">indentSize</span><span class="p">:</span> <span class="dl">'</span><span class="s1">1.2em</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">commentDelimiter</span><span class="p">:</span> <span class="dl">'</span><span class="s1">//</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">lineNumber</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="na">lineNumberPunc</span><span class="p">:</span> <span class="dl">'</span><span class="s1">:</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">noEnd</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="na">captionCount</span><span class="p">:</span> <span class="kc">undefined</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<h2 id="build-and-test">Build and Test</h2>
+<p>pseudocode.js is written in JavaScript and built with <a href="https://nodejs.org">Node.js</a>.
+So, make sure you have Node.js installed before building pseudocode.js.</p>
+
+<p>To compile the project on Ubuntu Linux, run the following commands in terminal:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>pseudocode.js/
+npm <span class="nb">install
+</span>make
+</code></pre></div></div>
+
+<p>Then, open one of the sample documents:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">build/katex-samples.html</code>, or</li>
+  <li><code class="language-plaintext highlighter-rouge">build/mathjax-v2-samples.html</code>, or</li>
+  <li><code class="language-plaintext highlighter-rouge">build/mathjax-v3-samples.html</code>
+in your favorite browser to check if the algorithms are typeset correctly.</li>
+</ul>
+
+<h2 id="author">Author</h2>
+<p>pseudocode.js was originally written by Tate Tian (<a href="https://github.com/tatetian">@tatetian</a>).
+Together with <a href="https://github.com/ZJUGuoShuai">@ZJUGuoShuai</a>,
+I (<a href="https://github.com/SaswatPadhi">@SaswatPadhi</a>) added the MathJax support,
+and I am the current maintainer of this project.
+Suggestions, bug reports and pull requests are most welcome.</p>
+
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>pseudocode.js is partially inspired by <a href="http://khan.github.io/KaTeX/">KaTeX</a>.
+Thanks Emily Eisenberg(<a href="https://github.com/xymostech">@xymostech</a>)
+and other contributors for building such a wonderful project.</p>
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js">
+</script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>
