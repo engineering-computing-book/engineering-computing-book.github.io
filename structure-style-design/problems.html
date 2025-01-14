@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <div class="exercise" data-h="wq" data-problem-num="2.1">
+<p>Write a program in a single script that meets the following
+requirements:</p>
+<ol>
+<li>It imports the standard library <code class="sourceCode python">random</code> module.</li>
+<li>It defines a function <code class="sourceCode python">rand_sub()</code> that defines a list of
+grammatical subjects (e.g., Jim, I, you, skeletons, a tiger, etc.) and
+returns a random subject; consider using <code class="sourceCode python">random.choice()</code> function.</li>
+<li>It defines a function <code class="sourceCode python">rand_verb()</code> that defines a list of
+verbs in past tense (e.g., opened, smashed, ate, became, etc.) and
+returns a random verb.</li>
+<li>It defines a function <code class="sourceCode python">rand_obj()</code> that defines a list of
+grammatical objects (e.g., the closet, her, crumbs, organs) and returns
+a random object.</li>
+<li>It defines a function <code class="sourceCode python">rand_sen()</code> that returns a random
+subject-verb-object sentence as a string beginning with a capital letter
+and ending with a period.</li>
+<li>It defines a function <code class="sourceCode python">rand_par()</code> that returns a random
+paragraph as a string composed of <span class="math inline">\(3\)</span>
+to <span class="math inline">\(5\)</span> sentences (the number of
+sentences should be random—consider using the <code class="sourceCode python">random.randint(a, b)</code> function that
+generates an <code class="sourceCode python"><span class="bu">int</span></code> between
+<code class="sourceCode python">a</code> and <code class="sourceCode python">b</code>, inclusively). Sentences should be
+separated by a space <code class="sourceCode python"><span class="co">&quot; &quot;</span></code>
+character.</li>
+<li>It calls <code class="sourceCode python">rand_par()</code> three
+times and prints the results.</li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sub():</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random grammatical subject&quot;&quot;&quot;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    subjects <span class="op">=</span> [</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;I&quot;</span>, <span class="st">&quot;you&quot;</span>, <span class="st">&quot;Jim&quot;</span>, <span class="st">&quot;Helen&quot;</span>, <span class="st">&quot;Socrates&quot;</span>, <span class="st">&quot;skeletons&quot;</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;a stick&quot;</span>, <span class="st">&quot;the undead&quot;</span>, <span class="st">&quot;Bilbo&quot;</span>, <span class="st">&quot;the youth&quot;</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;all the children&quot;</span>, <span class="st">&quot;a unicorn&quot;</span>, <span class="st">&quot;several snakes&quot;</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;Taylor Swift&quot;</span>, <span class="st">&quot;Hamlet&quot;</span>, <span class="st">&quot;an unkindness of ravens&quot;</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;huge rats&quot;</span>, <span class="st">&quot;Kant&quot;</span>, <span class="st">&quot;Beauvoir&quot;</span>, <span class="st">&quot;they&quot;</span>, </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;the rest of them&quot;</span>, <span class="st">&quot;he&quot;</span>, <span class="st">&quot;she&quot;</span>, <span class="st">&quot;Pam&quot;</span>, <span class="st">&quot;a bunch&quot;</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(subjects)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_verb():</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random verb&quot;&quot;&quot;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    verbs <span class="op">=</span> [</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;opened&quot;</span>, <span class="st">&quot;smashed&quot;</span>, <span class="st">&quot;ate&quot;</span>, <span class="st">&quot;became&quot;</span>, <span class="st">&quot;climbed&quot;</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;chose&quot;</span>, <span class="st">&quot;questioned&quot;</span>, <span class="st">&quot;grew&quot;</span>, <span class="st">&quot;squeezed&quot;</span>, <span class="st">&quot;read&quot;</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;sought&quot;</span>, <span class="st">&quot;lifted&quot;</span>, <span class="st">&quot;outpaced&quot;</span>, <span class="st">&quot;surprised&quot;</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;sauteed&quot;</span>, <span class="st">&quot;dissected&quot;</span>, <span class="st">&quot;displayed&quot;</span>, <span class="st">&quot;coughed up&quot;</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;stole&quot;</span>, <span class="st">&quot;got rid of&quot;</span>, <span class="st">&quot;dispatched&quot;</span>, <span class="st">&quot;clung to&quot;</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(verbs)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_obj():</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random grammatical object&quot;&quot;&quot;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    objects <span class="op">=</span> [</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;the closet&quot;</span>, <span class="st">&quot;her&quot;</span>, <span class="st">&quot;crumbs&quot;</span>, <span class="st">&quot;organs&quot;</span>, <span class="st">&quot;cheese&quot;</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;the best ones&quot;</span>, <span class="st">&quot;a hippo&quot;</span>, <span class="st">&quot;the lot of them&quot;</span>,</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;those assembled&quot;</span>, <span class="st">&quot;him&quot;</span>, <span class="st">&quot;platters&quot;</span>, <span class="st">&quot;the whiskey&quot;</span>,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;jumbo shrimp&quot;</span>, <span class="st">&quot;the strangest one&quot;</span>, <span class="st">&quot;the wind&quot;</span>,</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;spoons galore&quot;</span>, <span class="st">&quot;a book&quot;</span>, <span class="st">&quot;a mirror&quot;</span>, <span class="st">&quot;a blessed spirit&quot;</span>,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;a path most perilous&quot;</span>, <span class="st">&quot;most&quot;</span>, <span class="st">&quot;a hungry caterpillar&quot;</span>,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(objects)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sen():</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random subject-verb-object sentence&quot;&quot;&quot;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> rand_sub()</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    v <span class="op">=</span> rand_verb()</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    o <span class="op">=</span> rand_obj()</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    sentence <span class="op">=</span> <span class="st">&quot; &quot;</span>.join([s.capitalize(), v, o]) <span class="op">+</span> <span class="st">&quot;.&quot;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sentence</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_par():</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a paragraph of random sentences&quot;&quot;&quot;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    n_sentences <span class="op">=</span> random.randint(<span class="dv">3</span>, <span class="dv">5</span>)</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    paragraph <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n_sentences):</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>        paragraph <span class="op">+=</span> <span class="st">&quot; &quot;</span> <span class="op">+</span> rand_sen()</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> paragraph</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="dv">3</span>):</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(rand_par())</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="sourceCode"><code> Helen squeezed the closet. He questioned spoons galore. The undead stole the strangest one.
+ She outpaced him. Several snakes coughed up a path most perilous. Beauvoir sought the best ones.
+ All the children clung to most. Huge rats opened a blessed spirit. Kant opened the lot of them. Pam ate jumbo shrimp.
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="sk" data-problem-num="2.2">
+<p>Rewrite the program from <a href="/wq">problem 2.1</a> such that it
+meets the following requirements:</p>
+<ol>
+<li>It defines the functions in a separate module with the file name
+<span class="path">rand_speech_parts.py</span>.</li>
+<li>Instead of defining the lists of subjects, verbs, and objects inside
+the functions, it assigns a variable to each list in the module’s global
+namespace and accesses them from within the functions. Why is this
+preferable?</li>
+<li>It imports the module into the main script.</li>
+<li>It print three random paragraphs, as before.</li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements. First, the module <span class="path">rand_speech_parts.py</span> contains the following:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>subjects <span class="op">=</span> [</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;I&quot;</span>, <span class="st">&quot;you&quot;</span>, <span class="st">&quot;Jim&quot;</span>, <span class="st">&quot;Helen&quot;</span>, <span class="st">&quot;Socrates&quot;</span>, <span class="st">&quot;skeletons&quot;</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;a stick&quot;</span>, <span class="st">&quot;the undead&quot;</span>, <span class="st">&quot;Bilbo&quot;</span>, <span class="st">&quot;the youth&quot;</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;all the children&quot;</span>, <span class="st">&quot;a unicorn&quot;</span>, <span class="st">&quot;several snakes&quot;</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Taylor Swift&quot;</span>, <span class="st">&quot;Hamlet&quot;</span>, <span class="st">&quot;an unkindness of ravens&quot;</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;huge rats&quot;</span>, <span class="st">&quot;Kant&quot;</span>, <span class="st">&quot;Beauvoir&quot;</span>, <span class="st">&quot;they&quot;</span>, </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;the rest of them&quot;</span>, <span class="st">&quot;he&quot;</span>, <span class="st">&quot;she&quot;</span>, <span class="st">&quot;Pam&quot;</span>, <span class="st">&quot;a bunch&quot;</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>verbs <span class="op">=</span> [</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;opened&quot;</span>, <span class="st">&quot;smashed&quot;</span>, <span class="st">&quot;ate&quot;</span>, <span class="st">&quot;became&quot;</span>, <span class="st">&quot;climbed&quot;</span>,</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;chose&quot;</span>, <span class="st">&quot;questioned&quot;</span>, <span class="st">&quot;grew&quot;</span>, <span class="st">&quot;squeezed&quot;</span>, <span class="st">&quot;read&quot;</span>,</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;sought&quot;</span>, <span class="st">&quot;lifted&quot;</span>, <span class="st">&quot;outpaced&quot;</span>, <span class="st">&quot;surprised&quot;</span>,</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;sauteed&quot;</span>, <span class="st">&quot;dissected&quot;</span>, <span class="st">&quot;displayed&quot;</span>, <span class="st">&quot;coughed up&quot;</span>,</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;stole&quot;</span>, <span class="st">&quot;got rid of&quot;</span>, <span class="st">&quot;dispatched&quot;</span>, <span class="st">&quot;clung to&quot;</span>,</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>objects <span class="op">=</span> [</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;the closet&quot;</span>, <span class="st">&quot;her&quot;</span>, <span class="st">&quot;crumbs&quot;</span>, <span class="st">&quot;organs&quot;</span>, <span class="st">&quot;cheese&quot;</span>,</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;the best ones&quot;</span>, <span class="st">&quot;a hippo&quot;</span>, <span class="st">&quot;the lot of them&quot;</span>,</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;those assembled&quot;</span>, <span class="st">&quot;him&quot;</span>, <span class="st">&quot;platters&quot;</span>, <span class="st">&quot;the whiskey&quot;</span>,</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;jumbo shrimp&quot;</span>, <span class="st">&quot;the strangest one&quot;</span>, <span class="st">&quot;the wind&quot;</span>,</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;spoons galore&quot;</span>, <span class="st">&quot;a book&quot;</span>, <span class="st">&quot;a mirror&quot;</span>, <span class="st">&quot;a blessed spirit&quot;</span>,</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;a path most perilous&quot;</span>, <span class="st">&quot;most&quot;</span>, <span class="st">&quot;a hungry caterpillar&quot;</span>,</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sub():</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random grammatical subject&quot;&quot;&quot;</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(subjects)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_verb():</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random verb&quot;&quot;&quot;</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(verbs)</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_obj():</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random grammatical object&quot;&quot;&quot;</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(objects)</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sen():</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a random subject-verb-object sentence&quot;&quot;&quot;</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> rand_sub()</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>    v <span class="op">=</span> rand_verb()</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>    o <span class="op">=</span> rand_obj()</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    sentence <span class="op">=</span> <span class="st">&quot; &quot;</span>.join([s.capitalize(), v, o]) <span class="op">+</span> <span class="st">&quot;.&quot;</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sentence</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_par():</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a paragraph of random sentences&quot;&quot;&quot;</span></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>    n_sentences <span class="op">=</span> random.randint(<span class="dv">3</span>, <span class="dv">5</span>)</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>    paragraph <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n_sentences):</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>        paragraph <span class="op">+=</span> <span class="st">&quot; &quot;</span> <span class="op">+</span> rand_sen()</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> paragraph</span></code></pre></div>
+<p>It is better to move the lists of words outside the functions’ local
+namespaces and into the module’s global namespace because the functions’
+namespaces those are created and then destroyed at each function call.
+It is more efficient to define the lists once and access them within the
+functions (the scope of each list variable being inclusive of the
+function blocks).</p>
+<p>The main script contains the following:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rand_speech_parts</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="dv">3</span>):</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(rand_speech_parts.rand_par())</span></code></pre></div>
+<p>Running the main script prints the following to the console:</p>
+<pre class="sourceCode"><code> Jim ate the closet. Kant grew the lot of them. All the children got rid of her. The undead got rid of a path most perilous. Socrates displayed the closet.
+ Beauvoir grew a blessed spirit. A stick climbed the closet. Socrates got rid of a hippo. An unkindness of ravens grew spoons galore. A stick grew cheese.
+ Pam read her. Socrates ate the wind. The undead smashed a hippo.
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="ye" data-problem-num="2.3">
+<p>Write a program in a single script that meets the following
+requirements:</p>
+<ol>
+<li><p>It imports the standard library <code class="sourceCode python">random</code> module.</p></li>
+<li><p>It defines a function <code class="sourceCode python">rand_step(x, d, ymax, wrap<span class="op">=</span><span class="va">True</span>)</code>
+that returns a <code class="sourceCode python"><span class="bu">float</span></code> that is
+the sum of <code class="sourceCode python">x</code> and a uniformly
+distributed random <code class="sourceCode python"><span class="bu">float</span></code> between
+<code class="sourceCode python"><span class="op">-</span>d</code> and
+<code class="sourceCode python">d</code>. Consider using the <code class="sourceCode python">random.uniform(a, b)</code> function that
+returns a random <code class="sourceCode python"><span class="bu">float</span></code> between
+<code class="sourceCode python">a</code> and <code class="sourceCode python">b</code>. If <code class="sourceCode python">wrap</code> is <code class="sourceCode python"><span class="va">True</span></code>, it maps a
+stepped value <code class="sourceCode python">y <span class="op">&gt;</span> ymax</code> to
+<code class="sourceCode python">y <span class="op">-</span> ymax</code>
+and a stepped value <code class="sourceCode python">y <span class="op">&lt;</span> <span class="dv">0</span></code>
+to <code class="sourceCode python">ymax <span class="op">+</span> y</code>. If
+<code class="sourceCode python">wrap</code> is <code class="sourceCode python"><span class="va">False</span></code>, it maps
+a stepped value <code class="sourceCode python">y <span class="op">&gt;</span> ymax</code> to
+<code class="sourceCode python">ymax</code> and a stepped value <code class="sourceCode python">y <span class="op">&lt;</span> <span class="dv">0</span></code>
+to <code class="sourceCode python"><span class="dv">0</span></code>.</p></li>
+<li><p>It defines a function <code class="sourceCode python">rand_steps(x0, d, ymax, n, wrap<span class="op">=</span><span class="va">True</span>)</code>
+that returns a <code class="sourceCode python"><span class="bu">list</span></code> of <code class="sourceCode python">n</code> <code class="sourceCode python"><span class="bu">float</span></code>s that are
+sequentially stepped from <code class="sourceCode python">x0</code>. It
+passes <code class="sourceCode python">wrap</code> to its call to <code class="sourceCode python">rand_step()</code>.</p></li>
+<li><p>It defines a function <code class="sourceCode python">print_slider(k, x)</code> that prints <code class="sourceCode python">k</code> characters, all of which are <code class="sourceCode">-</code> except that which has index closest to <code class="sourceCode python">x</code>, for which it prints <code class="sourceCode">|</code>. For instance, <code class="sourceCode python">print_slider(<span class="dv">17</span>, <span class="fl">6.8</span>)</code>
+should print</p>
+<pre class="sourceCode"><code>-------|---------</code></pre>
+<p>Consider using the built-in <code class="sourceCode python"><span class="bu">round</span>()</code>
+function.</p></li>
+<li><p>It defines a function <code class="sourceCode python">rand_sliders(n, k, x0<span class="op">=</span><span class="va">None</span>, d<span class="op">=</span><span class="dv">3</span>, wrap<span class="op">=</span><span class="va">True</span>)</code>
+that prints <code class="sourceCode python">n</code> random sliders of
+<code class="sourceCode python">k</code> characters and max step <code class="sourceCode python">d</code> starting at the index closest to
+<code class="sourceCode python">x0</code>, if provided, and otherwise at
+the index closest <code class="sourceCode python">k<span class="op">/</span><span class="dv">2</span></code>.</p></li>
+<li><p>It prints <span class="math inline">\(25\)</span> random wrapped
+sliders of <span class="math inline">\(44\)</span> characters with the
+default step range and starting point <span class="math inline">\(2\)</span>.</p></li>
+<li><p>It prints <span class="math inline">\(20\)</span> random
+nonwrapped sliders of <span class="math inline">\(44\)</span> characters
+with the step range <span class="math inline">\(5\)</span> and starting
+point <span class="math inline">\(42\)</span>.</p></li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">## Packages</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">## Functions</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_step(x, d, ymax, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the sum of x and a random float between -d and d&quot;&quot;&quot;</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    step <span class="op">=</span> random.uniform(<span class="op">-</span>d, d)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> x <span class="op">+</span> step</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> wrap:</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">&gt;</span> ymax:</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> y <span class="op">-</span> ymax</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> y <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> ymax <span class="op">+</span> y</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">&gt;</span> ymax:</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> ymax</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> y <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> y</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_steps(x0, d, ymax, n, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a list of n floats sequentially stepped from x0&quot;&quot;&quot;</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> [x0]</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n):</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>        values.append(rand_step(values[<span class="op">-</span><span class="dv">1</span>], d, ymax, wrap<span class="op">=</span>wrap))</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> values</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_slider(k, x):</span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Prints k &#39;-&#39; characters except for that with index</span></span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a><span class="co">    closest to x, which prints |</span></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>    x_rounded <span class="op">=</span> <span class="bu">round</span>(x)</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> x_rounded <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>        x_rounded <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Coerce to 0</span></span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> x_rounded <span class="op">&gt;</span> k:</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>        x_rounded <span class="op">=</span> k <span class="op">-</span> <span class="dv">1</span>  <span class="co"># Coerce to max index</span></span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, k):</span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i <span class="op">==</span> x_rounded:</span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;|&quot;</span>, end<span class="op">=</span><span class="st">&quot;&quot;</span>)</span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;-&quot;</span>, end<span class="op">=</span><span class="st">&quot;&quot;</span>)</span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;&quot;</span>)  <span class="co"># Line break applied</span></span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sliders(n, k, x0<span class="op">=</span><span class="va">None</span>, d<span class="op">=</span><span class="dv">3</span>, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Prints n random sliders with k characters&quot;&quot;&quot;</span></span>
+<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> x0:</span>
+<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>        x0 <span class="op">=</span> k <span class="op">/</span> <span class="dv">2</span>  <span class="co"># Start in the middle</span></span>
+<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> rand_steps(</span>
+<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>        x0,  <span class="co"># Initial value</span></span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>        d,  <span class="co"># Max step size</span></span>
+<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>        ymax<span class="op">=</span>k <span class="op">-</span> <span class="dv">1</span>,  <span class="co"># Subtract 1 because 0-indexed</span></span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>        n<span class="op">=</span>n,  <span class="co"># One value per slider</span></span>
+<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>        wrap<span class="op">=</span>wrap,  <span class="co"># Pass wrap</span></span>
+<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> values:</span>
+<span id="cb7-63"><a href="#cb7-63" aria-hidden="true" tabindex="-1"></a>        print_slider(k, x)</span>
+<span id="cb7-64"><a href="#cb7-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-65"><a href="#cb7-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-66"><a href="#cb7-66" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb7-67"><a href="#cb7-67" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Functions and Print</span></span>
+<span id="cb7-68"><a href="#cb7-68" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb7-69"><a href="#cb7-69" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;rand_sliders(25, 44, x0=2, wrap=True):&quot;</span>)</span>
+<span id="cb7-70"><a href="#cb7-70" aria-hidden="true" tabindex="-1"></a>rand_sliders(<span class="dv">25</span>, <span class="dv">44</span>, x0<span class="op">=</span><span class="dv">2</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb7-71"><a href="#cb7-71" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;rand_sliders(20, 44, x0=42, d=5, wrap=False):&quot;</span>)</span>
+<span id="cb7-72"><a href="#cb7-72" aria-hidden="true" tabindex="-1"></a>rand_sliders(<span class="dv">20</span>, <span class="dv">44</span>, x0<span class="op">=</span><span class="dv">42</span>, d<span class="op">=</span><span class="dv">5</span>, wrap<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb7-73"><a href="#cb7-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-74"><a href="#cb7-74" aria-hidden="true" tabindex="-1"></a><span class="co"># %% tags=[&quot;active-py&quot;]</span></span>
+<span id="cb7-75"><a href="#cb7-75" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb7-76"><a href="#cb7-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-77"><a href="#cb7-77" aria-hidden="true" tabindex="-1"></a>sys.path.append(<span class="st">&quot;../&quot;</span>)</span>
+<span id="cb7-78"><a href="#cb7-78" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.engcom <span class="im">as</span> engcom</span>
+<span id="cb7-79"><a href="#cb7-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-80"><a href="#cb7-80" aria-hidden="true" tabindex="-1"></a>pub <span class="op">=</span> engcom.Publication(title<span class="op">=</span><span class="st">&quot;Problem YE&quot;</span>, author<span class="op">=</span><span class="st">&quot;Rico Picone&quot;</span>)</span>
+<span id="cb7-81"><a href="#cb7-81" aria-hidden="true" tabindex="-1"></a>pub.write(to<span class="op">=</span><span class="st">&quot;pdf&quot;</span>)</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>rand_sliders(25, 44, x0=2, wrap=True):
+--|-----------------------------------------
+----|---------------------------------------
+--|-----------------------------------------
+----|---------------------------------------
+-----|--------------------------------------
+------|-------------------------------------
+------|-------------------------------------
+----|---------------------------------------
+-----|--------------------------------------
+-----|--------------------------------------
+-------|------------------------------------
+-----|--------------------------------------
+--|-----------------------------------------
+-----|--------------------------------------
+-------|------------------------------------
+--------|-----------------------------------
+---------|----------------------------------
+----------|---------------------------------
+-------------|------------------------------
+------------|-------------------------------
+------------|-------------------------------
+-------------|------------------------------
+------------|-------------------------------
+---------|----------------------------------
+--------|-----------------------------------
+-------|------------------------------------
+rand_sliders(20, 44, x0=42, d=5, wrap=False):
+------------------------------------------|-
+--------------------------------------|-----
+-------------------------------------------|
+-------------------------------------------|
+----------------------------------------|---
+-------------------------------------------|
+-----------------------------------------|--
+--------------------------------------|-----
+------------------------------------|-------
+---------------------------------|----------
+----------------------------------|---------
+------------------------------|-------------
+--------------------------|-----------------
+---------------------|----------------------
+-----------------------|--------------------
+----------------------|---------------------
+-----------------------|--------------------
+---------------------|----------------------
+-------------------------|------------------
+-------------------------|------------------
+------------------------|-------------------
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="8g" data-problem-num="2.4">
+<p>Rewrite the program from <a href="/ye">problem 2.3</a> such that it
+meets the following requirements:</p>
+<ol>
+<li>It defines the functions in a separate module with the file name
+<span class="path">rand_sliding.py</span>.</li>
+<li>It imports the module into the main script.</li>
+<li>It prints <span class="math inline">\(25\)</span> random wrapped
+sliders of <span class="math inline">\(44\)</span> characters with the
+default step range and starting point <span class="math inline">\(42\)</span>.</li>
+<li>It prints <span class="math inline">\(20\)</span> random nonwrapped
+sliders of <span class="math inline">\(44\)</span> characters with the
+step range <span class="math inline">\(5\)</span> and starting point
+<span class="math inline">\(2\)</span>.</li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements. First, the module <span class="path">rand_sliding.py</span> contains the following:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_step(x, d, ymax, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the sum of x and a random float between -d and d&quot;&quot;&quot;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    step <span class="op">=</span> random.uniform(<span class="op">-</span>d, d)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> x <span class="op">+</span> step</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> wrap:</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">&gt;</span> ymax:</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> y <span class="op">-</span> ymax</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> y <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> ymax <span class="op">+</span> y</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y <span class="op">&gt;</span> ymax:</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> ymax</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> y <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> y</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_steps(x0, d, ymax, n, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a list of n floats sequentially stepped from x0&quot;&quot;&quot;</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> [x0]</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,n):</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>        values.append(</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>            rand_step(values[<span class="op">-</span><span class="dv">1</span>], d, ymax, wrap<span class="op">=</span>wrap)</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> values</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_slider(k, x):</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Prints k &#39;-&#39; characters except for that with index </span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a><span class="co">        closest to x, which prints |</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>    x_rounded <span class="op">=</span> <span class="bu">round</span>(x)</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> x_rounded <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>        x_rounded <span class="op">=</span> <span class="dv">0</span>        <span class="co"># Coerce to 0</span></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> x_rounded <span class="op">&gt;</span> k:</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>        x_rounded <span class="op">=</span> k <span class="op">-</span> <span class="dv">1</span>    <span class="co"># Coerce to max index</span></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,k):</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i <span class="op">==</span> x_rounded:</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;|&quot;</span>, end<span class="op">=</span><span class="st">&quot;&quot;</span>)</span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;-&quot;</span>, end<span class="op">=</span><span class="st">&quot;&quot;</span>)</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;&quot;</span>) <span class="co"># Line break applied</span></span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rand_sliders(n, k, x0<span class="op">=</span><span class="va">None</span>, d<span class="op">=</span><span class="dv">3</span>, wrap<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Prints n random sliders with k characters&quot;&quot;&quot;</span></span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> x0:</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>        x0 <span class="op">=</span> k<span class="op">/</span><span class="dv">2</span>    <span class="co"># Start in the middle</span></span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> rand_steps(</span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>        x0,         <span class="co"># Initial value</span></span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>        d,          <span class="co"># Max step size</span></span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>        ymax<span class="op">=</span>k<span class="op">-</span><span class="dv">1</span>,   <span class="co"># Subtract 1 because 0-indexed</span></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>        n<span class="op">=</span>n,        <span class="co"># One value per slider</span></span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>        wrap<span class="op">=</span>wrap   <span class="co"># Pass wrap</span></span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> values:</span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>        print_slider(k, x)</span></code></pre></div>
+<p>The main script contains the following:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rand_sliding</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;rand_sliding.rand_sliders(25, 44, x0=42, wrap=True):&quot;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>rand_sliding.rand_sliders(<span class="dv">25</span>, <span class="dv">44</span>, x0<span class="op">=</span><span class="dv">42</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;rand_sliding.rand_sliders(20, 44, x0=2, d=5, wrap=False):&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>rand_sliding.rand_sliders(<span class="dv">20</span>, <span class="dv">44</span>, x0<span class="op">=</span><span class="dv">2</span>, d<span class="op">=</span><span class="dv">5</span>, wrap<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<p>Running the main script prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>rand_sliding.rand_sliders(25, 44, x0=42, wrap=True):
+------------------------------------------|-
+----------------------------------------|---
+-----------------------------------------|--
+|-------------------------------------------
+--|-----------------------------------------
+------------------------------------------|-
+----------------------------------------|---
+---------------------------------------|----
+-------------------------------------|------
+-----------------------------------|--------
+-------------------------------------|------
+------------------------------------|-------
+---------------------------------|----------
+--------------------------------|-----------
+----------------------------------|---------
+-------------------------------|------------
+---------------------------------|----------
+-----------------------------------|--------
+------------------------------------|-------
+------------------------------------|-------
+----------------------------------|---------
+---------------------------------|----------
+----------------------------------|---------
+-------------------------------|------------
+------------------------------|-------------
+--------------------------------|-----------
+rand_sliding.rand_sliders(20, 44, x0=2, d=5, wrap=False):
+--|-----------------------------------------
+|-------------------------------------------
+-----|--------------------------------------
+-------|------------------------------------
+--------|-----------------------------------
+----|---------------------------------------
+-------|------------------------------------
+---------|----------------------------------
+------------|-------------------------------
+---------------|----------------------------
+-----------------|--------------------------
+---------------|----------------------------
+------------|-------------------------------
+----------|---------------------------------
+------|-------------------------------------
+-------|------------------------------------
+---|----------------------------------------
+--|-----------------------------------------
+------|-------------------------------------
+-----|--------------------------------------
+----------|---------------------------------
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="uz" data-problem-num="2.5">
+<p>Begin with the <code class="sourceCode python">Screwdriver</code>,
+<code class="sourceCode python">Screw</code>, and <code class="sourceCode python">SetScrew</code> class definitions of <a href="/rf">section 2.5</a>. Add the following features:</p>
+<ul>
+<li>Improve the <code class="sourceCode python">Screwdriver.drive()</code> method to check
+that its head matches the screw head and raise a <code class="sourceCode python"><span class="pp">TypeError</span></code>
+exception if they do not</li>
+<li>Improve the <code class="sourceCode python">Screw</code> class by
+adding instance attributes <code class="sourceCode python">pitch</code>
+that stores the thread pitch in mm and <code class="sourceCode python">depth</code> that stores the depth of the
+screw in its hole</li>
+<li>Improve the <code class="sourceCode python">Screw.turn()</code>
+method to mutate the <code class="sourceCode python">depth</code> based
+on the angle it is turned, its handing, and its thread pitch<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>Create a subclass <code class="sourceCode python">MetricScrew</code>
+from the base class <code class="sourceCode python">Screw</code> with
+the additional <em>class</em> data attribute <code class="sourceCode python">kind <span class="op">=</span> <span class="st">&quot;Metric&quot;</span></code></li>
+</ul>
+<p>Test the new features of the <code class="sourceCode python">Screwdriver</code>, <code class="sourceCode python">Screw</code>, and <code class="sourceCode python">MetricScrew</code> classes with the following
+steps:</p>
+<ol>
+<li>Create an instance <code class="sourceCode python">ms1</code> of
+<code class="sourceCode python">MetricScrew</code> with
+right-handedness, a flat head, initial angle <span class="math inline">\(0\)</span> rad, and thread pitch <span class="math inline">\(2\)</span> mm (corresponding to an M14 metric
+screw)</li>
+<li>Create an instance <code class="sourceCode python">sd1</code> of
+<code class="sourceCode python">Screwdriver</code> with a flat head</li>
+<li>Turn the <code class="sourceCode python">ms1</code> screw <span class="math inline">\(5\)</span> complete <em>clockwise</em> revolutions
+with the <code class="sourceCode python">sd1</code> screwdriver and
+print the resulting angle and depth of <code class="sourceCode python">ms1</code></li>
+<li>Turn the <code class="sourceCode python">ms1</code> screw <span class="math inline">\(3\)</span> complete <em>counterclockwise</em>
+revolutions with the <code class="sourceCode python">sd1</code>
+screwdriver and print the resulting angle and depth of <code class="sourceCode python">ms1</code></li>
+<li>Create an instance <code class="sourceCode python">ms2</code> of
+<code class="sourceCode python">MetricScrew</code> that is the same as
+<code class="sourceCode python">ms1</code>, but with
+<em>left</em>-handedness</li>
+<li>Turn the <code class="sourceCode python">ms2</code> screw <span class="math inline">\(4\)</span> complete <em>counterclockwise</em>
+revolutions with the <code class="sourceCode python">sd1</code>
+screwdriver and print the resulting angle and depth of <code class="sourceCode python">ms2</code></li>
+<li>Turn the <code class="sourceCode python">ms2</code> screw <span class="math inline">\(2\)</span> complete <em>clockwise</em> revolutions
+with the <code class="sourceCode python">sd1</code> screwdriver and
+print the resulting angle and depth of <code class="sourceCode python">ms2</code></li>
+<li>Create an instance <code class="sourceCode python">sd2</code> of
+<code class="sourceCode python">Screwdriver</code> with a hex head and
+try to turn the <code class="sourceCode python">sd1</code> screw and
+catch and print the exception</li>
+</ol>
+<div class="exercise-solution">
+<p>Load the NumPy package:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+<section id="define-classes" class="unnumbered real-section level2" data-shortid="define-classes">
+<h2 class="unnumbered real-section" data-shortid="define-classes">Define
+Classes</h2>
+<p>The following <code class="sourceCode python">Screwdriver</code>
+class meets the requirements:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Screwdriver:</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Represents a screwdriver tool&quot;&quot;&quot;</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    operates_on <span class="op">=</span> <span class="st">&quot;Screw&quot;</span>  <span class="co"># Class data attributes</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    operated_by <span class="op">=</span> <span class="st">&quot;Hand&quot;</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, head, length):</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.head <span class="op">=</span> head  <span class="co"># Instance data attributes</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.length <span class="op">=</span> length</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> drive(<span class="va">self</span>, screw, angle):  <span class="co"># Method definition</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Returns a screw object turned by the given angle&quot;&quot;&quot;</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> screw.head <span class="op">!=</span> <span class="va">self</span>.head:</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">raise</span> <span class="pp">TypeError</span>(<span class="ss">f&quot;</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>head<span class="sc">}</span><span class="ss"> screwdriver &quot;</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>                <span class="ss">f&quot;can&#39;t turn a </span><span class="sc">{</span>screw<span class="sc">.</span>head<span class="sc">}</span><span class="ss"> screw.&quot;</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>        screw.turn(angle)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> screw</span></code></pre></div>
+<p>The following <code class="sourceCode python">Screw</code> class
+meets the requirements:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Screw:</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Represents a screw fastener&quot;&quot;&quot;</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, head, pitch, depth<span class="op">=</span><span class="dv">0</span>, angle<span class="op">=</span><span class="dv">0</span>, handed<span class="op">=</span><span class="st">&quot;Right&quot;</span>):</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.head <span class="op">=</span> head</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.pitch <span class="op">=</span> pitch</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.depth <span class="op">=</span> depth</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.angle <span class="op">=</span> angle</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.handed <span class="op">=</span> handed</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> turn(<span class="va">self</span>, angle):</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Mutates angle and depth for a turn of angle rad&quot;&quot;&quot;</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.handed <span class="op">==</span> <span class="st">&quot;Right&quot;</span>:</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>            handed_sign <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>            handed_sign <span class="op">=</span> <span class="op">-</span><span class="dv">1</span></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.angle <span class="op">+=</span> angle</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.depth <span class="op">+=</span> handed_sign <span class="op">*</span> <span class="va">self</span>.pitch <span class="op">*</span> angle <span class="op">/</span> (<span class="dv">2</span><span class="op">*</span>np.pi)</span></code></pre></div>
+<p>The following <code class="sourceCode python">MetricScrew</code>
+class meets the requirements:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MetricScrew(Screw):</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Represents a metric screw fastener&quot;&quot;&quot;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    kind <span class="op">=</span> <span class="st">&quot;Metric&quot;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># No constructor necessary because we aren&#39;t </span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># changing instance attributes</span></span></code></pre></div>
+</section>
+<section id="test-the-new-features" class="unnumbered real-section level2" data-shortid="test-the-new-features">
+<h2 class="unnumbered real-section" data-shortid="test-the-new-features">Test the New Features</h2>
+<p>Create a <code class="sourceCode python">MetricScrew</code> instance
+as follows:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>ms1 <span class="op">=</span> MetricScrew(head<span class="op">=</span><span class="st">&quot;Flat&quot;</span>, pitch<span class="op">=</span><span class="dv">2</span>)</span></code></pre></div>
+<p>Create a flathead screwdriver instance:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>sd1 <span class="op">=</span> Screwdriver(head<span class="op">=</span><span class="st">&quot;Flat&quot;</span>, length<span class="op">=</span><span class="dv">6</span>)</span></code></pre></div>
+<p>Turn the screw <span class="math inline">\(5\)</span> complete
+clockwise revolutions with the screwdriver and print the resulting angle
+and depth as follows:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>sd1.drive(ms1, <span class="dv">5</span><span class="op">*</span><span class="dv">2</span><span class="op">*</span>np.pi)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Angle: </span><span class="sc">{</span>ms1<span class="sc">.</span>angle<span class="sc">:.3g}</span><span class="ss"> rad </span><span class="ch">\n</span><span class="ss">Depth: </span><span class="sc">{</span>ms1<span class="sc">.</span>depth<span class="sc">}</span><span class="ss"> mm&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre class="sourceCode"><code>&lt;__main__.MetricScrew at 0x11d678750&gt;</code></pre>
+</div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>Angle: 31.4 rad 
+Depth: 10.0 mm</code></pre>
+</div>
+<p>Turn the screw <span class="math inline">\(3\)</span> complete
+counterclockwise revolutions with the screwdriver and print the
+resulting angle and depth as follows:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>sd1.drive(ms1, <span class="op">-</span><span class="dv">3</span><span class="op">*</span><span class="dv">2</span><span class="op">*</span>np.pi)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Angle: </span><span class="sc">{</span>ms1<span class="sc">.</span>angle<span class="sc">:.3g}</span><span class="ss"> rad </span><span class="ch">\n</span><span class="ss">Depth: </span><span class="sc">{</span>ms1<span class="sc">.</span>depth<span class="sc">}</span><span class="ss"> mm&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre class="sourceCode"><code>&lt;__main__.MetricScrew at 0x11d678750&gt;</code></pre>
+</div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>Angle: 12.6 rad 
+Depth: 4.0 mm</code></pre>
+</div>
+<p>Create a left-handed <code class="sourceCode python">MetricScrew</code> instance as follows:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>ms2 <span class="op">=</span> MetricScrew(head<span class="op">=</span><span class="st">&quot;Flat&quot;</span>, pitch<span class="op">=</span><span class="dv">2</span>, handed<span class="op">=</span><span class="st">&quot;Left&quot;</span>)</span></code></pre></div>
+<p>Turn the <code class="sourceCode python">ms2</code> screw <span class="math inline">\(4\)</span> complete counterclockwise revolutions
+with the <code class="sourceCode python">sd1</code> screwdriver and
+print the resulting angle and depth of <code class="sourceCode python">ms2</code> as follows:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>sd1.drive(ms2, <span class="op">-</span><span class="dv">3</span><span class="op">*</span><span class="dv">2</span><span class="op">*</span>np.pi)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Angle: </span><span class="sc">{</span>ms2<span class="sc">.</span>angle<span class="sc">:.3g}</span><span class="ss"> rad </span><span class="ch">\n</span><span class="ss">Depth: </span><span class="sc">{</span>ms2<span class="sc">.</span>depth<span class="sc">}</span><span class="ss"> mm&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre class="sourceCode"><code>&lt;__main__.MetricScrew at 0x11d67a1d0&gt;</code></pre>
+</div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>Angle: -18.8 rad 
+Depth: 6.0 mm</code></pre>
+</div>
+<p>Turn the <code class="sourceCode python">ms2</code> screw <span class="math inline">\(2\)</span> complete clockwise revolutions with the
+<code class="sourceCode python">sd1</code> screwdriver and print the
+resulting angle and depth of <code class="sourceCode python">ms2</code>
+as follows:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>sd1.drive(ms2, <span class="dv">2</span><span class="op">*</span><span class="dv">2</span><span class="op">*</span>np.pi)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Angle: </span><span class="sc">{</span>ms2<span class="sc">.</span>angle<span class="sc">:.3g}</span><span class="ss"> rad </span><span class="ch">\n</span><span class="ss">Depth: </span><span class="sc">{</span>ms2<span class="sc">.</span>depth<span class="sc">}</span><span class="ss"> mm&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre class="sourceCode"><code>&lt;__main__.MetricScrew at 0x11d67a1d0&gt;</code></pre>
+</div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>Angle: -6.28 rad 
+Depth: 2.0 mm</code></pre>
+</div>
+<p>Create an instance <code class="sourceCode python">sd2</code> of
+<code class="sourceCode python">Screwdriver</code> with a hex head and
+try to turn the <code class="sourceCode python">sd1</code> screw and
+catch and print the exception as follows:</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>sd2 <span class="op">=</span> Screwdriver(head<span class="op">=</span><span class="st">&quot;Hex&quot;</span>, length<span class="op">=</span><span class="dv">6</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    sd2.drive(ms1, <span class="dv">1</span>)  <span class="co"># Should raise an exception</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> err:</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Unexpected </span><span class="sc">{</span><span class="bu">type</span>(err)<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>err<span class="sc">}</span><span class="ss">&quot;</span>)  <span class="co"># Print the exception</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>Unexpected &lt;class &#39;TypeError&#39;&gt;: Hex screwdriver can&#39;t turn a Flat screw.</code></pre>
+</div>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="vx" data-problem-num="2.6">
+<p>Improve the bubble sort algorithm of <a href="/alg:bubble-sort-basic"></a> by adding a test that can return the
+list if it is sorted before completing all the loops. Implement the
+improved bubble sort algorithm in a program that it meets the following
+requirements:</p>
+<ol>
+<li>It defines a function <code class="sourceCode python">bubble_sort(l: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">list</span></code>
+that implements the bubble sort algorithm.</li>
+<li>It demonstrates the <code class="sourceCode python">bubble_sort()</code> function works on three
+different lists of numbers.</li>
+<li>It demonstrates that the early return functionality, in fact, saves
+us from making extra passes through the list.</li>
+</ol>
+<div class="exercise-solution">
+<p>A more efficient bubble sort algorithm is given in <a href="/alg:bubble-sort"></a>.</p>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{4.5in}
+\begin{algorithm}[H]
+\caption{\mc{bubble_sort} pseudocode}\label{alg:bubble-sort}
+\begin{algorithmic}
+\Function{bubble\_sort}{$\mathit{list}$}
+  \For{$i\gets 0, n-1$}
+  \Comment{Repeat $n$ times}
+    \State{$\mathit{swapped} \gets \mathit{false}$}
+    \Comment{Initialize $\mathit{swapped}$ test for early return}
+    \For{$j \gets 0, n-i-1$}
+    \Comment{Pass through potentially unsorted elements}
+        \If{$\mathit{list}[j] &gt; \mathit{list}[j+1]$}
+          \State{Swap $\mathit{list}[j]$ and $\mathit{list}[j+1]$}
+          \State{$\mathit{swapped} \gets \mathit{true}$}
+        \EndIf
+    \EndFor
+    \If{$\mathit{swapped} = \mathit{false}$}
+        \State{\textbf{return} $\mathit{list}$}
+    \EndIf
+  \EndFor
+  \State{\textbf{return} $\mathit{list}$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Part of the Solution to Chapter 2 Problem VX&quot;&quot;&quot;</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># The program requirements specify a single function bubble_sort()</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co"># be defined. It will be defined in the following section and tested</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="co"># on three lists afterward.</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="co">## Function Definition</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> bubble_sort(l: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">list</span>:</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a list sorted smallest to largest.&quot;&quot;&quot;</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>    n: <span class="bu">int</span> <span class="op">=</span> <span class="bu">len</span>(l)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>    ls: <span class="bu">list</span> <span class="op">=</span> l.copy()  <span class="co"># Init. sorted list (because mutable)</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n <span class="op">-</span> <span class="dv">1</span>):  <span class="co"># Pass through list n-1 times</span></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>        swapped: <span class="bu">bool</span> <span class="op">=</span> <span class="va">False</span>  <span class="co"># Init. swapped test (early return)</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>            <span class="dv">0</span>, n <span class="op">-</span> i <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>        ):  <span class="co"># Pass through potentially unsorted elements</span></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> ls[j] <span class="op">&gt;</span> ls[j <span class="op">+</span> <span class="dv">1</span>]:</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>                jp1 <span class="op">=</span> ls.pop(j <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>                ls.insert(j, jp1)</span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>                swapped <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> swapped:</span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;Early return! Had </span><span class="sc">{</span>n <span class="op">-</span> i<span class="sc">}</span><span class="ss"> passes left.&quot;</span>)</span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> ls  <span class="co"># Return early</span></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ls</span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Function and Print</span></span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a>test_lists <span class="op">=</span> [</span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">6</span>, <span class="dv">1</span>, <span class="dv">9</span>],</span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a>    [<span class="fl">3.0</span>, <span class="op">-</span><span class="fl">1.0</span>, <span class="fl">10.0</span>, <span class="op">-</span><span class="fl">33.0</span>],</span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">3</span>],</span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">5</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">0</span>],</span>
+<span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> test_list <span class="kw">in</span> test_lists:</span>
+<span id="cb33-41"><a href="#cb33-41" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Sorted </span><span class="sc">{</span>test_list<span class="sc">}</span><span class="ss"> into </span><span class="sc">{</span>bubble_sort(test_list)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>Early return! Had 2 passes left.
+Sorted [4, 2, 6, 1, 9] into [1, 2, 4, 6, 9]
+Sorted [3.0, -1.0, 10.0, -33.0] into [-33.0, -1.0, 3.0, 10.0]
+Early return! Had 4 passes left.
+Sorted [1, 2, 3, 4, 5, 3] into [1, 2, 3, 3, 4, 5]
+Sorted [5, 4, 3, 2, 1, 0] into [0, 1, 2, 3, 4, 5]
+</code></pre>
+<p> The lists are properly sorted. Note that in two cases the early
+return has occurred, as we can see by the early return messages. This
+demonstrates that more passes would have been performed without the
+early return logic.</p>
+</div>
+</div>
+<div class="exercise" data-h="ys" data-problem-num="2.7">
+<p><strong>Preprogramming work</strong>: In this problem,
+<em>before</em> writing the program specified, (1) draw a functional
+design method diagram (see <a href="/3w">subsection 2.7.1</a>) and (2)
+write a pseudocode for each function (see <a href="/uq">subsection
+2.7.2</a>).</p>
+<p><strong>Restrictions</strong>: In this problem, most of the functions
+you will write already exist in the standard libary module <code class="sourceCode python">statistics</code>. You may <em>not</em> use
+this module for this problem, but you may use others, such as the <code class="sourceCode python">math</code> module. You may also use list
+methods such as <code class="sourceCode python">sort()</code>.
+Furthermore, you may not use any external packages.</p>
+<p><strong>Programming</strong>: Write a program in a single script that
+meets the following requirements:</p>
+<ol>
+<li>It defines a function <code class="sourceCode python">stats(x: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">dict</span></code>
+that computes the following basic statistics for input list <code class="sourceCode python">x</code> of real numbers:
+<ol>
+<li>The sample mean; for a list <span class="math inline">\(x\)</span>
+of <span class="math inline">\(n\)</span> values, the sample mean <span class="math inline">\(m\)</span> is <span class="math display">\[m(x) =
+\frac{1}{n}\sum_{i=0}^{n-1} x_i.\]</span></li>
+<li>The sample variance; the sample variance <span class="math inline">\(s^2\)</span> is <span class="math display">\[s^2(x) = \frac{1}{n-1}\sum_{i=0}^{n-1} \left(x_i
+- m(x)\right)^2.\]</span></li>
+<li>The sample standard deviation; the sample standard deviation <span class="math inline">\(s\)</span> is <span class="math display">\[s(x) =
+\sqrt{s^2(x)}.\]</span></li>
+<li>The median; the median <span class="math inline">\(M\)</span> of a
+<em>sorted</em> list <span class="math inline">\(x\)</span> of <span class="math inline">\(n\)</span> numbers is value of the list at index
+<span class="math inline">\(i_M = (n-1)/2\)</span> (i.e., the middle
+index); more precisely, <span class="math display">\[
+M(x) = \begin{cases}
+     x_{i_M} &amp; i_M\text{ is an integer} \\
+     \frac{1}{2}\left(x_{\lfloor i_M \rfloor} + x_{\lceil i_M
+\rceil}\right) &amp; \text{otherwise}
+\end{cases}
+\]</span> where <span class="math inline">\(\lfloor \cdot
+\rfloor\)</span> is the floor function that rounds down and <span class="math inline">\(\lceil \cdot \rceil\)</span> is the ceiling
+function that rounds up. So in the case that there is no middle index,
+the mode is the mean of the two middle values.</li>
+</ol>
+The <code class="sourceCode python">stats()</code> function should
+return a <code class="sourceCode python"><span class="bu">dict</span></code> with the
+keys <code class="sourceCode python"><span class="co">&quot;mean&quot;</span></code>,
+<code class="sourceCode python"><span class="co">&quot;var&quot;</span></code>,
+<code class="sourceCode python"><span class="co">&quot;std&quot;</span></code>,
+and <code class="sourceCode python"><span class="co">&quot;median&quot;</span></code>
+correspond to values for the computed sample mean, variance, standard
+deviation, and median.</li>
+<li>It demonstrates the <code class="sourceCode python">stats()</code>
+function works on three different lists of numbers.</li>
+</ol>
+<div class="exercise-solution">
+<p>The functional analysis is summarized in the block diagram of
+fig. <strong>¿fig:ys-functional-diagram?</strong>.</p>
+<figure class="real-figure" id="fig:ys-functional-diagram">
+<img src="/assets/figures/ys-functional-diagram/ys-functional-diagram.svg" class="figure standalone " alt=" Figure " data-color="true" />
+<figcaption>Figure : Functional analysis diagram.</figcaption>
+</figure>
+<p><span><a href="/alg:ys-stats"></a>, <a href="/alg:ys-mean"></a>, <a href="/alg:ys-var"></a>, <a href="/alg:ys-std"></a>, <a href="/alg:ys-median"></a></span> show pseudocode for each function.</p>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{3.5in}
+\begin{algorithm}[H]
+\caption{\mc{stats()} pseudocode}\label{alg:ys-stats}
+\begin{algorithmic}
+\Function{stats}{$x$}
+  \State{$\mathit{mean\_val} \gets \mathit{mean}(x)$}
+  \State{$\mathit{var\_val} \gets \mathit{var}(x, \mathit{mean\_val})$}
+  \State{$\mathit{std\_val} \gets \mathit{std}(\mathit{var\_val})$}
+  \State{$\mathit{med\_val} \gets \mathit{median}(x)$}
+  \State{$d \gets \text{dictionary of $\mathit{mean\_val}$, $\mathit{var\_val}$, $\mathit{std\_val}$, $\mathit{med\_val}$}$}
+  \State{\textbf{return} $d$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{3.5in}
+\begin{algorithm}[H]
+\caption{\mc{mean()} pseudocode}\label{alg:ys-mean}
+\begin{algorithmic}
+\Function{mean}{$x$}
+  \State{$s \gets \text{sum}(x)$}
+    \Comment{Sum of elements}
+  \State{$n \gets \text{len}(x)$}
+    \Comment{Number of elements}
+  \State{\textbf{return} $s/n$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{3.5in}
+\begin{algorithm}[H]
+\caption{\mc{var()} pseudocode}\label{alg:ys-var}
+\begin{algorithmic}
+\Function{mean}{$x, m$}
+  \If{mean value $m$ is not provided}
+    \State{$m \gets \mathit{mean}(x)$}
+  \EndIf
+  \State{$\mathit{summand} \gets []$}
+    \Comment{Initialize new list}
+  \For{$x_i \in x$}
+    \State{$s \gets (x_i - m)^2$}
+    \State{Append $s$ to $\mathit{summand}$}
+  \EndFor
+  \State{$s \gets \text{sum}(\mathit{summand})$}
+  \State{$n \gets \text{len}(\mathit{summand})$}
+  \State{\textbf{return} $s/(n - 1)$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{3.5in}
+\begin{algorithm}[H]
+\caption{\mc{std()} pseudocode}\label{alg:ys-std}
+\begin{algorithmic}
+\Function{std}{$v$}
+  \Comment{$v$ is the variance}
+  \State{\textbf{return} $\sqrt{v}$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<pre class="algorithm">
+\begin{algorithmcenter}
+\begin{minipage}{3.5in}
+\begin{algorithm}[H]
+\caption{\mc{median()} pseudocode}\label{alg:ys-median}
+\begin{algorithmic}
+\Function{median}{$x$}
+  \State{$x' \gets \text{sort}(x)$}
+    \Comment{New, sorted list}
+  \State{$n \gets \text{len}(x')$}
+  \State{$i_M \gets (n-1)/2$}
+    \Comment{Nominal middle index}
+  \If{$i_M \in \mathbb{Z}$ (i.e., if it's an integer)}
+    \State{$\mathit{med\_val} \gets x'_{i}$}
+  \Else
+    \State{$x_\text{down} \gets x'_{\lfloor i_M \rfloor}$}
+      \Comment{Element from rounded-down index}
+    \State{$x_\text{up} \gets x'_{\lceil i_M \rceil}$}
+      \Comment{Element from rounded-up index}
+    \State{$\mathit{med\_val} \gets (x_\text{down} + x_\text{up})/2$}
+      \Comment{Mean}
+  \EndIf
+  \State{\textbf{return} $\mathit{med\_val}$}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\end{algorithmcenter}
+</pre>
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Part of the Solution to Chapter 2 Problem YS&quot;&quot;&quot;</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pprint <span class="im">import</span> pprint</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="co"># The program will consist of the five functions identified in the</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="co"># functional analysis diagram. The pseudocode for each function will</span></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="co"># guide the writing of the functions. The functions are defined in</span></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a><span class="co"># the following section and they are tested in the last section.</span></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="co">## Function Definitions</span></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> mean(x: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the mean of a numeric list x.&quot;&quot;&quot;</span></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>    s: <span class="bu">float</span> <span class="op">=</span> <span class="bu">sum</span>(x)  <span class="co"># Sum of items in list</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>    n: <span class="bu">int</span> <span class="op">=</span> <span class="bu">len</span>(x)  <span class="co"># Number of elements in list</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s <span class="op">/</span> n</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> var(x: <span class="bu">list</span>, mean_val: <span class="bu">float</span> <span class="op">=</span> <span class="va">None</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the sample variance of x.</span></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a><span class="co">    Will compute the mean if it isn&#39;t supplied</span></span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> mean_val <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>        mean_val <span class="op">=</span> mean()</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>    summand <span class="op">=</span> []  <span class="co"># Initialize the summand list</span></span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> xi <span class="kw">in</span> x:</span>
+<span id="cb35-29"><a href="#cb35-29" aria-hidden="true" tabindex="-1"></a>        summand.append((xi <span class="op">-</span> mean_val) <span class="op">**</span> <span class="dv">2</span>)</span>
+<span id="cb35-30"><a href="#cb35-30" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> <span class="bu">sum</span>(summand)</span>
+<span id="cb35-31"><a href="#cb35-31" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">len</span>(summand)</span>
+<span id="cb35-32"><a href="#cb35-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> s <span class="op">/</span> (n <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb35-33"><a href="#cb35-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-34"><a href="#cb35-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-35"><a href="#cb35-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> std(var_val: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb35-36"><a href="#cb35-36" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Computes the standard deviation from the variance.&quot;&quot;&quot;</span></span>
+<span id="cb35-37"><a href="#cb35-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> math.sqrt(var_val)</span>
+<span id="cb35-38"><a href="#cb35-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-39"><a href="#cb35-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-40"><a href="#cb35-40" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> median(x: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb35-41"><a href="#cb35-41" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the median of list x.&quot;&quot;&quot;</span></span>
+<span id="cb35-42"><a href="#cb35-42" aria-hidden="true" tabindex="-1"></a>    x_s: <span class="bu">list</span> <span class="op">=</span> <span class="bu">sorted</span>(x)  <span class="co"># New list</span></span>
+<span id="cb35-43"><a href="#cb35-43" aria-hidden="true" tabindex="-1"></a>    n: <span class="bu">int</span> <span class="op">=</span> <span class="bu">len</span>(x_s)</span>
+<span id="cb35-44"><a href="#cb35-44" aria-hidden="true" tabindex="-1"></a>    i_m: <span class="bu">float</span> <span class="op">=</span> (n <span class="op">-</span> <span class="dv">1</span>) <span class="op">/</span> <span class="fl">2.0</span>  <span class="co"># Nominal middle index</span></span>
+<span id="cb35-45"><a href="#cb35-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i_m.is_integer():</span>
+<span id="cb35-46"><a href="#cb35-46" aria-hidden="true" tabindex="-1"></a>        med_val <span class="op">=</span> x[<span class="bu">int</span>(i_m)]  <span class="co"># Middle value</span></span>
+<span id="cb35-47"><a href="#cb35-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb35-48"><a href="#cb35-48" aria-hidden="true" tabindex="-1"></a>        x_low <span class="op">=</span> x[math.floor(i_m)]</span>
+<span id="cb35-49"><a href="#cb35-49" aria-hidden="true" tabindex="-1"></a>        x_high <span class="op">=</span> x[math.ceil(i_m)]</span>
+<span id="cb35-50"><a href="#cb35-50" aria-hidden="true" tabindex="-1"></a>        med_val <span class="op">=</span> (x_low <span class="op">+</span> x_high) <span class="op">/</span> <span class="dv">2</span>  <span class="co"># Mean of middle values</span></span>
+<span id="cb35-51"><a href="#cb35-51" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> med_val</span>
+<span id="cb35-52"><a href="#cb35-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-53"><a href="#cb35-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-54"><a href="#cb35-54" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stats(x: <span class="bu">list</span>) <span class="op">-&gt;</span> <span class="bu">dict</span>:</span>
+<span id="cb35-55"><a href="#cb35-55" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a dict with the sample mean, variance,</span></span>
+<span id="cb35-56"><a href="#cb35-56" aria-hidden="true" tabindex="-1"></a><span class="co">    standard deviation, and median.</span></span>
+<span id="cb35-57"><a href="#cb35-57" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb35-58"><a href="#cb35-58" aria-hidden="true" tabindex="-1"></a>    d <span class="op">=</span> {}</span>
+<span id="cb35-59"><a href="#cb35-59" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">&quot;mean&quot;</span>] <span class="op">=</span> mean(x)</span>
+<span id="cb35-60"><a href="#cb35-60" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">&quot;var&quot;</span>] <span class="op">=</span> var(x, d[<span class="st">&quot;mean&quot;</span>])</span>
+<span id="cb35-61"><a href="#cb35-61" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">&quot;std&quot;</span>] <span class="op">=</span> std(d[<span class="st">&quot;var&quot;</span>])</span>
+<span id="cb35-62"><a href="#cb35-62" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">&quot;median&quot;</span>] <span class="op">=</span> median(x)</span>
+<span id="cb35-63"><a href="#cb35-63" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> d</span>
+<span id="cb35-64"><a href="#cb35-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-65"><a href="#cb35-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-66"><a href="#cb35-66" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb35-67"><a href="#cb35-67" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Functions and Print</span></span>
+<span id="cb35-68"><a href="#cb35-68" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb35-69"><a href="#cb35-69" aria-hidden="true" tabindex="-1"></a>test_lists <span class="op">=</span> [</span>
+<span id="cb35-70"><a href="#cb35-70" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">11</span>)),</span>
+<span id="cb35-71"><a href="#cb35-71" aria-hidden="true" tabindex="-1"></a>    [<span class="fl">3.0</span>, <span class="op">-</span><span class="fl">1.0</span>, <span class="fl">10.0</span>, <span class="op">-</span><span class="fl">33.0</span>],</span>
+<span id="cb35-72"><a href="#cb35-72" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">3</span>],</span>
+<span id="cb35-73"><a href="#cb35-73" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb35-74"><a href="#cb35-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-75"><a href="#cb35-75" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> test_list <span class="kw">in</span> test_lists:</span>
+<span id="cb35-76"><a href="#cb35-76" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Stats for </span><span class="sc">{</span>test_list<span class="sc">}</span><span class="ss">:&quot;</span>)</span>
+<span id="cb35-77"><a href="#cb35-77" aria-hidden="true" tabindex="-1"></a>    pprint(stats(test_list), width<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>Stats for [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+{&#39;mean&#39;: 5.0,
+ &#39;median&#39;: 5,
+ &#39;std&#39;: 3.3166247903554,
+ &#39;var&#39;: 11.0}
+Stats for [3.0, -1.0, 10.0, -33.0]:
+{&#39;mean&#39;: -5.25,
+ &#39;median&#39;: 4.5,
+ &#39;std&#39;: 19.05037182489273,
+ &#39;var&#39;: 362.9166666666667}
+Stats for [1, 2, 3, 4, 5, 3]:
+{&#39;mean&#39;: 3.0,
+ &#39;median&#39;: 3.5,
+ &#39;std&#39;: 1.4142135623730951,
+ &#39;var&#39;: 2.0}
+</code></pre>
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A right-handed screw with thread pitch <span class="math inline">\(p\)</span> (mm), turned clockwise an angle <span class="math inline">\(\alpha\)</span> (rad), advances forward <span class="math inline">\(\ell = p \alpha/(2\pi)\)</span> mm. A full turn
+(i.e., <span class="math inline">\(\alpha = 2 \pi\)</span>) advances the
+screw <span class="math inline">\(\ell = p\)</span> mm. Treat clockwise
+turns as positive angles.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-28">Online Resources for Section 2.8</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

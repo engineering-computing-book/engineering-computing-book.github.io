@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="basic-elements-of-a-program" class="real-section level1" data-number="1" data-h="c0" data-shortid="basic-elements-of-a-program" data-0-sec="1.5" data-0-hash="c0" data-0-id="introduction/basic-elements-of-a-program" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.0" data-0-sectionhash="c0" data-0-title="Basic Elements of a Program" data-0-chapterhash="wb" data-0-type="section" data-0-example-num="" data-0-v-specific="no" data-0-subsectionhash="" data-0-p="14" data-0-ch="1" data-0-v-ts="T1" data-0-prev="89" data-0-next="kx">
+<h1 class="real-section" data-h="c0" data-shortid="basic-elements-of-a-program" data-0-sec="1.5" data-0-hash="c0" data-0-id="introduction/basic-elements-of-a-program" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.0" data-0-sectionhash="c0" data-0-title="Basic Elements of a Program" data-0-chapterhash="wb" data-0-type="section" data-0-example-num="" data-0-v-specific="no" data-0-subsectionhash="" data-0-p="14" data-0-ch="1" data-0-v-ts="T1" data-0-prev="89" data-0-next="kx">Basic Elements of a Program</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Every programming language has a <span class="keyword">syntax</span>:
+rules that describe the structure of valid combinations of characters
+and words in a program. When one first begins writing in a programming
+language, it is common to generate <span class="keyword">syntax
+errors</span>, improper combinations of characters and words. Every
+programming language also has a <span class="keyword">semantics</span>:
+a meaning associated with a syntactically valid program. A program’s
+semantics describe what a program does.</p>
+<p>In Python and in other programming languages, programs are composed
+of a sequence of smaller elements called <span class="keyword">statements</span>. Statements do something, like perform
+a calculation or store a value in memory. For instance, <code class="sourceCode python">x <span class="op">=</span> <span class="dv">3</span><span class="op">*</span><span class="dv">5</span></code>
+is a statement that computes a product and stores the result under the
+variable name <code class="sourceCode python">x</code>. Many statements
+contain <span class="keyword">expressions</span>, each of which produces
+a value. For instance, <code class="sourceCode python"><span class="dv">3</span><span class="op">*</span><span class="dv">5</span></code>
+in the previous statement is an expression that produces the value <code class="sourceCode python"><span class="dv">15</span></code>.</p>
+<p>An expression contains smaller elements called <span class="keyword">operands</span> and <span class="keyword">operators</span>. Common operands include <span class="keyword">identifiers</span>—names like variables, functions, and
+modules that refer to objects—and <span class="keyword">literals</span>—notations for constant values of a
+built-in type. For instance, in the previous expression <code class="sourceCode python">x</code> is a variable identifier and <code class="sourceCode python"><span class="dv">3</span></code> and <code class="sourceCode python"><span class="dv">5</span></code> are literals
+that evaluate to objects of the built-in <code class="sourceCode python"><span class="bu">int</span></code>eger class.
+The <code class="sourceCode python"><span class="op">*</span></code>
+character in the previous expression is the multiplication operator.
+Python includes operators for arithmetic (e.g., <code class="sourceCode python"><span class="op">+</span></code>), assignment
+(e.g., <code class="sourceCode python"><span class="op">=</span></code>), comparison
+(e.g., <code class="sourceCode python"><span class="op">&gt;</span></code>), logic
+(e.g., <code class="sourceCode python"><span class="kw">or</span></code>),
+identification (e.g., <code class="sourceCode python"><span class="kw">is</span></code>), membership
+(e.g., <code class="sourceCode python"><span class="kw">in</span></code>), and other
+operations.</p>
+<div class="example" data-hash="eb" data-version="">
+<div class="example-title">
+<span class="example-number">Example 1.1</span>
+</div>
+<p>Create a Python program that computes the following arithmetic
+expressions: <span class="math display"><em>x</em> = 4069 ⋅ 0.002,  <em>y</em> = 100/1.5,
+and  <em>z</em> = (−3)<sup>2</sup> + 15 − 3.01 ⋅ 10.</span> Multiply
+these together (<span class="math inline"><em>x</em><em>y</em><em>z</em></span>) and print the
+product, along with <span class="math inline"><em>x</em></span>, <span class="math inline"><em>y</em></span>, and <span class="math inline"><em>z</em></span> to the console.</p>
+<div class="example-solution">
+<p>Consider the following program:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">4096</span><span class="op">*</span><span class="fl">0.002</span>              <span class="co"># float multiplication</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">100</span><span class="op">/</span><span class="fl">1.5</span>                 <span class="co"># float division</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> (<span class="op">-</span><span class="dv">3</span>)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">15</span> <span class="op">-</span> <span class="fl">3.01</span><span class="op">*</span><span class="dv">10</span>  <span class="co"># exponent operator **</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x,y,z)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x<span class="op">*</span>y<span class="op">*</span>z)</span></code></pre></div>
+<p> The console should print</p>
+<pre class="sourceCode"><code>8.192 66.66666666666667 -6.099999999999998
+-3331.413333333333</code></pre>
+<p> Note that although we have multiplied and divided integer literals
+(<code class="sourceCode python"><span class="dv">4096</span></code> and
+<code class="sourceCode python"><span class="dv">100</span></code>) by
+floating-point literals (<code class="sourceCode python"><span class="fl">0.002</span></code> and <code class="sourceCode python"><span class="fl">1.5</span></code>), Python
+has automatically assumed we would like floating-point multiplication
+and division.</p>
+<p>We used the exponent operator <code class="sourceCode python"><span class="op">**</span></code>, which may
+have been unfamiliar. If you tried the more common character <code class="sourceCode python"><span class="op">^</span></code> for the
+exponent, you received the error</p>
+<pre class="sourceCode"><code>TypeError: unsupported operand type(s) for ^: &#39;int&#39; and &#39;float&#39;</code></pre>
+<p> In Python, the <code class="sourceCode python"><span class="op">^</span></code> is the
+bitwise logical XOR operator.</p>
+</div>
+</div>
+<section id="classes-objects-methods" class="real-section level2" data-number="1.1" data-h="b3" data-shortid="classes-objects-methods" data-0-sec="1.5" data-0-hash="b3" data-0-id="introduction/basic-elements-of-a-program/classes-objects-methods" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.1" data-0-sectionhash="c0" data-0-title="Classes, Objects, and Methods" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="15" data-0-subsectionhash="b3" data-0-v-ts="T1" data-0-example-num="">
+<h2 class="real-section" data-h="b3" data-shortid="classes-objects-methods" data-0-sec="1.5" data-0-hash="b3" data-0-id="introduction/basic-elements-of-a-program/classes-objects-methods" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.1" data-0-sectionhash="c0" data-0-title="Classes, Objects, and Methods" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="15" data-0-subsectionhash="b3" data-0-v-ts="T1" data-0-example-num="">Classes, Objects, and Methods</h2>
+<p>Everything that is expressed in a Python statement is an <span class="keyword">object</span>, and every object is an <span class="keyword">instance</span> of a <span class="keyword">class</span>.
+For instance, <code class="sourceCode python"><span class="dv">7</span></code> is a literal
+that evaluates to an object that is an instance of the <code class="sourceCode python"><span class="bu">int</span></code>eger class.
+Similarly, <code class="sourceCode python"><span class="co">&quot;foo&quot;</span></code>
+is a literal that evaluates to an object that is an instance of the
+<code class="sourceCode python"><span class="bu">str</span></code>ing
+class. A class can be thought of as a definition of the kind of objects
+that belong to it, how they are structured, and the kinds of things that
+can be done with it.</p>
+<p>Python includes built-in classes such as the numeric <code class="sourceCode python"><span class="bu">int</span></code>eger, <code class="sourceCode python"><span class="bu">float</span></code>ing-point
+number, and <code class="sourceCode python"><span class="bu">complex</span></code> number.
+It is common to refer to a class, especially a built-in class, as a
+<span class="keyword">type</span>.</p>
+<p>Classes are more than types of data, however. Classes can include one
+or more <span class="keyword">method</span>, which is a kind of function
+that operates on inputs called <span class="keyword">arguments</span>
+and returns outputs. Something special about methods is that they can
+operate on instances of the class. For example,</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fl">3.5</span>.as_integer_ratio()</span></code></pre></div>
+<p> The literal <code class="sourceCode python"><span class="fl">3.5</span></code> yields an
+instance of the <code class="sourceCode python"><span class="bu">float</span></code> class,
+which has method <code class="sourceCode python">as_integer_ratio()</code>. Placing the <code class="sourceCode python">.</code> character before the method name is
+the syntax to apply the object’s <code class="sourceCode python">as_integer_ratio()</code> method. This method
+returns a <code class="sourceCode python"><span class="bu">tuple</span></code> object
+with the form <code class="sourceCode">(&lt;numerator&gt;, &lt;denominator&gt;)</code>,
+where <code class="sourceCode python"><span class="op">&lt;</span>numerator<span class="op">&gt;</span></code>
+and <code class="sourceCode python"><span class="op">&lt;</span>denominator<span class="op">&gt;</span></code>
+denote the numerator and denominator of the integer ratio corresponding
+to the floating-point number. The expression yields the output</p>
+<pre class="sourceCode"><code>(7, 2)</code></pre>
+<p> which signifies the fraction <span class="math inline">\(7/2\)</span>.</p>
+<p>We can and often do create our own classes with their own methods. We
+will return to this topic in a later chapter.</p>
+<div class="example" data-hash="nx" data-version="">
+<div class="example-title">
+<span class="example-number">Example 1.2</span>
+</div>
+<p>Create a Python program that starts with the three word strings <code class="sourceCode python"><span class="co">&quot;veni&quot;</span></code>,
+<code class="sourceCode python"><span class="co">&quot;vedi&quot;</span></code>,
+<code class="sourceCode python"><span class="co">&quot;vici&quot;</span></code>
+and concatenates and prints them with the following caveats:</p>
+<ul>
+<li>Between each word string, insert a comma and a space.</li>
+<li>Capitalize each word string using the <code class="sourceCode python">capitalize()</code> method.</li>
+</ul>
+<div class="example-solution">
+<p>Consider the following program:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>w1 <span class="op">=</span> <span class="st">&quot;veni&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>w2 <span class="op">=</span> <span class="st">&quot;vedi&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>w3 <span class="op">=</span> <span class="st">&quot;vici&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(w1.capitalize() <span class="op">+</span> <span class="st">&quot;, &quot;</span> <span class="op">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    w2.capitalize() <span class="op">+</span> <span class="st">&quot;, &quot;</span> <span class="op">+</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    w3.capitalize()</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p> The console should print</p>
+<pre class="sourceCode"><code>Veni, Vedi, Vici</code></pre>
+<p> Note that we have used linebreaks to improve code readability.
+Python syntax allows expressions enclosed in parentheses to be broken
+after operators.</p>
+</div>
+</div>
+</section>
+<section id="basic-python-types" class="real-section level2" data-number="1.2" data-h="mo" data-shortid="basic-python-types" data-0-sec="1.5" data-0-hash="mo" data-0-id="introduction/basic-elements-of-a-program/basic-python-types" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.2" data-0-sectionhash="c0" data-0-title="Basic Built-In Types" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="16" data-0-subsectionhash="mo" data-0-v-ts="T1" data-0-example-num="">
+<h2 class="real-section" data-h="mo" data-shortid="basic-python-types" data-0-sec="1.5" data-0-hash="mo" data-0-id="introduction/basic-elements-of-a-program/basic-python-types" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.2" data-0-sectionhash="c0" data-0-title="Basic Built-In Types" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="16" data-0-subsectionhash="mo" data-0-v-ts="T1" data-0-example-num="">Basic Built-In Types</h2>
+<p>Python has several built-in types (classes) that provide a foundation
+from which many of our programs can be written. We have seen some
+examples of these types already, and in this section they will be
+described in greater detail.</p>
+<section id="boolean" class="real-section level3" data-number="1.2.1" data-h="za" data-shortid="boolean">
+<h3 class="real-section" data-h="za" data-shortid="boolean">Boolean</h3>
+<p>The simple <code class="sourceCode python"><span class="bu">bool</span></code> (i.e.,
+Boolean) type can have one of two values, <code class="sourceCode python"><span class="va">True</span></code> or <code class="sourceCode python"><span class="va">False</span></code>. This
+type is used extensively for logical reasoning in programs, and will be
+especially important for branching (see <a href="/cl">section 1.10</a>).
+Expressions containing the <span class="keyword">Boolean
+operators</span> <code class="sourceCode python"><span class="kw">not</span></code>, <code class="sourceCode python"><span class="kw">and</span></code>, and <code class="sourceCode python"><span class="kw">or</span></code> evaluate to
+Boolean values. For instance,</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">not</span> <span class="va">True</span>        <span class="co"># =&gt; False</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">not</span> <span class="va">False</span>       <span class="co"># =&gt; True</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="va">True</span> <span class="kw">and</span> <span class="va">False</span>  <span class="co"># =&gt; False</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="va">True</span> <span class="kw">or</span> <span class="va">False</span>   <span class="co"># =&gt; True</span></span></code></pre></div>
+<p>Similarly, expressions with the <span class="keyword">comparison
+operators</span> <code class="sourceCode python"><span class="op">==</span></code> (equality),
+<code class="sourceCode python"><span class="op">!=</span></code>
+(inequality), <code class="sourceCode python"><span class="op">&lt;</span></code> (less
+than), <code class="sourceCode python"><span class="op">&gt;</span></code> (greater
+than), <code class="sourceCode python"><span class="op">&lt;=</span></code> (less
+than or equal), <code class="sourceCode python"><span class="op">&gt;=</span></code> (greater
+than or equal), <code class="sourceCode python"><span class="kw">is</span></code> (identity),
+<code class="sourceCode python"><span class="kw">is</span> <span class="kw">not</span></code>
+(nonidentity), and <code class="sourceCode python"><span class="kw">in</span></code>
+(membership). evaluate to Boolean values. A <span class="keyword">truth
+table</span> for the Boolean operators and some comparison operators is
+given in tbl. 1.</p>
+<!-- TODO: This table sucks. Break it into one for Boolean operators and possibly one for comparison, but I'm not sure that's even necessary. -->
+<div id="tbl:boolean-comparison-operators">
+<table style="width:100%;">
+<caption>Table 1: Boolean and comparison operators on Boolean and
+integer inputs <code class="sourceCode python">x</code> and <code class="sourceCode python">y</code></caption>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><code class="sourceCode python">x</code></th>
+<th><code class="sourceCode python">y</code></th>
+<th><code class="sourceCode python"><span class="bu">bool</span>(x)</code></th>
+<th><code class="sourceCode python"><span class="kw">not</span> x</code></th>
+<th><code class="sourceCode python">x <span class="kw">and</span> y</code></th>
+<th><code class="sourceCode python">x <span class="kw">or</span> y</code></th>
+<th><code class="sourceCode python">x<span class="op">==</span>y</code></th>
+<th><code class="sourceCode python">x<span class="op">!=</span>y</code></th>
+<th><code class="sourceCode python">x<span class="op">&lt;</span>y</code></th>
+<th><code class="sourceCode python">x<span class="op">&lt;=</span>y</code></th>
+<th><code class="sourceCode python">x<span class="op">&gt;=</span>y</code></th>
+<th><code class="sourceCode python">x<span class="op">&gt;</span>y</code></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="dv">0</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="dv">1</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">True</span></code></td>
+<td><code class="sourceCode python"><span class="va">False</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note that non-Boolean inputs can be given to the Boolean operators.
+Non-Boolean objects can be given Boolean values with the <code class="sourceCode python"><span class="bu">bool</span>()</code>
+function, included in the table. For instance, <code class="sourceCode python"><span class="bu">bool</span>(<span class="dv">0</span>)</code>
+and <code class="sourceCode python"><span class="bu">bool</span>(<span class="fl">0.0</span>)</code>
+evaluate to <code class="sourceCode python"><span class="va">False</span></code>;
+conversely, <code class="sourceCode python"><span class="bu">bool</span>(<span class="dv">1</span>)</code>
+and <code class="sourceCode python"><span class="bu">bool</span>(<span class="fl">1.0</span>)</code>
+evaluate to <code class="sourceCode python"><span class="va">True</span></code>. In fact,
+for all numeric types (i.e., <code class="sourceCode python"><span class="bu">int</span></code>, <code class="sourceCode python"><span class="bu">float</span></code>, and
+<code class="sourceCode python"><span class="bu">complex</span></code>),
+every value evaluates to <code class="sourceCode python"><span class="va">True</span></code> except
+those equivalent to <code class="sourceCode python"><span class="dv">0</span></code>.</p>
+</section>
+<section id="integer" class="real-section level3" data-number="1.2.2" data-h="vk" data-shortid="integer">
+<h3 class="real-section" data-h="vk" data-shortid="integer">Integer</h3>
+<p>The <code class="sourceCode python"><span class="bu">int</span></code> (i.e.,
+integer) type can be used to represent the mathematical integers,
+positive and negative (and <span class="math inline">\(0\)</span>). As
+we have already seen, several built-in operators can be applied to
+integer inputs, including <code class="sourceCode python"><span class="op">+</span></code> (summation),
+<code class="sourceCode python"><span class="op">-</span></code>
+(difference), <code class="sourceCode python"><span class="op">*</span></code> (product),
+and <code class="sourceCode python"><span class="op">/</span></code>
+(quotient). More operators will be introduced in later chapters.</p>
+<p>The built-in <code class="sourceCode python"><span class="bu">int</span>()</code> function
+returns an integer representation of its input, which can be either a
+number, a string, or empty, in which case <code class="sourceCode python"><span class="bu">int</span>()</code> returns
+<code class="sourceCode python"><span class="dv">0</span></code>.
+Although it does not round in the most elegant manner, <code class="sourceCode python"><span class="bu">int</span>()</code> can be
+used to convert a floating-point number to an integer, as in</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">int</span>(<span class="fl">3.2</span>)    <span class="co"># =&gt; 3</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">int</span>(<span class="fl">3.9</span>)    <span class="co"># =&gt; 3</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">int</span>(<span class="op">-</span><span class="fl">3.9</span>)   <span class="co"># =&gt; -3</span></span></code></pre></div>
+<p> We see that <code class="sourceCode python"><span class="bu">int</span>()</code> rounds
+toward zero.</p>
+</section>
+<section id="float-point" class="real-section level3" data-number="1.2.3" data-h="lw" data-shortid="float-point">
+<h3 class="real-section" data-h="lw" data-shortid="float-point">Floating-point Number</h3>
+<p>Like scientific notation, <span class="keyword">floating-point
+numbers</span> represent potentially very large or very small numbers in
+a compact form. This form has three parts: a <span class="keyword">sign</span> <span class="math inline">\(s\)</span>, a
+<span class="keyword">significand</span> <span class="math inline">\(x\)</span>, and an <span class="keyword">exponent</span> <span class="math inline">\(n\)</span>.
+These combine as <span class="math display">\[
+s \times x \times 2^n.
+\]</span></p>
+<p>Floating-point numbers can be represented with the Python <code class="sourceCode python"><span class="bu">float</span></code> type and
+are often used to represent decimal numbers, such as <span class="math inline">\(1.4\)</span> and <span class="math inline">\(-0.33\)</span>. The built-in <code class="sourceCode python"><span class="bu">float</span>()</code>
+function returns a <code class="sourceCode python"><span class="bu">float</span></code> from a
+number or string argument. For instance,</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">float</span>(<span class="dv">5</span>)    <span class="co"># =&gt; 5.0</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">float</span>(<span class="st">&quot;5&quot;</span>)  <span class="co"># =&gt; 5.0</span></span></code></pre></div>
+<p>Floating-point numbers can be entered with scientific notation via
+the letter <code class="sourceCode">e</code>, as in the following
+examples:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fl">291e-6</span>      <span class="co"># =&gt; 0.000291</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fl">1e3</span>         <span class="co"># =&gt; 1000.0</span></span></code></pre></div>
+</section>
+<section id="complex-number" class="real-section level3" data-number="1.2.4" data-h="oi" data-shortid="complex-number">
+<h3 class="real-section" data-h="oi" data-shortid="complex-number">Complex Number</h3>
+<p>Complex numbers, which have a real part <span class="math inline">\(a\)</span> and imaginary part <span class="math inline">\(b\)</span>, represented mathematically as <span class="math display">\[
+a + j b,
+\]</span> where <span class="math inline">\(j\)</span> is the imaginary
+number <span class="math inline">\(\sqrt{-1}\)</span>, can be
+represented in Python with the <code class="sourceCode python"><span class="bu">complex</span></code> type.
+For numbers <code class="sourceCode python">a</code> and <code class="sourceCode python">b</code>, we can construct a <code class="sourceCode python"><span class="bu">complex</span></code> type
+with <code class="sourceCode python"><span class="bu">complex</span>(a, b)</code>.
+For instance,</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">complex</span>(<span class="dv">1</span>, <span class="dv">2</span>)   <span class="co"># =&gt; (1+2j)</span></span></code></pre></div>
+<p>A <code class="sourceCode python"><span class="bu">complex</span></code> object
+has attributes <code class="sourceCode python">real</code> and <code class="sourceCode python">imag</code> that return the real and imaginary
+parts, respectively. For instance,</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="bu">complex</span>(<span class="dv">3</span>, <span class="op">-</span><span class="dv">5</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>s.real          <span class="co"># =&gt; 3</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>s.imag          <span class="co"># =&gt; -5</span></span></code></pre></div>
+</section>
+<section id="string" class="real-section level3" data-number="1.2.5" data-h="fv" data-shortid="string">
+<h3 class="real-section" data-h="fv" data-shortid="string">String</h3>
+<p>Strings are series of characters and have built-in Python type <code class="sourceCode python"><span class="bu">str</span></code>. String
+literals can be written with either single quotes (e.g., <code class="sourceCode python"><span class="co">&#39;foo&#39;</span></code>)
+or double quotes (e.g., <code class="sourceCode python"><span class="co">&quot;bar&quot;</span></code>).
+Within one variety, the other is treated as a regular quote, as in <code class="sourceCode python"><span class="co">&quot;A &#39;friend&#39; wants to know&quot;</span></code>
+and <code class="sourceCode python"><span class="co">&#39;I am &quot;big boned&quot;&#39;</span></code>.
+It is generally recommeneded to use just one variety or the other for
+string literals in a given project (mixing the two is seen as bad
+form).</p>
+<p>The <code class="sourceCode python"><span class="bu">str</span>()</code> function
+returns a string representation of the object it is given as input. For
+instance, <code class="sourceCode python"><span class="bu">str</span>(<span class="dv">4</span>)</code>
+returns <code class="sourceCode python"><span class="co">&quot;4&quot;</span></code>
+and <code class="sourceCode python"><span class="bu">str</span>(<span class="va">True</span>)</code>
+returns <code class="sourceCode python"><span class="co">&quot;True&quot;</span></code>.
+This is especially helpful when joining strings as in the following
+example:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="fl">3.14159</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;x = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(x) <span class="op">+</span> <span class="st">&quot; m&quot;</span>) </span></code></pre></div>
+<p>A convenient way to construct nice strings is the <span class="keyword">formatted string (f-string)</span> literals. A simple
+f-string that has the same value as what is printed in the example above
+is <code class="sourceCode python"><span class="ss">f&quot;x = </span><span class="sc">{</span>x<span class="sc">}</span><span class="ss"> m&quot;</span></code>.
+Executable expressions are inserted in braces <code class="sourceCode python">{}</code> within the f-string. Note that the
+<code class="sourceCode python"><span class="bu">str</span>()</code>
+function is automatically called, which makes for a nicer syntax.</p>
+<p>A <span class="keyword">format specifier</span> can also be applied
+to expressions in an f-string. These have the general form</p>
+<pre class="sourceCode"><code>:[[fill]align][sign][z][#][0][width][group][.prec][type]</code></pre>
+<p> Each of these terms is described in tbl. 2 and tbl. 3. In the
+example above, we could format the printing of <code class="sourceCode python">x</code> in fixed-point format (<code class="sourceCode">f</code>) with a precision (<code class="sourceCode">.prec</code>) of <span class="math inline">\(3\)</span> decimal places with</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;x = </span><span class="sc">{</span>x<span class="sc">:.3f}</span><span class="ss"> m&quot;</span>)     <span class="co"># =&gt; x = 3.142</span></span></code></pre></div>
+<p> In the following example, we use scientific notation (<code class="sourceCode">e</code>) with precision (<code class="sourceCode">.prec</code>) of <span class="math inline">\(4\)</span>:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="fl">0.00123</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;x = </span><span class="sc">{</span>x<span class="sc">:.4e}</span><span class="ss"> m&quot;</span>)     <span class="co"># =&gt; x = 1.2300e-03 m</span></span></code></pre></div>
+<p> Note that the number of <span class="keyword">significant
+digits</span> is <span class="math inline">\(1\)</span> greater than the
+precision in this format. In the following example, we use binary (<code class="sourceCode">b</code>) with <span class="math inline">\(0\)</span>-padding:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;x = </span><span class="sc">{</span>x<span class="sc">:04b}</span><span class="ss"> (in binary)&quot;</span>)       <span class="co"># =&gt; x = 0011 (in binary)</span></span></code></pre></div>
+<div id="tbl:format-specifier-terms">
+<table>
+<caption>Table 2: Format specifier terms.</caption>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 30%" />
+<col style="width: 19%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Values (if any)</th>
+<th>Default</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code class="sourceCode python">:</code></td>
+<td></td>
+<td></td>
+<td>Separates the format specifier from the expression</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">fill</code></td>
+<td>Any character</td>
+<td>space</td>
+<td>Character to pad with when value doesn’t use the entire field
+width</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">align</code></td>
+<td><code class="sourceCode python"><span class="op">&lt;</span></code>
+(left) <span class="math inline">\(\vert\)</span> <code class="sourceCode python"><span class="op">&gt;</span></code> (right)
+<span class="math inline">\(\vert\)</span> <code class="sourceCode python"><span class="op">^</span></code> (center)
+<span class="math inline">\(\vert\)</span> <code class="sourceCode python"><span class="op">=</span></code></td>
+<td><code class="sourceCode python"><span class="op">&lt;</span></code></td>
+<td>How to justify when value doesn’t occupy the entire field width</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">sign</code></td>
+<td><code class="sourceCode python"><span class="op">+</span></code>
+(explicit <code class="sourceCode">+</code>) <span class="math inline">\(\vert\)</span> <code class="sourceCode python"><span class="op">-</span></code> (no plus)
+<span class="math inline">\(\vert\)</span> space (space but no
+plus)</td>
+<td><code class="sourceCode python"><span class="op">-</span></code></td>
+<td>How a sign appears for numeric values</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode">z</code></td>
+<td><code class="sourceCode">z</code></td>
+<td></td>
+<td>Coerces <code class="sourceCode python"><span class="op">-</span><span class="fl">0.0</span></code>
+to <code class="sourceCode python"><span class="fl">0.0</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode">#</code></td>
+<td><code class="sourceCode">#</code></td>
+<td></td>
+<td>Use the alternate output form for numeric values</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode">0</code></td>
+<td><code class="sourceCode">0</code></td>
+<td></td>
+<td>Pad on the left with zeros instead of spaces</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">width</code></td>
+<td>Positive integers</td>
+<td></td>
+<td>Minimum width of (number of characters in) the field</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">group</code></td>
+<td><code class="sourceCode python">,</code> <span class="math inline">\(\vert\)</span> <code class="sourceCode python">_</code></td>
+<td></td>
+<td>Grouping character (thousands separator) for numeric output</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">.prec</code></td>
+<td>Nonnegative integers</td>
+<td>varies with <code class="sourceCode python"><span class="bu">type</span></code></td>
+<td>Digits after the decimal point for floating-points, maximum width
+for strings</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode">type</code></td>
+<td>See tbl. 3</td>
+<td><code class="sourceCode">s</code> (strings) or <code class="sourceCode">d</code> (numbers)</td>
+<td>Specifies the presentation type, which is the type of conversion
+performed on the corresponding argument</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:format-specifier-types">
+<table>
+<caption>Table 3: Format specifier types.</caption>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Input Class</th>
+<th>Format Type</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>String</td>
+<td><code class="sourceCode">s</code></td>
+<td>String</td>
+</tr>
+<tr class="even">
+<td>String</td>
+<td>None</td>
+<td>String (same as <code class="sourceCode">s</code>)</td>
+</tr>
+<tr class="odd">
+<td>Integer</td>
+<td><code class="sourceCode">b</code></td>
+<td>Binary</td>
+</tr>
+<tr class="even">
+<td>Integer</td>
+<td><code class="sourceCode">c</code></td>
+<td>Character</td>
+</tr>
+<tr class="odd">
+<td>Integer</td>
+<td><code class="sourceCode">d</code></td>
+<td>Decimal integer</td>
+</tr>
+<tr class="even">
+<td>Integer</td>
+<td><code class="sourceCode">o</code></td>
+<td>Octal</td>
+</tr>
+<tr class="odd">
+<td>Integer</td>
+<td><code class="sourceCode">x</code> or <code class="sourceCode">X</code></td>
+<td>Hex (lowercase or uppercase)</td>
+</tr>
+<tr class="even">
+<td>Integer</td>
+<td><code class="sourceCode">n</code></td>
+<td>Local decimal number (similar to <code class="sourceCode">d</code>)</td>
+</tr>
+<tr class="odd">
+<td>Integer</td>
+<td>None</td>
+<td>Same as <code class="sourceCode">d</code></td>
+</tr>
+<tr class="even">
+<td>Floating-point</td>
+<td><code class="sourceCode">e</code> or <code class="sourceCode">E</code></td>
+<td>Scientific notation (lowercase or uppercase)</td>
+</tr>
+<tr class="odd">
+<td>Floating-point</td>
+<td><code class="sourceCode">f</code> or <code class="sourceCode">F</code></td>
+<td>Fixed-point notation (lowercase or uppercase)</td>
+</tr>
+<tr class="even">
+<td>Floating-point</td>
+<td><code class="sourceCode">g</code> or <code class="sourceCode">G</code></td>
+<td>General format (lowercase or uppercase)</td>
+</tr>
+<tr class="odd">
+<td>Floating-point</td>
+<td><code class="sourceCode">n</code></td>
+<td>Local general format</td>
+</tr>
+<tr class="even">
+<td>Floating-point</td>
+<td><code class="sourceCode">%</code></td>
+<td>Percentage</td>
+</tr>
+<tr class="odd">
+<td>Floating-point</td>
+<td>None</td>
+<td>Same as <code class="sourceCode">g</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The <code class="sourceCode python"><span class="bu">str</span></code> class has
+several methods. We have already seen the <code class="sourceCode python">capitalize()</code> method applied in <a href="/nx">example</a>. Tbl. 4 describes several frequently used string
+methods.</p>
+<div id="tbl:string-methods">
+<table>
+<caption>Table 4: Some particularly useful string methods.</caption>
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code class="sourceCode python">capitalize()</code></td>
+<td>Convert the first character to uppercase</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">count()</code></td>
+<td>Return the count of the specified value occurrences</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">endswith()</code></td>
+<td>If the string ends with the specified value, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">find()</code></td>
+<td>Return the position where the specified value is found</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">index()</code></td>
+<td>Return the position where the specified value is found</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">isalpha()</code></td>
+<td>If all characters are alphabetic, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">isdecimal()</code></td>
+<td>If all characters are decimals, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">isdigit()</code></td>
+<td>If all characters are digits, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">isnumeric()</code></td>
+<td>If all characters are numeric, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">join()</code></td>
+<td>Convert iterable elements into a single string</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">lower()</code></td>
+<td>Convert the string to lowercase</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">replace()</code></td>
+<td>Return a string with the specified value replaced</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">rindex()</code></td>
+<td>Return the last position where the specified value is found</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">rsplit()</code></td>
+<td>Split at the specified separator, return a list</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">split()</code></td>
+<td>Split at the specified separator, return a list</td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">splitlines()</code></td>
+<td>Split at line breaks, return a list</td>
+</tr>
+<tr class="odd">
+<td><code class="sourceCode python">startswith()</code></td>
+<td>If the string starts with the specified value, return <code class="sourceCode python"><span class="va">True</span></code></td>
+</tr>
+<tr class="even">
+<td><code class="sourceCode python">strip()</code></td>
+<td>Return a trimmed version of the string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- TODO: A string methods example -->
+</section>
+</section>
+<section id="iterable-objects-and-dictionaries" class="real-section level2" data-number="1.3" data-h="ge" data-shortid="iterable-objects-and-dictionaries" data-0-sec="1.5" data-0-hash="ge" data-0-id="introduction/basic-elements-of-a-program/iterable-objects-and-dictionaries" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.3" data-0-sectionhash="c0" data-0-title="Iterable Objects and Dictionaries" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="21" data-0-subsectionhash="ge" data-0-v-ts="T1" data-0-example-num="">
+<h2 class="real-section" data-h="ge" data-shortid="iterable-objects-and-dictionaries" data-0-sec="1.5" data-0-hash="ge" data-0-id="introduction/basic-elements-of-a-program/iterable-objects-and-dictionaries" data-0-wherein="" data-0-problem-num="" data-0-v-ds="D1" data-0-url="" data-0-subsec="1.5.3" data-0-sectionhash="c0" data-0-title="Iterable Objects and Dictionaries" data-0-chapterhash="wb" data-0-type="subsection" data-0-ch="1" data-0-v-specific="no" data-0-p="21" data-0-subsectionhash="ge" data-0-v-ts="T1" data-0-example-num="">Iterable Objects and Dictionaries</h2>
+<p>In Python, an <span class="keyword">iterable object</span> is one
+that contains a collection of <span class="keyword">elements</span> and
+defines, for each element, which element is next. In the following
+sections, we will consider some built-in iterable classes (types).</p>
+<div class="freadinglist">
+<p><span class="plaincite" data-post="§ The Python Tutorial: 9 Classes" data-postpost="on classes, objects, and methods">pydocs</span>, <span class="plaincite" data-post="§ Python Standard Library: Built-in Types" data-postpost="on the basic built-in types">pydocs</span></p>
+</div>
+</section>
+</section>
+
+<h2 id="online-resources-for-section-15">Online Resources for Section 1.5</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

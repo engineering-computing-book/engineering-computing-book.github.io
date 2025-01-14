@@ -1,0 +1,6 @@
+{
+    "name": "Rick Sanchez", 
+    "occupation": "Scientist", 
+    "minimum age": 70,
+    "grandchildren": ["Morty", "Summer"]
+}

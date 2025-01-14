@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="solving-equations-algebraically" class="real-section level1" data-number="1" data-h="4u" data-shortid="solving-equations-algebraically" data-0-url="" data-0-next="ur" data-0-problem-num="" data-0-chapterhash="we" data-0-subsectionhash="" data-0-ch="4" data-0-example-num="" data-0-hash="4u" data-0-v-ds="D1" data-0-title="Solving Equations Algebraically" data-0-wherein="" data-0-v-specific="no" data-0-p="114" data-0-sectionhash="4u" data-0-type="section" data-0-v-ts="T1" data-0-subsec="4.3.0" data-0-id="symbolic-analysis-and-design/solving-equations-algebraically" data-0-sec="4.3" data-0-prev="nc">
+<h1 class="real-section" data-h="4u" data-shortid="solving-equations-algebraically" data-0-url="" data-0-next="ur" data-0-problem-num="" data-0-chapterhash="we" data-0-subsectionhash="" data-0-ch="4" data-0-example-num="" data-0-hash="4u" data-0-v-ds="D1" data-0-title="Solving Equations Algebraically" data-0-wherein="" data-0-v-specific="no" data-0-p="114" data-0-sectionhash="4u" data-0-type="section" data-0-v-ts="T1" data-0-subsec="4.3.0" data-0-id="symbolic-analysis-and-design/solving-equations-algebraically" data-0-sec="4.3" data-0-prev="nc">Solving Equations Algebraically</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Virtually every engineering analysis requires the algebraic solution
+of an equation or a, more generally, a <span class="keyword">system of
+equations</span> (i.e., a set of equations) to be solved simultaneously.
+For the engineer, this set of equations typically encodes a set of
+design constraints, design heuristics, and physical laws. In general, a
+system <span class="math inline">\(S\)</span> of <span class="math inline">\(m\)</span> equations in <span class="math inline">\(n\)</span> unknown variables <span class="math inline">\(x_0, \cdots, x_{n-1} \in \mathbb{C}\)</span> and
+with <span class="math inline">\(m\)</span> functions <span class="math inline">\(f_0, \cdots, f_{m-1}\)</span> can be represented
+as the set <span class="math display">\[
+S = \begin{cases}
+    f_0(x_0, \cdots, x_n) = 0 \\
+    \vdots \\
+    f_m(x_0, \cdots, x_n) = 0
+\end{cases}.
+\]</span></p>
+<p>A <span class="keyword">solution</span> for <span class="math inline">\(S\)</span> is an <span class="math inline">\(n\)</span>-tuple of values for <span class="math inline">\(x_i\)</span> that satisfies every equation in
+<span class="math inline">\(S\)</span>. There are three possible cases
+for a given system <span class="math inline">\(S\)</span> of
+equations:</p>
+<ol>
+<li>The system <span class="math inline">\(S\)</span> has no
+solutions.</li>
+<li>The system <span class="math inline">\(S\)</span> has exactly one
+solution, said to be <span class="keyword">unique</span>.</li>
+<li>The system <span class="math inline">\(S\)</span> has more than one
+solution (potentially infinitely many).</li>
+</ol>
+<p>For some systems, a solution exists, but cannot be expressed in a
+closed-form or symbolic (“analytic”) way. For such systems, a numerical
+solution is appropriate (see <a href="/dx">chapter 5</a>). In some cases
+(e.g., <span class="math inline">\(n\)</span> linear, independent
+equations and <span class="math inline">\(n\)</span> unknown variables),
+a unique solution is guaranteed to exist.</p>
+<p>There are two high-level SymPy function for solving equations
+algebraically, <code class="sourceCode python">sp.solve()</code> and
+<code class="sourceCode python">sp.solveset()</code>. The former is
+older, but remains the more useful for us; the latter has a simpler
+interface and is somewhat more mathematically rigorous, but it is often
+difficult to use its results programmatically. We will focus on <code class="sourceCode python">sp.solve()</code>. Neither function guarantees
+that it will find a solution, even if it exists, except in special
+cases.</p>
+<p>Representing an equation in SymPy can be done explicitly or an
+expression can be treated as one side of an equation, with the other
+side implicitly <span class="math inline">\(0\)</span>. In other words,
+the following are equivalent ways of defining the equation <span class="math inline">\(x^2 - y^2 = 2\)</span>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> y<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> <span class="dv">2</span>  <span class="co"># == 0 Implicit equation</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sp.Eq(x<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> y<span class="op">**</span><span class="dv">2</span>, <span class="dv">2</span>)  <span class="co"># Explicit equation</span></span></code></pre></div>
+<section id="solve-function" class="real-section level2" data-number="1.1" data-h="bd" data-shortid="solve-function" data-0-url="" data-0-problem-num="" data-0-chapterhash="we" data-0-subsectionhash="bd" data-0-ch="4" data-0-example-num="" data-0-hash="bd" data-0-v-ds="D1" data-0-title="The \texttt {sp.solve()} Function" data-0-wherein="" data-0-v-specific="no" data-0-sectionhash="4u" data-0-p="115" data-0-v-ts="T1" data-0-subsec="4.3.1" data-0-type="subsection" data-0-sec="4.3" data-0-id="symbolic-analysis-and-design/solving-equations-algebraically/solve-function">
+<h2 class="real-section" data-h="bd" data-shortid="solve-function" data-0-url="" data-0-problem-num="" data-0-chapterhash="we" data-0-subsectionhash="bd" data-0-ch="4" data-0-example-num="" data-0-hash="bd" data-0-v-ds="D1" data-0-title="The \texttt {sp.solve()} Function" data-0-wherein="" data-0-v-specific="no" data-0-sectionhash="4u" data-0-p="115" data-0-v-ts="T1" data-0-subsec="4.3.1" data-0-type="subsection" data-0-sec="4.3" data-0-id="symbolic-analysis-and-design/solving-equations-algebraically/solve-function">The
+<code class="sourceCode">sp.solve()</code> Function</h2>
+<p>The <code class="sourceCode python">sp.solve()</code> function has
+the capability of solving a large class of systems of equations
+algebraically. The function has many optional arguments, but its basic
+usage is</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sp.solve(f, <span class="op">*</span>symbols, <span class="op">**</span>flags)</span></code></pre></div>
+<p> Here is a basic interpretation of each argument:</p>
+<ul>
+<li><code class="sourceCode python">f</code>: An equation or expression
+that is implicitly equal to zero or an iterable of equations or
+expressions.</li>
+<li><code class="sourceCode python">symbols</code>: A symbol (e.g.,
+variable) to solve for or an iterable of symbols.</li>
+<li><code class="sourceCode python">flags</code>: Optional arguments, of
+which there are many. We recommend always using the <code class="sourceCode python"><span class="bu">dict</span><span class="op">=</span><span class="va">True</span></code>
+option because it guarantees a consistent output: a list of
+dictionaries, one for each solution.</li>
+</ul>
+<p>Consider the linear system of <span class="math inline">\(3\)</span>
+equations and <span class="math inline">\(3\)</span> unknown variables:
+$$\begin{subequations} \label{eq:4u-sys1}
+\begin{alignat}{3}
+3 x &amp;{}-{} 2 y &amp;{}+{} 6 z &amp;= -9 \\
+\phantom{3 x} &amp;{}\mathbin{\phantom{+}}{} 8 y &amp;{}+{} 4 z &amp;= -1 \\
+-x &amp;{}+{} 4 y &amp;{}\phantom{+}{} &amp;= 0.
+\end{alignat}
+\end{subequations}$$ The <code class="sourceCode python">sp.solve()</code> function can be deployed to
+solve this system as follows:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x, y, z <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y, z&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>S1 <span class="op">=</span> [</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>	<span class="dv">3</span><span class="op">*</span>x <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>y <span class="op">+</span> <span class="dv">6</span><span class="op">*</span>z <span class="op">+</span> <span class="dv">9</span>,  <span class="co"># == 0</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>	<span class="dv">8</span><span class="op">*</span>y <span class="op">+</span> <span class="dv">4</span><span class="op">*</span>z <span class="op">+</span> <span class="dv">1</span>, <span class="co"># == 0</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>	<span class="op">-</span>x <span class="op">+</span> <span class="dv">4</span><span class="op">*</span>y, <span class="co"># == 0</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>]  <span class="co"># A system of 3 equations and 3 unknowns </span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.solve(S1, [x, y, z], <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)<span class="op">;</span> sol</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<pre class="sourceCode"><code>[{x: 15, y: 15/4, z: -31/4}]</code></pre>
+</div>
+<p>Now consider a simpler system of a single equation that includes a
+symbolic parameter <span class="math inline">\(a\)</span>: <span class="math display">\[
+x^2 + 3 x + a.
+\]</span> Applying <code class="sourceCode python">sp.solve()</code>,</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> sp.symbols(<span class="st">&quot;a&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>S2 <span class="op">=</span> [x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>x <span class="op">+</span> a]  <span class="co"># A system of 1 equation and 1 unknown</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.solve(S2, [x], <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)<span class="op">;</span> sol</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre class="sourceCode"><code>[{x: -sqrt(1 - a) - 1}, {x: sqrt(1 - a) - 1}]</code></pre>
+</div>
+<p> The quadratic formula has been applied, which yields two solutions,
+given in the <code class="sourceCode python">sol</code> list. Note that
+the solver was alerted to which symbolic variable was to be treated as
+an unknown variable (i.e., <code class="sourceCode python">x</code>) and
+which was to be treated as a known parameter (i.e., <code class="sourceCode python">a</code>) by the second argument <code class="sourceCode python">[x]</code> (i.e., <code class="sourceCode">symbols</code>).</p>
+<p>Suppose the solutions for <span class="math inline">\(x\)</span> were
+to be substituted into an expression containing <span class="math inline">\(x\)</span>. The <code class="sourceCode python"><span class="bu">dict</span></code> object
+returned (here assigned to <code class="sourceCode python">sol</code>)
+can be used with the <code class="sourceCode python">subs()</code>
+method. For instance,</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(x <span class="op">+</span> <span class="dv">5</span>).subs(sol[<span class="dv">0</span>])</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>(x <span class="op">+</span> <span class="dv">5</span>).subs(sol[<span class="dv">1</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+</div>
+<div class="output execute_result" data-execution_count="4">
+
+</div>
+<p>The <code class="sourceCode python">sp.solve()</code> function can
+solve for expressions and undefined functions, as well. Here we solve
+for an undefined function:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> sp.Function(<span class="st">&quot;f&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>eq <span class="op">=</span> sp.Eq(f(x)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>sp.diff(f(x), x), f(x))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.solve(eq, f(x), <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<p> It can solve for the derivative term, too, as follows:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.solve(eq, sp.diff(f(x), x), <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+</div>
+<div class="example" data-hash="au" data-version="">
+<div class="example-title">
+<span class="example-number">Example 4.1</span>
+</div>
+<p>You are designing the truss structure shown in <span class="citation" data-cites="fig:truss-01">[@fig:truss-01]</span>. The external load of
+<span class="math inline"><strong>f</strong><sub><em>F</em></sub> =  − <em>f</em><sub><em>F</em></sub><strong>ĵ</strong></span>
+(we use the standard unit vectors <span class="math inline"><strong>î</strong></span>, <span class="math inline"><strong>ĵ</strong></span>, <span class="math inline"><strong>k̂</strong></span>), where <span class="math inline"><em>f</em><sub><em>F</em></sub> &gt; 0</span>, is
+given. As the designer, you are to make the <span class="math inline"><em>w</em></span> dimension as long as possible
+under the following constraints:</p>
+<ul>
+<li>Minimize the dimension <span class="math inline"><em>h</em></span></li>
+<li>The tension in all members is no more than a given <span class="math inline"><em>T</em></span></li>
+<li>The compression in all members is no more than a given <span class="math inline"><em>C</em></span></li>
+<li>The magnitude of the support force at pin A is no more than a given
+<span class="math inline"><em>P</em><sub><em>A</em></sub></span></li>
+<li>The magnitude of the support force at pin C is no more than a given
+<span class="math inline"><em>P</em><sub><em>C</em></sub></span></li>
+</ul>
+<p>Use a static analysis and the method of joints to develop a solution
+for the force in each member <span class="math inline"><em>F</em><sub><em>A</em><em>B</em></sub></span>,
+<span class="math inline"><em>F</em><sub><em>A</em><em>C</em></sub></span>,
+etc., and the reaction forces using the sign convention that tension is
+positive and compression is negative. Create a function that determines
+design feasibility for a given set of design parameters <span class="math inline">{<em>f</em><sub><em>F</em></sub>, <em>T</em>, <em>C</em>, <em>P</em><sub><em>A</em></sub>, <em>P</em><sub><em>C</em></sub>}</span>
+and test the function.</p>
+<figure class="real-figure" id="fig:truss-01">
+<img src="/assets/figures/truss-01/truss-01.svg" class="figure standalone nofloat " alt=" Figure 4.2" />
+<figcaption>Figure 4.2: A truss with pinned joints, supported by a hinge and a floating support, with an applied force <span class="math inline"><strong>f</strong><sub><em>F</em></sub></span>.</figcaption>
+</figure>
+<div class="example-solution">
+<p>Using the method of joints, we proceed through the joints, summing
+forces in the <span class="math inline"><em>x</em></span>- and <span class="math inline"><em>y</em></span>-directions. We will assume all
+members are in tension, and their sign will be positive if this is the
+case and negative, otherwise. Beginning with joint A, which includes two
+reaction forces <span class="math inline"><em>R</em><sub><em>A</em><em>x</em></sub></span> and
+<span class="math inline"><em>R</em><sub><em>A</em><em>y</em></sub></span>
+from the support, $$\begin{align}
+\Sigma F_x &amp;= 0; &amp; R_{Ax} + F_{AB} + F_{AC} \cos\theta &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; R_{Ay} - F_{AC} \sin\theta &amp;= 0.
+\end{align}$$ The angle <span class="math inline"><em>θ</em></span> is
+known in terms of the dimensions <span class="math inline"><em>w</em></span> and <span class="math inline"><em>h</em></span> as <span class="math display">$$\theta = \arctan\frac{h}{w}.$$</span> These
+equations can be encode symbolically as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>RAx, RAy, FAB, FAC, theta<span class="op">=</span> sp.symbols(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;RAx, RAy, FAB, FAC, theta&quot;</span>, real<span class="op">=</span><span class="va">True</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>h, w <span class="op">=</span> sp.symbols(<span class="st">&quot;h, w&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>eqAx <span class="op">=</span> RAx <span class="op">+</span> FAB <span class="op">+</span> FAC<span class="op">*</span>sp.cos(theta)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>eqAy <span class="op">=</span> RAy <span class="op">-</span> FAC<span class="op">*</span>sp.sin(theta)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>theta_wh <span class="op">=</span> sp.atan(h<span class="op">/</span>w)</span></code></pre></div>
+<p>Proceeding to joint B, $$\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{AB} + F_{BD} + F_{BE} \cos\theta &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; -F_{BC} - F_{BE} \sin\theta &amp;= 0.
+\end{align}$$ Encoding these equations,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>FBD, FBE, FBC <span class="op">=</span> sp.symbols(<span class="st">&quot;FBD, FBE, FBC&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>eqBx <span class="op">=</span> <span class="op">-</span>FAB <span class="op">+</span> FBD <span class="op">+</span> FBE<span class="op">*</span>sp.cos(theta)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>eqBy <span class="op">=</span> <span class="op">-</span>FBC <span class="op">-</span> FBE<span class="op">*</span>sp.sin(theta)</span></code></pre></div>
+<p>For joint C, the floating support has a vertical reaction force <span class="math inline"><em>R</em><sub><em>C</em></sub></span>, so the
+analysis proceeds as follows: $$\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{AC} \cos\theta + F_{CE} &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; F_{AC} \sin\theta + F_{BC} + R_C &amp;= 0.
+\end{align}$$ Encoding these equations,</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>FCE, RC <span class="op">=</span> sp.symbols(<span class="st">&quot;FCE, RC&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>eqCx <span class="op">=</span> <span class="op">-</span>FAC<span class="op">*</span>sp.cos(theta) <span class="op">+</span> FCE</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>eqCy <span class="op">=</span> FAC<span class="op">*</span>sp.sin(theta) <span class="op">+</span> FBC <span class="op">+</span> RC</span></code></pre></div>
+<p>For joint D, we can recognize that DE is a zero-force member:
+$$\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{BD} + F_{DF} &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; F_{DE} &amp;= 0.
+\end{align}$$ Encoding these equations,</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>FDE, FDF <span class="op">=</span> sp.symbols(<span class="st">&quot;FDE, FDF&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>eqDx <span class="op">=</span> <span class="op">-</span>FBD <span class="op">+</span> FDF</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>eqDy <span class="op">=</span> FDE</span></code></pre></div>
+<p>Proceeding to joint E, $$\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{CE} - F_{BE} \cos\theta + F_{EF} \cos\theta &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; F_{BE} \sin\theta + F_{DE} + F_{EF} \sin\theta &amp;= 0.
+\end{align}$$ Encoding these equations,</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>FEF <span class="op">=</span> sp.symbols(<span class="st">&quot;FEF&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>eqEx <span class="op">=</span> <span class="op">-</span>FCE <span class="op">-</span> FBE<span class="op">*</span>sp.cos(theta) <span class="op">+</span> FEF<span class="op">*</span>sp.cos(theta)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>eqEy <span class="op">=</span> FBE<span class="op">*</span>sp.sin(theta) <span class="op">+</span> FDE <span class="op">+</span> FEF<span class="op">*</span>sp.sin(theta)</span></code></pre></div>
+<p>Finally, consider joint F, with the externally applied force <span class="math inline"><strong>f</strong><sub><em>F</em></sub></span>,
+$$\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{DF} - F_{EF} \cos\theta &amp;= 0 \\
+\Sigma F_y &amp;= 0; &amp; -f_F - F_{EF} \sin\theta &amp;= 0.
+\end{align}$$ Encoding these equations,</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>fF <span class="op">=</span> sp.symbols(<span class="st">&quot;fF&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>eqFx <span class="op">=</span> <span class="op">-</span>FDF <span class="op">-</span> FEF<span class="op">*</span>sp.cos(theta)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>eqFy <span class="op">=</span> <span class="op">-</span>fF <span class="op">-</span> FEF<span class="op">*</span>sp.sin(theta)</span></code></pre></div>
+<p>In total, we have 12 force equations and 12 unknown forces (9 member
+forces and three reaction forces). Let’s construct the system and solve
+it for the unkown forces, as follows:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>S_forces <span class="op">=</span> [</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>	eqAx, eqAy, eqBx, eqBy, eqCx, eqCy, </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>	eqDx, eqDy, eqEx, eqEy, eqFx, eqFy,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>]  <span class="co"># 12 force equations</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>forces_unknown <span class="op">=</span> [</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>	FAB, FAC, FBC, FBD, FBE, FCE, FDF, FDE, FEF,  <span class="co"># 9 member forces</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>	RAx, RAy, RC, <span class="co"># 3 reaction forces</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>]  <span class="co"># 12 unkown forces</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>sol_forces <span class="op">=</span> sp.solve(S_forces, forces_unknown, <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)<span class="op">;</span> sol_forces</span></code></pre></div>
+<pre class="sourceCode"><code>[{FAB: 2*fF*cos(theta)/sin(theta),
+  FAC: -2*fF/sin(theta),
+  FBC: -fF,
+  FBD: fF*cos(theta)/sin(theta),
+  FBE: fF/sin(theta),
+  FCE: -2*fF*cos(theta)/sin(theta),
+  FDE: 0,
+  FDF: fF*cos(theta)/sin(theta),
+  FEF: -fF/sin(theta),
+  RAx: 0,
+  RAy: -2*fF,
+  RC: 3*fF}]</code></pre>
+<p>This solution is in terms of <span class="math inline"><em>f</em><sub><em>F</em></sub></span>, which is
+known, and <span class="math inline"><em>θ</em></span>. Because <span class="math inline"><em>w</em></span> and <span class="math inline"><em>h</em></span> are our design parameters, let’s
+substitute <code class="sourceCode python">eqtheta</code> such that our
+solution is rewritten in terms of <span class="math inline"><em>f</em><sub><em>F</em></sub></span>, <span class="math inline"><em>w</em></span>, and <span class="math inline"><em>h</em></span>. Create a list of solutions as
+follows:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>forces_wh <span class="op">=</span> []  <span class="co"># Initialize</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> force <span class="kw">in</span> forces_unknown:</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>	force_wh <span class="op">=</span> force.subs(</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>		sol_forces[<span class="dv">0</span>]</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>	).subs(</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>		theta, theta_wh</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>	).simplify()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>	forces_wh.append(force_wh)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>	<span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>force<span class="sc">}</span><span class="ss"> = </span><span class="sc">{</span>force_wh<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<pre class="sourceCode"><code>FAB = 2*fF*w/h
+FAC = -2*fF*sqrt(h**2 + w**2)/h
+FBC = -fF
+FBD = fF*w/h
+FBE = fF*sqrt(h**2 + w**2)/h
+FCE = -2*fF*w/h
+FDF = fF*w/h
+FDE = 0
+FEF = -fF*sqrt(h**2 + w**2)/h
+RAx = 0
+RAy = -2*fF
+RC = 3*fF</code></pre>
+<p>This set of equations is excellent for design purposes. Because <span class="math inline"><em>f</em><sub><em>F</em></sub>, <em>w</em>, <em>h</em> &gt; 0</span>,
+the sign of each force indicates tension (<span class="math inline">+</span>) or compression (<span class="math inline">−</span>). For the forces with the factor <span class="math inline"><em>w</em>/<em>h</em></span>, clearly increasing
+<span class="math inline"><em>w</em></span> or decreasing <span class="math inline"><em>h</em></span> increases the force,
+proportionally. For the forces with the factor <span class="math inline">$\sqrt{h^2 + w^2}/h$</span>, things are a bit more
+subtle. Introducing a new parameter <span class="math inline"><em>r</em> = <em>w</em>/<em>h</em></span>, we can
+rewrite these equations in a somewhat simpler manner, as follows:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> sp.symbols(<span class="st">&quot;r&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>forces_r <span class="op">=</span> []  <span class="co"># Initialize</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>force_r_subs <span class="op">=</span> {}  <span class="co"># For substitutions</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, force <span class="kw">in</span> <span class="bu">enumerate</span>(forces_wh):</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>	force_r <span class="op">=</span> force.subs(w, h<span class="op">*</span>r).simplify()</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>	forces_r.append(force_r)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>	force_r_subs[forces_unknown[i]] <span class="op">=</span> force_r</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>	<span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>forces_unknown[i]<span class="sc">}</span><span class="ss"> = </span><span class="sc">{</span>force_r<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<pre class="sourceCode"><code>FAB = 2*fF*r
+FAC = -2*fF*sqrt(r**2 + 1)
+FBC = -fF
+FBD = fF*r
+FBE = fF*sqrt(r**2 + 1)
+FCE = -2*fF*r
+FDF = fF*r
+FDE = 0
+FEF = -fF*sqrt(r**2 + 1)
+RAx = 0
+RAy = -2*fF
+RC = 3*fF</code></pre>
+<p>It is worthwhile investigating the term <span class="math inline">$\sqrt{r^2 + 1}$</span>. Generate a graph over a
+reasonable range of <span class="math inline"><em>r</em> = <em>w</em>/<em>h</em></span> and
+compare it to <span class="math inline"><em>r</em></span> and <span class="math inline">2<em>r</em></span>, as follows:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>r_a <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">51</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>ax.plot(r_a, np.sqrt(r_a<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">1</span>), label<span class="op">=</span><span class="st">&quot;$</span><span class="ch">\\</span><span class="st">sqrt{r^2+1}$&quot;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>ax.plot(r_a, r_a, label<span class="op">=</span><span class="st">&quot;$r$&quot;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>ax.plot(r_a, <span class="dv">2</span><span class="op">*</span>r_a, label<span class="op">=</span><span class="st">&quot;$2 r$&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;$r = w/h$&quot;</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>ax.grid()</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>ax.legend()</span></code></pre></div>
+<figure class="real-figure" id="fig:4u-figure-0">
+<img src="/assets/source/4u/figure-0.svg" class="figure pgf " alt=" Figure 4.3" />
+<figcaption>Figure 4.3: A graph of <span class="math inline">$\sqrt{r^2 + 1}$</span>, where <span class="math inline"><em>r</em> = <em>w</em>/<em>h</em></span>.</figcaption>
+</figure>
+<p>So we see that <span class="math inline">$\sqrt{r^2 + 1}\rightarrow
+r$</span>. That is, <span class="math inline"><em>r</em> = <em>w</em>/<em>h</em></span> is the
+defining parameter and the design requirements are to maximize <span class="math inline"><em>w</em></span> and minimize <span class="math inline"><em>h</em></span>, which is tantamount to maximizing
+<span class="math inline"><em>r</em></span>. Under the reasonable
+assumption that <span class="math inline"><em>r</em> &gt; 1</span>, we
+can see the member with the most tension is AB, with its force <span class="math inline"><em>F</em><sub><em>A</em><em>B</em></sub> = 2<em>r</em><em>f</em><sub><em>F</em></sub></span>,
+and the member with the most compression is AC, with its force <span class="math inline">$F_{AC} = -2 \sqrt{r^2 + 1} f_F$</span>. From our
+design requirements, then, $$\begin{align}
+F_{AB} &amp;= 2 r f_F \le T \\
+-F_{AC} &amp;= 2 \sqrt{r^2 + 1} f_F \le C.
+\end{align}$$ This leads to two constraints on <span class="math inline"><em>r</em></span>, call them <span class="math inline"><em>r</em><sub><em>T</em></sub></span> and <span class="math inline"><em>r</em><sub><em>C</em></sub></span>, both maxima,
+which can be solved for automatically as follows:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>T, C <span class="op">=</span> sp.symbols(<span class="st">&quot;T, C&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>eqrT <span class="op">=</span> FAB.subs(force_r_subs) <span class="op">-</span> T  <span class="co"># &lt;= 0</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>eqrC <span class="op">=</span> <span class="op">-</span>FAC.subs(force_r_subs) <span class="op">-</span> C  <span class="co"># &lt;= 0</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>sol_rT <span class="op">=</span> sp.solve(eqrT, r, <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)  <span class="co"># Solution for $r_T$</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>sol_rC <span class="op">=</span> sp.solve(eqrC, r, <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)  <span class="co"># Solution for $r_C$</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>r_maxima <span class="op">=</span> {</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;Tension&quot;</span>: sol_rT[<span class="dv">0</span>], </span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;Compression&quot;</span>: sol_rC[<span class="dv">0</span>],</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(r_maxima)</span></code></pre></div>
+<pre class="sourceCode"><code>{&#39;Tension&#39;: {r: T/(2*fF)}, &#39;Compression&#39;: {r: sqrt(C**2 - 4*fF**2)/(2*fF)}}</code></pre>
+<p>Another set of constraints apply to the supports. From the design
+requirements, $$\begin{align}
+|\bm{R}_A| &amp;= \sqrt{R_{Ax}^2 + R_{Ay}^2} \le P_A \\
+|\bm{R}_C| &amp;= |R_C| \le P_C
+\end{align}$$ From our results above, the reaction forces don’t depend
+on <span class="math inline"><em>r</em></span> (or <span class="math inline"><em>w</em></span> or <span class="math inline"><em>h</em></span>), so these constraints are merely
+to be checked to ensure that the design problem is feasible. Proceeding
+in a similar manner as above, we obtain two constraints on <span class="math inline"><em>f</em><sub><em>F</em></sub></span>, maxima <span class="math inline"><em>f</em><sub><em>A</em></sub></span> and <span class="math inline"><em>f</em><sub><em>C</em></sub></span> as
+follows:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>PA, PC <span class="op">=</span> sp.symbols(<span class="st">&quot;PA, PC&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>eqRA <span class="op">=</span> sp.sqrt(RAx<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> RAy<span class="op">**</span><span class="dv">2</span>).subs(force_r_subs) <span class="op">-</span> PA  <span class="co"># &lt;= 0</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>eqRC <span class="op">=</span> sp.Abs(RC).subs(force_r_subs) <span class="op">-</span> PC  <span class="co"># &lt;= 0</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>sol_fFA <span class="op">=</span> sp.solve(eqRA, fF, <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)  <span class="co"># Solution for $f_{A}$</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>sol_fFC <span class="op">=</span> sp.solve(eqRC, fF, <span class="bu">dict</span><span class="op">=</span><span class="va">True</span>)  <span class="co"># Solution for $f_{C}$</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>load_maxima <span class="op">=</span> {</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;Support A&quot;</span>: sol_fFA[<span class="dv">0</span>], </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;Support C&quot;</span>: sol_fFC[<span class="dv">0</span>],</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(load_maxima)</span></code></pre></div>
+<pre class="sourceCode"><code>{&#39;Support A&#39;: {fF: PA/2}, &#39;Support C&#39;: {fF: PC/3}}</code></pre>
+<p>Finally, we can create a function to perform the design, given a set
+of design parameters. First, define an auxilliary function to check the
+support constraints:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> check_supports(load_maxima, design_params, report<span class="op">=</span><span class="st">&quot;&quot;</span>):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>	<span class="cf">for</span> kLM, vLM <span class="kw">in</span> load_maxima.items():</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>		fF_design <span class="op">=</span> fF.evalf(subs<span class="op">=</span>design_params)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>		fF_max <span class="op">=</span> fF.subs(vLM).evalf(subs<span class="op">=</span>design_params)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>		<span class="cf">if</span> fF_design <span class="op">&gt;</span> fF_max:</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>			<span class="cf">return</span> <span class="va">False</span>, <span class="ss">f&quot;Design infeasible due to </span><span class="sc">{</span>kLM<span class="sc">}</span><span class="ss"> constraint: &quot;</span> \</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>				<span class="ss">f&quot;</span><span class="sc">{</span>fF_design<span class="sc">:.4g}</span><span class="ss"> &lt;/= </span><span class="sc">{</span>fF_max<span class="sc">:.4g}</span><span class="ss">.&quot;</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>		<span class="cf">else</span>:</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>			report <span class="op">+=</span> <span class="ss">f&quot;</span><span class="sc">{</span>kLM<span class="sc">}</span><span class="ss"> constraint satisfied: &quot;</span> \</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>				<span class="ss">f&quot;</span><span class="sc">{</span>fF_design<span class="sc">:.4g}</span><span class="ss"> &lt;= </span><span class="sc">{</span>fF_max<span class="sc">:.4g}</span><span class="ss">.</span><span class="ch">\n</span><span class="ss">&quot;</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>	report <span class="op">+=</span> <span class="st">&quot;Design feasible for supports.&quot;</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>	<span class="cf">return</span> <span class="va">True</span>, report</span></code></pre></div>
+<p>Now define an auxilliary function to maximize <span class="math inline"><em>r</em></span>:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> maximize_r(r_maxima, design_params, report<span class="op">=</span><span class="st">&quot;&quot;</span>):</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>	r_maxima_ <span class="op">=</span> []  <span class="co"># Initialize numerical maxima</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>	<span class="cf">for</span> k_max, r_max <span class="kw">in</span> r_maxima.items():</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>		r_max_ <span class="op">=</span> r.subs(r_max).evalf(subs<span class="op">=</span>design_params)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>		<span class="cf">if</span> np.<span class="bu">abs</span>(np.imag(<span class="bu">complex</span>(r_max_))) <span class="op">&gt;</span> <span class="fl">0.</span>:  <span class="co"># Ensure real</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>			report <span class="op">+=</span> <span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">No feasible r for </span><span class="sc">{</span>k_max<span class="sc">}</span><span class="ss"> constraint.&quot;</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>			<span class="cf">return</span> <span class="va">False</span>, <span class="va">None</span>, report</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>		r_maxima_.append(r_max_)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>		report <span class="op">+=</span> <span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Max r for </span><span class="sc">{</span>k_max<span class="sc">}</span><span class="ss"> constraint: </span><span class="sc">{</span>r_max_<span class="sc">:.4g}</span><span class="ss">.&quot;</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>	r_max <span class="op">=</span> <span class="bu">min</span>(r_maxima_)  <span class="co"># Min of the maxima if the feasible max</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>	report <span class="op">+=</span> <span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Overall max r = w/h = </span><span class="sc">{</span>r_max<span class="sc">}</span><span class="ss">.&quot;</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>	<span class="cf">return</span> <span class="va">True</span>, r_max, report</span></code></pre></div>
+<p>Finally, define the function to design the truss:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> truss_designer(load_maxima, r_maxima, design_params):</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>	<span class="co">&quot;&quot;&quot;Returns a dict of r=w/h ratio for the truss and a report&quot;&quot;&quot;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>	satisfied, report <span class="op">=</span> check_supports(load_maxima, design_params)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>	<span class="cf">if</span> <span class="kw">not</span> satisfied:</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>		<span class="cf">return</span> satisfied, report</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>	satisfied, r_max, report <span class="op">=</span> maximize_r(</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>		r_maxima, design_params, report</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>	)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>	<span class="cf">if</span> <span class="kw">not</span> satisfied:</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>		<span class="cf">return</span> satisfied, report</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>	<span class="cf">return</span> r_max, report</span></code></pre></div>
+<p>Define the three sets of design parameters in a dictionary:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>design_parameters_dict <span class="op">=</span> {</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;1&quot;</span>: {fF: <span class="dv">1000</span>, T: <span class="dv">3500</span>, C: <span class="dv">3200</span>, PA: <span class="dv">3500</span>, PC: <span class="dv">3500</span>},</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;2&quot;</span>: {fF: <span class="dv">2000</span>, T: <span class="dv">4500</span>, C: <span class="dv">6000</span>, PA: <span class="dv">3500</span>, PC: <span class="dv">3500</span>},</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>	<span class="st">&quot;3&quot;</span>: {fF: <span class="dv">2000</span>, T: <span class="dv">3500</span>, C: <span class="dv">3200</span>, PA: <span class="dv">6500</span>, PC: <span class="dv">6000</span>}</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>}  <span class="co"># Forces in N</span></span></code></pre></div>
+<p>Loop through the designs, run <code class="sourceCode python">truss_designer()</code>, and print each
+report:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> design, design_params <span class="kw">in</span> design_parameters_dict.items():</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>	r_max, rep <span class="op">=</span> truss_designer(load_maxima, r_maxima, design_params)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>	rep <span class="op">=</span> <span class="ss">f&quot;Design </span><span class="sc">{</span>design<span class="sc">}</span><span class="ss"> report:</span><span class="ch">\n\t</span><span class="ss">&quot;</span> <span class="op">+</span> rep.replace(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="st">&quot;</span><span class="ch">\n\t</span><span class="st">&quot;</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>	<span class="bu">print</span>(rep)</span></code></pre></div>
+<pre class="sourceCode"><code>Design 1 report:
+	Support A constraint satisfied: 1000 &lt;= 1750.
+	Support C constraint satisfied: 1000 &lt;= 1167.
+	Design feasible for supports.
+	Max r for Tension constraint: 1.750.
+	Max r for Compression constraint: 1.249.
+	Overall max r = w/h = 1.24899959967968.
+Design 2 report:
+	Design infeasible due to Support A constraint: 2000 &lt;/= 1750.
+Design 3 report:
+	Support A constraint satisfied: 2000 &lt;= 3250.
+	Support C constraint satisfied: 2000 &lt;= 2000.
+	Design feasible for supports.
+	Max r for Tension constraint: 0.8750.
+	No feasible r for Compression constraint.</code></pre>
+</div>
+</div>
+</section>
+</section>
+
+<h2 id="online-resources-for-section-43">Online Resources for Section 4.3</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

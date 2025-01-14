@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="design-as-optimization" class="real-section level1" data-number="1" data-h="qu" data-shortid="design-as-optimization" data-0-id="engineering-computing-for-design/design-as-optimization" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-example-num="" data-0-wherein="" data-0-next="n8" data-0-p="205" data-0-hash="qu" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Design as Optimization" data-0-type="section" data-0-subsec="6.1.0" data-0-ch="6" data-0-prev="ht">
+<h1 class="real-section" data-h="qu" data-shortid="design-as-optimization" data-0-id="engineering-computing-for-design/design-as-optimization" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-example-num="" data-0-wherein="" data-0-next="n8" data-0-p="205" data-0-hash="qu" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Design as Optimization" data-0-type="section" data-0-subsec="6.1.0" data-0-ch="6" data-0-prev="ht">Design as Optimization</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>The early stages of the engineering design process involves the
+specification of quantitative <span class="keyword">requirements</span>
+that must be satisfied by the product of the design. Once requirements
+have been specified, the design process can be considered as the
+selection of an element from a design space <span class="math inline">\(\mathcal{D}\)</span>, comprised of mathematical
+models of various designs. Design requirements do not fully specify the
+design, however. Requirements constrain specific quantities of interest,
+which we call <span class="keyword">output variables</span>; we call the
+space of all possible output variable quantities <span class="math inline">\(\mathcal{O}\)</span>. A set of <span class="keyword">governing equations</span> will determine how each
+design affects the output variables.</p>
+<p>Governing equations relate <span class="keyword">input
+variables</span>, known varying quantities like force and voltage, to
+output variables and include <span class="keyword">parameters</span>,
+quantities like length, mass, and electrical resistance. Several designs
+will have the same set of governing equations <span class="math inline">\(E_i\)</span>, differing only in their inputs and
+parameters. Let the corresponding set of designs be a <span class="keyword">design set</span> and be denoted <span class="math inline">\(D_i\)</span>, which is a subset of the design
+space <span class="math inline">\(\mathcal{D}\)</span>. Let the solution
+of <span class="math inline">\(E_i\)</span> for the output variables be
+denoted <span class="math inline">\(f_i\)</span> and the output image
+(i.e., all possible outputs) of <span class="math inline">\(f_i\)</span>
+be called the <span class="keyword">output set</span> and denoted <span class="math inline">\(O_i\)</span>. This is represented in
+fig. <strong>¿fig:engineering-design-0?</strong>.</p>
+<figure class="real-figure" id="fig:engineering-design-0">
+<img src="/assets/figures/engineering-design-0/engineering-design-0.svg" class="figure standalone " alt=" Figure 6.1" />
+<figcaption>Figure 6.1: A visualization of the design process as the selection of an element from the design space <span class="math inline">𝒟</span> that is in a region of the output space <span class="math inline">𝒪</span> that meets the requirements.</figcaption>
+</figure>
+<p>Requirements are mathematical constraints, and there are three
+primary types:</p>
+<ul>
+<li><span class="keyword">Equality constraints</span> are requirements
+that specify that a given function of output variables must equal some
+number (e.g., the velocity must <span class="math inline">\(4\)</span> m/s)</li>
+<li><span class="keyword">Inequality constraints</span> are requirements
+that specify that a given function of output variables must be greater
+than (<span class="math inline">\(&gt;\)</span>), lesser than (<span class="math inline">\(&lt;\)</span>), greater than or equal to (<span class="math inline">\(\ge\)</span>), or lesser than or equal to (<span class="math inline">\(\le\)</span>) some number (e.g., the current must
+be positive)</li>
+<li><span class="keyword">Extremal constraints</span> are requirements
+that specify that a given function of output variables should be
+maximized or minimized (e.g., the length should be minimized)</li>
+</ul>
+<p>Equality and inequality constraints are sometimes called <span class="keyword">hard constraints</span> because they must be satisfied.
+The subspace of the output space <span class="math inline">\(\mathcal{O}\)</span> that contains outputs that
+satisfy the hard constraints we call the <span class="keyword">satisfactory subspace</span> and denote <span class="math inline">\(S\)</span>. Extremal constraints are sometimes
+called <span class="keyword">soft constraints</span> because any value
+can satisfy the constraint, it’s just that greater or lesser values are
+desirable. Extremal constraints are typically combined into a single
+scalar function called a <span class="keyword">loss function</span>
+<span class="math inline">\(L\)</span>. The <span class="keyword">minimization</span> of the loss function <span class="math inline">\(L\)</span>, subject to the hard constraints,
+results in a set of <span class="keyword">optimal outputs</span> <span class="math inline">\(O^*\)</span>. Let a vector<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of
+output variables be denoted <span class="math inline">\(\bm{y}\)</span>
+and an optimal output vector <span class="math inline">\(\bm{y}^*\)</span>.</p>
+<p>Requirement constraints are illustrated in
+fig. <strong>¿fig:engineering-design-0?</strong>. The output sets <span class="math inline">\(O_1\)</span> and <span class="math inline">\(O_2\)</span> of two different design sets <span class="math inline">\(D_1\)</span> and <span class="math inline">\(D_2\)</span> overlap at the optimal output.
+Recalling that different design sets correspond to different sets of
+governing equations, we recognize that multiple types of design might be
+optimal. Suppose the illustrated optimal output <span class="math inline">\(\bm{y}^*\)</span> is known. Letting <span class="math inline">\(d_1\)</span> and <span class="math inline">\(d_2\)</span> represent designs in <span class="math inline">\(O_1\)</span> and <span class="math inline">\(O_2\)</span>, and letting a design <span class="math inline">\(d_i^*\)</span> be one corresponding to optimal
+output <span class="math inline">\(\bm{y}^*\)</span>, there are two
+<span class="keyword">inverse solutions</span> for optimal designs
+corresponding to <span class="math inline">\(\bm{y}^*\)</span>, <span class="math display">\[
+d_1^* = f_1^{-1}(\bm{y}^*) \qquad \text{and} \qquad d_2^* =
+f_2^{-1}(\bm{y}^*).
+\]</span> This result implies several things about the design
+process:</p>
+<ul>
+<li>The design process includes an optimization over the requirement
+constraints</li>
+<li>The output space <span class="math inline">\(\mathcal{O}\)</span> is
+where the optimization is most clearly defined, but what the design
+process seeks an optimal design, which occurs in the design space <span class="math inline">\(\mathcal{D}\)</span></li>
+<li>Governing equations should be as general as possible (i.e., design
+sets should be as inclusive as possible)</li>
+<li>There is no guarantee that one or any design set <span class="math inline">\(D_i\)</span> will include the most optimal output,
+so more design sets improve the chances that the corresponding output
+set <span class="math inline">\(O_i\)</span> will include an optimal
+value</li>
+<li>Finding optima in the output space without consideration for the
+coverage of output sets in the output space can help guide design by
+providing target outputs, but it cannot tell us how to create a design
+that can achieve an optimal output</li>
+<li>If an optimum <span class="math inline">\(\bm{y}^*\)</span> occurs
+in output set <span class="math inline">\(O_i\)</span>, the inverse map
+<span class="math inline">\(f_i^{-1}(\bm{y}^*)\)</span> gives a
+corresponding optimal design</li>
+</ul>
+<p>However, these observations entail several complications. First of
+all, determining optimal outputs under constraints is no trivial task.
+The field of <span class="keyword">constrained optimization</span> has
+developed algorithms for solving such problems, but these only guarantee
+solutions in cases under specific types of constraints. We will explore
+the constrained optimization problem in detail in <a href="/dx">chapter
+5</a>.</p>
+<p>The second complication is that for a given design set <span class="math inline">\(D_i\)</span>, it can be difficult to determine its
+corresponding output set <span class="math inline">\(O_i\)</span> (i.e.,
+the image of <span class="math inline">\(D_i\)</span> through <span class="math inline">\(f_i\)</span>). It is common for the solution <span class="math inline">\(f_i\)</span> to the governing equations to be
+involved, so establishing its output set <span class="math inline">\(O_i\)</span> is far from trivial. However, if the
+output set <span class="math inline">\(O_i\)</span> is determined, a
+<span class="keyword">local optimization</span> can be performed over
+<span class="math inline">\(O_i\)</span> (instead of over <span class="math inline">\(\mathcal{O}\)</span>) by expressing <span class="math inline">\(O_i\)</span> as a collection of additional
+constraints. The results answer the question, “What are the optimal
+outputs for the design set <span class="math inline">\(D_i\)</span>?”
+The answer helps us determine the best design for a given design
+set.</p>
+<p>The third complication we call the <span class="keyword">inverse
+problem</span>: the inverse <span class="math inline">\(f_i^{-1}\)</span> of the solution <span class="math inline">\(f_i\)</span> to the governing equations may not
+exist, and when it does it can be difficult or intractable to compute.
+For a solution <span class="math inline">\(f_i\)</span> with a known
+inverse <span class="math inline">\(f_i^{-1}\)</span>, the design
+corresponding to any output <span class="math inline">\(\bm{y}\)</span>
+in <span class="math inline">\(O_i\)</span> can be computed with <span class="math inline">\(f_i^{-1}(\bm{y})\)</span>.</p>
+<p>A design set <span class="math inline">\(D_i\)</span> with determined
+output set <span class="math inline">\(O_i\)</span>, a solved
+optimization over <span class="math inline">\(O_i\)</span> yielding a
+local optimum output <span class="math inline">\(\bm{y}_i^*\)</span>,
+and a determined inverse <span class="math inline">\(f_i^{-1}\)</span>
+has a <span class="keyword">local optimal design</span> <span class="math inline">\(d_i^*\)</span> given by the expression <span class="math display">\[
+d_i^* = f_i^{-1}(\bm{y}_i^*).
+\]</span></p>
+<section id="structure-of-design-sets" class="real-section level2" data-number="1.1" data-h="3p" data-shortid="structure-of-design-sets" data-0-id="engineering-computing-for-design/design-as-optimization/structure-of-design-sets" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="3p" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.1" data-0-wherein="" data-0-p="208" data-0-hash="3p" data-0-problem-num="" data-0-v-ts="T1" data-0-title="The Structure of Design Sets" data-0-example-num="" data-0-ch="6" data-0-type="subsection">
+<h2 class="real-section" data-h="3p" data-shortid="structure-of-design-sets" data-0-id="engineering-computing-for-design/design-as-optimization/structure-of-design-sets" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="3p" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.1" data-0-wherein="" data-0-p="208" data-0-hash="3p" data-0-problem-num="" data-0-v-ts="T1" data-0-title="The Structure of Design Sets" data-0-example-num="" data-0-ch="6" data-0-type="subsection">The Structure of Design Sets</h2>
+<p>A design set <span class="math inline">\(D\)</span> (we suppress the
+subscript here) is a mathematical model of a design, comprised of
+combinations of the following elements:</p>
+<ul>
+<li>A set <span class="math inline">\(E\)</span> of governing
+equations</li>
+<li>A set <span class="math inline">\(U\)</span> of all possible input
+variable vector <span class="math inline">\(\bm{u}\)</span> values</li>
+<li>A set <span class="math inline">\(P\)</span> of all possible
+parameter vector <span class="math inline">\(\bm{p}\)</span> values</li>
+</ul>
+<p>A design set <span class="math inline">\(D\)</span> is the set of all
+pairs <span class="math inline">\((\bm{u}, \bm{p})\)</span>, where <span class="math inline">\(\bm{u}, \bm{p}\)</span> are vectors of input
+variable values from <span class="math inline">\(U\)</span> and
+parameter values from <span class="math inline">\(P\)</span> (i.e.,
+<span class="math inline">\(D = \{(\bm{u}, \bm{p}) \,|\, \bm{u} \in U
+\text{ and } \bm{p} \in P \}\)</span>) associated with a set of
+governing equations <span class="math inline">\(E\)</span>. For a given
+input vector <span class="math inline">\(\bm{u}\)</span> and parameter
+vector <span class="math inline">\(\bm{p}\)</span>, the set <span class="math inline">\(E\)</span> of governing equations can perhaps be
+solved for the output variables in the vector <span class="math inline">\(\bm{y}\)</span>, yielding a solution. There is no
+guarantee that such a solution is possible, but in many cases such a
+solution exists. If the equations of <span class="math inline">\(E\)</span> are solved without specifying the input
+values of <span class="math inline">\(\bm{u}\)</span> or the parameter
+values of <span class="math inline">\(\bm{p}\)</span>, the solution is
+<span class="math inline">\(f\)</span>. Otherwise, only part of <span class="math inline">\(f\)</span> is found. Note the value of leaving
+<span class="math inline">\(\bm{u}\)</span> and <span class="math inline">\(\bm{p}\)</span> unspecified: the solution for all
+inputs and all parameters is found.</p>
+<section id="governing-equations" class="real-section level3" data-number="1.1.1" data-shortid="governing-equations">
+<h3 class="real-section" data-shortid="governing-equations">Governing
+Equations</h3>
+<p>A set of governing equations <span class="math inline">\(E\)</span>
+relates input variables, parameters, and output variables. The equations
+are called “governing” because they express how these quantities relate.
+Many governing equations express physical theories (i.e., “laws”) and
+phenomenologically established relations among the variables and
+parameters. Examples of governing equations include the following:</p>
+<ul>
+<li>Geometric relations (e.g., the area of a circle is <span class="math inline">\(\pi\)</span> times the square of its radius)</li>
+<li>The conservation of energy (e.g., the energy in minus the energy
+lost is equal to the remaining energy)</li>
+<li>Newton’s second law of motion, force is equal to the product of an
+object’s mass and acceleration</li>
+<li>Ohm’s law, that for a resistor the ratio of voltage across and
+current through it is constant</li>
+</ul>
+<p>Governing equations often include variables that are not inputs,
+parameters, or outputs. Such variables are, like output variables,
+unknown, but are not themselves output variables (i.e., the requirement
+constraints do not specify what they should be).</p>
+</section>
+<section id="input-variables" class="real-section level3" data-number="1.1.2" data-shortid="input-variables">
+<h3 class="real-section" data-shortid="input-variables">Input
+Variables</h3>
+<p>Input variables are variables are quantities that vary with some
+independent variable, usually time and sometimes space, and enter the
+set of governing equations <span class="math inline">\(E\)</span>. What
+distinguishes them from other variables in <span class="math inline">\(E\)</span> is that they are considered to be
+known. For instance, input variables can be:</p>
+<ul>
+<li>The voltage supplied by a battery</li>
+<li>A loading loading force on a structure</li>
+<li>The number of units of a part supplied per minute to a manufacturing
+machine</li>
+</ul>
+<p>In some cases, input variables can be chosen by the designer; we call
+these <span class="keyword">adjustable input variables</span>. We treat
+the selection of adjustable input variables as part of the design
+process. Adjustable input variables often have practical hard
+constraints (e.g., they can be power limited), called <span class="keyword">input variable constraints</span>. These will be taken
+into account during the optimization step.</p>
+</section>
+<section id="parameters" class="real-section level3" data-number="1.1.3" data-shortid="parameters">
+<h3 class="real-section" data-shortid="parameters">Parameters</h3>
+<p>A parameter is a constant quantity (i.e., it is not a dependent
+variable) in the set of governing equations <span class="math inline">\(E\)</span>. However, a parameter potentially has
+different (constant) values in the context of a design set <span class="math inline">\(D\)</span>. For instance, for a resistor with
+voltage <span class="math inline">\(v\)</span> and current <span class="math inline">\(i\)</span>, Ohm’s law gives <span class="math display">\[
+v = i R,
+\]</span> where <span class="math inline">\(R\)</span> is a parameter,
+specifically, the resistance. The other quantities <span class="math inline">\(v\)</span> and <span class="math inline">\(i\)</span> are usually taken to be (unknown)
+time-varying variables.</p>
+<p>Some parameters cannot be changed by the designer; those that can be
+changed are called <span class="keyword">adjustable parameters</span>.
+We treat the selection of adjustable parameters as part of the design
+process. Adjustable parameters often have practical hard constraints,
+called <span class="keyword">parameter constraints</span>. These will be
+taken into account during the optimization step.</p>
+</section>
+</section>
+<section id="solving-governing-equations" class="real-section level2" data-number="1.2" data-h="7z" data-shortid="solving-governing-equations" data-0-id="engineering-computing-for-design/design-as-optimization/solving-governing-equations" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="7z" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.2" data-0-wherein="" data-0-p="209" data-0-hash="7z" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Solving a Set of Governing Equations" data-0-example-num="" data-0-ch="6" data-0-type="subsection">
+<h2 class="real-section" data-h="7z" data-shortid="solving-governing-equations" data-0-id="engineering-computing-for-design/design-as-optimization/solving-governing-equations" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="7z" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.2" data-0-wherein="" data-0-p="209" data-0-hash="7z" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Solving a Set of Governing Equations" data-0-example-num="" data-0-ch="6" data-0-type="subsection">Solving a
+Set of Governing Equations</h2>
+<p>In theory, the solution <span class="math inline">\(f\)</span> of the
+governing equations requires that the output variables be determined. In
+practice, it is usually just as easy to solve for <em>all unknown
+variables</em> in <span class="math inline">\(E\)</span>, and then
+select the subset of these that are outputs. This implies two key
+features of <span class="math inline">\(E\)</span>:</p>
+<ul>
+<li>The number of independent equations in <span class="math inline">\(E\)</span> should be greater than or equal to the
+number of unknowns (i.e., there should exist at least one solution)</li>
+<li>The equations in <span class="math inline">\(E\)</span> should
+include all output variables</li>
+</ul>
+<p>A solution <span class="math inline">\(f\)</span> maps any design set
+<span class="math inline">\(D\)</span> element <span class="math inline">\(d = (\bm{u}, \bm{p})\)</span>, for <span class="math inline">\(\bm{u}\)</span> in <span class="math inline">\(U\)</span> and <span class="math inline">\(\bm{p}\)</span> in <span class="math inline">\(P\)</span>, to a corresponding output <span class="math inline">\(\bm{y}\)</span> in <span class="math inline">\(O\)</span>. This is visualized in
+fig. <strong>¿fig:engineering-design-1?</strong>.</p>
+<figure class="real-figure" id="fig:engineering-design-1">
+<img src="/assets/figures/engineering-design-1/engineering-design-1.svg" class="figure standalone " alt=" Figure 6.2" />
+<figcaption>Figure 6.2: A single design set <span class="math inline"><em>D</em></span>, the solution <span class="math inline"><em>f</em></span> of its set <span class="math inline"><em>E</em></span> of governing equations, and the inverse solution <span class="math inline"><em>f</em><sup>−1</sup></span>. The local optimal design <span class="math inline"><em>d</em><sup>*</sup> = <em>f</em><sup>−1</sup>(<strong>y</strong><sup>*</sup>)</span>.</figcaption>
+</figure>
+<p>For some types of sets of governing equations (e.g., linear), <span class="math inline">\(f\)</span> can be found in a general way, meaning
+for all inputs <span class="math inline">\(\bm{u}\)</span> and/or
+parameters <span class="math inline">\(\bm{p}\)</span>. Such solutions
+are carried out <span class="keyword">symbolically</span>. Computing
+tools for this are described in <a href="/we">chapter 4</a>.</p>
+<p>For other types of sets of governing equations, a solution for <span class="math inline">\(f\)</span> is difficult or intractable. For such
+sets, several approximate <span class="keyword">specific
+solutions</span> <span class="math inline">\(\tilde{f}\)</span> for the
+outputs given specific inputs and parameters are found <span class="keyword">numerically</span>. Computing tools for numerical
+solutions are described in <a href="/dx">chapter 5</a>. Note, however,
+that even with a set <span class="math inline">\(\widetilde{F}\)</span>
+of specific solutions <span class="math inline">\(\tilde{f}\)</span>, a
+full solution <span class="math inline">\(f\)</span> is lacking. This
+implies we can know neither the extent of the output image <span class="math inline">\(O\)</span>, nor all the possible loss values in
+<span class="math inline">\(O\)</span>. Therefore, it is always
+preferable to have a symbolic solution for <span class="math inline">\(f\)</span> than to have a set of specific
+solutions <span class="math inline">\(\tilde{f}\)</span>. However, one
+nice feature of <span class="math inline">\(\tilde{f}\)</span> is that
+elements of its inverse<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> are known for free because if some
+design <span class="math inline">\(d\)</span> maps to output <span class="math inline">\(\tilde{f}(d)\)</span>, then we already know <span class="math inline">\(d = \tilde{f}^{-1}(\tilde{f}(d))\)</span>.</p>
+</section>
+<section id="inverse-solutions-of-governing-equations" class="real-section level2" data-number="1.3" data-h="rn" data-shortid="inverse-solutions-of-governing-equations" data-0-id="engineering-computing-for-design/design-as-optimization/inverse-solutions-of-governing-equations" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="rn" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.3" data-0-wherein="" data-0-p="210" data-0-hash="rn" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Solving for the Inverse Solution of a Set of Governing Equations" data-0-example-num="" data-0-ch="6" data-0-type="subsection">
+<h2 class="real-section" data-h="rn" data-shortid="inverse-solutions-of-governing-equations" data-0-id="engineering-computing-for-design/design-as-optimization/inverse-solutions-of-governing-equations" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="rn" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.3" data-0-wherein="" data-0-p="210" data-0-hash="rn" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Solving for the Inverse Solution of a Set of Governing Equations" data-0-example-num="" data-0-ch="6" data-0-type="subsection">Solving for
+the Inverse Solution of a Set of Governing Equations</h2>
+<p>An inverse solution <span class="math inline">\(f^{-1}\)</span> of
+the governing equations maps an output <span class="math inline">\(\bm{y}\)</span> to a design <span class="math inline">\(d = (\bm{u}, \bm{p})\)</span>. That is, <span class="math inline">\(f^{-1}\)</span> maps an output vector <span class="math inline">\(\bm{y}\)</span> to the input vector <span class="math inline">\(\bm{u}\)</span> and parameter vector <span class="math inline">\(\bm{p}\)</span> that yielded <span class="math inline">\(\bm{y}\)</span>. An inverse solution may not exist
+or the reverse mapping is not unique (i.e., it is not one-to-one), in
+which case multiple designs yield the same output. In some such cases, a
+pseudoinverse solution exists that can map to a single design that
+yields the output.</p>
+<p>For some forward maps <span class="math inline">\(f\)</span>, the
+corresponding inverse <span class="math inline">\(f^{-1}\)</span> can be
+found in general, for all <span class="math inline">\(\bm{y}\)</span> in
+<span class="math inline">\(\mathcal{O}\)</span> the corresponding
+design <span class="math inline">\(d = (\bm{u}, \bm{p})\)</span> is
+determined. Such inverse solutions are carried out symbolically.
+Computing tools for this are described in <a href="/we">chapter
+4</a>.</p>
+<p>As with a forward solution <span class="math inline">\(f\)</span>, it
+may be difficult or intractable to find an inverse solution <span class="math inline">\(f^{-1}\)</span>. Several approximate <span class="keyword">specific inverse solutions</span> <span class="math inline">\(\tilde{f}^{-1}\)</span> for the design given a
+specific output are found <span class="keyword">numerically</span>.
+Computing tools for numerical solutions are described in <a href="/dx">chapter 5</a>. These are the same tools that are used to
+numerically solve for forward solutions.</p>
+</section>
+<section id="local-constrained-optimization-via-adjustables" class="real-section level2" data-number="1.4" data-h="5w" data-shortid="local-constrained-optimization-via-adjustables" data-0-id="engineering-computing-for-design/design-as-optimization/local-constrained-optimization-via-adjustables" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="5w" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.4" data-0-wherein="" data-0-p="211" data-0-hash="5w" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Local Constrained Optimization in Terms of Adjustables" data-0-example-num="" data-0-ch="6" data-0-type="subsection">
+<h2 class="real-section" data-h="5w" data-shortid="local-constrained-optimization-via-adjustables" data-0-id="engineering-computing-for-design/design-as-optimization/local-constrained-optimization-via-adjustables" data-0-chapterhash="ht" data-0-sectionhash="qu" data-0-v-ds="D1" data-0-subsectionhash="5w" data-0-v-specific="no" data-0-url="" data-0-sec="6.1" data-0-subsec="6.1.4" data-0-wherein="" data-0-p="211" data-0-hash="5w" data-0-problem-num="" data-0-v-ts="T1" data-0-title="Local Constrained Optimization in Terms of Adjustables" data-0-example-num="" data-0-ch="6" data-0-type="subsection">Local
+Constrained Optimization in Terms of Adjustables</h2>
+<p>The loss function <span class="math inline">\(L(\bm{y})\)</span> is
+constructed from the outputs with soft constraints. The form of <span class="math inline">\(L\)</span> is chosen according to the following
+considerations:</p>
+<ul>
+<li>An output variable that is to be minimized should reduce <span class="math inline">\(L\)</span> for smaller values; conversely, one
+that is to be maximized should reduce <span class="math inline">\(L\)</span> for larger values</li>
+<li>The relative scaling of each output variable should reflect its
+relative numerical magnitude (e.g., if one is numerically large compared
+with another, the latter might be scaled up in <span class="math inline">\(L\)</span>)</li>
+<li>The relative scaling of each output variable should reflect its
+design importance (i.e., an important output variable should have
+greater scaling)</li>
+<li>Simpler forms of <span class="math inline">\(L\)</span> (e.g.,
+linear or quadratic) tend to be easier to solve for optimal output
+values</li>
+</ul>
+<p>Optimizing <span class="math inline">\(L\)</span> in terms of outputs
+yield globally optimal outputs. These optima are good targets for the
+design process, and are in that sense can be instructive. However,
+global optima often cannot be achieved by the design sets developed.
+Therefore, we also perform local optimization for each design set by
+minimizing the loss <span class="math inline">\(L\)</span> over the
+adjustable input variables and adjustable parameters, which we call
+<span class="keyword">adjustables</span>. Local optimization in terms of
+adjustables is subject to the following constraints:</p>
+<ul>
+<li>Soft requirement (output variable) constraints (via <span class="math inline">\(L\)</span>)</li>
+<li>Hard requirement (output variable) constraints</li>
+<li>Hard input variable constraints</li>
+<li>Hard parameter constraints</li>
+</ul>
+<p>The input variable and parameter constraints are already expressed in
+terms of adjustables. However, the requirement constraints must be
+transformed into adjustables. Transform requirement constraints into
+adjustables by substituting the solution <span class="math inline">\(f\)</span> into <span class="math inline">\(L\)</span> (soft constraints) and into the hard
+constraints.</p>
+<p>Minimize <span class="math inline">\(L\)</span> in terms of
+adjustables. A resulting optimum in terms of adjustables corresponds to
+a local optimal design <span class="math inline">\(d^*\)</span>. By
+transforming the requirement constraints to the adjustables, we have
+effectively moved the local optimization problem to the design set <span class="math inline">\(D\)</span>. This is ideal because a result of the
+optimization yields an optimal design <span class="math inline">\(d^*\)</span> instead of an optimal output <span class="math inline">\(\bm{y}^*\)</span>, which would require the inverse
+mapping <span class="math inline">\(d^* = f^{-1}(\bm{y}^*)\)</span> be
+computed. Therefore, transforming the local constrained optimization to
+the adjustables allows us to find optimal designs without a solution
+<span class="math inline">\(f^{-1}\)</span> to the inverse problem,
+which may not exist or may be intractable to compute.</p>
+<div class="example" data-hash="wz" data-version="">
+<div class="example-title">
+<span class="example-number">Example 6.1</span>
+</div>
+<p>Suppose we are designing a 3D printer extruder that melts a plastic
+filament and deposits it on the print. Based on the customer’s demands,
+the following output variables have been identified:</p>
+<ul>
+<li><span class="math inline"><em>T</em></span> (K), the temperature at
+the hot end of the extruder (greater than room temperature)</li>
+<li><span class="math inline"><em>r</em></span> (m/s), the filament feed
+rate</li>
+<li><span class="math inline"><em>t</em><sub><em>C</em></sub></span>
+(s), the time to cool the hot end to near ambient temperature</li>
+</ul>
+<p>The following design requirements have been identified in terms of
+the output variables:</p>
+<ul>
+<li><span class="math inline"><em>T</em> = 200</span> K</li>
+<li><span class="math inline"><em>r</em></span> should be maximized (for
+faster prints)</li>
+<li><span class="math inline"><em>t</em><sub><em>C</em></sub></span>
+should be minimized (for faster cooldown)</li>
+</ul>
+<p>Based on the requirements, an initial design has been developed with
+a resistive heater. A sketch of the design is shown in <span class="citation" data-cites="fig:wz-sketch">[@fig:wz-sketch]</span>.</p>
+<figure class="real-figure" id="fig:wz-sketch">
+<img src="/assets/figures/wz-sketch/wz-sketch.svg" class="figure standalone " alt=" Figure 6.3" />
+<figcaption>Figure 6.3: Sketch of the extruder design.</figcaption>
+</figure>
+<p>The corresponding design set has been developed as follows. The input
+variables are as follows:</p>
+<ul>
+<li><span class="math inline"><em>r</em></span>, the filament feed rate
+(also an output), adjustable</li>
+<li><span class="math inline"><em>v</em> = 12</span> V, the voltage
+supplied to the heater at the hot end of the extruder,
+nonadjustable</li>
+</ul>
+<p>The following parameters have been identified:</p>
+<ul>
+<li><span class="math inline"><em>R</em><sub><em>T</em></sub></span>
+(K/W), the thermal resistance to heat dissipation, adjustable, with
+lower bound <span class="math inline"><em>R</em><sub><em>T</em></sub> ≥ 1</span> K/W</li>
+<li><span class="math inline"><em>C</em><sub><em>T</em></sub> = 0.5</span> W<span class="math inline">⋅</span>s/K, the thermal capacitance of the hot end,
+nonadjustable</li>
+<li><span class="math inline"><em>R</em> = 20</span> <span class="math inline"><em>Ω</em></span>, the electrical resistance of the
+heater, nonadjustable</li>
+<li><span class="math inline"><em>c</em><sub><em>p</em></sub> = 1590</span> J/(kg<span class="math inline">⋅</span>K), the specific heat capacity of the
+filament</li>
+<li><span class="math inline"><em>ρ</em> = 1240</span> kg/<span class="math inline">m<sup>3</sup></span>, the density of the
+filament</li>
+<li><span class="math inline"><em>δ</em> = 1.75 ⋅ 10<sup>−3</sup></span> m, the
+diameter of the filament</li>
+</ul>
+<p>The following set <span class="math inline"><em>E</em></span> of
+equations can be developed to describe the thermal and electrical system
+interactions in terms of input and output variables: <span class="math display">$$
+E = \left\{
+\begin{array}{ll}
+T = \dfrac{1}{1/R_T + 1/R_f} Q_S &amp; \text{(steady-state temperature)}
+\\
+R_f = \dfrac{4}{\pi c_p \rho \delta^2 r} &amp; \text{(filament heating)}
+\\
+t_c = 5 \tau &amp; \text{(cooldown time, sufficient)} \\
+\tau = R_T C_T &amp; \text{(cooldown time, time constant)} \\
+Q_S = v i &amp; \text{(resistive heater, power)} \\
+v = i R &amp; \text{(resistive heater, Ohm's law)}
+\end{array}
+\right\}
+$$</span> where the following intermediate variables have been
+introduced:</p>
+<ul>
+<li><span class="math inline"><em>Q</em><sub><em>S</em></sub></span>
+(W), the resistive heating</li>
+<li><span class="math inline"><em>R</em><sub><em>f</em></sub></span>
+(K/W), the thermal resistance to heat transfer from the hot end to the
+filament</li>
+<li><span class="math inline"><em>τ</em></span> (s), the thermal time
+constant for the hot end</li>
+<li><span class="math inline"><em>i</em></span> (A) the electrical
+current supplied to the resistive heater</li>
+</ul>
+<p>Solve for an optimal design <span class="math inline"><em>d</em><sup>*</sup></span>.</p>
+<div class="example-solution">
+<p>We will assume that the filament is fed at a constant rate <span class="math inline"><em>r</em></span>.</p>
+<p><strong>Defining the Design Set</strong> The output variable vector
+<span class="math inline"><strong>u</strong></span> can be defined in
+terms of the output variables as <span class="math display">$$
+\bm{y} = \begin{bmatrix}
+T &amp;
+R &amp;
+t_C
+\end{bmatrix}^{\top}.
+$$</span> Similarly, the input variable vector <span class="math inline"><strong>u</strong></span> can be defined in terms of
+the input variables: <span class="math display">$$
+\bm{u} = \begin{bmatrix}
+r &amp; v
+\end{bmatrix}^{\top}.
+$$</span> Finally, we can define the parameter vector <span class="math inline"><strong>p</strong></span> in terms of the
+parameters: <span class="math display">$$
+\bm{p} = \begin{bmatrix}
+R_T &amp;
+C_T &amp;
+R &amp;
+c_p &amp;
+\rho &amp;
+\delta
+\end{bmatrix}^{\top}.
+$$</span> The design set <span class="math inline"><em>D</em></span> is
+the set of all pairs <span class="math inline">(<strong>u</strong>,<strong>p</strong>)</span>.</p>
+<p><strong>Solving the Set of Governing Equations</strong> The solution
+<span class="math inline"><em>f</em></span> of the set <span class="math inline"><em>E</em></span> of governing equations for the
+output variables can be found algebraically by eliminating the
+intermediate variables. This yields the following solution: <span class="math display">$$
+\bm{y} = \begin{bmatrix}
+T \\
+r \\
+t_C
+\end{bmatrix} = f(d) =
+\begin{bmatrix}
+\dfrac{1}{1/R_T + \pi \delta^2 c_p \rho r/4} \dfrac{v^2}{R} \\
+r \\
+5 R_T C_T
+\end{bmatrix}.
+$$</span> Note that the solution for output <span class="math inline"><em>r</em></span> is just <span class="math inline"><em>r</em></span> because it is also an input. The
+solution is expressed entirely in terms of input variables from <span class="math inline"><strong>u</strong></span> and parameters from <span class="math inline"><strong>p</strong></span>.</p>
+<p><strong>Local Constraint Optimization</strong> We must now construct
+a loss function <span class="math inline"><strong>L</strong>(<strong>y</strong>)</span> in
+terms of output variables. The variables for the two soft constraints,
+maximizing <span class="math inline"><em>r</em></span> and minimizing
+<span class="math inline"><em>t</em><sub><em>C</em></sub></span>, will
+be in <span class="math inline"><em>L</em></span>. We begin by
+constructing a simple linear combination of <span class="math inline"><em>r</em></span> and <span class="math inline"><em>t</em><sub><em>C</em></sub></span>, <span class="math display"><em>L</em>(<strong>y</strong>) = <em>a</em><sub><em>r</em></sub><em>r</em> + <em>a</em><sub><em>t</em><sub><em>C</em></sub></sub><em>t</em><sub><em>C</em></sub>,</span>
+where <span class="math inline"><em>a</em><sub><em>r</em></sub></span>
+and <span class="math inline"><em>a</em><sub><em>t</em><sub><em>C</em></sub></sub></span>
+are real constant coefficients we will now choose. Because we are
+maximizing <span class="math inline"><em>r</em></span>, we want great
+values of <span class="math inline"><em>r</em></span> to correspond to
+lesser values of <span class="math inline"><em>L</em></span> (i.e., less
+loss); therefore, we should choose <span class="math inline"><em>a</em><sub><em>r</em></sub> &lt; 0</span>.
+Conversely, because we are minimizing <span class="math inline"><em>t</em><sub><em>C</em></sub></span>, we should
+choose <span class="math inline"><em>a</em><sub><em>t</em><sub><em>C</em></sub></sub> &gt; 0</span>.</p>
+<p>Now consider the magnitudes of <span class="math inline"><em>a</em><sub><em>r</em></sub></span> and <span class="math inline"><em>a</em><sub><em>t</em><sub><em>C</em></sub></sub></span>.
+First, we select a middling value for each of <span class="math inline"><em>r</em></span> and <span class="math inline"><em>t</em><sub><em>C</em></sub></span> by suggesting
+that a feed rate of <span class="math inline"><em>r</em> = 1 ⋅ 10<sup>−2</sup></span> m/s and a
+cooldown time of <span class="math inline"><em>t</em><sub><em>C</em></sub> = 10</span> s are
+reasonable. Note that this <span class="math inline"><em>r</em></span>
+is much smaller than this <span class="math inline"><em>t</em><sub><em>C</em></sub></span>, so if <span class="math inline">|<em>a</em><sub><em>r</em></sub>|/|<em>a</em><sub><em>t</em><sub><em>C</em></sub></sub>| ≈ 1</span>
+then the loss will be dominated by <span class="math inline"><em>t</em><sub><em>C</em></sub></span>. This
+suggests an initial ratio <span class="math inline">|<em>a</em><sub><em>r</em></sub>|/|<em>a</em><sub><em>t</em><sub><em>C</em></sub></sub>| = 10<sup>3</sup></span>.
+That’s to even the playing field, if you will. Now consider the relative
+importance of the feed rate and cooldown constraints. Suppose the feed
+rate <span class="math inline"><em>r</em></span> is twice as important
+as the cooldown time <span class="math inline"><em>t</em><sub><em>C</em></sub></span>. We can
+express this in the loss function by increasing the ratio to <span class="math inline">|<em>a</em><sub><em>r</em></sub>|/|<em>a</em><sub><em>t</em><sub><em>C</em></sub></sub>| = 2 ⋅ 10<sup>3</sup></span>.
+The total magnitude of the loss is unimportant, so we can set either
+coefficient arbitrarily. Let our final choice of coefficients be <span class="math display"><em>a</em><sub><em>r</em></sub> =  − 2 ⋅ 10<sup>3</sup>
+s/m  and  <em>a</em><sub><em>t</em><sub><em>C</em></sub></sub> = 1
+s<sup>−1</sup>.</span> Therefore, the loss function is <span class="math display"><em>L</em>(<strong>y</strong>) =  − 2 ⋅ 10<sup>3</sup> <em>r</em> + <em>t</em><sub><em>C</em></sub>.</span>
+Note that we have made the loss function dimensionless.</p>
+<p>To optimize <span class="math inline"><em>L</em>(<strong>y</strong>)</span> in terms of
+output <span class="math inline"><strong>y</strong></span> is simple.
+Clearly, the greater <span class="math inline"><em>r</em></span> is and
+the lesser <span class="math inline"><em>t</em><sub><em>C</em></sub></span> is, the
+lesser loss <span class="math inline"><em>L</em></span> is, which
+doesn’t add much to our understanding. With what we know, the hard
+constraint <span class="math inline"><em>T</em> = 200</span> K doesn’t
+help us restrict the other outputs.</p>
+<p>To perform a local optimization, we use the solution <span class="math inline"><em>f</em></span> to transform the requirement
+(output) hard constraint and soft constraints (loss function) such that
+they are expressed in terms of the adjustables <span class="math inline"><em>r</em></span> and <span class="math inline"><em>R</em><sub><em>T</em></sub></span>. The hard
+requirement constraint can be transformed as follows: <span class="math display">$$
+T = 200 \quad\xrightarrow{f}\quad
+\dfrac{1}{1/R_T + \pi \delta^2 c_p \rho r/4} \dfrac{v^2}{R} = 200
+\quad\Rightarrow\quad
+r = \frac{4}{\pi \delta^2 c_p \rho} \left( \frac{v^2}{200 R} -
+\frac{1}{R_T} \right).
+$$</span> This equality relates two output variables, <span class="math inline"><em>r</em></span> and <span class="math inline"><em>R</em><sub><em>T</em></sub></span>, effectively
+constraining them to each other. Transforming the soft requirement
+constraints via applying <span class="math inline"><em>f</em></span> to
+<span class="math inline"><em>L</em>(<strong>y</strong>)</span>, <span class="math display"><em>L</em>(<em>d</em>) =  − 2 ⋅ 10<sup>3</sup> <em>r</em> + 5<em>R</em><sub><em>T</em></sub><em>C</em><sub><em>T</em></sub>.</span>
+This version of the loss function can be solved for the optimal
+adjustables <span class="math inline"><em>r</em></span> and <span class="math inline"><em>R</em><sub><em>T</em></sub></span>, subject to
+the hard constraints $$\begin{align*}
+r &amp;= \frac{4}{\pi \delta^2 c_p \rho} \left( \frac{v^2}{200 R} - \frac{1}{R_T} \right)\quad\text{and} \\
+R_T &amp;\ge 1\ ,
+\end{align*}$$ where the latter is a parameter constraint. The equality
+constraint can be applied directly to <span class="math inline"><em>L</em>(<em>d</em>)</span>, yielding <span class="math display">$$
+L(d) = \frac{8\cdot 10^{3}}{\pi \delta^2 c_p \rho} \left( \frac{1}{R_T}
+- \frac{v^2}{200 R} \right) + 5 R_T C_T.
+$$</span></p>
+<p>There is only a single adjustable remaining, <span class="math inline"><em>R</em><sub><em>T</em></sub></span>. To solve for
+the minimizing thermal resistance <span class="math inline"><em>R</em><sub><em>T</em></sub><sup>*</sup></span>,
+differentiate <span class="math inline"><em>L</em></span> with respect
+to <span class="math inline"><em>R</em><sub><em>T</em></sub></span> and
+set it equal to zero, as follows: <span class="math display">$$
+\frac{d L}{d R_T} = 0 = \frac{-8\cdot 10^{3}}{\pi \delta^2 c_p \rho
+R_T^*} + 5 C_T.
+$$</span> Solving for <span class="math inline"><em>R</em><sub><em>T</em></sub><sup>*</sup></span>,
+<span class="math display">$$
+R_T^* = \frac{40}{\delta \sqrt{\pi c_p \rho C_T}} \approx 13.0 \text{
+K/W}.
+$$</span> To check that this is a minimum, we plot <span class="math inline"><em>L</em>(<em>d</em>)</span> in <span class="citation" data-cites="fig:wz-plot">[@fig:wz-plot]</span>.</p>
+<figure class="real-figure" id="fig:wz-plot">
+<img src="/assets/figures/wz-plot/wz-plot.svg" class="figure standalone " alt=" Figure 6.4" />
+<figcaption>Figure 6.4: The constrained loss function <span class="math inline"><em>L</em>(<em>d</em>)</span> versus a single adjustable, the thermal resistance <span class="math inline"><em>R</em><sub><em>T</em></sub></span>.</figcaption>
+</figure>
+<p>Note that the hard parameter constraint <span class="math inline"><em>R</em><sub><em>T</em></sub> ≥ 1</span> K/W is
+satisfied by <span class="math inline"><em>R</em><sub><em>T</em></sub><sup>*</sup></span>.
+From the equality constraint, this corresponds to an optimal feed rate
+of <span class="math inline"><em>r</em><sup>*</sup> = 14.1 ⋅ 10<sup>−3</sup></span> m/s.
+In summary, the optimal design <span class="math inline"><em>d</em><sup>*</sup></span> is <span class="math display">$$
+d^* = (\bm{u}^*, \bm{p}^*) = \left(
+\begin{bmatrix}
+r^* \\
+v^*
+\end{bmatrix},
+\begin{bmatrix}
+R_T^* \\
+C_T^* \\
+R^* \\
+c_p^* \\
+\rho^* \\
+\delta^*
+\end{bmatrix}
+\right) \approx \left(
+\begin{bmatrix}
+14.1\cdot 10^{-3} \text{ m/s} \\
+24 \text{ V}
+\end{bmatrix},
+\begin{bmatrix}
+13.0 \text{ K/W} \\
+0.5 \text{ W}\cdot\text{s/K} \\
+20 \ \Omega \\
+1590 \text{ J/(kg$\cdot$K)} \\
+1240 \text{ kg/$\text{m}^3$}\\
+1.75\cdot 10^{-3} \text{ m}
+\end{bmatrix}
+\right).
+$$</span> This corresponds to a locally optimal output of <span class="math display">$$
+\bm{y}^* = f(d^*) = \begin{bmatrix}
+T^* \\
+r^* \\
+t_C^*
+\end{bmatrix} \approx \begin{bmatrix}
+200 \text{ K} \\
+14.1\cdot 10^{-3} \text{ m/s}  \\
+32.5 \text{ s}
+\end{bmatrix}.
+$$</span> If, in the loss function <span class="math inline"><em>L</em></span>, we had weighted the cooldown time
+<span class="math inline"><em>t</em><sub><em>C</em></sub></span> more,
+then <span class="math inline"><em>t</em><sub><em>C</em></sub><sup>*</sup></span>
+would have been shorter and <span class="math inline"><em>r</em><sup>*</sup></span> would have been
+slower. This type of tradeoff among soft constraints is common.</p>
+<p>It is possible that another design with another set of input
+variables and parameters could achieve a lower loss than <span class="math inline"><em>L</em>(<em>d</em><sup>*</sup>) = 4.21</span>.
+However, we have achieved an optimal design <span class="math inline"><em>d</em><sup>*</sup></span> given the single
+design set given here.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>If the output variables are themselves functions (e.g.,
+of time), the “output vector” is in fact a vector-valued function.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Here we ignore the possibility that <span class="math inline">\(\tilde{f}\)</span> may have no inverse. However,
+if we allow <span class="math inline">\(\tilde{f}^{-1}\)</span> to be a
+pseudoinverse (i.e., as a nonunique reverse mapping), a design <span class="math inline">\(d\)</span> is still found.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-61">Online Resources for Section 6.1</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

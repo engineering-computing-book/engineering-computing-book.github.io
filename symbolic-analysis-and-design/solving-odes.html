@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="solving-odes" class="real-section level1" data-number="1" data-h="j1" data-shortid="solving-odes" data-0-subsec="4.7.0" data-0-type="section" data-0-v-ts="T1" data-0-ch="4" data-0-url="" data-0-hash="j1" data-0-title="Solving Ordinary Differential Equations" data-0-chapterhash="we" data-0-next="kb" data-0-v-specific="no" data-0-id="symbolic-analysis-and-design/solving-odes" data-0-p="138" data-0-prev="iu" data-0-wherein="" data-0-sectionhash="j1" data-0-subsectionhash="" data-0-v-ds="D1" data-0-example-num="" data-0-sec="4.7" data-0-problem-num="">
+<h1 class="real-section" data-h="j1" data-shortid="solving-odes" data-0-subsec="4.7.0" data-0-type="section" data-0-v-ts="T1" data-0-ch="4" data-0-url="" data-0-hash="j1" data-0-title="Solving Ordinary Differential Equations" data-0-chapterhash="we" data-0-next="kb" data-0-v-specific="no" data-0-id="symbolic-analysis-and-design/solving-odes" data-0-p="138" data-0-prev="iu" data-0-wherein="" data-0-sectionhash="j1" data-0-subsectionhash="" data-0-v-ds="D1" data-0-example-num="" data-0-sec="4.7" data-0-problem-num="">Solving Ordinary Differential
+Equations</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Engineering analysis regularly includes the solution of differential
+equations. <span class="keyword">Differential equations</span> are those
+equations that contain derivatives. An <span class="keyword">ordinary
+differential equation (ODE)</span> is a differential equation that
+contains only ordinary, as opposed to partial, derivatives. A <span class="keyword">linear ODE</span>—one for which constant multiples and
+sums of solutions are also solutions—is an important type that represent
+<span class="keyword">linear, time-varying (LTV) systems</span>. For
+this class of ODEs, it has been proven that for a set of initial
+conditions, a unique solution exists <span class="citation" data-cites="Kreyszig2010">(Kreyszig 2010, 108)</span>.</p>
+<p>A <span class="keyword">constant-coefficient, linear ODE</span> can
+represent <span class="keyword">linear, time-invariant (LTI)
+systems</span>. An LTV or LTI system model can be represented as a
+scalar <span class="math inline">\(n\)</span>th-order ODE, or as a
+system of <span class="math inline">\(n\)</span> 1st-order ODEs. As a
+scalar <span class="math inline">\(n\)</span>th-order linear ODE, with
+independent time variable <span class="math inline">\(t\)</span>, output
+function <span class="math inline">\(y(t)\)</span>, forcing function
+<span class="math inline">\(f(t)\)</span>, and constant coefficients
+<span class="math inline">\(a_i\)</span>, has the form <span id="eq:scalar-linear-ode"><span class="math display">\[
+y^{(n)}(t) + a_{n-1} y^{(n-1)}(t) + \cdots a_1 y&#39;(t) + a_0 y(t) =
+f(t).
+\qquad{(1)}\]</span></span> The forcing function <span class="math inline">\(f(t)\)</span> can be written as a linear
+combination of derivatives of the input function <span class="math inline">\(u(t)\)</span> with <span class="math inline">\(m+1
+\le n+1\)</span> constant coefficients <span class="math inline">\(b_j\)</span>, as follows: <span class="math display">\[
+f(t) = b_{m} u^{(m)}(t) + b_{m-1} u^{(m-1)}(t) + \cdots + b_1 u&#39;(t)
++ b_0 u(t).
+\]</span> Alternatively, the same LTI system model can be represented by
+a system of <span class="math inline">\(n\)</span> 1st-order ODEs, which
+can be written in vector form as
+$$\begin{subequations}\label{eq:state-space-model}
+\begin{align}
+\vec{x}'(t) &amp;= \mat{A} \vec{x}(t) + \mat{B} \vec{u}(t)\label{eq:state-space-model-state} \\
+\vec{y}(t) &amp;= \mat{C} \vec{x}(t) + \mat{D} \vec{u}(t), \label{eq:state-space-model-output}
+\end{align}
+\end{subequations}$$ where <span class="math inline">\(\vec{x}(t)\)</span> is called the state vector,
+<span class="math inline">\(\vec{u}(t)\)</span> is called the input
+vector, and <span class="math inline">\(\vec{y}(t)\)</span> is called
+the output vector (they are actually vector-valued functions of time),
+and <span class="math inline">\(\mat{A}\)</span>, <span class="math inline">\(\mat{B}\)</span>, <span class="math inline">\(\mat{C}\)</span>, and <span class="math inline">\(\mat{D}\)</span> are matrices containing constants
+derived from system parameters (e.g., a mass, a spring constant, a
+capacitance, etc.). Eq. <strong>¿eq:state-space-model?</strong> is
+called an LTI <span class="keyword">state-space model</span>, and it is
+used to model a great many engineering systems.</p>
+<p>Solving ODEs and systems of ODEs is a major topic of mathematical
+engineering analysis. It is typically the primary topic of one required
+course and a secondary topic of several others. Understanding when these
+solutions exist, whether they are unique, and how they can be found adds
+much to the understanding of engineering systems. However, it is also
+true that CASs such as SymPy offer the engineer excellent tools for
+making quick and adaptable work of this task.</p>
+<p>Consider the ODE <span class="math display">\[
+3 y&#39;(t) + y(t) = f(t),
+\]</span> where the forcing function <span class="math inline">\(f(t)\)</span> is defined piecewise as <span class="math display">\[
+f(t) = \begin{cases} 0 &amp; t &lt; 0 \\ 1 &amp; t \ge 0. \end{cases}
+\]</span> The SymPy <code class="sourceCode python">dsolve()</code>
+function can find the <span class="keyword">general solution</span>
+(i.e., a family of solutions for any initial conditions) with the
+following code:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> sp.symbols(<span class="st">&quot;t&quot;</span>, nonnegative<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> sp.Function(<span class="st">&quot;y&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="dv">1</span>  <span class="co"># Or sp.Piecewise(), but $t \ge 0$ already restricts $f(t)$</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>ode <span class="op">=</span> sp.Eq(<span class="dv">3</span><span class="op">*</span>y(t).diff(t) <span class="op">+</span> y(t), f)  <span class="co"># Define the ODE</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.dsolve(ode, y(t))<span class="op">;</span> sol  <span class="co"># Solve</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+
+</div>
+<p> The solution is returned as an <code class="sourceCode python">sp.Eq()</code> equation object. Note the
+unknown constant <span class="math inline">\(C_1\)</span> in the
+solution. To find the <span class="keyword">specific solution</span>
+(i.e., the general solution with the initial condition applied to
+determine <span class="math inline">\(C_1\)</span>) for a given initial
+condition <span class="math inline">\(y(0) = 5\)</span>,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.dsolve(ode, y(t), ics<span class="op">=</span>{y(<span class="dv">0</span>): <span class="dv">5</span>})<span class="op">;</span> sol</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+
+</div>
+<p>Now consider the ODE <span class="math display">\[
+y&#39;&#39;(t) + 5 y&#39;(t) + 9 y(t) = 0.
+\]</span> The SymPy <code class="sourceCode python">dsolve()</code>
+function can find the general solution with the following code:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ode <span class="op">=</span> sp.Eq(y(t).diff(t, <span class="dv">2</span>) <span class="op">+</span> <span class="dv">5</span><span class="op">*</span>y(t).diff(t) <span class="op">+</span> <span class="dv">9</span><span class="op">*</span>y(t), <span class="dv">0</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.dsolve(ode, y(t))<span class="op">;</span> sol</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+</div>
+<p> This is a decaying sinusoid. Applying two initial conditions, <span class="math inline">\(y(0) = 4\)</span> and <span class="math inline">\(y&#39;(0) = 0\)</span>, we obtain the
+following:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.dsolve(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    ode, y(t), </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    ics<span class="op">=</span>{y(<span class="dv">0</span>): <span class="dv">4</span>, y(t).diff(t).subs(t, <span class="dv">0</span>): <span class="dv">0</span>}</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>)<span class="op">;</span> sol</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+
+</div>
+<p> We see here that to apply the initial condition <span class="math inline">\(y&#39;(0) = 0\)</span>, the derivative must be
+applied before substituting <span class="math inline">\(t \rightarrow
+0\)</span>.</p>
+<p>Solving sets (i.e., systems) of first-order differential equations is
+similar. Consider the set of differential equations <span class="math display">\[
+y_1&#39;(t) = y_2(t) - y_1(t) \text{ and } y_2&#39;(t) = y_1(t) -
+y_2(t).
+\]</span> To find the solution for initial conditions <span class="math inline">\(y_1(0) = 1\)</span> and <span class="math inline">\(y_2(0) = -1\)</span>, we can use the following
+technique:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> sp.symbols(<span class="st">&quot;t&quot;</span>, nonnegative<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>y1, y2 <span class="op">=</span> sp.symbols(<span class="st">&quot;y1, y2&quot;</span>, cls<span class="op">=</span>sp.Function, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>odes <span class="op">=</span> [y1(t).diff(t) <span class="op">+</span> y1(t) <span class="op">-</span> y2(t), y2(t).diff(t) <span class="op">+</span> y2(t) <span class="op">-</span> y1(t)]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>ics <span class="op">=</span> {y1(<span class="dv">0</span>): <span class="dv">1</span>, y2(<span class="dv">0</span>): <span class="op">-</span><span class="dv">1</span>}</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> sp.dsolve(odes, [y1(t), y2(t)], ics<span class="op">=</span>ics)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sol)</span></code></pre></div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>[Eq(y1(t), exp(-2*t)), Eq(y2(t), -exp(-2*t))]</code></pre>
+</div>
+<p>In engineering, it is common to express a set of differential
+equations as a state-space model, as in
+eq. <strong>¿eq:state-space-model?</strong>. The following example
+demonstrates how to solve these with SymPy.</p>
+<div class="example" data-hash="m4" data-version="">
+<div class="example-title">
+<span class="example-number">Example 4.3</span>
+</div>
+<p>Consider the electromechanical schematic of a direct current (DC)
+motor shown in <span class="citation" data-cites="fig:motor-circuit">[@fig:motor-circuit]</span>. A voltage
+source <span class="math inline"><em>V</em><sub><em>S</em></sub>(<em>t</em>)</span>
+provides power, the armature winding loses some energy to heat through a
+resistance <span class="math inline"><em>R</em></span> and stores some
+energy in a magnetic field due to its inductance <span class="math inline"><em>L</em></span>, which arises from its coiled
+structure. An electromechanical interaction through the magnetic field,
+shown as M, has torque constant <span class="math inline"><em>K</em><sub><em>M</em></sub></span> and induces a
+torque on the motor shaft, which is supported by bearings that lose some
+energy to heat via a damping coefficient <span class="math inline"><em>B</em></span>. The rotor’s mass has rotational
+moment of inertia <span class="math inline"><em>J</em></span>, which
+stores kinetic energy. We denote the voltage across an element with
+<span class="math inline"><em>v</em></span>, the current through an
+element with <span class="math inline"><em>i</em></span>, the angular
+velocity across an element with <span class="math inline"><em>Ω</em></span>, and the torque through an element
+with <span class="math inline"><em>T</em></span>.</p>
+<figure class="real-figure" id="fig:motor-circuit">
+<img src="/assets/figures/motor-circuit/motor-circuit.svg" class="figure standalone nofloat " alt=" Figure 4.6" data-color="bw" />
+<figcaption>Figure 4.6: An electromechanical schematic of a DC motor.</figcaption>
+</figure>
+<p>A state-space model state equation in the form of <span class="citation" data-cites="eq:state-space-model-state">[@eq:state-space-model-state]</span>
+can be derived for this system, with the result as follows:</p>
+<p><span class="math display">$$
+\underbrace{
+\frac{d}{d t}
+\begin{bmatrix}
+\Omega_J \\ i_L
+\end{bmatrix}
+}_{\vec{x}'(t)} =
+\underbrace{
+\begin{bmatrix}
+  -B/J &amp; K_M/J \\
+  -K_M/L &amp; -R/L
+\end{bmatrix}
+}_{\mat{A}}
+\underbrace{
+\begin{bmatrix}
+\Omega_J \\ i_L
+\end{bmatrix}
+}_{\vec{x}(t)} +
+\underbrace{
+\begin{bmatrix}
+0 \\ 1/L
+\end{bmatrix}
+}_{\mat{B}}
+\underbrace{
+\begin{bmatrix}
+V_S
+\end{bmatrix}
+\vphantom{\begin{bmatrix}0\\0\end{bmatrix}}
+}_{\vec{u}(t)}.
+$$</span> We choose <span class="math inline">$\vec{y} = \begin{bmatrix}
+\Omega_J \end{bmatrix}$</span> as the output vector, which yields output
+equation (i.e., <span class="citation" data-cites="eq:state-space-model-output">[@eq:state-space-model-output]</span>)
+<span class="math display">$$
+\underbrace{
+\begin{bmatrix} \Omega_J \end{bmatrix}
+\vphantom{\begin{bmatrix}0\\0\end{bmatrix}}
+}_{\vec{y}(t)} =
+\underbrace{
+\begin{bmatrix} 1 &amp; 0 \end{bmatrix}
+\vphantom{\begin{bmatrix}0\\0\end{bmatrix}}
+}_{\mat{C}}
+\underbrace{
+\begin{bmatrix}
+\Omega_J \\ i_L
+\end{bmatrix}
+}_{\vec{x}(t)} +
+\underbrace{
+\begin{bmatrix} 0 \end{bmatrix}
+\vphantom{\begin{bmatrix}0\\0\end{bmatrix}}
+}_{\mat{D}}
+\underbrace{
+\begin{bmatrix}
+V_S
+\end{bmatrix}
+\vphantom{\begin{bmatrix}0\\0\end{bmatrix}}
+}_{\vec{u}(t)}.
+$$</span> Together, these equations are a state-space model for the
+system.</p>
+<p>Solve the state equation for <span class="math inline"><em>x⃗</em>(<em>t</em>)</span> and the output
+equation for <span class="math inline"><em>y⃗</em>(<em>t</em>)</span> for
+the following case:</p>
+<ul>
+<li>The input voltage <span class="math inline"><em>V</em><sub><em>S</em></sub>(<em>t</em>) = 1</span> V
+for <span class="math inline"><em>t</em> ≥ 0</span></li>
+<li>The initial condition is <span class="math inline">$\vec{x}(0) =
+\vec{0}$</span></li>
+</ul>
+<div class="example-solution">
+<p>We begin by defining the parameters and functions of time as SymPy
+symbolic variables and unspecified functions as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>R, L, K_M, B, J <span class="op">=</span> sp.symbols(<span class="st">&quot;R, L, K_M, B, J&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>W_J, i_L, V_S <span class="op">=</span> sp.symbols(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;W_J, i_L, V_S&quot;</span>, cls<span class="op">=</span>sp.Function, real<span class="op">=</span><span class="va">True</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># $\Omega_J, i_L, V_S$</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> sp.symbols(<span class="st">&quot;t&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<p>Now we can form the symbolic matrices and vectors:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>A_ <span class="op">=</span> sp.Matrix([[<span class="op">-</span>B<span class="op">/</span>J, K_M<span class="op">/</span>J], [<span class="op">-</span>K_M<span class="op">/</span>L, <span class="op">-</span>R<span class="op">/</span>L]])  <span class="co"># $\mat{A}$</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>B_ <span class="op">=</span> sp.Matrix([[<span class="dv">0</span>], [<span class="dv">1</span><span class="op">/</span>L]])  <span class="co"># $\mat{B}$</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>C_ <span class="op">=</span> sp.Matrix([[<span class="dv">1</span>, <span class="dv">0</span>]])  <span class="co"># $\mat{C}$</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>D_ <span class="op">=</span> sp.Matrix([[<span class="dv">0</span>]])  <span class="co"># $\mat{D}$</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> sp.Matrix([[W_J(t)], [i_L(t)]])  <span class="co"># $\vec{x}$</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>u <span class="op">=</span> sp.Matrix([[V_S(t)]])  <span class="co"># $\vec{u}$</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> sp.Matrix([[W_J(t)]])  <span class="co"># $\vec{y}$</span></span></code></pre></div>
+<p>The input and initial conditions can be encoded as follows:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>u_subs <span class="op">=</span> {V_S(t): <span class="dv">1</span>}</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>ics <span class="op">=</span> {W_J(<span class="dv">0</span>): <span class="dv">0</span>, i_L(<span class="dv">0</span>): <span class="dv">0</span>}</span></code></pre></div>
+<p>The set of first-order ODEs comprising the state equation can be
+defined as follows:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>odes <span class="op">=</span> x.diff(t) <span class="op">-</span> A_<span class="op">*</span>x <span class="op">-</span> B_<span class="op">*</span>u</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(odes)</span></code></pre></div>
+
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>x_sol <span class="op">=</span> sp.dsolve(<span class="bu">list</span>(odes.subs(u_subs)), <span class="bu">list</span>(x), ics<span class="op">=</span>ics)</span></code></pre></div>
+<p>The symbolic solutions for <span class="math inline"><strong>x</strong>(<em>t</em>)</span> are lengthy
+expressions. Instead of printing them, we will graph them for the
+following set of parameters:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>params <span class="op">=</span> {</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    R: <span class="dv">1</span>,  <span class="co"># (Ohms)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    L: <span class="fl">0.1e-6</span>,  <span class="co"># (H)</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    K_M: <span class="dv">7</span>,  <span class="co"># (N$\cdot$m/A)</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    B: <span class="fl">0.1e-6</span>,  <span class="co"># (N$\cdot$m/(rad/s))</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    J: <span class="fl">2e-6</span>,  <span class="co"># (kg$\cdot$m$^2$)</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Create a numerically evaluable version of each function as
+follows:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>W_J_ <span class="op">=</span> sp.lambdify(t, x_sol[<span class="dv">0</span>].rhs.subs(params), modules<span class="op">=</span><span class="st">&quot;numpy&quot;</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>i_L_ <span class="op">=</span> sp.lambdify(t, x_sol[<span class="dv">1</span>].rhs.subs(params), modules<span class="op">=</span><span class="st">&quot;numpy&quot;</span>)</span></code></pre></div>
+<p>Graph each solution as follows:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>t_ <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="fl">0.000002</span>, <span class="dv">201</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, sharex<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(t_, W_J_(t_))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(t_, i_L_(t_))</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_xlabel(<span class="st">&quot;Time (s)&quot;</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;$</span><span class="ch">\\</span><span class="st">Omega_J(t)$ (rad/s)&quot;</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;$i_L(t)$ (A)&quot;</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<figure class="real-figure" id="fig:j1-figure-0">
+<img src="/assets/source/j1/figure-0.svg" class="figure pgf " alt=" Figure 4.7" />
+<figcaption>Figure 4.7: The state response to a unit step voltage input.</figcaption>
+</figure>
+<p>The output equation is trivial in this case, yielding only the state
+variable <span class="math inline"><em>Ω</em><sub><em>J</em></sub>(<em>t</em>)</span>,
+for which we have already solved. Therefore, we have completed the
+analysis.</p>
+</div>
+</div>
+</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Kreyszig2010" class="csl-entry" role="listitem">
+Kreyszig, E. 2010. <em>Advanced Engineering Mathematics</em>. 10th ed.
+John Wiley &amp; Sons.
+</div>
+</div>
+
+<h2 id="online-resources-for-section-47">Online Resources for Section 4.7</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

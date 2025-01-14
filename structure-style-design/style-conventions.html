@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="style-conventions" class="real-section level1" data-number="1" data-h="l4" data-shortid="style-conventions" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-prev="rf" data-0-subsec="2.6.0" data-0-v-specific="no" data-0-p="50" data-0-sectionhash="l4" data-0-sec="2.6" data-0-v-ts="T1" data-0-title="Style Conventions" data-0-url="" data-0-chapterhash="xq" data-0-id="structure-style-design/style-conventions" data-0-type="section" data-0-next="mw" data-0-v-ds="D1" data-0-hash="l4" data-0-subsectionhash="" data-0-wherein="">
+<h1 class="real-section" data-h="l4" data-shortid="style-conventions" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-prev="rf" data-0-subsec="2.6.0" data-0-v-specific="no" data-0-p="50" data-0-sectionhash="l4" data-0-sec="2.6" data-0-v-ts="T1" data-0-title="Style Conventions" data-0-url="" data-0-chapterhash="xq" data-0-id="structure-style-design/style-conventions" data-0-type="section" data-0-next="mw" data-0-v-ds="D1" data-0-hash="l4" data-0-subsectionhash="" data-0-wherein="">Style Conventions</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>As we have seen, the syntax and semantics of Python leave open many
+semantically equivalent choices to be made for a given program. For
+instance, a list can be defined with</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> [</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;foo&quot;</span>, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;bar&quot;</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;baz&quot;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div>
+<p> or with</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> [<span class="st">&quot;foo&quot;</span>, <span class="st">&quot;bar&quot;</span>, <span class="st">&quot;baz&quot;</span>]</span></code></pre></div>
+<p> Semantically, these are equivalent. Which is better? This is the
+question of <span class="keyword">style</span>: what is a good way to
+make these decisions?</p>
+<p>A <span class="keyword">style guide</span> is a collection of rules
+to be applied consistently to a program, a software suite, or even all
+programs in a given language. Consistency is crucial; without it, a
+program will be harder to read, maintain, and improve. The Python
+standard library style guide by <span class="plaincite">pep8</span>
+(often called simply “PEP 8”) has become the de facto official Python
+style guide. Most professionally written programs will follow this guide
+with more or less variation (e.g., there might be a “house” style for
+certain cases). However, as Emerson tells us and PEP 8 reminds us,</p>
+<blockquote>
+<p>A foolish consistency is the hobgoblin of little minds</p>
+</blockquote>
+<p>A common paraphrase of this leaves off the qualifier “foolish,”
+suggesting that any consistency should be dispatched, which would be …
+inconsistent … with so much wisdom that embraces the value of
+consistency. However, a <em>foolish</em> consistency is, indeed, a
+hobgoblin; a style guide is most effective when its wielder knows when
+and how to break from it.</p>
+<!-- In contrast to the style guide, but in the spirit of enjoyment, the "International Obfuscated C Code Contest" asks its entrants to write programs in the C programming language.
+One old entry from Landon Noll and Larry Bassel, `westley.c`, has contents
+
+```c
+#define _ -F<00||--F-OO--;
+int F=00,OO=00;main(){F_OO();printf("%1.3f\n",4.*-F/OO/OO);}F_OO()
+{
+            _-_-_-_
+       _-_-_-_-_-_-_-_-_
+    _-_-_-_-_-_-_-_-_-_-_-_
+  _-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+  _-_-_-_-_-_-_-_-_-_-_-_-_-_
+    _-_-_-_-_-_-_-_-_-_-_-_
+        _-_-_-_-_-_-_-_
+            _-_-_-_
+}
+```
+
+Compiling and running this program prints `3.141` and a text-art circle. ... TODO Couldn't get the program to compile properly -->
+<p>Rather than presenting the PEP 8 style guide in detail, we will learn
+it through experience. Most of the code in this book uses the PEP 8
+style, with some variation for succinct presentation. Furthermore, the
+reader should turn on autoformatting in the Spyder IDE by opening
+preferences with <span class="keys">Ctrl+,</span>, navigating to the tab
+<span class="menu-item menu-item-last">Completion and linting</span>,
+and, under the “Code formatting” section, choose the code formatting
+provider <span class="menu-item menu-item-last">black</span>. Check the
+box “Autoformat files on save” and click <span class="menu-item menu-item-last">OK</span>. Now, whenever you save a
+file, it will be autoformatted in conformance with the PEP 8 style
+guide.</p>
+<p>The Black code formatter <span class="citation" data-cites="black">(Langa and contributors to Black 2024)</span>
+necessarily goes beyond the PEP 8 guide, which still has some
+flexibility, to enforce a strict style. It is used extensively in the
+software development community, so beginning with this as a baseline
+should help you develop well in your own style.</p>
+<p>There are some important aspects of style that are not enforced by
+PEP 8 or Black, including some aspects of docstrings and type hints. For
+these, we will follow another popular style guide from <span class="plaincite">google2024</span>, as described in the following
+sections.</p>
+<section id="docstrings" class="real-section level2" data-number="1.1" data-h="3x" data-shortid="docstrings" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-subsec="2.6.1" data-0-v-specific="no" data-0-p="51" data-0-sec="2.6" data-0-v-ts="T1" data-0-sectionhash="l4" data-0-url="" data-0-chapterhash="xq" data-0-title="Docstrings" data-0-type="subsection" data-0-v-ds="D1" data-0-wherein="" data-0-hash="3x" data-0-subsectionhash="3x" data-0-id="structure-style-design/style-conventions/docstrings">
+<h2 class="real-section" data-h="3x" data-shortid="docstrings" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-subsec="2.6.1" data-0-v-specific="no" data-0-p="51" data-0-sec="2.6" data-0-v-ts="T1" data-0-sectionhash="l4" data-0-url="" data-0-chapterhash="xq" data-0-title="Docstrings" data-0-type="subsection" data-0-v-ds="D1" data-0-wherein="" data-0-hash="3x" data-0-subsectionhash="3x" data-0-id="structure-style-design/style-conventions/docstrings">Docstrings</h2>
+<p>A <span class="keyword">docstring</span> is a string literal that is
+the first statement of a function definition, class definition, or
+module (i.e., a <code class="sourceCode">.py</code> file). By
+convention, it is surrounded with three double-quotation marks, like</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;Here is a docstring.&quot;&quot;&quot;</span></span></code></pre></div>
+<p> For simple functions, classes, and modules, this can be a single
+line of 88 characters or less. For instance,</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> foo(x):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Return a fun string that ends with x.&quot;&quot;&quot;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="ss">f&quot;This string is fun </span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">&quot;</span></span></code></pre></div>
+<p>For complex functions, a multiline docstring is necessary and should
+be formatted as follows:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;A succinct description or imperative.</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">A longer description or imperative.</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">Args:</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">    arg1: A description of the first argument.</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">    arg2: A description of the second argument. This one is going to be</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">        longer to show the hanging indent.</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co">Returns:</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co">    A description of the return value(s).</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co">Raises:</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co">    IOError: An error occurred doing X.</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co">    ValueError: An error occurred doing Y.</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span></code></pre></div>
+<p>For complex classes, a multiline docstring should be formatted as
+follows:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;A succinct description or imperative.</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">A longer description or imperative.</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">Attributes:</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">    attr1: A description of the first attribute.</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">    attr2: A description of the second attribute.</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span></code></pre></div>
+<p>For complex modules, a multiline docstring should be formatted as
+follows:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;A succinct description or imperative.</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">A longer description or imperative.</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">Typical usage example:</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">    x = FooClass()</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co">    y = x.BarFunction()</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span></code></pre></div>
+<p> The “typical usage example” idiom can also be added to function and
+class docstrings.</p>
+</section>
+<section id="type-hints" class="real-section level2" data-number="1.2" data-h="t5" data-shortid="type-hints" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-subsec="2.6.2" data-0-v-specific="no" data-0-p="52" data-0-sec="2.6" data-0-v-ts="T1" data-0-sectionhash="l4" data-0-url="" data-0-chapterhash="xq" data-0-title="Type hints" data-0-type="subsection" data-0-v-ds="D1" data-0-wherein="" data-0-hash="t5" data-0-subsectionhash="t5" data-0-id="structure-style-design/style-conventions/type-hints">
+<h2 class="real-section" data-h="t5" data-shortid="type-hints" data-0-ch="2" data-0-problem-num="" data-0-example-num="" data-0-subsec="2.6.2" data-0-v-specific="no" data-0-p="52" data-0-sec="2.6" data-0-v-ts="T1" data-0-sectionhash="l4" data-0-url="" data-0-chapterhash="xq" data-0-title="Type hints" data-0-type="subsection" data-0-v-ds="D1" data-0-wherein="" data-0-hash="t5" data-0-subsectionhash="t5" data-0-id="structure-style-design/style-conventions/type-hints">Type
+hints</h2>
+<p>Unlike programming languages like C, Python is dynamically typed,
+meaning we can replace an object a given name refers to with an object
+of another type. For instance, the following is fine (but
+inadvisable):</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">4</span>  <span class="co"># An int type</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">&quot;foo&quot;</span>  <span class="co"># A str type</span></span></code></pre></div>
+<p> In a statically typed language like C, a name’s type is explicitly
+declared with a statement like <code class="sourceCode python"><span class="bu">int</span> x</code>. This
+makes it clear to the compiler, interpreter, or (human) programmer the
+type of objects to which it can refer.</p>
+<p>In Python, type declarations are not required; however, <span class="keyword">type hints</span> have been introduced to the language
+to serve a similar purpose. A type hint is an annotation of a name
+(variable or return value of a function) that indicates the type (i.e.,
+class) of objects that should be stored in it. For instance, we can
+indicate that variable <code class="sourceCode python">x</code> should
+be of type <code class="sourceCode python"><span class="bu">int</span></code> with the
+statement</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>x: <span class="bu">int</span>  <span class="co"># A type hint for variable x, stating x should be an int</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">3</span>  <span class="co"># Actually assign x</span></span></code></pre></div>
+<p></p>
+<p>Similarly, a type hint can be included in an assignment statement, as
+in</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>x: <span class="bu">int</span> <span class="op">=</span> <span class="dv">3</span> <span class="co"># An assignment of variable x with a type hint</span></span></code></pre></div>
+<p>The Python interpreter does not check these hints. However, a
+separate <span class="keyword">typechecker</span> like mypy or pytype
+can be applied.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> We will not use a type checker, but
+we will still find value in type hints as hints to programmers,
+ourselves most of all. Before the introduction of these hints to Python,
+it was common to annotate types via comments. Now we can reserve
+comments for more semantic descriptions.</p>
+<p>For function definitions, it is very useful to use type checking, as
+follows:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> foo(x: <span class="bu">int</span>, y: <span class="bu">complex</span>, z: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;An operation that returns the score.&quot;&quot;&quot;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">str</span>(x <span class="op">+</span> y) <span class="op">+</span> z</span></code></pre></div>
+<p> As we can see, each argument can be annotated, as can the return
+value via the syntax <code class="sourceCode python"><span class="op">-&gt;</span></code>. Note
+that for numbers, a type annotation of <code class="sourceCode python"><span class="bu">complex</span></code>
+indicates that the value can have type <code class="sourceCode python"><span class="bu">complex</span></code>, <code class="sourceCode python"><span class="bu">float</span></code>, or <code class="sourceCode python"><span class="bu">int</span></code> <span class="citation" data-cites="pep484">(Rossum, Lehtosalo, and Langa
+[2014] 2024)</span>. Similarly, a type annotation of <code class="sourceCode python"><span class="bu">float</span></code> indicates
+that the value can have type <code class="sourceCode python"><span class="bu">float</span></code> or <code class="sourceCode python"><span class="bu">int</span></code>. This is an
+interpretation of Python’s “numeric tower” <span class="citation" data-cites="pep3141">(Yasskin [2007] 2024)</span>.</p>
+<div class="freadinglist">
+<p><span class="plaincite" data-postpost="the general Python style guide">pep8</span>, <span class="plaincite" data-postpost="the original type hint style guide">pep484</span>, <span class="plaincite" data-postpost="the variable annotation style guide">pep526</span>, <span class="plaincite" data-postpost="the Google Python style guide">google2024</span></p>
+</div>
+</section>
+</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-black" class="csl-entry" role="listitem">
+Langa, Łukasz, and contributors to Black. 2024. <span>“Black: The
+Uncompromising Python Code Formatter.”</span> <a href="https://github.com/psf/black">https://github.com/psf/black</a>.
+</div>
+<div id="ref-pep484" class="csl-entry" role="listitem">
+Rossum, Guido van, Jukka Lehtosalo, and Łukasz Langa. (2014) 2024.
+<span>“PEP 484 – Type Hints.”</span> <a href="https://peps.python.org/pep-0484/">https://peps.python.org/pep-0484/</a>.
+</div>
+<div id="ref-pep3141" class="csl-entry" role="listitem">
+Yasskin, Jeffrey. (2007) 2024. <span>“PEP 3141 – a Type Hierarchy for
+Numbers.”</span> <a href="https://peps.python.org/pep-3141/">https://peps.python.org/pep-3141/</a>.
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>At this point, unlike some other IDEs, Spyder doesn’t
+have type-checking integration.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-26">Online Resources for Section 2.6</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

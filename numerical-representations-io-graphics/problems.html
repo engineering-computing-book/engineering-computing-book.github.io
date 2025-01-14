@@ -1,0 +1,2509 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <div class="exercise" data-h="j3" data-problem-num="3.1">
+<p>Write a program that meets the following requirements:</p>
+<ol>
+<li>It constructs a NumPy matrix <code class="sourceCode python">A</code> to represent the following
+mathematical matrix: <span class="math display">\[
+A = \begin{bmatrix}
+0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp;
+9 \\
+10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15 &amp; 16 &amp; 17 &amp;
+18 &amp; 19
+\end{bmatrix}.
+\]</span></li>
+<li>It defines a function <code class="sourceCode python">left_up_sum(A: np.ndarray) <span class="op">-&gt;</span> np.ndarray</code>
+that adds the component (element) to the left and the component above
+(wrapping, if necessary) to each component. The function should pass
+through the array once, row-by-row, and return a new array. The function
+should be able to handle any size of matrix.</li>
+<li>It defines a function <code class="sourceCode python">left_up_sums(A: np.ndarray, n: <span class="bu">int</span>) <span class="op">-&gt;</span> np.ndarray</code>
+that executes <code class="sourceCode python">left_up_sum()</code> <code class="sourceCode python">n</code> times and returns a new array.</li>
+<li>It calls <code class="sourceCode python">left_up_sums()</code> on
+<code class="sourceCode python">A</code> and prints the returned array
+for the following values of <code class="sourceCode python">n</code>:
+<code class="sourceCode python"><span class="dv">0</span></code>, <code class="sourceCode python"><span class="dv">1</span></code>, <code class="sourceCode python"><span class="dv">4</span></code>.</li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem J3&quot;&quot;&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This program will define two functions, left_up_sum() and</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># left_up_sums(), and it will call left_up_sums() on a given</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix A for various numbers of sums.</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">## Function Definitions</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_element_wrapped(A: np.array, row: <span class="bu">int</span>, col: <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">complex</span>:</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns an element from matrix with wrapped indices&quot;&quot;&quot;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    n, m <span class="op">=</span> A.shape</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    r <span class="op">=</span> row <span class="op">%</span> n  <span class="co"># Mod operator % returns remainder of division</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> col <span class="op">%</span> m</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> A[r, c]</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> left_up_sum(A: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Adds the element to the left and the element above</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">    (wrapping, if necessary) to each component. Passes through</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">    the array once, row-by-row, and returns a new array.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    shape <span class="op">=</span> A.shape</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    B <span class="op">=</span> A.copy()  <span class="co"># Initialize output array</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> r <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, shape[<span class="dv">0</span>]):  <span class="co"># Each row</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> c <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, shape[<span class="dv">1</span>]):  <span class="co"># Each column</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            left <span class="op">=</span> get_element_wrapped(B, r <span class="op">-</span> <span class="dv">1</span>, c)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>            up <span class="op">=</span> get_element_wrapped(B, r, c <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>            B[r, c] <span class="op">=</span> B[r, c] <span class="op">+</span> left <span class="op">+</span> up</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> B</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> left_up_sums(A: np.ndarray, n: <span class="bu">int</span>) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Calls left_up_sum() n times on A and returns the result&quot;&quot;&quot;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> iteration <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n):</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>        A <span class="op">=</span> left_up_sum(A)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> A</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Function and Print</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array(</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>],</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">14</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">17</span>, <span class="dv">18</span>, <span class="dv">19</span>],</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>test_sum_numbers <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">4</span>]</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> test_sum_numbers:</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;left_up_sums() of A for </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss"> sums:&quot;</span>)</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(left_up_sums(A, n))</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="sourceCode"><code>left_up_sums() of A for 0 sums:
+[[ 0  1  2  3  4  5  6  7  8  9]
+ [10 11 12 13 14 15 16 17 18 19]]
+left_up_sums() of A for 1 sums:
+[[11 14 17 20 23 26 29 32 35 39]
+ [32 37 42 47 52 57 62 67 72 90]]
+left_up_sums() of A for 4 sums:
+[[1069 1240 1411 1582 1753 1924 2096 2327 2829 3673]
+ [2202 2543 2884 3225 3566 3907 4264 4811 5944 7640]]
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="zf" data-problem-num="3.2">
+<p>The inner product of two real <span class="math inline">\(n\)</span>-vectors <span class="math inline">\(\vec{x}\)</span> and <span class="math inline">\(\vec{y}\)</span> is defined as <span class="math display">\[
+\langle \vec{x}, \vec{y} \rangle = \sum_{i=0}^{n-1} x_i y_i.
+\]</span> The result is a scalar. The <code class="sourceCode python">np.inner()</code> and <code class="sourceCode python">np.dot()</code> functions can be used in NumPy
+to find the inner product of two vectors of the same size. In this
+problem, we will write our own function that computes the real inner
+product even if they are of different sizes. Write a program that meets
+the following requirements:</p>
+<ol>
+<li><p>It defines a function</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>inner_flat_trunc(x: np.ndarray, y: np.ndarray) <span class="op">-&gt;</span> <span class="bu">float</span></span></code></pre></div>
+<p> that returns the truncated inner product of vectors <code class="sourceCode python">a</code> and <code class="sourceCode python">b</code> even if the sizes of the vectors do
+not match by using a truncated version of the one that is too long. The
+function should handle any shape of input arrays by using the <code class="sourceCode python">flatten()</code> method before truncating and
+taking the inner product. If both input arrays do not have <code class="sourceCode">dtype</code> attribute <code class="sourceCode python">np.dtype(<span class="st">&#39;float&#39;</span>)</code>
+or <code class="sourceCode python">np.dtype(<span class="st">&#39;int&#39;</span>)</code>,
+the function should raise a <code class="sourceCode python"><span class="pp">TypeError</span></code>
+exception.</p></li>
+<li><p>It calls <code class="sourceCode python">inner_flat_trunc()</code> on the following
+arrays:</p>
+<ol>
+<li>A pair of arrays from the lists:<br />
+<code class="sourceCode python">[<span class="op">-</span><span class="fl">1.1</span>, <span class="dv">3</span>, <span class="fl">2.9</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="fl">9.2</span>, <span class="fl">0.1</span>]</code>
+and <code class="sourceCode python">[<span class="fl">1.3</span>, <span class="fl">0.2</span>, <span class="fl">8.3</span>]</code></li>
+<li>An array of the integers from <span class="math inline">\(0\)</span>
+through <span class="math inline">\(13\)</span> and an array of the
+integers from <span class="math inline">\(3\)</span> through <span class="math inline">\(12\)</span></li>
+<li>An array of <span class="math inline">\(21\)</span> linearly spaced
+elements from <span class="math inline">\(0\)</span> through <span class="math inline">\(10\)</span> and an array of <span class="math inline">\(11\)</span> linearly spaced elements from <span class="math inline">\(5\)</span> through <span class="math inline">\(25\)</span>.</li>
+<li>A pair of arrays of elements from the lists <code class="sourceCode python">[<span class="va">True</span>, <span class="va">False</span>, <span class="va">True</span>]</code>
+and <code class="sourceCode">[0, 1, 2]</code> (handle the exception in
+the main script so it runs without raising the exception)</li>
+</ol></li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem ZF&quot;&quot;&quot;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This program defines a function inner_flat_trunc() for computing</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># the real inner product of two vectors that needn&#39;t be the same length</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">## Function Definitions</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> inner_flat_trunc(x: np.ndarray, y: np.ndarray) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the real inner product of two vectors of potentially</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">    different lengths</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check input dtypes</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    ok_dtypes <span class="op">=</span> [np.dtype(<span class="st">&quot;float&quot;</span>), np.dtype(<span class="st">&quot;int&quot;</span>)]</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> (x.dtype <span class="kw">in</span> ok_dtypes <span class="kw">and</span> y.dtype <span class="kw">in</span> ok_dtypes):</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">TypeError</span>(<span class="st">&quot;Both vectors must be of type float or int.&quot;</span>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> x.flatten()</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> y.flatten()</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    min_len <span class="op">=</span> <span class="bu">min</span>(<span class="bu">len</span>(x), <span class="bu">len</span>(y))</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    prod <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Initialize inner product</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(min_len):</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>        prod <span class="op">+=</span> x[i] <span class="op">*</span> y[i]</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> prod</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Function and Print</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>test_vector_pairs <span class="op">=</span> (</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    (</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>        np.array([<span class="op">-</span><span class="fl">1.1</span>, <span class="dv">3</span>, <span class="fl">2.9</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="fl">9.2</span>, <span class="fl">0.1</span>]),</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>        np.array([<span class="fl">1.3</span>, <span class="fl">0.2</span>, <span class="fl">8.3</span>]),</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    (np.arange(<span class="dv">0</span>, <span class="dv">14</span>), np.arange(<span class="dv">3</span>, <span class="dv">13</span>)),</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    (np.linspace(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">21</span>), np.linspace(<span class="dv">5</span>, <span class="dv">25</span>, <span class="dv">11</span>)),</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    (np.array([<span class="va">True</span>, <span class="va">False</span>, <span class="va">True</span>]), np.array([<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>])),</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> vector_pair <span class="kw">in</span> test_vector_pairs:</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f&quot;Product of</span><span class="ch">\n\t</span><span class="ss">x = </span><span class="sc">{</span>vector_pair[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> and&quot;</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f&quot;</span><span class="ch">\n\t</span><span class="ss">y = </span><span class="sc">{</span>vector_pair[<span class="dv">1</span>]<span class="sc">}</span><span class="ss">:&quot;</span></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>        product <span class="op">=</span> inner_flat_trunc(vector_pair[<span class="dv">0</span>], vector_pair[<span class="dv">1</span>])</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">TypeError</span> <span class="im">as</span> e:</span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\t\t</span><span class="ss">Caught TypeError: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\t\t</span><span class="st">&quot;</span>, product)</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="sourceCode"><code>Product of
+	x = [-1.1  3.   2.9 -1.  -9.2  0.1] and
+	y = [1.3 0.2 8.3]:
+		 23.240000000000002
+Product of
+	x = [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13] and
+	y = [ 3  4  5  6  7  8  9 10 11 12]:
+		 420
+Product of
+	x = [ 0.   0.5  1.   1.5  2.   2.5  3.   3.5  4.   4.5  5.   5.5  6.   6.5
+  7.   7.5  8.   8.5  9.   9.5 10. ] and
+	y = [ 5.  7.  9. 11. 13. 15. 17. 19. 21. 23. 25.]:
+		 522.5
+Product of
+	x = [ True False  True] and
+	y = [0 1 2]:
+		Caught TypeError: Both vectors must be of type float or int.
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="3h" data-problem-num="3.3">
+<p>Consider the following mathematical matrices and vectors:
+$$\begin{align}
+A = \begin{bmatrix}
+2 &amp; 1 &amp; 9 &amp; 0 \\
+0 &amp; -1 &amp; -2 &amp; 3 \\
+-3 &amp; 0 &amp; 8 &amp; -4
+\end{bmatrix}
+\quad
+B = \begin{bmatrix}
+0 &amp; 9 &amp; -1 \\
+1 &amp; 0 &amp; 3 \\
+0 &amp; -1 &amp; 1
+\end{bmatrix}
+\quad
+\vec{x} = \begin{bmatrix}
+1 \\ 0 \\ -1
+\end{bmatrix}
+\quad
+\vec{y} = \begin{bmatrix}
+3 &amp; 0 &amp; -1
+\end{bmatrix}.
+\end{align}$$</p>
+<p>Write a program that meets the following requirements:</p>
+<ol>
+<li>It defines NumPy arrays to represent <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, (column vector) <span class="math inline">\(\vec{x}\)</span>, and (row vector) <span class="math inline">\(\vec{y}\)</span>.</li>
+<li>It computes and prints the following quantities:
+<ol>
+<li><span class="math inline">\(BA\)</span></li>
+<li><span class="math inline">\(A^\top B - 6 J_{4\times 3}\)</span>,
+where <span class="math inline">\(J_{4\times 3}\)</span> is the <span class="math inline">\(4\times 3\)</span> matrix of all <span class="math inline">\(1\)</span> components</li>
+<li><span class="math inline">\(B\vec{x} + \vec{y}^\top\)</span></li>
+<li><span class="math inline">\(\vec{x}\vec{y} + B\)</span></li>
+<li><span class="math inline">\(\vec{y}\vec{x}\)</span></li>
+<li><span class="math inline">\(\vec{y}B^{-1}\vec{x}\)</span></li>
+<li><span class="math inline">\(C B\)</span>, where <span class="math inline">\(C\)</span> is the <span class="math inline">\(3\times 3\)</span> submatrix of the first three
+columns of <span class="math inline">\(A\)</span></li>
+</ol></li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem 3H&quot;&quot;&quot;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This program defines matrices A and B and vectors x and y. It then</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># computes several quantities that require matrix operations.</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co">## a. Define Arrays</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array(</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">9</span>, <span class="dv">0</span>],</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">2</span>, <span class="dv">3</span>],</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>        [<span class="op">-</span><span class="dv">3</span>, <span class="dv">0</span>, <span class="dv">8</span>, <span class="op">-</span><span class="dv">4</span>],</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> np.array(</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">0</span>, <span class="dv">9</span>, <span class="op">-</span><span class="dv">1</span>],</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">3</span>],</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>],</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.array([[<span class="dv">1</span>], [<span class="dv">0</span>], [<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.array([[<span class="dv">3</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="co">## b. Compute and Print Quantitites</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="co">### i. $B A$</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;B A = </span><span class="ch">\n</span><span class="st">&quot;</span>, B <span class="op">@</span> A)</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a><span class="co">### ii. $A^\top B - 6 J_{4\times 3}$</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;A.T B - 6 J_4x3 = </span><span class="ch">\n</span><span class="st">&quot;</span>, A.T <span class="op">@</span> B <span class="op">-</span> <span class="dv">6</span> <span class="op">*</span> np.ones((<span class="dv">4</span>, <span class="dv">3</span>)))</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a><span class="co">### iii. $B \bm{x} + \bm{y}^\top$</span></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;B x + y.T = </span><span class="ch">\n</span><span class="st">&quot;</span>, B <span class="op">@</span> x <span class="op">+</span> y.T)</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a><span class="co">### iv. $\bm{x} \bm{y} + B$</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;x y + B = </span><span class="ch">\n</span><span class="st">&quot;</span>, x <span class="op">@</span> y <span class="op">+</span> B)</span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a><span class="co">### v. $\bm{y} \bm{x}$</span></span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y x = </span><span class="ch">\n</span><span class="st">&quot;</span>, y <span class="op">@</span> x)</span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a><span class="co">### vi. $\bm{y} B^{-1} \bm{x}$</span></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y B^-1 x = </span><span class="ch">\n</span><span class="st">&quot;</span>, y <span class="op">@</span> np.linalg.inv(B) <span class="op">@</span> x)</span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a><span class="co">### vii. $C B$</span></span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a>C <span class="op">=</span> A[:, :<span class="dv">3</span>]  <span class="co"># First 3 columns of A (view)</span></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;C B = </span><span class="ch">\n</span><span class="st">&quot;</span>, C <span class="op">@</span> B)</span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a><span class="co"># %% tags=[&quot;active-py&quot;]</span></span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a>sys.path.append(<span class="st">&quot;../&quot;</span>)</span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.engcom <span class="im">as</span> engcom</span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a>pub <span class="op">=</span> engcom.Publication(title<span class="op">=</span><span class="st">&quot;Problem 3H&quot;</span>, author<span class="op">=</span><span class="st">&quot;Rico Picone&quot;</span>)</span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a>pub.write(to<span class="op">=</span><span class="st">&quot;md&quot;</span>)</span></code></pre></div>
+<!-- ```include
+source/3h/solution.md
+``` -->
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>B A = 
+ [[  3  -9 -26  31]
+ [ -7   1  33 -12]
+ [ -3   1  10  -7]]
+A.T B - 6 J_4x3 = 
+ [[ -6.  15. -11.]
+ [ -7.   3. -10.]
+ [ -8.  67. -13.]
+ [ -3.  -2.  -1.]]
+B x + y.T = 
+ [[ 4]
+ [-2]
+ [-2]]
+x y + B = 
+ [[ 3  9 -2]
+ [ 1  0  3]
+ [-3 -1  2]]
+y x = 
+ [[4]]
+y B^-1 x = 
+ [[10.]]
+C B = 
+ [[  1   9  10]
+ [ -1   2  -5]
+ [  0 -35  11]]
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="di" data-problem-num="3.4">
+<p>Consider the array:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>], [<span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>], [<span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>]])  <span class="co"># 4x3</span></span></code></pre></div>
+<p> Write a program that performs and prints the results of the
+following operations on <code class="sourceCode python">a</code>
+<em>without</em> using <code class="sourceCode python"><span class="cf">for</span></code> loops:</p>
+<ol>
+<li>Adds <code class="sourceCode python"><span class="dv">1</span></code> to all
+elements</li>
+<li>Adds <code class="sourceCode python"><span class="dv">1</span></code> to the last
+column</li>
+<li>Flattens <code class="sourceCode python">a</code> to a vector</li>
+<li>Reshapes <code class="sourceCode python">a</code> into a <span class="math inline">\(3\times 4\)</span> matrix</li>
+<li>Adds the vector <code class="sourceCode python">[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</code>
+to each row</li>
+<li>Adds the vector <code class="sourceCode python">[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</code>
+to each column</li>
+<li>Reshapes <code class="sourceCode python">a</code> to a column
+vector</li>
+<li>Reshapes <code class="sourceCode python">a</code> to a row
+vector</li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem DI&quot;&quot;&quot;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This program defines a NumPy array and prints the results of</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># several operations.</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co">## Define Array</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>], [<span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>], [<span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>]])  <span class="co"># 4x3</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="co">## a. Adds 1 to all elements</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adds 1 to all elements:</span><span class="ch">\n</span><span class="st">&quot;</span>, a <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="co">## b. Adds 1 to the last column</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> a.copy()</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>b[:, <span class="op">-</span><span class="dv">1</span>] <span class="op">=</span> b[:, <span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adds 1 to the last column:</span><span class="ch">\n</span><span class="st">&quot;</span>, b)</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a><span class="co">## c. Flattens a to a vector</span></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Flattens a to a vector</span><span class="ch">\n</span><span class="st">&quot;</span>, a.flatten())</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a><span class="co">## d. Reshapes a into a 3×4 matrix</span></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Reshapes a into a 3×4 matrix:</span><span class="ch">\n</span><span class="st">&quot;</span>, a.reshape((<span class="dv">3</span>, <span class="dv">4</span>)))</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="co">## e. Adds the vector [1, 2, 3] to each row</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>cr <span class="op">=</span> c.reshape((<span class="dv">1</span>, <span class="dv">3</span>))  <span class="co"># Reshape for broadcasting</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adds the vector [1, 2, 3] to each row:</span><span class="ch">\n</span><span class="st">&quot;</span>, a <span class="op">+</span> cr)</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a><span class="co">## f. Adds the vector [1, 2, 3, 4] to each column</span></span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>])</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>dr <span class="op">=</span> d.reshape((<span class="dv">4</span>, <span class="dv">1</span>))  <span class="co"># Reshape for broadcasting</span></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Adds the vector [1, 2, 3, 4] to each column:</span><span class="ch">\n</span><span class="st">&quot;</span>, a <span class="op">+</span> dr)</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a><span class="co">## g. Reshapes a to a column vector</span></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Reshapes a to a column vector:</span><span class="ch">\n</span><span class="st">&quot;</span>, a.reshape((a.size, <span class="dv">1</span>)))</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a><span class="co">## h. Reshapes a to a row vector</span></span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Reshapes a to a row vector:</span><span class="ch">\n</span><span class="st">&quot;</span>, a.reshape((<span class="dv">1</span>, a.size)))</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>Adds 1 to all elements:
+ [[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+Adds 1 to the last column:
+ [[ 0  1  3]
+ [ 3  4  6]
+ [ 6  7  9]
+ [ 9 10 12]]
+Flattens a to a vector
+ [ 0  1  2  3  4  5  6  7  8  9 10 11]
+Reshapes a into a 3×4 matrix:
+ [[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+Adds the vector [1, 2, 3] to each row:
+ [[ 1  3  5]
+ [ 4  6  8]
+ [ 7  9 11]
+ [10 12 14]]
+Adds the vector [1, 2, 3, 4] to each column:
+ [[ 1  2  3]
+ [ 5  6  7]
+ [ 9 10 11]
+ [13 14 15]]
+Reshapes a to a column vector:
+ [[ 0]
+ [ 1]
+ [ 2]
+ [ 3]
+ [ 4]
+ [ 5]
+ [ 6]
+ [ 7]
+ [ 8]
+ [ 9]
+ [10]
+ [11]]
+Reshapes a to a row vector:
+ [[ 0  1  2  3  4  5  6  7  8  9 10 11]]
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="qx" data-problem-num="3.5">
+<p>Write vectorized Python functions that operate element-wise on array
+arguments for the following mathematical functions:</p>
+<ol>
+<li><span class="math inline">\(f(x) = x^2 + 3 x + 9\)</span></li>
+<li><span class="math inline">\(g(x) = 1 + \sin^2 x\)</span></li>
+<li><span class="math inline">\(h(x, y) = e^{-3x} + \ln y\)</span></li>
+<li><span class="math inline">\(F(x, y) = \left\lfloor x/y
+\right\rfloor\)</span></li>
+<li><span class="math inline">\(G(x, y) = \begin{cases} x^2 + y^2 &amp;
+\text{if $x &gt; y$} \\ 2 x &amp; \text{otherwise}
+\end{cases}\)</span></li>
+</ol>
+<div class="exercise-solution">
+<p>The following program meets the requirements:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem QX&quot;&quot;&quot;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Introduction</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This program defines several mathematical functions as vectorized</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># functions that can handle NumPy array inputs.</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co">## a. $f(x) = x^2 + 3 x + 9$</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">3</span> <span class="op">*</span> x <span class="op">+</span> <span class="dv">9</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a><span class="co">## b. $g(x) = 1 + \sin^2 x$</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> g(x: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">1</span> <span class="op">+</span> np.sin(x) <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="co">## c. $h(x, y) = e^{-3 x} + \ln y$</span></span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> h(x: np.ndarray, y: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.exp(<span class="op">-</span><span class="dv">3</span> <span class="op">*</span> x) <span class="op">+</span> np.log(y)</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a><span class="co">## d. $F(x, y) = \left\lfloor x/y \right\rfloor$</span></span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> F(x: np.ndarray, y: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.floor(x <span class="op">/</span> y)</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a><span class="co">## e. $G(x, y) = \begin{cases} x^2 + y^2 &amp; \text{if $x &gt; y$} \\ 2 x &amp; \text{otherwise} \end{cases}$</span></span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> G(x: np.ndarray, y: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.where(x <span class="op">&gt;</span> y, x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> y<span class="op">**</span><span class="dv">2</span>, <span class="dv">2</span> <span class="op">*</span> x)</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="co"># %% [markdown]</span></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a><span class="co">## Call Functions and Print</span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a><span class="co"># %%</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>functions_args <span class="op">=</span> (</span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>    (f, <span class="dv">1</span>),</span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a>    (g, <span class="dv">1</span>),</span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a>    (h, <span class="dv">2</span>),</span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a>    (F, <span class="dv">2</span>),</span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a>    (G, <span class="dv">2</span>),</span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a>)  <span class="co"># (fun, nargs)</span></span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>])</span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.array([<span class="dv">2</span>, <span class="dv">7</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">30</span>])</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;x = </span><span class="sc">{</span>x<span class="sc">}</span><span class="ch">\n</span><span class="ss">y = </span><span class="sc">{</span>y<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> function_args <span class="kw">in</span> functions_args:</span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> function_args[<span class="dv">1</span>] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>        printable <span class="op">=</span> np.array2string(function_args[<span class="dv">0</span>](x), precision<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>function_args[<span class="dv">0</span>]<span class="sc">.</span><span class="va">__name__</span><span class="sc">}</span><span class="ss">(x) =&quot;</span>, printable)</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> function_args[<span class="dv">1</span>] <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>        printable <span class="op">=</span> np.array2string(function_args[<span class="dv">0</span>](x, y), precision<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>function_args[<span class="dv">0</span>]<span class="sc">.</span><span class="va">__name__</span><span class="sc">}</span><span class="ss">(x, y) =&quot;</span>, printable)</span></code></pre></div>
+<p>This program prints the following to the console:</p>
+<pre class="text nosamepage sourceCode"><code>x = [ 1  5 10 20 30]
+y = [ 2  7  5 10 30]
+f(x) = [ 13  49 139 469 999]
+g(x) = [1.708 1.92  1.296 1.833 1.976]
+h(x, y) = [0.743 1.946 1.609 2.303 3.401]
+F(x, y) = [0. 0. 2. 2. 1.]
+G(x, y) = [  2  10 125 500  60]
+</code></pre>
+</div>
+</div>
+<div class="exercise" data-h="dn" data-problem-num="3.6">
+<p>Write a program that graphs each of the following functions over the
+specified domain:</p>
+<ol>
+<li><span class="math inline">\(f(x) = \tanh(4 \sin x)\)</span> for
+<span class="math inline">\(x \in [-5, 8]\)</span></li>
+<li><span class="math inline">\(g(x) = \sin\sqrt{x}\)</span> for <span class="math inline">\(x \in [0, 100]\)</span></li>
+<li><span class="math inline">\(h(x) = \begin{cases} 0 &amp; \text{if $x
+&lt; 0$} \\ e^{-x} \sin(2 \pi x) &amp; \text{otherwise}
+\end{cases}\)</span> for <span class="math inline">\(x \in [-2,
+6]\)</span></li>
+</ol>
+<div class="exercise-solution">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem DN&quot;&quot;&quot;</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+<section id="introduction" class="real-section level1" data-number="1" data-shortid="introduction">
+<h1 class="real-section" data-shortid="introduction">Introduction</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>This program defines several mathematical functions as vectorized
+functions that can handle NumPy array inputs and plots them over the
+given domain using Matplotlib. # Define Mathematical Functions Define
+<span class="math inline">\(f(x) = x^2 + 3 x + 9\)</span>:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.tanh(<span class="dv">4</span> <span class="op">*</span> np.sin(x))</span></code></pre></div>
+<p>Define <span class="math inline">\(g(x) = 1 + \sin^2 x\)</span>:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> g(x: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.sin(np.sqrt(x))</span></code></pre></div>
+<p>Define <span class="math inline">\(h(x, y) = e^{-3 x} + \ln
+y\)</span>:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> h(x: np.ndarray) <span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.where(x <span class="op">&gt;=</span> <span class="dv">0</span>, np.exp(<span class="op">-</span>x) <span class="op">*</span> np.sin(<span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> x), <span class="dv">0</span>)</span></code></pre></div>
+</section>
+<section id="plotting" class="real-section level1" data-number="2" data-shortid="plotting">
+<h1 class="real-section" data-shortid="plotting">Plotting</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Define a plotting function:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plotter(fig, fun, limits, labels):</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> np.linspace(limits[<span class="dv">0</span>], limits[<span class="dv">1</span>], <span class="dv">201</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    fig.gca().plot(x, fun(x))</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    fig.gca().set_xlabel(labels[<span class="dv">0</span>])</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    fig.gca().set_ylabel(labels[<span class="dv">1</span>])</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span></code></pre></div>
+<p>Plot <span class="math inline">\(f(x)\)</span>:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>plotter(fig, fun<span class="op">=</span>f, limits<span class="op">=</span>(<span class="op">-</span><span class="dv">5</span>, <span class="dv">8</span>), labels<span class="op">=</span>(<span class="st">&quot;$x$&quot;</span>, <span class="st">&quot;$f(x)$&quot;</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<figure class="real-figure" id="fig:dn-figure-0">
+<img src="/assets/source/dn/figure-0.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A graph of <span class="math inline"><em>f</em>(<em>x</em>)</span>.</figcaption>
+</figure>
+</div>
+<p>Plot <span class="math inline">\(g(x)\)</span>:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>plotter(fig, fun<span class="op">=</span>g, limits<span class="op">=</span>(<span class="dv">0</span>, <span class="dv">100</span>), labels<span class="op">=</span>(<span class="st">&quot;$x$&quot;</span>, <span class="st">&quot;$g(x)$&quot;</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<figure class="real-figure" id="fig:dn-figure-1">
+<img src="/assets/source/dn/figure-1.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A graph of <span class="math inline"><em>g</em>(<em>x</em>)</span>.</figcaption>
+</figure>
+</div>
+<p>Plot <span class="math inline">\(h(x)\)</span>:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>plotter(fig, fun<span class="op">=</span>h, limits<span class="op">=</span>(<span class="op">-</span><span class="dv">2</span>, <span class="dv">6</span>), labels<span class="op">=</span>(<span class="st">&quot;$x$&quot;</span>, <span class="st">&quot;$h(x)$&quot;</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<figure class="real-figure" id="fig:dn-figure-2">
+<img src="/assets/source/dn/figure-2.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A graph of <span class="math inline"><em>h</em>(<em>x</em>)</span>.</figcaption>
+</figure>
+</div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="wf" data-problem-num="3.7">
+<p>Write a program that loads and plots ideal gas data with the <code class="sourceCode python">engcom.data.ideal_gas()</code> function in the
+following way:</p>
+<ol>
+<li>The data it loads is over the volume domain: <span class="math inline">\(V \in [0.1, 2.1]\)</span> m<span class="math inline">\(^3\)</span></li>
+<li>The data it loads has <span class="math inline">\(3\)</span>
+temperatures: <span class="math inline">\(V = 300, 400,
+500\)</span> K</li>
+<li>It plots in a single graphic <span class="math inline">\(P\)</span>
+versus <span class="math inline">\(V\)</span> for each of the three
+temperatures</li>
+<li>Each data point should be marked with a dot <span class="math inline">\(\bullet\)</span></li>
+<li>Sequential data points should be connected by straight lines</li>
+<li>Each plot should be labeled with its corresponding temperature,
+either next to the plot or in a legend</li>
+</ol>
+<div class="exercise-solution">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem WF&quot;&quot;&quot;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<section id="introduction" class="real-section level1" data-number="3" data-shortid="introduction">
+<h1 class="real-section" data-shortid="introduction">Introduction</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>This program loads and plots ideal gas data with the <code class="sourceCode python">ideal_gas()</code> function from the <code class="sourceCode python">engcom.data</code> module. # Load the Data</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> engcom.data.ideal_gas(</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    V<span class="op">=</span>np.linspace(<span class="fl">0.1</span>, <span class="fl">2.1</span>, <span class="dv">16</span>),  <span class="co"># (m^3) Volume values</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    T<span class="op">=</span>np.array([<span class="dv">300</span>, <span class="dv">400</span>, <span class="dv">500</span>]),  <span class="co"># (K) Temperature values</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</section>
+<section id="plot" class="real-section level1" data-number="4" data-shortid="plot">
+<h1 class="real-section" data-shortid="plot">Plot</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Now <code class="sourceCode python">d</code> is a dictionary with the
+following key–value pairs:</p>
+<ul>
+<li><code class="sourceCode python"><span class="co">&quot;volume&quot;</span></code>:
+<span class="math inline">\(V_{16\times 1}\)</span> (m<span class="math inline">\(^3\)</span>)</li>
+<li><code class="sourceCode python"><span class="co">&quot;temperature&quot;</span></code>:
+<span class="math inline">\(T_{1\times 3}\)</span> (K)</li>
+<li><code class="sourceCode python"><span class="co">&quot;pressure&quot;</span></code>:
+<span class="math inline">\(P_{16\times 3}\)</span> (Pa)</li>
+</ul>
+<p>We would like to plot <span class="math inline">\(P\)</span> versus
+<span class="math inline">\(V\)</span> for each of the <span class="math inline">\(3\)</span> temperatures <span class="math inline">\(T\)</span>; that is, plot a sequence of pairs
+<span class="math inline">\((P_i, V_i)\)</span> for each <span class="math inline">\(T_j\)</span>. The following code loops through the
+temperatures and plots to the same axes object:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j, Tj <span class="kw">in</span> <span class="bu">enumerate</span>(d[<span class="st">&quot;temperature&quot;</span>].flatten()):</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> d[<span class="st">&quot;volume&quot;</span>]  <span class="co"># (m^3)</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> d[<span class="st">&quot;pressure&quot;</span>][:, j] <span class="op">/</span> <span class="fl">1e6</span>  <span class="co"># (MPa)</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    ax.plot(x, y, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, label<span class="op">=</span><span class="ss">f&quot;$T = </span><span class="sc">{</span>Tj<span class="sc">}</span><span class="ss">$ K&quot;</span>)</span></code></pre></div>
+<p>Finally, we label the axes and display the figure with the following
+code:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Volume (m$^3$)&quot;</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;Pressure (MPa)&quot;</span>)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>ax.legend()  <span class="co"># Show labels in legend</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<figure class="real-figure" id="fig:wf-figure-0">
+<img src="/assets/source/wf/figure-0.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : Ideal gas plot.</figcaption>
+</figure>
+</div>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="y1" data-problem-num="3.8">
+<p>Use the data from <a href="/wf">problem 3.7</a> to write a program
+that meets the following requirements:</p>
+<ol>
+<li>It loads the pressure-volume-temperature data from <a href="/wf">problem 3.7</a>.</li>
+<li>It estimates the work <span class="math inline">\(W\)</span> done by
+the gas for each of the three values of temperatures via the integral
+equation <span class="math display">\[
+W = -\int_{0.1}^{2.1} P(V)\ dV.
+\]</span> <em>Note</em>: An integral can be estimated from discrete data
+via the trapezoidal rule, which can be executed with NumPy’s <code class="sourceCode python">np.trapz()</code> function.</li>
+<li>It generates a bar chart comparing the three values of work (one for
+each temperature).</li>
+</ol>
+<div class="exercise-solution">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Solution to Chapter 3 problem Y1&quot;&quot;&quot;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<section id="introduction" class="real-section level1" data-number="5" data-shortid="introduction">
+<h1 class="real-section" data-shortid="introduction">Introduction</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>This program loads ideal gas data with the engcom.data.ideal_gas()
+function. It computes the work done by the gas over the given volume.
+Finally, it charts the work for each temperature. # Load the Data Load
+the pressure-volume-temperature data as follows:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> engcom.data.ideal_gas(</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    V<span class="op">=</span>np.linspace(<span class="fl">0.1</span>, <span class="fl">2.1</span>, <span class="dv">16</span>),  <span class="co"># (m^3) Volume values</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    T<span class="op">=</span>np.array([<span class="dv">300</span>, <span class="dv">400</span>, <span class="dv">500</span>]),  <span class="co"># (K) Temperature values</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</section>
+<section id="define-and-compute-the-work" class="real-section level1" data-number="6" data-shortid="define-and-compute-the-work">
+<h1 class="real-section" data-shortid="define-and-compute-the-work">Define and Compute the
+Work</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Define a function to compute the work and apply the function.</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> W(P: np.ndarray, V: np.ndarray, axis: <span class="bu">int</span> <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Use trapezoidal integration to estimate the work from P(V)&quot;&quot;&quot;</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.trapz(P, V, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>work <span class="op">=</span> W(P<span class="op">=</span>d[<span class="st">&quot;pressure&quot;</span>], V<span class="op">=</span>d[<span class="st">&quot;volume&quot;</span>])</span></code></pre></div>
+</section>
+<section id="plot" class="real-section level1" data-number="7" data-shortid="plot">
+<h1 class="real-section" data-shortid="plot">Plot</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>Create a bar chart of work for each temperature</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="bu">len</span>(work))</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> np.char.add(d[<span class="st">&quot;temperature&quot;</span>].flatten().astype(dtype<span class="op">=</span><span class="bu">str</span>), <span class="st">&quot; K&quot;</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>ax.bar(x, work <span class="op">/</span> <span class="fl">1e6</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>ax.set_xticks(x, labels<span class="op">=</span>labels)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;Work (MJ)&quot;</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<figure class="real-figure" id="fig:y1-figure-0">
+<img src="/assets/source/y1/figure-0.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="kg" data-problem-num="3.9">
+<p>Write a program to bin data and create histogram charts that meets
+the following requirements:</p>
+<ol>
+<li><p>It defines a function</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>binner(A: np.ndarray, nbins: <span class="bu">int</span>) <span class="op">-&gt;</span> (np.ndarray, np.ndarray)</span></code></pre></div>
+<p> that accepts an array <code class="sourceCode python">A</code> of
+data and returns an array for the frequency of the data in each bin and
+an array of the bin edges. Consider the following details:</p>
+<ol>
+<li>The bin edges should include the left edge and not the right edge,
+except the rightmost, which should include the right edge (“left” and
+“right” here mean lesser and greater).</li>
+<li>The bins should be of equal width.</li>
+<li>Give a default value (e.g., <code class="sourceCode python"><span class="dv">10</span></code>) for the
+<code class="sourceCode python">nbins</code> argument.</li>
+<li>Do <em>not</em> use the (nice) functions <code class="sourceCode python">np.histogram()</code> or <code class="sourceCode python">plt.hist()</code> for this exercise.</li>
+</ol></li>
+<li><p>It defines a function <code class="sourceCode python">histogram(A: np.ndarray, nbins: <span class="bu">int</span>)</code>
+that calls <code class="sourceCode python">binner()</code> and <code class="sourceCode python">plt.bar()</code> to generate a histogram
+chart.</p></li>
+<li><p>It loads all of the thermal conductivity data from the <code class="sourceCode python">engcom.data</code> module with the <code class="sourceCode python">engcom.data.thermal_conductivity()</code>
+function.</p></li>
+<li><p>It generates <span class="math inline">\(3\)</span> histograms,
+one for each of the following material categories (key): <code class="sourceCode python"><span class="co">&quot;Metals&quot;</span></code>,
+<code class="sourceCode python"><span class="co">&quot;Liquids&quot;</span></code>,
+and <code class="sourceCode python"><span class="co">&quot;Gases&quot;</span></code>.
+Be sure to properly label the axes.</p></li>
+</ol>
+<div class="exercise-solution">
+<p>Import packages:</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<p>We begin by writing the <code class="sourceCode python">binner()</code> function:</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> binner(A: np.ndarray, nbins: <span class="bu">int</span> <span class="op">=</span> <span class="dv">10</span>) <span class="op">-&gt;</span> (np.ndarray, np.ndarray):</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Accepts an array A of data and returns an array for the frequency</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co">    of the data in each bin and an array of the bin edges</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    Af <span class="op">=</span> np.array(A).flatten()  <span class="co"># Ensure a vector</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    minA <span class="op">=</span> Af.<span class="bu">min</span>()</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    maxA <span class="op">=</span> Af.<span class="bu">max</span>()</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>    bin_edges <span class="op">=</span> np.linspace(minA, maxA, nbins <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>    bw <span class="op">=</span> bin_edges[<span class="dv">1</span>] <span class="op">-</span> bin_edges[<span class="dv">0</span>]  <span class="co"># Bin width</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    A_from_min <span class="op">=</span> Af <span class="op">-</span> minA  <span class="co"># Distance from min</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>    Abin <span class="op">=</span> np.floor(A_from_min <span class="op">/</span> bw)  <span class="co"># Bin index of each element of A</span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    Abin[Abin <span class="op">==</span> nbins] <span class="op">=</span> (</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>        nbins <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># This moves element at maxA into the proper (last) bin</span></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>    nonempty_bin_index, nonempty_bin_frequency <span class="op">=</span> np.unique(</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>        Abin, return_counts<span class="op">=</span><span class="va">True</span></span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>    )  <span class="co"># Identifies nonempty bin indices and the frequency in each bin</span></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a>    bin_frequency <span class="op">=</span> np.zeros(nbins)  <span class="co"># Initialize frequencies to zero</span></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a>    bin_frequency[</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a>        nonempty_bin_index.astype(<span class="bu">int</span>)</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a>    ] <span class="op">=</span> nonempty_bin_frequency</span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> bin_frequency, bin_edges</span></code></pre></div>
+<p>Now the histogram function can be written:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> histogram(A: np.ndarray, nbins: <span class="bu">int</span> <span class="op">=</span> <span class="dv">10</span>, xlabel<span class="op">=</span><span class="va">None</span>, ylabel<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Create a histogram figure.&quot;&quot;&quot;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    bin_frequency, bin_edges <span class="op">=</span> binner(A, nbins<span class="op">=</span>nbins)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    bw <span class="op">=</span> bin_edges[<span class="dv">1</span>] <span class="op">-</span> bin_edges[<span class="dv">0</span>]  <span class="co"># Bin width</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    ax.bar(</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>bin_edges[<span class="dv">0</span>:<span class="op">-</span><span class="dv">1</span>],</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>        height<span class="op">=</span>bin_frequency,</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>        width<span class="op">=</span><span class="fl">0.95</span> <span class="op">*</span> bw,</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>        align<span class="op">=</span><span class="st">&quot;edge&quot;</span>,  <span class="co"># Left edge at x coordinate (left bin edge)</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> xlabel <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>        ax.set_xlabel(xlabel)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ylabel <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>        ax.set_ylabel(ylabel)</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span></code></pre></div>
+<p>Now we load the thermal conductivity data. The material labels (keys)
+aren’t necessary for the histograms, so we just extract the values. The
+data is loaded as follows:</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> engcom.data.thermal_conductivity()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>tc_metals <span class="op">=</span> <span class="bu">list</span>(data[<span class="st">&quot;Metals&quot;</span>].values())</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>tc_liquids <span class="op">=</span> <span class="bu">list</span>(data[<span class="st">&quot;Liquids&quot;</span>].values())</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>tc_gases <span class="op">=</span> <span class="bu">list</span>(data[<span class="st">&quot;Gases&quot;</span>].values())</span></code></pre></div>
+<p>Now call the <code class="sourceCode python">histogram()</code>
+function to generate a histogram chart for each data set.</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> histogram(</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>    tc_metals,</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    nbins<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    xlabel<span class="op">=</span><span class="st">&quot;Thermal conductivity (W/(m$\cdot$K))&quot;</span>,</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    ylabel<span class="op">=</span><span class="st">&quot;Frequency (metals)&quot;</span>,</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<figure class="real-figure" id="fig:kg-figure-0">
+<img src="/assets/source/kg/figure-0.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> histogram(</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>    tc_liquids,</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    nbins<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>    xlabel<span class="op">=</span><span class="st">&quot;Thermal conductivity (W/(m$\cdot$K))&quot;</span>,</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>    ylabel<span class="op">=</span><span class="st">&quot;Frequency (liquids)&quot;</span>,</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<figure class="real-figure" id="fig:kg-figure-1">
+<img src="/assets/source/kg/figure-1.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> histogram(</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    tc_gases,</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    nbins<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    xlabel<span class="op">=</span><span class="st">&quot;Thermal conductivity (W/(m$\cdot$K))&quot;</span>,</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    ylabel<span class="op">=</span><span class="st">&quot;Frequency (gases)&quot;</span>,</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<figure class="real-figure" id="fig:kg-figure-2">
+<img src="/assets/source/kg/figure-2.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="exercise" data-h="wj" data-problem-num="3.10">
+<p>You will now create life. John Conway’s Game of Life is a cellular
+automata game that explores the notion of life. In this problem, you
+will write a program for the game, which is played on a 2D grid. The
+grid is composed of elements called cells, each of which can be either
+alive or dead at a given moment. The rules of the game are simple <span class="citation" data-cites="JohnstonGreene2022">(Johnston and Greene
+2022)</span>:</p>
+<ul>
+<li>If a cell is alive, it survives to the next generation if it has 2
+or 3 live neighbors; otherwise it dies.</li>
+<li>If a cell is dead, it comes to life in the next generation if it has
+exactly <span class="math inline">\(3\)</span> live neighbors; otherwise
+it stays dead.</li>
+</ul>
+<p>The neighbors of a cell are those eight cells adjacent to it
+(including diagonals).</p>
+<p>Write a program for playing the game of life that meets the following
+requirements:</p>
+<ol>
+<li><p>It defines a function</p>
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>game_of_life(A: np.ndarray)</span></code></pre></div>
+<p> that accepts a matrix <code class="sourceCode python">A</code> that
+encodes the starting state for the game. Use <code class="sourceCode python"><span class="dv">1</span></code> to signify an
+alive cell and <code class="sourceCode python"><span class="dv">0</span></code> to signify a
+dead cell. Consider the following details:</p>
+<ol>
+<li><p>The game is traditionally played on an infinite grid. However,
+your program should play the game of life on a torus (doughnut) made
+from sewing the opposite edges of the starting state <code class="sourceCode python">A</code> grid. For instance, the neighbors
+above a cell in the top row are on the bottom row (i.e., neighbors
+wrap).</p></li>
+<li><p>A visualization is required. A very useful Matplotlib function
+here is <code class="sourceCode python">plt.matshow(A)</code>, which
+will display the numerical values of a matrix in a grid. For instance,
+try the following:</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>plt.matshow([[<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">1</span>],[<span class="dv">1</span>,<span class="dv">0</span>,<span class="dv">1</span>],[<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>]])</span></code></pre></div></li>
+<li><p>Strongly consider using additional functions to define operations
+like “evolve one generation,” “kill,” “animate,” and
+“visualize.”</p></li>
+</ol></li>
+<li><p>It calls <code class="sourceCode python">game_of_life()</code> on
+matrices corresponding to the following starting states:</p>
+<ol>
+<li><p>A <span class="math inline">\(5 \times 5\)</span> grid of cells
+with the following pattern (blinker): <span class="math display">\[
+\begin{bmatrix} 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0
+&amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp;
+0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\end{bmatrix}
+\]</span></p></li>
+<li><p>A <span class="math inline">\(20\times 20\)</span> grid of cells,
+all dead (<span class="math inline">\(0\)</span>) except a group near
+the center with the following pattern (glider): <span class="math display">\[
+\begin{bmatrix}0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ 1 &amp; 1 &amp;
+1\end{bmatrix}
+\]</span></p></li>
+<li><p>A <span class="math inline">\(40\times 40\)</span> grid of cells,
+all dead (<span class="math inline">\(0\)</span>) except a group near
+the center with the pattern that can be loaded as a list from the <code class="sourceCode python">engcom.data</code> module with the function
+call</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>engcom.data.game_of_life_starts(<span class="st">&quot;gosper_glider&quot;</span>)</span></code></pre></div></li>
+</ol></li>
+</ol>
+<div class="exercise-solution">
+<p>Import packages:</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.animation <span class="im">as</span> animation</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<section id="functions-for-playing-the-game" class="real-section level2" data-number="7.1" data-h="6r" data-shortid="functions-for-playing-the-game">
+<h2 class="real-section" data-h="6r" data-shortid="functions-for-playing-the-game">Functions for Playing the
+Game</h2>
+<p>We begin by writing the <code class="sourceCode python">neighbor_indices()</code> function to get the
+indices of the neighbors of a cell:</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> neighbor_indices(A: np.ndarray, index: <span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">list</span>:</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a list of tuple indices of A that are neighbors of index</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>    I <span class="op">=</span> np.array(index)  <span class="co"># Index as an array, to treat as a coordinate</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Define coordinate shifts (x rows, y columns)</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>    L <span class="op">=</span> np.array([<span class="op">-</span><span class="dv">1</span>, <span class="dv">0</span>])  <span class="co"># Left</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    R <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">0</span>])  <span class="co"># Right</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    U <span class="op">=</span> np.array([<span class="dv">0</span>, <span class="dv">1</span>])  <span class="co"># Up</span></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>    D <span class="op">=</span> np.array([<span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>])  <span class="co"># Down</span></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    LU <span class="op">=</span> L <span class="op">+</span> U  <span class="co"># Left and up</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>    LD <span class="op">=</span> L <span class="op">+</span> D  <span class="co"># Left and down</span></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>    RU <span class="op">=</span> R <span class="op">+</span> U  <span class="co"># Right and up</span></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>    RD <span class="op">=</span> R <span class="op">+</span> D  <span class="co"># Right and down</span></span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>    shifts <span class="op">=</span> [L, R, U, D, LU, LD, RU, RD]</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Prewrapped neighbors</span></span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>    neighbors_pre <span class="op">=</span> []</span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> shift <span class="kw">in</span> shifts:</span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>        neighbors_pre.append(I <span class="op">+</span> shift)</span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Wrap the neighbors</span></span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a>    x_size, y_size <span class="op">=</span> A.shape</span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a>    neighbors <span class="op">=</span> []</span>
+<span id="cb42-22"><a href="#cb42-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> neighbor <span class="kw">in</span> neighbors_pre:</span>
+<span id="cb42-23"><a href="#cb42-23" aria-hidden="true" tabindex="-1"></a>        x, y <span class="op">=</span> neighbor</span>
+<span id="cb42-24"><a href="#cb42-24" aria-hidden="true" tabindex="-1"></a>        neighbors.append((</span>
+<span id="cb42-25"><a href="#cb42-25" aria-hidden="true" tabindex="-1"></a>            x <span class="op">%</span> x_size,  <span class="co"># Wrapped x</span></span>
+<span id="cb42-26"><a href="#cb42-26" aria-hidden="true" tabindex="-1"></a>            y <span class="op">%</span> y_size,  <span class="co"># Wrapped y</span></span>
+<span id="cb42-27"><a href="#cb42-27" aria-hidden="true" tabindex="-1"></a>        ))  <span class="co"># Tuples, wrapped</span></span>
+<span id="cb42-28"><a href="#cb42-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> neighbors</span></code></pre></div>
+<p>Next is to write a function to determine if a given cell is
+alive:</p>
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_alive(A: np.ndarray, index: <span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">bool</span>:</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns True if A[index] == 1; returns False, otherwise&quot;&quot;&quot;</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> A[<span class="op">*</span>index] <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">False</span></span></code></pre></div>
+<p>Now we can write a function to determine the number of alive
+neighbors a cell has:</p>
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> n_alive_neighbors(A: np.ndarray, index: <span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the number of alive neighbors for a tuple index&quot;&quot;&quot;</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    neighbors <span class="op">=</span> neighbor_indices(A, index)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    n_alive <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> neighbor <span class="kw">in</span> neighbors:</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> is_alive(A, neighbor):</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>            n_alive <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n_alive</span></code></pre></div>
+<p>Now define a function to find the next value of a cell, given its
+current state and those of its neighbors and Life rules:</p>
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evolve_cell(A: np.ndarray, index: <span class="bu">tuple</span>):</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns the next value of A[index] based on neighbor rules&quot;&quot;&quot;</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    n_alive_neighbors_ <span class="op">=</span> n_alive_neighbors(A, index)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> is_alive(A, index):</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> n_alive_neighbors_ <span class="kw">not</span> <span class="kw">in</span> (<span class="dv">2</span>, <span class="dv">3</span>):</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">0</span>  <span class="co"># Kill</span></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">1</span>  <span class="co"># Stayin alive</span></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:  <span class="co"># Dead</span></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> n_alive_neighbors_ <span class="op">==</span> <span class="dv">3</span>:  <span class="co"># Otherwise it stays dead</span></span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">1</span>  <span class="co"># Bring to life</span></span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">0</span>  <span class="co"># The dead may never die</span></span></code></pre></div>
+<p>Now write a function that finds the next state of the entire
+world:</p>
+<div class="sourceCode" id="cb46"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evolve(A: np.array):</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Returns a new array that is the next generation from A&quot;&quot;&quot;</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    B <span class="op">=</span> np.zeros(A.shape)  <span class="co"># Initialize</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, row <span class="kw">in</span> <span class="bu">enumerate</span>(A):</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j, cell <span class="kw">in</span> <span class="bu">enumerate</span>(row):</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>            B[i, j] <span class="op">=</span> evolve_cell(A, (i, j))</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> B</span></code></pre></div>
+<p>Finally we can write the <code class="sourceCode python">game_of_life()</code> function:</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> game_of_life(A: np.ndarray, n_generations<span class="op">=</span><span class="dv">5</span>):</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Plays a game of life on a torus with starting state A&quot;&quot;&quot;</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>    states <span class="op">=</span> [A]  <span class="co"># Initialize list of states to start with A (gen 0)</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> igen <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, n_generations):</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>        states.append(evolve(states[igen<span class="op">-</span><span class="dv">1</span>]))</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> states</span></code></pre></div>
+</section>
+<section id="starting-states" class="real-section level2" data-number="7.2" data-h="71" data-shortid="starting-states">
+<h2 class="real-section" data-h="71" data-shortid="starting-states">Define Starting States</h2>
+<p>Now to define the given starting states:</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>start1 <span class="op">=</span> np.array([</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>],</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>],</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>start2 <span class="op">=</span> np.zeros((<span class="dv">20</span>, <span class="dv">20</span>))</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>start2[<span class="dv">9</span>:<span class="dv">12</span>, <span class="dv">9</span>:<span class="dv">12</span>] <span class="op">=</span> np.array([</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>],</span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>],</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>start3 <span class="op">=</span> np.zeros((<span class="dv">40</span>, <span class="dv">40</span>))</span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>gg <span class="op">=</span> np.array(engcom.data.game_of_life_starts(<span class="st">&quot;gosper_glider&quot;</span>))</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>start3[<span class="dv">15</span>:(<span class="dv">15</span><span class="op">+</span>gg.shape[<span class="dv">0</span>]), <span class="dv">2</span>:(<span class="dv">2</span><span class="op">+</span>gg.shape[<span class="dv">1</span>])] <span class="op">=</span> gg</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>starting_states <span class="op">=</span> (start1, start2, start3)</span></code></pre></div>
+</section>
+<section id="functions-for-visualizing-games" class="real-section level2" data-number="7.3" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-v-ts="T1" data-0-prev="y3" data-0-sectionhash="nj" data-0-sec="5.5" data-0-title="Sets of Differential Equations" data-0-chapterhash="dx" data-0-problem-num="" data-0-v-ds="D1" data-0-subsec="5.5.0" data-0-wherein="" data-0-url="" data-0-type="section" data-0-p="183" data-0-v-specific="no" data-0-example-num="" data-0-hash="nj" data-0-ch="5" data-0-next="g8" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-subsectionhash="">
+<h2 class="real-section" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-v-ts="T1" data-0-prev="y3" data-0-sectionhash="nj" data-0-sec="5.5" data-0-title="Sets of Differential Equations" data-0-chapterhash="dx" data-0-problem-num="" data-0-v-ds="D1" data-0-subsec="5.5.0" data-0-wherein="" data-0-url="" data-0-type="section" data-0-p="183" data-0-v-specific="no" data-0-example-num="" data-0-hash="nj" data-0-ch="5" data-0-next="g8" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-subsectionhash="">Functions for Visualizing Games</h2>
+<p>The following function can visualize a single state of the world:</p>
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> visualize_state(state: np.ndarray):</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Visualize a single state of a game&quot;&quot;&quot;</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>    ax.matshow(state)</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<section id="visualize-the-games-animation" class="real-section level3" data-number="7.3.1" data-shortid="visualize-the-games-animation">
+<h3 class="real-section" data-shortid="visualize-the-games-animation">Visualize the Games with
+Animation</h3>
+<p>The following function will be used to update the animation:</p>
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> update(j):</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Update plot with a new game state&quot;&quot;&quot;</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    plot.set_data(game_states[j])</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> plot</span></code></pre></div>
+<p>This function will animate a game (a list of states) and save the
+animation to a gif:</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> animate_game(game_states: <span class="bu">list</span>):</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> plot  <span class="co"># Needed global to communicate with update()</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    fig <span class="op">=</span> plt.figure(num<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    plot <span class="op">=</span> plt.imshow(game_states[<span class="dv">0</span>], cmap<span class="op">=</span><span class="st">&#39;gray_r&#39;</span>, vmin<span class="op">=</span><span class="dv">0</span>, vmax<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> plt.gca()</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    ax.<span class="bu">set</span>(xticks<span class="op">=</span>[], yticks<span class="op">=</span>[], xticklabels<span class="op">=</span>[], yticklabels<span class="op">=</span>[])</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    ax.spines[<span class="st">&#39;top&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    ax.spines[<span class="st">&#39;right&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>    ax.spines[<span class="st">&#39;bottom&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>    ax.spines[<span class="st">&#39;left&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>    anim <span class="op">=</span> animation.FuncAnimation(</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>        func<span class="op">=</span>update,</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>        fig<span class="op">=</span>fig,</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>        frames<span class="op">=</span><span class="bu">len</span>(game_states), </span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>        interval <span class="op">=</span> <span class="dv">250</span>,</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># plt.show()</span></span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>    anim.save(<span class="ss">f&quot;animation_</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">.gif&quot;</span>)</span></code></pre></div>
+<p>Now just to loop through the starting states, play the games, and
+animate:</p>
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, A <span class="kw">in</span> <span class="bu">enumerate</span>(starting_states):</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>    game_states <span class="op">=</span> game_of_life(A, n_generations<span class="op">=</span><span class="dv">81</span>)</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>    animate_game(game_states)</span></code></pre></div>
+</section>
+<section id="visualize-the-games-grid" class="real-section level3" data-number="7.3.2" data-shortid="visualize-the-games-grid">
+<h3 class="real-section" data-shortid="visualize-the-games-grid">Visualize the Games with a
+Grid</h3>
+<p>This function will arrange visualizations of a game (a list of
+states) in a grid:</p>
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> game_gridder(game_states: <span class="bu">list</span>):</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>    nrows <span class="op">=</span> <span class="bu">int</span>(np.floor(np.sqrt(<span class="bu">len</span>(game_states))))</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>    ncols <span class="op">=</span> <span class="bu">int</span>(np.ceil(<span class="bu">len</span>(game_states)<span class="op">/</span>nrows))</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    fig, axs <span class="op">=</span> plt.subplots(num<span class="op">=</span><span class="dv">1</span>, nrows<span class="op">=</span>nrows, ncols<span class="op">=</span>ncols)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>    fig.subplots_adjust(</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>        left<span class="op">=</span><span class="dv">0</span>, right<span class="op">=</span><span class="dv">1</span>, top<span class="op">=</span><span class="dv">1</span>, bottom<span class="op">=</span><span class="dv">0</span>, wspace<span class="op">=</span><span class="dv">0</span>, hspace<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, state <span class="kw">in</span> <span class="bu">enumerate</span>(game_states):</span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>        ax <span class="op">=</span> axs.flat[i]</span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a>        ax.matshow(game_states[i], cmap<span class="op">=</span><span class="st">&#39;gray_r&#39;</span>, vmin<span class="op">=</span><span class="dv">0</span>, vmax<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a>        ax.<span class="bu">set</span>(xticks<span class="op">=</span>[], yticks<span class="op">=</span>[], xticklabels<span class="op">=</span>[], yticklabels<span class="op">=</span>[])</span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a>        ax.spines[<span class="st">&#39;top&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a>        ax.spines[<span class="st">&#39;right&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a>        ax.spines[<span class="st">&#39;bottom&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a>        ax.spines[<span class="st">&#39;left&#39;</span>].set_visible(<span class="va">True</span>)</span>
+<span id="cb53-16"><a href="#cb53-16" aria-hidden="true" tabindex="-1"></a>    n_extra <span class="op">=</span> nrows <span class="op">*</span> ncols <span class="op">-</span> <span class="bu">len</span>(game_states)</span>
+<span id="cb53-17"><a href="#cb53-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(game_states), nrows<span class="op">*</span>ncols):</span>
+<span id="cb53-18"><a href="#cb53-18" aria-hidden="true" tabindex="-1"></a>        axs.flat[i].set_axis_off()</span>
+<span id="cb53-19"><a href="#cb53-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span></code></pre></div>
+<p>Now just to loop through the starting states, play the games, and
+plotting on a grid:</p>
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, A <span class="kw">in</span> <span class="bu">enumerate</span>(starting_states):</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>    game_states <span class="op">=</span> game_of_life(A, n_generations<span class="op">=</span><span class="dv">81</span>)</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    game_gridder(game_states)</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<figure class="real-figure" id="fig:wj-figure-0">
+<img src="/assets/source/wj/figure-0.svg" class="figure pdf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+<div class="output execute_result" data-execution_count="19">
+<figure class="real-figure" id="fig:wj-figure-1">
+<img src="/assets/source/wj/figure-1.svg" class="figure pdf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+<div class="output execute_result" data-execution_count="21">
+<figure class="real-figure" id="fig:wj-figure-2">
+<img src="/assets/source/wj/figure-2.svg" class="figure pdf " alt=" Figure " />
+<figcaption>Figure : A caption.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="r9" data-problem-num="3.11">
+<p>In robotic path planning, it is often important to know if a given
+point (e.g., a potential location of the robot) is inside of a given
+polygon (e.g., a shape representing an obstacle). On a plane, a polygon
+can be defined by a list of <span class="math inline">\(n\)</span>
+points <span class="math inline">\((x_i, y_i)\)</span> representing the
+vertices of the polygon <span class="math inline">\(P\)</span>. One
+algorithm for determining if a given point <span class="math inline">\(R\)</span> is in <span class="math inline">\(P\)</span> is called the <span class="keyword">winding number algorithm</span>, which computes the
+winding number <span class="math inline">\(\omega\)</span> as the sum of
+the angles <span class="math inline">\(\theta_i\)</span> between the
+vectors from <span class="math inline">\(R\)</span> to consecutive
+vertices <span class="math inline">\(P_i\)</span> and <span class="math inline">\(P_{i+1}\)</span> of the polygon, denoted <span class="math inline">\(\vec{r}_i\)</span> and <span class="math inline">\(\vec{r}_{i+1}\)</span>, as shown in
+fig. <strong>¿fig:r9-polygon?</strong>. In other words, <span id="eq:winding-number"><span class="math display">\[
+\omega = \frac{1}{2\pi} \sum_{i=0}^{n-1} \theta_i.
+\qquad{(1)}\]</span></span></p>
+<figure class="real-figure" id="fig:r9-polygon">
+<img src="/assets/figures/r9-polygon/main.svg" class="figure standalone nofloat " alt=" Figure 3.7" />
+<figcaption>Figure 3.7: A polygon and vectors from <span class="math inline"><em>R</em></span> to two consecutive vertices.</figcaption>
+</figure>
+<p>It can be shown that if the winding number is <span class="math inline">\(0\)</span>, then <span class="math inline">\(R\)</span> is outside the polygon; otherwise, it
+is inside. The angle <span class="math inline">\(\phi_i\)</span> of
+vector <span class="math inline">\(\vec{r}_i = [r_{i_x},
+r_{i_y}]\)</span> is <span class="math display">\[
+\phi_i = \arctan(r_{i_y}/r_{i_x}),
+\]</span> where we should use <code class="sourceCode python">np.atan2(riy, rix)</code> for computation. The
+difference between the angles of two consecutive vectors is <span class="math display">\[
+\theta_i = \phi_{i+1} - \phi_i \text{ where } |\theta_i| \le \pi.
+\]</span> The bound <span class="math inline">\(|\theta_i| \le
+\pi\)</span> must be enforced because the acute angle is used in eq. 1,
+so if <span class="math inline">\(\phi_{i+1} - \phi_i &lt;
+-\pi\)</span>, we should add <span class="math inline">\(2\pi\)</span>
+and if <span class="math inline">\(\phi_{i+1} - \phi_i &gt;
+\pi\)</span>, we should subtract <span class="math inline">\(2\pi\)</span>.</p>
+<p>Write a program that meets the following requirements:</p>
+<ol>
+<li><p>It defines a <code class="sourceCode python">Polygon</code> class
+that is constructed with instance attribute <code class="sourceCode python">vertices</code>, a list of <span class="math inline">\((x_i, y_i)\)</span> coordinate tuples defining the
+vertices of the polygon.</p></li>
+<li><p>The <code class="sourceCode python">Polygon</code> class has a
+method <code class="sourceCode python">plot()</code> that plots the
+polygon as a closed curve. If a point <code class="sourceCode python">R</code> is passed to the <code class="sourceCode python">plot()</code> method, it should appear as a
+single point on the plot.</p></li>
+<li><p>The <code class="sourceCode python">Polygon</code> class has a
+method <code class="sourceCode python">is_inside(R)</code> that checks
+if the point <code class="sourceCode python">R</code> (a tuple) is
+inside the polygon using a winding number algorithm. The method should
+return <code class="sourceCode python"><span class="va">True</span></code> if <code class="sourceCode python">R</code> is inside the polygon and <code class="sourceCode python"><span class="va">False</span></code>
+otherwise. Additional methods can be added to help with the computation
+of angles and other intermediate quantities.</p></li>
+<li><p>It tests the <code class="sourceCode python">Polygon</code> class
+with the following polygons and points, testing if the points are inside
+the polygon and plotting the polygon with the points:</p>
+<ol>
+<li><span class="math inline">\(P = [(5, 1), (2, 3), (-2, 3.5), (-4, 1),
+(-2, 1.5), (-2, -2), (-5, -3), (2, -2.5),\allowbreak (5.5, -1)]\)</span>
+and the points <span class="math inline">\(R_1 = (0, 0)\)</span> and
+<span class="math inline">\(R_2 = (-4, 0)\)</span></li>
+<li><span class="math inline">\(P = [(4, 1), (1, 2), (-1, 1), (-4, 2),
+(-5, -2), (-3, -2), (-5, -3), (2, -2),\linebreak (5, -2)]\)</span> and
+the points <span class="math inline">\(R_1 = (0, 0)\)</span> and <span class="math inline">\(R_2 = (-4, 0)\)</span></li>
+</ol></li>
+</ol>
+<p><em>Restriction</em>: Use only the NumPy and Matplotlib packages.</p>
+<div class="exercise-solution">
+<p>Load packages:</p>
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+<section id="define-the-class" class="unnumbered real-section level2" data-shortid="define-the-class">
+<h2 class="unnumbered real-section" data-shortid="define-the-class">Define the Class</h2>
+<p>Here is a basic <code class="sourceCode python">Polygon</code> class
+definition:</p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Polygon:</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;A polygon defined by its vertices.&quot;&quot;&quot;</span></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, vertices: <span class="bu">list</span>):</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.vertices <span class="op">=</span> vertices  <span class="co"># Vertices attribute</span></span></code></pre></div>
+<p>This can be initialized with a list of vertex tuples. Now let’s add a
+<code class="sourceCode python">plot()</code> method as follows:</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode python nosamepage"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Polygon:</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;A polygon defined by its vertices.&quot;&quot;&quot;</span></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, vertices: <span class="bu">list</span>):</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.vertices <span class="op">=</span> vertices  <span class="co"># Vertices attribute</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.n <span class="op">=</span> <span class="bu">len</span>(vertices)  <span class="co"># Number of vertices</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> plot(<span class="va">self</span>, R: <span class="bu">tuple</span> <span class="op">|</span> <span class="va">None</span> <span class="op">=</span> <span class="va">None</span>, ax<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Plot the polygon as a closed curve and a point R&quot;&quot;&quot;</span></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>        vertices_a <span class="op">=</span> np.array(<span class="va">self</span>.vertices).T</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Initialize and fill most of the x, y arrays</span></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> np.full(<span class="va">self</span>.n <span class="op">+</span> <span class="dv">1</span>, np.nan)  <span class="co"># +1 to repeat the first point</span></span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>        x[<span class="dv">0</span>:<span class="va">self</span>.n] <span class="op">=</span> vertices_a[<span class="dv">0</span>]</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>        y <span class="op">=</span> np.full(<span class="va">self</span>.n <span class="op">+</span> <span class="dv">1</span>, np.nan)  <span class="co"># +1 to repeat the first point</span></span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>        y[<span class="dv">0</span>:<span class="va">self</span>.n] <span class="op">=</span> vertices_a[<span class="dv">1</span>]</span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Add the first point to the end</span></span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>        x[<span class="op">-</span><span class="dv">1</span>] <span class="op">=</span> x[<span class="dv">0</span>]</span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>        y[<span class="op">-</span><span class="dv">1</span>] <span class="op">=</span> y[<span class="dv">0</span>]</span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Plot</span></span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> ax <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a>            fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb57-21"><a href="#cb57-21" aria-hidden="true" tabindex="-1"></a>        ax.plot(x, y)</span>
+<span id="cb57-22"><a href="#cb57-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> R <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb57-23"><a href="#cb57-23" aria-hidden="true" tabindex="-1"></a>            ax.scatter(R[<span class="dv">0</span>], R[<span class="dv">1</span>])</span>
+<span id="cb57-24"><a href="#cb57-24" aria-hidden="true" tabindex="-1"></a>            ax.annotate(</span>
+<span id="cb57-25"><a href="#cb57-25" aria-hidden="true" tabindex="-1"></a>                <span class="st">&quot;$R$&quot;</span>, R, </span>
+<span id="cb57-26"><a href="#cb57-26" aria-hidden="true" tabindex="-1"></a>                xytext<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">5</span>), textcoords<span class="op">=</span><span class="st">&#39;offset points&#39;</span></span>
+<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb57-28"><a href="#cb57-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> ax</span>
+<span id="cb57-29"><a href="#cb57-29" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb57-30"><a href="#cb57-30" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> vectors(<span class="va">self</span>, R:<span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">list</span>:</span>
+<span id="cb57-31"><a href="#cb57-31" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Returns the vectors from R to vertices of the polygon&quot;&quot;&quot;</span></span>
+<span id="cb57-32"><a href="#cb57-32" aria-hidden="true" tabindex="-1"></a>        rs <span class="op">=</span> []</span>
+<span id="cb57-33"><a href="#cb57-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> p <span class="kw">in</span> <span class="va">self</span>.vertices:</span>
+<span id="cb57-34"><a href="#cb57-34" aria-hidden="true" tabindex="-1"></a>            rs.append(np.array(p) <span class="op">-</span> np.array(R))  <span class="co"># Difference in x, y</span></span>
+<span id="cb57-35"><a href="#cb57-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> rs</span>
+<span id="cb57-36"><a href="#cb57-36" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb57-37"><a href="#cb57-37" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> winding_number(<span class="va">self</span>, R: <span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb57-38"><a href="#cb57-38" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Returns the winding number for point R&quot;&quot;&quot;</span></span>
+<span id="cb57-39"><a href="#cb57-39" aria-hidden="true" tabindex="-1"></a>        rs <span class="op">=</span> <span class="va">self</span>.vectors(R)  <span class="co"># Vectors from R to each P vertex</span></span>
+<span id="cb57-40"><a href="#cb57-40" aria-hidden="true" tabindex="-1"></a>        thetas <span class="op">=</span> np.full(<span class="va">self</span>.n, np.nan)  <span class="co"># Initialize</span></span>
+<span id="cb57-41"><a href="#cb57-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n):</span>
+<span id="cb57-42"><a href="#cb57-42" aria-hidden="true" tabindex="-1"></a>            j <span class="op">=</span> (i<span class="op">+</span><span class="dv">1</span>) <span class="op">%</span> <span class="va">self</span>.n  <span class="co"># Wrap i+1 back to 0</span></span>
+<span id="cb57-43"><a href="#cb57-43" aria-hidden="true" tabindex="-1"></a>            phi_i <span class="op">=</span> np.arctan2(rs[i][<span class="dv">1</span>], rs[i][<span class="dv">0</span>])  <span class="co"># Angle of $\vec{r}_i$</span></span>
+<span id="cb57-44"><a href="#cb57-44" aria-hidden="true" tabindex="-1"></a>            phi_j <span class="op">=</span> np.arctan2(rs[j][<span class="dv">1</span>], rs[j][<span class="dv">0</span>])  <span class="co"># Angle of $\vec{r}_{i+1}$</span></span>
+<span id="cb57-45"><a href="#cb57-45" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> phi_j <span class="op">-</span> phi_i <span class="op">&lt;</span> <span class="op">-</span>np.pi:  <span class="co"># Handle 2*pi wrapping</span></span>
+<span id="cb57-46"><a href="#cb57-46" aria-hidden="true" tabindex="-1"></a>                thetas[i] <span class="op">=</span> phi_j <span class="op">-</span> phi_i <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>np.pi  <span class="co"># $\theta_i$</span></span>
+<span id="cb57-47"><a href="#cb57-47" aria-hidden="true" tabindex="-1"></a>            <span class="cf">elif</span> phi_j <span class="op">-</span> phi_i <span class="op">&gt;</span> np.pi:  <span class="co"># Handle 2*pi wrapping</span></span>
+<span id="cb57-48"><a href="#cb57-48" aria-hidden="true" tabindex="-1"></a>                thetas[i] <span class="op">=</span> phi_j <span class="op">-</span> phi_i <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>np.pi  <span class="co"># $\theta_i$</span></span>
+<span id="cb57-49"><a href="#cb57-49" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb57-50"><a href="#cb57-50" aria-hidden="true" tabindex="-1"></a>                thetas[i] <span class="op">=</span> phi_j <span class="op">-</span> phi_i  <span class="co"># $\theta_i$</span></span>
+<span id="cb57-51"><a href="#cb57-51" aria-hidden="true" tabindex="-1"></a>        omega <span class="op">=</span> np.<span class="bu">round</span>(<span class="dv">1</span><span class="op">/</span>(<span class="dv">2</span><span class="op">*</span>np.pi) <span class="op">*</span> np.<span class="bu">sum</span>(thetas))</span>
+<span id="cb57-52"><a href="#cb57-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> omega</span>
+<span id="cb57-53"><a href="#cb57-53" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb57-54"><a href="#cb57-54" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> is_inside(<span class="va">self</span>, R: <span class="bu">tuple</span>) <span class="op">-&gt;</span> <span class="bu">bool</span>:</span>
+<span id="cb57-55"><a href="#cb57-55" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;Returns True if R in polygon, False otherwise&quot;&quot;&quot;</span></span>
+<span id="cb57-56"><a href="#cb57-56" aria-hidden="true" tabindex="-1"></a>        omega <span class="op">=</span> <span class="va">self</span>.winding_number(R)</span>
+<span id="cb57-57"><a href="#cb57-57" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> omega <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb57-58"><a href="#cb57-58" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb57-59"><a href="#cb57-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb57-60"><a href="#cb57-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">True</span></span></code></pre></div>
+</section>
+<section id="test-the-class" class="unnumbered real-section level2" data-shortid="test-the-class">
+<h2 class="unnumbered real-section" data-shortid="test-the-class">Test
+the Class</h2>
+<p>Create the test polygons and points as follows:</p>
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>polygons <span class="op">=</span> [</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>    Polygon([</span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>        (<span class="dv">5</span>, <span class="dv">1</span>), (<span class="dv">2</span>, <span class="dv">3</span>), (<span class="op">-</span><span class="dv">2</span>, <span class="fl">3.5</span>), (<span class="op">-</span><span class="dv">4</span>, <span class="dv">1</span>), (<span class="op">-</span><span class="dv">2</span>, <span class="fl">1.5</span>), </span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>        (<span class="op">-</span><span class="dv">2</span>, <span class="op">-</span><span class="dv">2</span>), (<span class="op">-</span><span class="dv">5</span>, <span class="op">-</span><span class="dv">3</span>), (<span class="dv">2</span>, <span class="op">-</span><span class="fl">2.5</span>), (<span class="fl">5.5</span>, <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>    ]),</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>    Polygon([</span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>        (<span class="dv">4</span>, <span class="dv">1</span>), (<span class="dv">1</span>, <span class="dv">2</span>), (<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>), (<span class="op">-</span><span class="dv">4</span>, <span class="dv">2</span>), (<span class="op">-</span><span class="dv">5</span>, <span class="op">-</span><span class="dv">2</span>), </span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>        (<span class="op">-</span><span class="dv">3</span>, <span class="op">-</span><span class="dv">2</span>), (<span class="op">-</span><span class="dv">5</span>, <span class="op">-</span><span class="dv">3</span>), (<span class="dv">2</span>, <span class="op">-</span><span class="dv">2</span>), (<span class="dv">5</span>, <span class="op">-</span><span class="dv">2</span>)</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>    ]),</span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>points <span class="op">=</span> [(<span class="dv">0</span>, <span class="dv">0</span>), (<span class="op">-</span><span class="dv">4</span>, <span class="dv">0</span>)]</span></code></pre></div>
+<p>Graph the polygons and points as follows:</p>
+<div class="sourceCode" id="cb59"><pre class="sourceCode python remove-output"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>places <span class="op">=</span> []</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, poly <span class="kw">in</span> <span class="bu">enumerate</span>(polygons):</span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j, R <span class="kw">in</span> <span class="bu">enumerate</span>(points):</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>        poly.plot(R, ax<span class="op">=</span>axs[i, j])</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> poly.is_inside(R):</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>            places.append(<span class="ss">f&quot;R = </span><span class="sc">{</span>R<span class="sc">}</span><span class="ss"> is inside polygon </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a>            places.append(<span class="ss">f&quot;R = </span><span class="sc">{</span>R<span class="sc">}</span><span class="ss"> is outside polygon </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output execute_result remove-input" data-execution_count="7">
+<figure class="real-figure" id="fig:r9-figure-0">
+<img src="/assets/source/r9/figure-0.svg" class="figure pgf " alt=" Figure " />
+<figcaption>Figure : The polygons and points.</figcaption>
+</figure>
+</div>
+<p>Print the test results from <code class="sourceCode python">is_inside()</code> as follows:</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> place <span class="kw">in</span> places:</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(place)</span></code></pre></div>
+<div class="output stream stdout">
+<pre class="sourceCode"><code>R = (0, 0) is inside polygon 0
+R = (-4, 0) is outside polygon 0
+R = (0, 0) is inside polygon 1
+R = (-4, 0) is inside polygon 1</code></pre>
+</div>
+</section>
+</div>
+</div>
+<div class="exercise" data-h="fx" data-problem-num="3.12">
+<p>Create and test the <code class="sourceCode python">Polygon</code>
+class described in <a href="/r9">problem 3.11</a> with the following
+augmentation: instead of using the tangent function to compute the angle
+<span class="math inline">\(\theta_i\)</span> between consecutive
+vectors, use vector products.</p>
+<p>The magnitude of the angle can be found from the dot product (<code class="sourceCode python">np.dot()</code>) expression <span class="math display">\[
+\cos\theta_i = \frac{\vec{r}_i \cdot
+\vec{r}_{i+1}}{|\vec{r}_i|\,|\vec{r}_{i+1}|},
+\]</span> where <span class="math inline">\(|\cdot|\)</span> is the
+vector length and <span class="math inline">\(\cdot\)</span> is the dot
+product. To determine the sign of the angle, the cross product (<code class="sourceCode python">np.cross()</code>) can be used because <span class="math inline">\(\vec{r}_i \times \vec{r}_{i+1} = -\vec{r}_{i+1}
+\times \vec{r}_{i}\)</span>. In other words, the direction of rotation
+between <span class="math inline">\(\vec{r}_i\)</span> and <span class="math inline">\(\vec{r}_{i+1}\)</span> can be found from the sign
+of their cross product.</p>
+<div class="exercise-solution">
+<!-- ```include
+source/r9/main.md
+``` -->
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-JohnstonGreene2022" class="csl-entry" role="listitem">
+Johnston, Nathaniel, and Dave Greene. 2022. <em>Conway’s Game of Life:
+Mathematics and Construction</em>. Self-published. <a href="https://doi.org/10.5281/zenodo.6097284">https://doi.org/10.5281/zenodo.6097284</a>.
+</div>
+</div>
+
+<h2 id="online-resources-for-section-35">Online Resources for Section 3.5</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="input-output" class="real-section level1" data-number="1" data-h="j4" data-shortid="input-output" data-0-id="numerical-representations-io-graphics/input-output" data-0-ch="3" data-0-next="sy" data-0-type="section" data-0-sec="3.3" data-0-wherein="" data-0-p="75" data-0-hash="j4" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-prev="84" data-0-example-num="" data-0-subsec="3.3.0" data-0-subsectionhash="" data-0-chapterhash="r3" data-0-title="Input and Output" data-0-v-ds="D1">
+<h1 class="real-section" data-h="j4" data-shortid="input-output" data-0-id="numerical-representations-io-graphics/input-output" data-0-ch="3" data-0-next="sy" data-0-type="section" data-0-sec="3.3" data-0-wherein="" data-0-p="75" data-0-hash="j4" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-prev="84" data-0-example-num="" data-0-subsec="3.3.0" data-0-subsectionhash="" data-0-chapterhash="r3" data-0-title="Input and Output" data-0-v-ds="D1">Input and Output</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>A program’s <span class="keyword">input</span> and <span class="keyword">output</span> refer to the the information provided to a
+program from without and the information the program produces. We have
+already seen examples of Python programs’ output in the form of text
+printed to a console. Thus far, our programs have had no input because
+they have contained all the information they need.</p>
+<p>In this section, we consider a few important types of Python input
+and output. In <a href="/sy">section 3.4</a>, graphical output will be
+introduced.</p>
+<section id="user-input" class="real-section level2" data-number="1.1" data-h="fi" data-shortid="user-input" data-0-id="numerical-representations-io-graphics/input-output/user-input" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="User Input" data-0-p="75" data-0-hash="fi" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="fi" data-0-subsec="3.3.1" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="fi" data-shortid="user-input" data-0-id="numerical-representations-io-graphics/input-output/user-input" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="User Input" data-0-p="75" data-0-hash="fi" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="fi" data-0-subsec="3.3.1" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">User Input</h2>
+<p>A user can interact directly with a Python program via the built-in
+function <code class="sourceCode python"><span class="bu">input</span>(prompt)</code>.
+The <code class="sourceCode python">prompt</code> argument is printed to
+the console and the user can type in a response, finishing with the
+<span class="material-icons">keyboard_return</span> key. For instance,
+consider the following program:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> fractions  <span class="co"># Built-in module</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> <span class="bu">input</span>(  <span class="co"># Solicit user input</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;What are my chances? (Enter a fraction): &quot;</span>  <span class="co"># Prompt</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">float</span>(fractions.Fraction(response)) <span class="op">&gt;</span> <span class="fl">0.</span>:</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;So you&#39;re tellin&#39; me there&#39;s a chance. YEAH!&quot;</span>)</span></code></pre></div>
+<p> Running this program prints the following prompt:</p>
+<pre class="sourceCode"><code>What are my chances? (Enter a fraction): |</code></pre>
+<p> Suppose the user enters <code class="sourceCode python"><span class="dv">1</span><span class="op">/</span><span class="dv">1_000_000</span></code>.
+This is read by the input function and stored as a <code class="sourceCode python"><span class="bu">str</span></code> in the
+variable <code class="sourceCode python">response</code>. A string can
+be cast to a fraction using the <code class="sourceCode python">fractions</code> module’s <code class="sourceCode python">fractions.Fraction()</code> function. The
+fraction can be converted to a float with the <code class="sourceCode python"><span class="bu">float</span>()</code>
+function. In the case that the user enters <code class="sourceCode python"><span class="dv">1</span><span class="op">/</span><span class="dv">1_000_000</span></code>,
+the following would print to the console:</p>
+<pre class="sourceCode"><code>So you&#39;re tellin&#39; me there&#39;s a chance. YEAH!</code></pre>
+</section>
+<section id="text-files" class="real-section level2" data-number="1.2" data-h="vn" data-shortid="text-files" data-0-id="numerical-representations-io-graphics/input-output/text-files" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="Text Files" data-0-p="76" data-0-hash="vn" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="vn" data-0-subsec="3.3.2" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="vn" data-shortid="text-files" data-0-id="numerical-representations-io-graphics/input-output/text-files" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="Text Files" data-0-p="76" data-0-hash="vn" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="vn" data-0-subsec="3.3.2" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">Text Files</h2>
+<p>A <span class="keyword">text file</span> is a common type of input
+and output. Text files contain information in the form of lines of text.
+They are typically readable by a human, such that a text file can be
+viewed in a text file viewer or editor (e.g., Windows Notepad and
+TextEdit). While some text files have extension <code class="sourceCode">.txt</code>, most do not. In fact, a Python script
+(with extension <code class="sourceCode">.py</code>) is a text file.</p>
+<section id="writing-text-file" class="real-section level3" data-number="1.2.1" data-shortid="writing-text-file">
+<h3 class="real-section" data-shortid="writing-text-file">Reading a Text
+File</h3>
+<p>In Python, a text file can be opened and read with the following
+pattern:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;filename&quot;</span>) <span class="im">as</span> f:  <span class="co"># Open a file for reading</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    contents <span class="op">=</span> f.read()  <span class="co"># Read and assign the entire contents</span></span></code></pre></div>
+<p> The built-in <code class="sourceCode python"><span class="bu">open</span>()</code> function
+takes the optional argument <code class="sourceCode python">mode</code>,
+which can have one of the following values:</p>
+<ul>
+<li><code class="sourceCode python"><span class="co">&quot;r&quot;</span></code>:
+Read only (default)</li>
+<li><code class="sourceCode python"><span class="co">&quot;w&quot;</span></code>:
+Write only (will overwrite an existing file)</li>
+<li><code class="sourceCode python"><span class="co">&quot;a&quot;</span></code>:
+Append to an existing file</li>
+<li><code class="sourceCode python"><span class="co">&quot;r+&quot;</span></code>:
+Read and write</li>
+</ul>
+<p>For instance, suppose a file named <span class="path">hamlet.txt</span> in the working directory has the
+following contents:</p>
+<pre class="sourceCode"><code>To die, to sleep;
+To sleep: perchance to dream: ay, there&#39;s the rub;
+For in that sleep of death what dreams may come</code></pre>
+<p>The following program reads the file and prints a line every <span class="math inline">\(3\)</span> seconds:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time  <span class="co"># Built-in module</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;hamlet.txt&quot;</span>, mode<span class="op">=</span><span class="st">&quot;r&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    contents <span class="op">=</span> f.read().splitlines()  <span class="co"># List of lines</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> line <span class="kw">in</span> contents:</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(line)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    time.sleep(<span class="dv">3</span>)  <span class="co"># Delays for at least 3 seconds</span></span></code></pre></div>
+<p> At the end of the <code class="sourceCode python"><span class="cf">with</span></code> block, the
+file is closed automatically, but the <code class="sourceCode python">contents</code> variable lives on.</p>
+<p>Other methods for reading text files include <code class="sourceCode python">readline()</code> and <code class="sourceCode python">readlines()</code>.</p>
+</section>
+<section id="reading-text-file" class="real-section level3" data-number="1.2.2" data-shortid="reading-text-file">
+<h3 class="real-section" data-shortid="reading-text-file">Writing a Text
+File</h3>
+<p>A text file can be written to a file opened in modes <code class="sourceCode python"><span class="co">&quot;w&quot;</span></code>
+(i.e., overwrite), <code class="sourceCode python"><span class="co">&quot;a&quot;</span></code>
+(i.e., append), and <code class="sourceCode python"><span class="co">&quot;r+&quot;</span></code>
+(i.e., read and write). Suppose one wanted to append the text “—Hamlet,
+act III, scene I” as a new line to <span class="path">hamlet.txt</span>.
+The following would achieve this aim:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>attribution <span class="op">=</span> <span class="st">&quot;</span><span class="ch">\n</span><span class="st">---Hamlet, act III, scene I&quot;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;hamlet.txt&quot;</span>, mode<span class="op">=</span><span class="st">&quot;a&quot;</span>):</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    f.write(attribution)</span></code></pre></div>
+<p>Another useful method for writing to a file is the <code class="sourceCode python">writelines()</code> method, which writes a
+list of strings to the file.</p>
+</section>
+</section>
+<section id="json-files" class="real-section level2" data-number="1.3" data-h="9u" data-shortid="json-files" data-0-id="numerical-representations-io-graphics/input-output/json-files" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="JSON Files" data-0-p="77" data-0-hash="9u" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="9u" data-0-subsec="3.3.3" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="9u" data-shortid="json-files" data-0-id="numerical-representations-io-graphics/input-output/json-files" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="JSON Files" data-0-p="77" data-0-hash="9u" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="9u" data-0-subsec="3.3.3" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">JSON Files</h2>
+<p>JavaScript Object Notation (JSON) is a text file data format that is
+often used to store and share data in a form that is not specific to any
+programming language. JSON data types include:</p>
+<ul>
+<li><p>Numbers: signed decimal numbers (e.g., <code class="sourceCode json"><span class="er">4</span></code>, <code class="sourceCode json"><span class="er">8.0</span></code>, and <code class="sourceCode json"><span class="er">5e-3</span></code>)</p></li>
+<li><p>Strings: sequences of Unicode characters in double quotation
+marks (e.g., <code class="sourceCode json"><span class="er">&quot;A</span> <span class="er">string&quot;</span></code>)</p></li>
+<li><p>Booleans: values of <code class="sourceCode json"><span class="er">true</span></code> and <code class="sourceCode json"><span class="er">false</span></code></p></li>
+<li><p>Arrays: ordered collections of elements between brackets <code class="sourceCode json"><span class="ot">[]</span></code>,
+comma-separated (e.g., <code class="sourceCode json"><span class="ot">[</span><span class="fl">3.1</span><span class="ot">,</span> <span class="dv">9</span><span class="ot">,</span> <span class="st">&quot;foo&quot;</span><span class="ot">]</span></code>)</p></li>
+<li><p>Objects: unordered collections of key-value pairs between braces
+<code class="sourceCode json"><span class="fu">{}</span></code>,
+comma-separated; for instance,</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;Rick Sanchez&quot;</span><span class="fu">,</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;occupation&quot;</span><span class="fu">:</span> <span class="st">&quot;Scientist&quot;</span><span class="fu">,</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;minimum age&quot;</span><span class="fu">:</span> <span class="dv">70</span><span class="fu">,</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;grandchildren&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Morty&quot;</span><span class="ot">,</span> <span class="st">&quot;Summer&quot;</span><span class="ot">]</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div></li>
+</ul>
+<p>A JSON file name conventionally ends with a <code class="sourceCode">.json</code> extension.</p>
+<p>The reading and writing of JSON files with Python can be done with
+the standard library <code class="sourceCode python">json</code> module,
+which can be loaded with the following statement:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span></code></pre></div>
+<section id="reading" class="real-section level3" data-number="1.3.1" data-shortid="reading">
+<h3 class="real-section" data-shortid="reading">Reading</h3>
+<p>Python reads JSON types and converts them into similar Python types.
+The conversions are summarized in
+tbl. <strong>¿tbl:json-to-python?</strong>.</p>
+<p>Let’s say a JSON file <code class="sourceCode">rick.json</code> has
+the JSON object describing Rick Sanchez from above. We can load it in
+with the following code:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;rick.json&quot;</span>, <span class="st">&quot;r&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> json.load(f)</span></code></pre></div>
+<p> The base object is converted to a <code class="sourceCode python"><span class="bu">dict</span></code> and
+assigned to the variable <code class="sourceCode python">data</code>. If
+we print <code class="sourceCode python">data</code> it will appear as
+follows:</p>
+<pre class="sourceCode"><code>{&quot;grandchildren&quot;: [&quot;Morty&quot;, &quot;Summer&quot;],
+ &quot;minimum age&quot;: 70,
+ &quot;name&quot;: &quot;Rick Sanchez&quot;,
+ &quot;occupation&quot;: &quot;Scientist&quot;}</code></pre>
+<p> Here <code class="sourceCode python"><span class="co">&quot;Rick Sanchez&quot;</span></code>
+is a Python <code class="sourceCode python"><span class="bu">str</span></code>, <code class="sourceCode python"><span class="dv">70</span></code> is a Python
+<code class="sourceCode python"><span class="bu">int</span></code>, and
+<code class="sourceCode python">[<span class="st">&quot;Morty&quot;</span>, <span class="st">&quot;Summer&quot;</span>]</code>
+is a Python <code class="sourceCode python"><span class="bu">list</span></code> of <code class="sourceCode python"><span class="bu">str</span></code>ings.</p>
+</section>
+<section id="writing" class="real-section level3" data-number="1.3.2" data-shortid="writing">
+<h3 class="real-section" data-shortid="writing">Writing</h3>
+<p>When writing a JSON file, Python converts its own types to similar
+JSON types. The conversions are summarized in
+tbl. <strong>¿tbl:python-to-json?</strong>.</p>
+<p>Suppose we would like to write the following <code class="sourceCode python">data</code> <code class="sourceCode python"><span class="bu">dict</span></code> to a JSON
+file:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>acceleration <span class="op">=</span> <span class="fl">9.81</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>time <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">11</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>velocity <span class="op">=</span> acceleration <span class="op">*</span> time</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>position <span class="op">=</span> acceleration<span class="op">/</span><span class="dv">2</span> <span class="op">*</span> time <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;time&quot;</span>: time.tolist(),</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;acceleration&quot;</span>: acceleration,</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;velocity&quot;</span>: velocity.tolist(),</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;position&quot;</span>: position.tolist()</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p> Note that we have used the <code class="sourceCode python">np.ndarray</code> method <code class="sourceCode python">tolist()</code> to convert the arrays to
+lists. This is necessary because Python cannot convert arrays directly
+to JSON. The following pattern will write the JSON file <code class="sourceCode python">kinematics.json</code>:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;kinematics.json&quot;</span>, <span class="st">&quot;w&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    json.dump(data, f)</span></code></pre></div>
+<p> The JSON file can now be shared or read into another program at a
+later time.</p>
+</section>
+</section>
+<section id="csv" class="real-section level2" data-number="1.4" data-h="kf" data-shortid="csv" data-0-id="numerical-representations-io-graphics/input-output/csv" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="CSV Files" data-0-p="79" data-0-hash="kf" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="kf" data-0-subsec="3.3.4" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="kf" data-shortid="csv" data-0-id="numerical-representations-io-graphics/input-output/csv" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="CSV Files" data-0-p="79" data-0-hash="kf" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="kf" data-0-subsec="3.3.4" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">CSV Files</h2>
+<p>Another common format for sharing data is the venerable
+comma-separated value (CSV) text file. There are several flavors of CSV
+files, but most have a 2D tabular form with commas separating values
+(and columns) in a record (i.e., row) and newline characters separating
+records. There are similar delimiter-separated value text files that use
+delimiters other than commas to separate values; common delimeters
+include the tab character <code class="sourceCode">\t</code> and the
+colon <code class="sourceCode">:</code>.</p>
+<p>Python has the standard library module <code class="sourceCode python">csv</code> for reading and writing such files.
+It is imported with the statement</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> csv</span></code></pre></div>
+<section id="reading" class="real-section level3" data-number="1.4.1" data-shortid="reading">
+<h3 class="real-section" data-shortid="reading">Reading</h3>
+<p>Reading a CSV file <span class="path">data.csv</span> to a <code class="sourceCode python"><span class="bu">list</span></code> of <code class="sourceCode python"><span class="bu">list</span></code>s can be
+achieved with the following code:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data.csv&quot;</span>, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> <span class="bu">list</span>(csv.reader(f, delimiter<span class="op">=</span><span class="st">&quot;,&quot;</span>))</span></code></pre></div>
+<p> For files with other delimeters, the <code class="sourceCode python">delimiter</code> argument can be used to pass
+the appropriate delimiter. To convert the <code class="sourceCode python"><span class="bu">list</span></code> <code class="sourceCode python">data</code> to a NumPy array, the usual <code class="sourceCode python">np.array()</code> function can be used.</p>
+</section>
+<section id="writing" class="real-section level3" data-number="1.4.2" data-shortid="writing">
+<h3 class="real-section" data-shortid="writing">Writing</h3>
+<p>Although we usually prefer to write arrays to JSON files (<a href="/9u">subsection 3.3.3</a>) or NumPy files (<a href="/mx">subsection 3.3.5</a>),<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> occasionally we need to
+write a CSV file. The following code will write a <code class="sourceCode python"><span class="bu">list</span></code> of <code class="sourceCode python"><span class="bu">list</span></code>s to a CSV
+file:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> [[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>], [<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>], [<span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>]]  <span class="co">#  Data to save</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data.csv&quot;</span>, <span class="st">&quot;w&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    writer <span class="op">=</span> csv.writer(f, delimiter<span class="op">=</span><span class="st">&quot;,&quot;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    writer.writerows(data)</span></code></pre></div>
+<p> To write a NumPy array <code class="sourceCode python">A</code> to a
+CSV file, first convert it to a <code class="sourceCode python"><span class="bu">list</span></code> with <code class="sourceCode python">A.tolist()</code>.</p>
+</section>
+</section>
+<section id="numpy-input-output" class="real-section level2" data-number="1.5" data-h="mx" data-shortid="numpy-input-output" data-0-id="numerical-representations-io-graphics/input-output/numpy-input-output" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="NumPy Input and Output" data-0-p="79" data-0-hash="mx" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="mx" data-0-subsec="3.3.5" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="mx" data-shortid="numpy-input-output" data-0-id="numerical-representations-io-graphics/input-output/numpy-input-output" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="NumPy Input and Output" data-0-p="79" data-0-hash="mx" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="mx" data-0-subsec="3.3.5" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">NumPy Input and Output</h2>
+<p>NumPy has its own file reading and writing capabilities. We consider
+only its array reading and writing capabilities because we find them the
+most useful.</p>
+<section id="npy-files" class="real-section level3" data-number="1.5.1" data-shortid="npy-files">
+<h3 class="real-section" data-shortid="npy-files">The <code class="sourceCode">.npy</code> File</h3>
+<p>A NumPy array can be stored in a <code class="sourceCode">.npy</code>
+file, which is a <span class="keyword">binary file</span>, a file that
+is encoded and decoded differently than text files. A <code class="sourceCode">.npy</code> file is usually more compact than a text
+file (e.g., JSON) storing the same array. Similarly, the time it takes
+to save and load a <code class="sourceCode">.npy</code> file is usually
+much less than for a text file storing the same array. Furthermore,
+unlike for text files, no additional processing (e.g., converting to and
+from lists) is required for the reading and writing of <code class="sourceCode">.npy</code> files. Therefore, it is often best to
+save and load arrays to <code class="sourceCode">.npy</code> files
+instead of to text files. However, a text file, especially a JSON file,
+is the best choice for compatibility.</p>
+<p>The following statements save a NumPy array <code class="sourceCode python">A</code> to a <code class="sourceCode">.npy</code> file:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;A.npy&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    np.save(f, A, allow_pickle<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<p> The file was opened in <code class="sourceCode python"><span class="co">&quot;wb&quot;</span></code>
+or “write binary” mode; here the <code class="sourceCode">b</code> is
+required to write binary files.</p>
+<p>The <code class="sourceCode python">allow_pickle</code> argument, by
+default <code class="sourceCode python"><span class="va">True</span></code>, toggles
+the use of Python pickling (see <a href="/86">subsection 3.3.6</a>) for
+object arrays (i.e., NumPy arrays with nonnumeric objects). An object
+array cannot be saved without pickling.</p>
+<p>The following statements load a NumPy array from a <code class="sourceCode">.npy</code> file:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;A.npy&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    A <span class="op">=</span> np.load(f, allow_pickle<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<p> The <code class="sourceCode python">allow_pickle</code> argument is
+by default <code class="sourceCode python"><span class="va">False</span></code> due to
+security and compatibility issues with loading pickled object arrays.
+Passing <code class="sourceCode python">allow_pickle<span class="op">=</span><span class="va">False</span></code>
+allows the loading of trusted object array <code class="sourceCode">.npy</code> files.</p>
+</section>
+<section id="npz-files" class="real-section level3" data-number="1.5.2" data-shortid="npz-files">
+<h3 class="real-section" data-shortid="npz-files">The <code class="sourceCode">.npz</code> File</h3>
+<p>Multiple NumPy arrays can be saved to and loaded from a <code class="sourceCode">.npz</code> file. The following statements save NumPy
+arrays <code class="sourceCode python">A</code> and <code class="sourceCode python">B</code> to a <code class="sourceCode">.npz</code> file:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data.npz&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    np.savez(f, A<span class="op">=</span>A, B<span class="op">=</span>B)</span></code></pre></div>
+<p> The arguments following the file <code class="sourceCode python">f</code> of the <code class="sourceCode python">np.savez()</code> do not have to be named, but
+if they are the name is saved in the <code class="sourceCode">.npz</code> file. Otherwise, default names are
+used.</p>
+<p>The following statements load NumPy arrays <code class="sourceCode python">A</code> and <code class="sourceCode python">B</code> from a <code class="sourceCode">.npz</code> file:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> np.load(<span class="st">&quot;data.npz&quot;</span>, allow_pickle<span class="op">=</span><span class="va">False</span>) <span class="im">as</span> data:</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    A <span class="op">=</span> data[<span class="st">&quot;A&quot;</span>]</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    B <span class="op">=</span> data[<span class="st">&quot;B&quot;</span>]</span></code></pre></div>
+<p> Here we have temporarily loaded the data and accessed each array
+with dictionary syntax, assigning it to variables <code class="sourceCode python">A</code> and <code class="sourceCode python">B</code> that survive the <code class="sourceCode python"><span class="cf">with</span></code> block.</p>
+<p>In addition to <code class="sourceCode python">np.savez()</code>,
+there is the similar <code class="sourceCode python">np.savez_compressed()</code> function that
+attempts to compress the <code class="sourceCode">.npz</code> file. For
+certain types of data, this can reduce the file size significantly at
+the cost of the compression time elapsed during saving and the
+decompression time elapsed during loading.</p>
+</section>
+</section>
+<section id="pickle" class="real-section level2" data-number="1.6" data-h="86" data-shortid="pickle" data-0-id="numerical-representations-io-graphics/input-output/pickle" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="Pickle Files" data-0-p="80" data-0-hash="86" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="86" data-0-subsec="3.3.6" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">
+<h2 class="real-section" data-h="86" data-shortid="pickle" data-0-id="numerical-representations-io-graphics/input-output/pickle" data-0-ch="3" data-0-type="subsection" data-0-sec="3.3" data-0-title="Pickle Files" data-0-p="80" data-0-hash="86" data-0-v-ts="T1" data-0-v-specific="no" data-0-sectionhash="j4" data-0-problem-num="" data-0-url="" data-0-subsectionhash="86" data-0-subsec="3.3.6" data-0-wherein="" data-0-chapterhash="r3" data-0-example-num="" data-0-v-ds="D1">Pickle Files</h2>
+<p>The standard library module <code class="sourceCode python">pickle</code> can be used to save and load
+binary <span class="keyword">pickle files</span>, conventionally with
+the extension <code class="sourceCode">.pickle</code>. There are a few
+disadvantages to using pickle files instead of other methods described
+in this section for storing data:</p>
+<ul>
+<li>Pickle files are Python-specific</li>
+<li>Pickle files can depend on the version of Python used to create
+them</li>
+<li>Pickle files are a security risk, so do not load an untrusted pickle
+file</li>
+<li>Pickle files are not human-readable because they are binary</li>
+<li>Saving and loading pickle files is usually slower than NumPy for
+arrays</li>
+</ul>
+<p> However, there are some distinct advantages as well:</p>
+<ul>
+<li>Many custom class objects can be pickled</li>
+<li>Pickle files are compact</li>
+<li>No external packages are required to save and load pickle files</li>
+</ul>
+<p>We prefer to use them only when other methods will not work or are
+clumsy (e.g., when the object to be saved is an instance of a custom
+class).</p>
+<p>The pickle module can be loaded with the following statement:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span></code></pre></div>
+<section id="reading" class="real-section level3" data-number="1.6.1" data-shortid="reading">
+<h3 class="real-section" data-shortid="reading">Reading</h3>
+<p>A pickle file <span class="path">data.pickle</span> can be loaded
+with the following code:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data.pickle&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> pickle.load(f)</span></code></pre></div>
+<p> If multiple objects were stored in the pickle file, additional calls
+to <code class="sourceCode python">pickle.load()</code> will load them
+in the order they were pickled. Often, we will assemble all objects to
+be pickled into a single object like a <code class="sourceCode python"><span class="bu">tuple</span></code> or a
+<code class="sourceCode python"><span class="bu">dict</span></code>, in
+which case each object can be given a name (key).</p>
+</section>
+<section id="writing" class="real-section level3" data-number="1.6.2" data-shortid="writing">
+<h3 class="real-section" data-shortid="writing">Writing</h3>
+<p>Objects <code class="sourceCode python">foo</code> and <code class="sourceCode python">bar</code> can be written to a pickle file
+<span class="path">data.pickle</span> with the following code:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data.pickle&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    pickle.dump((foo, bar), f)  <span class="co"># Bundled into a tuple</span></span></code></pre></div>
+<p> Here we have bundled <code class="sourceCode python">foo</code> and
+<code class="sourceCode python">bar</code> into a single <code class="sourceCode python"><span class="bu">tuple</span></code> so a
+single <code class="sourceCode python">pickle.load()</code> call returns
+all the data. Alternatively, we could have bundled them in a <code class="sourceCode python"><span class="bu">dict</span></code> like <code class="sourceCode python">{<span class="st">&quot;foo&quot;</span>: foo, <span class="st">&quot;bar&quot;</span>: bar)</code>,
+or we could have simply called <code class="sourceCode python">pickle.dump()</code> multiple times to save
+multiple objects in the same file.</p>
+</section>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>JSON is preferred for its capability of storing more
+complex data structures (e.g., dictionaries and deeply nested lists) and
+strict standardization. NumPy <code class="sourceCode">.npy</code> and
+<code class="sourceCode">.npz</code> files are preferred for their
+capability of storing multidimensional arrays, stricter standardization,
+and potential for compression.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-33">Online Resources for Section 3.3</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

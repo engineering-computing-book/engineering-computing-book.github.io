@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <p>In engineering symbolic analysis, the need to manipulate, often algebraically, mathematical expressions arises constantly.
+SymPy has several powerful tools for manipulating symbolic expressions, the most useful of which we will consider here.</p>
+
+<h2 id="the-simplify-function-and-method-simplify-function-method-h9r">The <code class="language-plaintext highlighter-rouge">simplify()</code> Function and Method {#simplify-function-method h=”9r”}</h2>
+
+<p>A built-in Sympy function and method, <code class="language-plaintext highlighter-rouge">sp.simplify()</code>{.py}, is a common SymPy tool for manipulation because simplification is often what we want.
+Recall that some basic simplification occurs automatically; however, in many cases this automatic simplification is insufficient.
+Applying <code class="language-plaintext highlighter-rouge">sp.simplify()</code>{.py} typically results in an expression as simple as or simpler than its input; however, the precise meaning of “simpler” is quite vague, which can lead to frustrating cases in which a version of an expression we consider to be simpler is not chosen by the <code class="language-plaintext highlighter-rouge">sp.simplify()</code>{.py} algorithm.
+In such cases, we will often use the more manual techniques considered later in this section.</p>
+
+<p>The predicates (i.e., assumptions) used to define the symbolic variables and functions that appear in a symbolic expression are respected by <code class="language-plaintext highlighter-rouge">sp.simplify()</code>{.py}.
+Consider the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e0</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">);</span> <span class="n">e0</span>  <span class="c1"># For display
+</span><span class="n">e0</span><span class="p">.</span><span class="n">simplify</span><span class="p">()</span>  <span class="c1"># Returns simplified expression, leaves e0 unchanged
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”3”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{x^{2} + 5 x}{x^{2} + 2 x}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”3”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{x + 5}{x + 2}$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+Note that <code class="language-plaintext highlighter-rouge">e0</code>{.py} was slightly simplified automatically.
+The <code class="language-plaintext highlighter-rouge">simplify()</code>{.py} method further simplified by canceling an <code class="language-plaintext highlighter-rouge">x</code>{.py}. 
+The use of the method does not affect the object, so it the same as the use of the function.</p>
+
+<p>There are a few “knobs” to turn in the form of optional arguments to <code class="language-plaintext highlighter-rouge">sp.simplify()</code>{.py}:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">measure</code>{.py} (default: <code class="language-plaintext highlighter-rouge">sp.count_ops()</code>{.py}): A function that serves as a heuristic complexity metric. The default <code class="language-plaintext highlighter-rouge">sp.count_ops()</code>{.py} counts the operations in the expression.</li>
+  <li><code class="language-plaintext highlighter-rouge">ratio</code>{.py} (default: <code class="language-plaintext highlighter-rouge">1.7</code>{.py}): The maximum ratio of the measures, output <code class="language-plaintext highlighter-rouge">out</code>{.py} over input <code class="language-plaintext highlighter-rouge">inp</code>{.py}, <code class="language-plaintext highlighter-rouge">measure(out)/measure(inp)</code>{.py}. Anything over <code class="language-plaintext highlighter-rouge">1</code>{.py} allows the output to be potentially more complex than the input, but it may still be simpler because the metric is just a heuristic.</li>
+  <li><code class="language-plaintext highlighter-rouge">rational</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): By default (<code class="language-plaintext highlighter-rouge">False</code>{.py}), floating-point numbers are left alone. If <code class="language-plaintext highlighter-rouge">rational=True</code>{.py}, floating-point numbers are recast as rational numbers. If <code class="language-plaintext highlighter-rouge">rational=None</code>{.py}, floating-point numbers are recast as rational numbers during simplification, but recast to floating-point numbers in the result.</li>
+  <li><code class="language-plaintext highlighter-rouge">inverse</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, allows inverse functions to be cancelled in any order without knowing if the inner argument falls in the domain for which the inverse holds.[^fn:inverse-principal-branch] For instance, this allows $\arccos(\cos x) \rightarrow x$ without knowing if $x \in [0, \pi]$.</li>
+  <li><code class="language-plaintext highlighter-rouge">force</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, predicates (assumptions) of the variables will be ignored.</li>
+</ul>
+
+<h2 id="polynomial-and-rational-expression-manipulation-polynomial-rational-expressions-hnv">Polynomial and Rational Expression Manipulation {#polynomial-rational-expressions h=”nv”}</h2>
+
+<p>Here we consider a few SymPy functions and methods that manipulate polynomials and rational expressions.</p>
+
+<h3 id="the-expand-function-and-method">The <code class="language-plaintext highlighter-rouge">expand()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">expand()</code>{.py} function and method expresses a polynomial in the canonical form of a sum of monomials.
+A monomial is a polynomial with exactly one additive term.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sp</span><span class="p">.</span><span class="n">expand</span><span class="p">((</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>  <span class="c1">## Using the real x from above
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”4”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{2} + 6 x + 9$
+</code></pre>
+<p>:::</p>
+
+<p>We can also expand a numerator or denominator without expanding the entire expression, as follows for $(x+3)^2/(x - 2)^2$:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">frac</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<span class="n">frac</span><span class="p">.</span><span class="n">expand</span><span class="p">()</span>
+<span class="n">frac</span><span class="p">.</span><span class="n">expand</span><span class="p">(</span><span class="n">numer</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">frac</span><span class="p">.</span><span class="n">expand</span><span class="p">(</span><span class="n">denom</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">frac</span><span class="p">.</span><span class="n">expand</span><span class="p">(</span><span class="n">numer</span><span class="o">=</span><span class="bp">True</span><span class="p">).</span><span class="n">expand</span><span class="p">(</span><span class="n">denom</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”5”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{x^{2}}{x^{2} - 4 x + 4} + \frac{6 x}{x^{2} - 4 x + 4} + \frac{9}{x^{2} - 4 x + 4}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”5”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{x^{2} + 6 x + 9}{\left(x - 2\right)^{2}}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”5”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{\left(x + 3\right)^{2}}{x^{2} - 4 x + 4}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”5”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{x^{2} + 6 x + 9}{x^{2} - 4 x + 4}$
+</code></pre>
+<p>:::</p>
+
+<p>There are several additional options for <code class="language-plaintext highlighter-rouge">expand()</code>{.py}, including:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mul</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, distributes multiplication over addition (e.g., $5 (x + 1) \rightarrow 5 x + 5$.</li>
+  <li><code class="language-plaintext highlighter-rouge">multinomial</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, expands multinomial (polynomial that is not a monomial) terms into sums of monomials (e.g., $(x + y)^2 \rightarrow x^2 + 2 x y + y^2$).</li>
+  <li><code class="language-plaintext highlighter-rouge">power_exp</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, expands sums in exponents to products of exponentials (e.g., $e^{3 + x} \rightarrow e^3 e^x$).</li>
+  <li><code class="language-plaintext highlighter-rouge">log</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, split log products into sums and extract log exponents to multiplicative constants (e.g., for $x, y &gt; 0$, $\ln(x^3 y) \rightarrow 3\ln x + \ln y$).</li>
+  <li><code class="language-plaintext highlighter-rouge">deep</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, expands all levels of the expression tree; if <code class="language-plaintext highlighter-rouge">False</code>{.py}, expands only the top level (e.g., $x (x + (y+1)^2) \rightarrow x^2 + x (y+1)^2$).</li>
+  <li><code class="language-plaintext highlighter-rouge">complex</code> (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, collect real and imaginary parts (e.g., $x + y \rightarrow \Re(x) + \Re(y) + j (\Im(x) + \Im(y))$).</li>
+  <li><code class="language-plaintext highlighter-rouge">func</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, expand nonpolynomial functions (e.g., for the gamma function $\Gamma$, $\Gamma(x+2) \rightarrow x^2 \Gamma(x) + x \Gamma(x)$).</li>
+  <li><code class="language-plaintext highlighter-rouge">trig</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, expand trigonometric functions (e.g., $\sin(x+y) \rightarrow \sin x \cos y -  \sin y \cos x$).</li>
+</ul>
+
+<h3 id="the-factor-function-and-method">The <code class="language-plaintext highlighter-rouge">factor()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">factor()</code>{.py} function and method returns a factorization into irreducibles factors.
+For polynomials, this is the reverse of <code class="language-plaintext highlighter-rouge">expand()</code>{.py}.
+Irreducibility of the factors is guaranteed for polynomials.
+Consider the following polynomial example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e0</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">y</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span><span class="p">);</span> <span class="n">e0</span>
+<span class="n">e0</span><span class="p">.</span><span class="n">expand</span><span class="p">()</span>
+<span class="n">e0</span><span class="p">.</span><span class="n">expand</span><span class="p">().</span><span class="n">factor</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(x + 1\right)^{2} \left(x^{2} + 2 x y + y^{2}\right)$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{4} + 2 x^{3} y + 2 x^{3} + x^{2} y^{2} + 4 x^{2} y + x^{2} + 2 x y^{2} + 2 x y + y^{2}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(x + 1\right)^{2} \left(x + y\right)^{2}$
+</code></pre>
+<p>:::</p>
+
+<p>Factorization can also be performed over nonpolynomial expressions, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e1</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span><span class="p">;</span> <span class="n">e1</span>  <span class="c1"># Using above real x
+</span><span class="n">e1</span><span class="p">.</span><span class="n">expand</span><span class="p">()</span>
+<span class="n">e1</span><span class="p">.</span><span class="n">expand</span><span class="p">().</span><span class="n">factor</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”7”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(\sin{\left(x \right)} + \cos{\left(x \right)}\right)^{2} \sin{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”7”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sin^{3}{\left(x \right)} + 2 \sin^{2}{\left(x \right)} \cos{\left(x \right)} + \sin{\left(x \right)} \cos^{2}{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”7”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(\sin{\left(x \right)} + \cos{\left(x \right)}\right)^{2} \sin{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>There are two options of note:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">deep</code>{.py} (default: <code class="language-plaintext highlighter-rouge">False</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, inner expression tree elements will also be factored (e.g., $\exp(x^2 + 4 x + 4) \rightarrow \exp((x+2)^2)$).</li>
+  <li><code class="language-plaintext highlighter-rouge">fraction</code>{.py} (default: <code class="language-plaintext highlighter-rouge">True</code>{.py}): If <code class="language-plaintext highlighter-rouge">True</code>{.py}, rational expressions will be combined.</li>
+</ul>
+
+<p>\noindent
+An example of the latter option is given here:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e2</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">exp</span><span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="n">x</span><span class="p">);</span> <span class="n">e2</span>  <span class="c1"># Using real x from above
+</span><span class="n">e2</span><span class="p">.</span><span class="n">factor</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e2</span><span class="p">.</span><span class="n">factor</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">fraction</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”8”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x - 5 e^{3 - x}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”8”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(x e^{x} - 5 e^{3}\right) e^{- x}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”8”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x - 5 e^{3} e^{- x}$
+</code></pre>
+<p>:::</p>
+
+<h3 id="the-collect-function-and-method">The <code class="language-plaintext highlighter-rouge">collect()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">collect()</code>{.py} function and method returns an expression with specific terms collected.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y, a, b"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e3</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> <span class="o">+</span> <span class="n">a</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">8</span><span class="p">;</span> <span class="n">e3</span>
+<span class="n">e3</span><span class="p">.</span><span class="n">collect</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”9”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a^{2} x^{2} + a x + b x y + x y + 3 y^{2} + 8$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”9”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a^{2} x^{2} + x \left(a + b y + y\right) + 3 y^{2} + 8$
+</code></pre>
+<p>:::</p>
+
+<p>More complicated expressions can be collected as well, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e4</span> <span class="o">=</span> <span class="n">a</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">6</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">);</span> <span class="n">e4</span>
+<span class="n">e4</span><span class="p">.</span><span class="n">collect</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">x</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”10”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a \sin{\left(x \right)} + a \cos{\left(4 x \right)} + b \cos{\left(4 x \right)} + b \cos{\left(6 x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”10”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a \sin{\left(x \right)} + b \cos{\left(6 x \right)} + \left(a + b\right) \cos{\left(4 x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>Derivatives of an undefined symbolic function, as would appear in a differential equation, can be collected. If the function is passed to <code class="language-plaintext highlighter-rouge">collect()</code>{.py}, as in the following example, it and its derivatives are collected:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">Function</span><span class="p">(</span><span class="s">"f"</span><span class="p">)(</span><span class="n">x</span><span class="p">)</span>  <span class="c1">## Applied undefined function
+</span><span class="n">e5</span> <span class="o">=</span> <span class="n">a</span><span class="o">*</span><span class="n">f</span><span class="p">.</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="n">a</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">f</span><span class="p">.</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">f</span><span class="p">.</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">a</span><span class="o">**</span><span class="mi">3</span><span class="o">*</span><span class="n">f</span><span class="p">;</span> <span class="n">e5</span>
+<span class="n">e5</span><span class="p">.</span><span class="n">collect</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”11”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a^{3} f{\left(x \right)} + a^{2} \frac{d}{d x} f{\left(x \right)} + a \frac{d^{2}}{d x^{2}} f{\left(x \right)} + b^{2} \frac{d}{d x} f{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”11”}</p>
+<pre><code class="language-{=latex}">$\displaystyle a^{3} f{\left(x \right)} + a \frac{d^{2}}{d x^{2}} f{\left(x \right)} + \left(a^{2} + b^{2}\right) \frac{d}{d x} f{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">rcollect()</code>{.py} function (not available as a method) recursively applies <code class="language-plaintext highlighter-rouge">collect()</code>{.py}.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e6</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">y</span> <span class="o">+</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">);</span> <span class="n">e6</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">rcollect</span><span class="p">(</span><span class="n">e6</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>  <span class="c1"># Collects in numerator and denominator
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”12”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{a b x + a x^{2} + b x y}{a x^{2} + b x^{2}}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”12”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{a x^{2} + x \left(a b + b y\right)}{x^{2} \left(a + b\right)}$
+</code></pre>
+<p>:::</p>
+
+<p>Before collection, an expression may need to be expanded via <code class="language-plaintext highlighter-rouge">expand()</code>{.py}.</p>
+
+<h3 id="the-cancel-function-and-method">The <code class="language-plaintext highlighter-rouge">cancel()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">cancel()</code>{.py} function and method will return an expression in the form $p/q$, where $p$ and $q$ are polynomials that have been expanded and have integer leading coefficients.
+This is typically used to cancel terms that can be factored from the numerator and denominator of a rational expression, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e7</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="n">a</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">a</span><span class="o">**</span><span class="mi">2</span><span class="p">);</span> <span class="n">e7</span>
+<span class="n">e7</span><span class="p">.</span><span class="n">cancel</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”13”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{- a^{3} + x^{3}}{- a^{2} + x^{2}}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”13”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{a^{2} + a x + x^{2}}{a + x}$
+</code></pre>
+<p>:::</p>
+
+<p>Note that there is an implicit assumption here that $x \ne a$.
+However, the cancelation is still valid for the limit as $x\rightarrow a$.</p>
+
+<h3 id="the-apart-and-together-functions-and-methods">The <code class="language-plaintext highlighter-rouge">apart()</code> and <code class="language-plaintext highlighter-rouge">together()</code> Functions and Methods</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">apart()</code>{.py} function and method returns a [partial fraction expansion]{.keyword} of a rational expression.
+A partial fraction expansion rewrites a ratio as a sum of a polynomial and one or more ratios with irreducible denominators.
+It is of particular use for computing the inverse Laplace transform.
+The <code class="language-plaintext highlighter-rouge">together()</code>{.py} function is the complement of <code class="language-plaintext highlighter-rouge">apart()</code>{.py}.
+Here is an example of a partial fraction expansion:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"s"</span><span class="p">)</span>
+<span class="n">e8</span> <span class="o">=</span> <span class="p">(</span><span class="n">s</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">6</span><span class="o">*</span><span class="n">s</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">16</span><span class="o">*</span><span class="n">s</span> <span class="o">+</span> <span class="mi">16</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">s</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="o">*</span><span class="n">s</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">10</span><span class="o">*</span><span class="n">s</span> <span class="o">+</span> <span class="mi">7</span><span class="p">);</span> <span class="n">e8</span>
+<span class="n">e8</span><span class="p">.</span><span class="n">apart</span><span class="p">()</span>  <span class="c1"># Partial fraction expansion
+</span><span class="n">e8</span><span class="p">.</span><span class="n">apart</span><span class="p">().</span><span class="n">together</span><span class="p">().</span><span class="n">cancel</span><span class="p">()</span>  <span class="c1"># Putting it back together
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”14”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{s^{3} + 6 s^{2} + 16 s + 16}{s^{3} + 4 s^{2} + 10 s + 7}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”14”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{s + 2}{s^{2} + 3 s + 7} + 1 + \frac{1}{s + 1}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”14”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{s^{3} + 6 s^{2} + 16 s + 16}{s^{3} + 4 s^{2} + 10 s + 7}$
+</code></pre>
+<p>:::</p>
+
+<h2 id="trigonometric-expression-manipulation-trigonometric-expressions-hbc">Trigonometric Expression Manipulation {#trigonometric-expressions h=”bc”}</h2>
+
+<p>As we saw in [nv]{.hashref}, expressions including trigonometric terms can be manipulated with the SymPy functions and methods that are nominally for polynomial and rational expressions. 
+In addition to these, considered here are two important SymPy functions and methods for manipulating expressions including trigonometric terms, with a focus on the trigonometric terms themselves.</p>
+
+<h3 id="the-trigsimp-function-and-method">The <code class="language-plaintext highlighter-rouge">trigsimp()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">trigsimp()</code>{.py} function and method attempts to simplify a symbolic expression via trigonometric identities.
+For instance, it will apply the double-angle formulas, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e9</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">*</span> <span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">);</span> <span class="n">e9</span>
+<span class="n">e9</span><span class="p">.</span><span class="n">trigsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”15”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 2 \sin{\left(x \right)} \cos{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”15”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sin{\left(2 x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+Here is a more involved expression:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e10</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">4</span> <span class="o">-</span> <span class="mi">2</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">4</span><span class="p">;</span> <span class="n">e10</span>
+<span class="n">e10</span><span class="p">.</span><span class="n">trigsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”16”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sin^{4}{\left(x \right)} - 2 \sin^{2}{\left(x \right)} \cos^{2}{\left(x \right)} + \cos^{4}{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”16”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{\cos{\left(4 x \right)}}{2} + \frac{1}{2}$
+</code></pre>
+<p>:::</p>
+
+<p>The hyperbolic trignometric functions are also handled by <code class="language-plaintext highlighter-rouge">trigsimp()</code>{.py}, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e11</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">cosh</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">*</span> <span class="n">sp</span><span class="p">.</span><span class="n">tanh</span><span class="p">(</span><span class="n">x</span><span class="p">);</span> <span class="n">e11</span>
+<span class="n">e11</span><span class="p">.</span><span class="n">trigsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”17”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \cosh{\left(x \right)} \tanh{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”17”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sinh{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<h3 id="the-expand_trig-function">The <code class="language-plaintext highlighter-rouge">expand_trig()</code> Function</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">sp.expand_trig()</code>{.py} function applies the double-angle or sum identity in the expansive direction, opposite the direction of <code class="language-plaintext highlighter-rouge">trig_simp()</code>{.py}; that is,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e12</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span> <span class="n">e12</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">expand_trig</span><span class="p">(</span><span class="n">e12</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”18”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \cos{\left(x + y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”18”}</p>
+<pre><code class="language-{=latex}">$\displaystyle - \sin{\left(x \right)} \sin{\left(y \right)} + \cos{\left(x \right)} \cos{\left(y \right)}$
+</code></pre>
+<p>:::</p>
+
+<h2 id="power-expression-manipulation-power-expression-manipulation-h2z">Power Expression Manipulation {#power-expression-manipulation h=”2z”}</h2>
+
+<p>There are three important power identities:
+\begin{align}
+x^a x^b &amp;= x^{a + b} \text{ for $x \ne 0, a, b \in \mathbb{C}$} \label{eq:pow1} <br />
+u^c v^c &amp;= (u v)^c \text{ for $u, v \ge 0$ and $c \in \mathbb{R}$} \label{eq:pow2} <br />
+(z^d)^n &amp;= z^{d n} \text{ for $z, d \in \mathbb{C}$ and $n \in \mathbb{Z}$.} \label{eq:pow3}
+\end{align}
+[@Eq:pow1;@Eq:pow2;@Eq:pow3] are applied in several power expression simplification functions and methods considered here.</p>
+
+<h3 id="the-powsimp-function-and-method">The <code class="language-plaintext highlighter-rouge">powsimp()</code> Function and Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">powsimp()</code>{.py} function and method applies the identities of [@eq:pow1;@eq:pow2] from left-to-right (replacing the left pattern with the right).
+It will only apply the identity if it holds.
+Consider the following, applying [@eq:pow1]:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">nonzero</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"a, b"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e13</span> <span class="o">=</span> <span class="n">x</span><span class="o">**</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span><span class="o">**</span><span class="n">b</span><span class="p">;</span> <span class="n">e13</span>
+<span class="n">e13</span><span class="p">.</span><span class="n">powsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”19”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{a} x^{b}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”19”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{a + b}$
+</code></pre>
+<p>:::</p>
+
+<p>Applying [@eq:pow2],</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">u</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"u, v"</span><span class="p">,</span> <span class="n">nonnegative</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"c"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e14</span> <span class="o">=</span> <span class="n">u</span><span class="o">**</span><span class="n">c</span> <span class="o">*</span> <span class="n">v</span><span class="o">**</span><span class="n">c</span><span class="p">;</span> <span class="n">e14</span>
+<span class="n">e14</span><span class="p">.</span><span class="n">powsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”20”}</p>
+<pre><code class="language-{=latex}">$\displaystyle u^{c} v^{c}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”20”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(u v\right)^{c}$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+Under certain conditions (i.e., $c \in \mathbb{Q}$, a literal rational exponent), [@eq:pow2] is applied right-to-left automatically, so <code class="language-plaintext highlighter-rouge">powsimp()</code>{.py} appears to have no effect.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e15</span> <span class="o">=</span> <span class="n">u</span><span class="o">**</span><span class="mi">3</span> <span class="o">*</span> <span class="n">v</span><span class="o">**</span><span class="mi">3</span><span class="p">;</span> <span class="n">e15</span>
+<span class="n">e15</span><span class="p">.</span><span class="n">powsimp</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”21”}</p>
+<pre><code class="language-{=latex}">$\displaystyle u^{3} v^{3}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”21”}</p>
+<pre><code class="language-{=latex}">$\displaystyle u^{3} v^{3}$
+</code></pre>
+<p>:::</p>
+
+<p>For expressions for which the conditions for an identity does not hold, it can still be applied (at your own risk) via the <code class="language-plaintext highlighter-rouge">force=True</code>{.py} argument.</p>
+
+<h3 id="the-expand_power_exp-and-expand_power_base-functions">The <code class="language-plaintext highlighter-rouge">expand_power_exp()</code> and <code class="language-plaintext highlighter-rouge">expand_power_base()</code> Functions</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">expand_power_exp()</code>{.py} function applies [@eq:pow1] from right-to-left (opposite of <code class="language-plaintext highlighter-rouge">powsimp()</code>{.py}), as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e16</span> <span class="o">=</span> <span class="n">x</span><span class="o">**</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">);</span> <span class="n">e16</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">expand_power_exp</span><span class="p">(</span><span class="n">e16</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”22”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{a + b}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”22”}</p>
+<pre><code class="language-{=latex}">$\displaystyle x^{a} x^{b}$
+</code></pre>
+<p>:::</p>
+
+<p>Similarly, <code class="language-plaintext highlighter-rouge">expand_power_base()</code>{.py} applies [@eq:pow2] from right-to-left (opposite of <code class="language-plaintext highlighter-rouge">powsimp()</code>{.py}, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e17</span> <span class="o">=</span> <span class="p">(</span><span class="n">u</span> <span class="o">*</span> <span class="n">v</span><span class="p">)</span><span class="o">**</span><span class="n">c</span><span class="p">;</span> <span class="n">e17</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">expand_power_base</span><span class="p">(</span><span class="n">e17</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”23”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \left(u v\right)^{c}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”23”}</p>
+<pre><code class="language-{=latex}">$\displaystyle u^{c} v^{c}$
+</code></pre>
+<p>:::</p>
+
+<p>Again, the identity will not be applied if its conditions do not hold for the expression; however, with the parameter <code class="language-plaintext highlighter-rouge">force=True</code>{.py}, it will be applied in any case.</p>
+
+<h3 id="the-powdenest-function">The <code class="language-plaintext highlighter-rouge">powdenest()</code> Function</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">powdenest()</code>{.py} function applies [@eq:pow3] from left-to-right.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">z</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"z, d"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"n"</span><span class="p">,</span> <span class="n">integer</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e18</span> <span class="o">=</span> <span class="p">(</span><span class="n">z</span><span class="o">**</span><span class="n">d</span><span class="p">)</span><span class="o">**</span><span class="n">n</span><span class="p">;</span> <span class="n">e18</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">powdenest</span><span class="p">(</span><span class="n">e18</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”24”}</p>
+<pre><code class="language-{=latex}">$\displaystyle z^{d n}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”24”}</p>
+<pre><code class="language-{=latex}">$\displaystyle z^{d n}$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+However, as we see from <code class="language-plaintext highlighter-rouge">e18</code>{.py}, the denesting is automatically applied.
+There may be situations in which <code class="language-plaintext highlighter-rouge">powdenest()</code>{.py} must still be applied manually.</p>
+
+<h2 id="exponential-and-logarithmic-expression-manipulation-exponential-logarithmic-expression-manipulation-h2q">Exponential and Logarithmic Expression Manipulation {#exponential-logarithmic-expression-manipulation h=”2q”}</h2>
+
+<p>For $x, y \ge 0$ and $n \in \mathbb{R}$, the following identities hold:
+\begin{align}
+\log(x y) &amp;= \log(x) + \log(y) \label{eq:log1} <br />
+\log(x^n) &amp;= n \log(x) \label{eq:log2}
+\end{align}
+These can be applied with the <code class="language-plaintext highlighter-rouge">expand_log()</code>{.py} and <code class="language-plaintext highlighter-rouge">logcombine()</code>{.py} functions.</p>
+
+<h3 id="the-expand_log-function">The <code class="language-plaintext highlighter-rouge">expand_log()</code> Function</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">expand_log()</code>{.py} function applies [@eq:log1;@eq:log2] from left-to-right.
+In the following example, it applies [@eq:log1]:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"n"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e19</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">);</span> <span class="n">e19</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">expand_log</span><span class="p">(</span><span class="n">e19</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”25”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”25”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x \right)} + \log{\left(y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>In the following example, it applies [@eq:log1]:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e20</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="n">n</span><span class="p">);</span> <span class="n">e20</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">expand_log</span><span class="p">(</span><span class="n">e20</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”26”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x^{n} \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”26”}</p>
+<pre><code class="language-{=latex}">$\displaystyle n \log{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<h3 id="the-logcombine-function">The <code class="language-plaintext highlighter-rouge">logcombine()</code> Function</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">logcombine()</code>{.py} function applies [@eq:log1;@eq:log2] from right-to-left.
+In the following example, it applies [@eq:log1]:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e21</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">sp</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">y</span><span class="p">);</span> <span class="n">e21</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">logcombine</span><span class="p">(</span><span class="n">e21</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”27”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x \right)} + \log{\left(y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”27”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>In the following example, it applies [@eq:log1]:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e22</span> <span class="o">=</span> <span class="n">n</span> <span class="o">*</span> <span class="n">sp</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">x</span><span class="p">);</span> <span class="n">e22</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">logcombine</span><span class="p">(</span><span class="n">e22</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”28”}</p>
+<pre><code class="language-{=latex}">$\displaystyle n \log{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”28”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \log{\left(x^{n} \right)}$
+</code></pre>
+<p>:::</p>
+
+<h2 id="rewriting-expressions-in-terms-of-other-functions-rewriting-with-other-functions-h3e">Rewriting Expressions in Terms of Other Functions {#rewriting-with-other-functions h=”3e”}</h2>
+
+<p>At times, there are identities that can translate an expression in terms of one function (or set of functions) into an expression in terms of another function (or set of functions).
+In SymPy, the <code class="language-plaintext highlighter-rouge">rewrite()</code>{.py} method can perform this translation.
+For instance, Euler’s formula, $e^{j x} = \cos x + j \sin x$ can be applied:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e23</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">exp</span><span class="p">(</span><span class="mf">1j</span> <span class="o">*</span> <span class="n">x</span><span class="p">);</span> <span class="n">e23</span>
+<span class="n">e24</span> <span class="o">=</span> <span class="n">e23</span><span class="p">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">);</span> <span class="n">e24</span>  <span class="c1"># Apply left-to-right
+</span><span class="n">e24</span><span class="p">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">exp</span><span class="p">)</span>  <span class="c1"># Apply right-to-left
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”29”}</p>
+<pre><code class="language-{=latex}">$\displaystyle e^{1.0 i x}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”29”}</p>
+<pre><code class="language-{=latex}">$\displaystyle i \sin{\left(1.0 x \right)} + \cos{\left(1.0 x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”29”}</p>
+<pre><code class="language-{=latex}">$\displaystyle e^{1.0 i x}$
+</code></pre>
+<p>:::</p>
+
+<p>Here is an example with a hyperbolic trigonometric function:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e25</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">tanh</span><span class="p">(</span><span class="n">x</span><span class="p">);</span> <span class="n">e25</span>
+<span class="n">e25</span><span class="p">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">exp</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”30”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \tanh{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”30”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{e^{x} - e^{- x}}{e^{x} + e^{- x}}$
+</code></pre>
+<p>:::</p>
+
+<p>Finally, consider the following example with trigonometric functions:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">e26</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">tan</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">;</span> <span class="n">e26</span>
+<span class="n">e26</span><span class="p">.</span><span class="n">rewrite</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”31”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \tan^{2}{\left(x + y \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”31”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{\cos^{2}{\left(x + y - \frac{\pi}{2} \right)}}{\cos^{2}{\left(x + y \right)}}$
+</code></pre>
+<p>:::</p>
+
+<h2 id="substituting-and-replacing-expressions-substituting-replacing-expressions-hkn">Substituting and Replacing Expressions {#substituting-replacing-expressions h=”kn”}</h2>
+
+<p>One expression can be substituted for another via a few different methods, the two most useful of which are considered here.</p>
+
+<h3 id="the-subs-method">The <code class="language-plaintext highlighter-rouge">subs()</code> Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">subs()</code>{.py} method returns a copy of an expression with specific subexpressions replaced.
+There are three ways to specify substitutions for an expression <code class="language-plaintext highlighter-rouge">expr</code>{.py}:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">expr.subs(old, new)</code>{.py}, in which <code class="language-plaintext highlighter-rouge">old</code>{.py} is replaced with <code class="language-plaintext highlighter-rouge">new</code>{.py}</li>
+  <li><code class="language-plaintext highlighter-rouge">expr.subs(iterable)</code>{.py}, in which <code class="language-plaintext highlighter-rouge">iterable</code>{.py} (e.g., a <code class="language-plaintext highlighter-rouge">list</code>{.py}) contains <code class="language-plaintext highlighter-rouge">old</code>{.py}/<code class="language-plaintext highlighter-rouge">new</code>{.py} pairs like <code class="language-plaintext highlighter-rouge">[(old0, new0), (old1, new1), ...]</code>{.py}</li>
+  <li><code class="language-plaintext highlighter-rouge">expr.subs(dictionary)</code>{.py}, in which <code class="language-plaintext highlighter-rouge">dictionary</code>{.py} contains <code class="language-plaintext highlighter-rouge">old</code>{.py}/<code class="language-plaintext highlighter-rouge">new</code>{.py} pairs like <code class="language-plaintext highlighter-rouge">{old0: new0, old1: new1, ...}</code>{.py}</li>
+</ul>
+
+<p>Consider the following simple examples:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y, z"</span><span class="p">)</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">z</span><span class="p">).</span><span class="n">subs</span><span class="p">({</span><span class="n">x</span><span class="p">:</span> <span class="n">z</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="mi">2</span><span class="o">*</span><span class="n">z</span><span class="p">})</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”32”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sqrt{y + 5}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”32”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 4 z^{2} + 2 z$
+</code></pre>
+<p>:::</p>
+
+<p>By default, when an ordered iterable like a <code class="language-plaintext highlighter-rouge">list</code>{.py} or <code class="language-plaintext highlighter-rouge">tuple</code>{.py} is provided, substitutions are performed in the order given, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">).</span><span class="n">subs</span><span class="p">(((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”33”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 2 z$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+We see that the second substitution $y \rightarrow z$ is applied after the first, $x \rightarrow y$.
+The parameter <code class="language-plaintext highlighter-rouge">simultaneous</code>{.py}, by default <code class="language-plaintext highlighter-rouge">False</code>{.py}, can be passed as <code class="language-plaintext highlighter-rouge">True</code>{.py} so that new subexpressions are ignored by later substitutions, as in the following example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">).</span><span class="n">subs</span><span class="p">(((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)),</span> <span class="n">simultaneous</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”34”}</p>
+<pre><code class="language-{=latex}">$\displaystyle y + z$
+</code></pre>
+<p>:::</p>
+
+<p>For dictionary substitutions, which are unordered, a canonical ordering based on the number of operations is used for reproducibility.
+We do not recommend relying on this canonical ordering, so if the order of substitutions is important, we recommend using an ordered iterable.</p>
+
+<p>If the substitutions result in a numerical value, it will by default remain a symbolic expression:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sp</span><span class="p">.</span><span class="n">srepr</span><span class="p">((</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">).</span><span class="n">subs</span><span class="p">(((</span><span class="n">x</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">3</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”35”}
+    ‘Integer(4)’
+:::</p>
+
+<p>To get a numeric type from the result, the <code class="language-plaintext highlighter-rouge">evalf()</code>{.py} method can be used:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">y</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">).</span><span class="n">evalf</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>  <span class="c1"># subs() first (20 decimal places)
+</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">y</span><span class="p">).</span><span class="n">evalf</span><span class="p">(</span><span class="n">subs</span><span class="o">=</span><span class="p">{</span><span class="n">y</span><span class="p">:</span> <span class="mf">3.0</span><span class="p">},</span> <span class="n">n</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>  <span class="c1"># evalfr() subs (20 decimal places)
+</span></code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”36”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 0.33333333333333331483$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”36”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 0.33333333333333333333$
+</code></pre>
+<p>:::</p>
+
+<p>Note that passing the substitutions to through <code class="language-plaintext highlighter-rouge">evalf()</code>{.py} can result in a more accurate representation, so this technique is preferred.
+We will later [TODO: ref] return to more powerful techniques for numerical evaluation that convert SymPy expressions to numerically evaluable functions.</p>
+
+<h3 id="the-replace-method">The <code class="language-plaintext highlighter-rouge">replace()</code> Method</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">replace()</code>{.py} method is similar to <code class="language-plaintext highlighter-rouge">subs()</code>{.py}, but it has matching capabilities.
+Common usage of the <code class="language-plaintext highlighter-rouge">replace()</code>{.py} method uses [wildcard variables]{.keyword} of class <code class="language-plaintext highlighter-rouge">sp.core.symbol.Wild</code>{.py} that match anything in a pattern.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"w"</span><span class="p">,</span> <span class="n">cls</span><span class="o">=</span><span class="n">sp</span><span class="p">.</span><span class="n">Wild</span><span class="p">)</span>
+<span class="n">expr</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">;</span> <span class="n">expr</span>
+<span class="n">expr</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">w</span><span class="p">),</span> <span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">w</span><span class="p">)</span><span class="o">/</span><span class="n">w</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”37”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sin{\left(x \right)} + \sin^{2}{\left(3 x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”37”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{\cos{\left(x \right)}}{x} + \frac{\cos^{2}{\left(3 x \right)}}{9 x^{2}}$
+</code></pre>
+<p>:::</p>
+
+<p>Note that the wildcard variable <code class="language-plaintext highlighter-rouge">w</code>{.py} was able to match both <code class="language-plaintext highlighter-rouge">x</code>{.py} and <code class="language-plaintext highlighter-rouge">3*x</code>{.py}, and that the the wildcard could be used in the new expression as well.
+In this example, and in general, these replacement rules are applied without head to their validity, so they must be used with caution.
+For more advanced usage, see the documentation on wildcard matching, [sympycore]{.plaincite post=”§ 6 Symbol (\mpy{sympy.core.symbol}, \mpy{Wild} class)”} and the documentation for replacement, [sympycore]{.plaincite post=”§ Basic (\mpy{sympy.core.basic.Basic}, \mpy{replace()} method)”}.</p>
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

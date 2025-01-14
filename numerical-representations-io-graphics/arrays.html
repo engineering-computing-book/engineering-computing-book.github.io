@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="arrays" class="real-section level1" data-number="1" data-h="wa" data-shortid="arrays" data-0-wherein="" data-0-v-ts="T1" data-0-prev="r3" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays" data-0-type="section" data-0-hash="wa" data-0-subsec="3.1.0" data-0-problem-num="" data-0-next="84" data-0-ch="3" data-0-title="Arrays" data-0-v-ds="D1" data-0-p="64" data-0-url="" data-0-chapterhash="r3" data-0-subsectionhash="" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">
+<h1 class="real-section" data-h="wa" data-shortid="arrays" data-0-wherein="" data-0-v-ts="T1" data-0-prev="r3" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays" data-0-type="section" data-0-hash="wa" data-0-subsec="3.1.0" data-0-problem-num="" data-0-next="84" data-0-ch="3" data-0-title="Arrays" data-0-v-ds="D1" data-0-p="64" data-0-url="" data-0-chapterhash="r3" data-0-subsectionhash="" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">Arrays</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>NumPy arrays are ubiquitous for representing numerical data. Like
+lists, arrays are mutable and can represent collections of objects.
+Unlike for lists, the elements of an array must all be of the same
+(typically numeric) type. In this section, we learn how to create and
+manipulate basic arrays. Throughout this book, we will assume that the
+NumPy package is loaded with the following statement:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+<section id="creating" class="real-section level2" data-number="1.1" data-h="ar" data-shortid="creating" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/creating" data-0-type="subsection" data-0-hash="ar" data-0-subsec="3.1.1" data-0-problem-num="" data-0-ch="3" data-0-title="Creating Arrays" data-0-url="" data-0-p="64" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="ar" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">
+<h2 class="real-section" data-h="ar" data-shortid="creating" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/creating" data-0-type="subsection" data-0-hash="ar" data-0-subsec="3.1.1" data-0-problem-num="" data-0-ch="3" data-0-title="Creating Arrays" data-0-url="" data-0-p="64" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="ar" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">Creating Arrays</h2>
+<!-- ```python
+np.array(
+    obj,  # An object to convert to an array
+    dtype=None,  # Data type (e.g., float); None adapts
+    *,  # This indicates the end of positional arguments
+    copy=True,  # Copy object
+    order='K',  # Memory layout
+    subok=False,  # Pass sub-classes through
+    ndmin=0,  # Minimum array dimensions (prepend ones)
+    like=None  # Reference object
+)
+``` -->
+<!-- \noindent
+We typically need only the first argument or two. -->
+<p>To construct a basic array (i.e., class <code class="sourceCode python">np.ndarray</code>), we often use the function
+<code class="sourceCode python">np.array()</code>. Although many types
+of objects can be passed, a list will often do, as follows:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.array([<span class="fl">0.29</span>, <span class="fl">0.55</span>, <span class="op">-</span><span class="fl">0.31</span>, <span class="op">-</span><span class="fl">0.84</span>, <span class="fl">0.97</span>])</span></code></pre></div>
+<p> The <code class="sourceCode python">shape</code> attribute of the
+<code class="sourceCode python">np.ndarray</code> object is an integer
+tuple representing the size (i.e., length) of each of its <span class="keyword">dimensions</span>. For instance, the shape of the <span class="math inline">\(1\)</span>-dimensional (1D) array of five elements
+given the name <code class="sourceCode python">x</code> above is printed
+with</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x.shape)</span></code></pre></div>
+<p> This returns <code class="sourceCode">(5,)</code>, which indicates
+the array has a single dimension, called an <span class="keyword">axis</span> in NumPy, with size <code class="sourceCode">5</code>.</p>
+<p>In NumPy, 1D arrays are called <span class="keyword">vectors</span>,
+2D arrays are called <span class="keyword">matrices</span>, and
+higher-dimensional arrays are called <span class="keyword">tensors</span>. The mathematical objects with the same
+names (i.e., vectors, matrices, and tensors) are usually represented
+with arrays with corresponding names. A matrix can be created as
+follows:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array([</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>],  <span class="co"># First row</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],  <span class="co"># Second row</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>],  <span class="co"># Third row</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>])</span></code></pre></div>
+<p> So <code class="sourceCode">A.shape</code> is <code class="sourceCode">(3, 4)</code> and it represents a <span class="math inline">\(3 \times 4\)</span> mathematical matrix.</p>
+<p>We often need to create an array with a specific shape and populate
+it later. Perhaps the best way to do so is a function call like</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>T <span class="op">=</span> np.full(shape<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">3</span>), fill_value<span class="op">=</span>np.nan)</span></code></pre></div>
+<p> This creates a <code class="sourceCode">(5, 3)</code> matrix with
+the special <code class="sourceCode python">nan</code> (i.e., not a
+number) <code class="sourceCode python"><span class="bu">float</span></code> as each
+element. Related functions <code class="sourceCode python">np.zeros()</code> and <code class="sourceCode python">np.ones()</code> can also be used to create
+arrays of arbitrary shape filled with <code class="sourceCode python"><span class="dv">0</span></code> and <code class="sourceCode python"><span class="dv">1</span></code> values,
+respectively. However, for an array that is to be populated
+subsequently, we prefer <code class="sourceCode python">np.full()</code>
+with <code class="sourceCode python">nan</code> elements because it is
+easier to notice if parts of the array have been mistakenly left
+unpopulated.</p>
+<p>The <code class="sourceCode python">np.arange()</code> function is
+similar to the built-in <code class="sourceCode python"><span class="bu">range</span>()</code>
+function. An array of sequential numbers with integer spacing can be
+easily created with the <code class="sourceCode python">np.arange()</code> function. For instance,</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>np.arange(start<span class="op">=</span><span class="dv">0</span>, stop<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>np.arange(<span class="dv">0</span>, <span class="dv">10</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>np.arange(stop<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>np.arange(<span class="dv">10</span>)</span></code></pre></div>
+<p> All these statements yield an array that prints as follows (printed
+arrays look like lists):</p>
+<pre class="sourceCode"><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</code></pre>
+<p>Of course, the <code class="sourceCode python">start</code> argument
+is necessary for an array that starts at a value other than <code class="sourceCode python"><span class="dv">0</span></code>. There is a
+<code class="sourceCode python">step</code> argument for <code class="sourceCode python">np.arange()</code>, and it is useful for
+integer steps other than the default <code class="sourceCode python"><span class="dv">1</span></code>. However, for
+non-integer steps, we prefer a different function altogether: <code class="sourceCode python">np.linspace()</code>. For instance, the
+following creates a 1D array of <span class="math inline">\(31\)</span>
+elements from <span class="math inline">\(0\)</span> to <span class="math inline">\(3\)</span>:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>np.linspace(start<span class="op">=</span><span class="dv">0</span>, stop<span class="op">=</span><span class="dv">3</span>, num<span class="op">=</span><span class="dv">11</span>)</span></code></pre></div>
+<p> This array can be printed to show the following:</p>
+<pre class="sourceCode"><code>[0., 0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3.]</code></pre>
+<p> Note that by default <code class="sourceCode">stop</code> is the
+last sample; <code class="sourceCode python">endpoint<span class="op">=</span><span class="va">False</span></code>
+would exclude it.</p>
+<p>We make extensive use of <code class="sourceCode python">np.linspace()</code> and regular use of the
+similar <code class="sourceCode python">np.logspace()</code>, which
+creates a 1D array logarithmically spaced between two powers of the base
+provided. For instance, in the default base <span class="math inline">\(10\)</span>, we can generate <span class="math inline">\(6\)</span> values from <span class="math inline">\(10^0\)</span> to <span class="math inline">\(10^3\)</span> with</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>np.logspace(start<span class="op">=</span><span class="dv">0</span>, stop<span class="op">=</span><span class="dv">3</span>, num<span class="op">=</span><span class="dv">6</span>)</span></code></pre></div>
+<p> This array can be printed to show the following:</p>
+<pre class="sourceCode"><code>[1., 3.98107171, 15.84893192, 63.09573445, 251.18864315, 1000.]</code></pre>
+<p>Most of the time, we use numeric values (i.e., <code class="sourceCode python">dtype</code>s of <code class="sourceCode python"><span class="bu">int</span></code>, <code class="sourceCode python"><span class="bu">float</span></code>, <code class="sourceCode python"><span class="bu">complex</span></code>, and
+<code class="sourceCode python"><span class="bu">bool</span></code>
+types) in Python arrays. It is also possible to create a Python <span class="keyword">object array</span> with <code class="sourceCode python">dtype</code> <code class="sourceCode python"><span class="co">&quot;O&quot;</span></code>
+for object; for instance:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array([{<span class="st">&quot;foo&quot;</span>: <span class="st">&quot;bar&quot;</span>}, {<span class="st">&quot;bar&quot;</span>: <span class="st">&quot;baz&quot;</span>}])  <span class="co"># An object array</span></span></code></pre></div>
+<p> Printing the <code class="sourceCode python">A.dtype</code>
+attribute reveals that it is type <code class="sourceCode">object</code>. It is occasionally advantageous to use
+object arrays instead of lists, primarily for the convenience of NumPy’s
+array manipulation capabilities.</p>
+</section>
+<section id="accessing-slicing-assigning" class="real-section level2" data-number="1.2" data-h="7n" data-shortid="accessing-slicing-assigning" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/accessing-slicing-assigning" data-0-type="subsection" data-0-hash="7n" data-0-subsec="3.1.2" data-0-problem-num="" data-0-ch="3" data-0-title="Accessing, Slicing, and Assigning Elements" data-0-url="" data-0-p="66" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="7n" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">
+<h2 class="real-section" data-h="7n" data-shortid="accessing-slicing-assigning" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/accessing-slicing-assigning" data-0-type="subsection" data-0-hash="7n" data-0-subsec="3.1.2" data-0-problem-num="" data-0-ch="3" data-0-title="Accessing, Slicing, and Assigning Elements" data-0-url="" data-0-p="66" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="7n" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">Accessing, Slicing, and Assigning Elements</h2>
+<p>Array elements can be accessed via indices in the same way as with
+lists. For instance,</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>], [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>]]) <span class="co"># 3x4</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">0</span>, <span class="dv">0</span>]  <span class="co"># =&gt; 0</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">0</span>, <span class="dv">3</span>]  <span class="co"># =&gt; 3</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">1</span>, <span class="dv">0</span>]  <span class="co"># =&gt; 4</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">2</span>, <span class="dv">3</span>]  <span class="co"># =&gt; 11</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">1</span>]  <span class="co">#=&gt; [4, 5, 6, 7]</span></span></code></pre></div>
+<p> Similarly, array slicing has the same syntax as list slicing. For
+instance,</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">0</span>:<span class="dv">2</span>]  <span class="co"># =&gt; [[0, 1, 2, 3], [4, 5, 6, 7]] (view)</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>A[:<span class="op">-</span><span class="dv">1</span>]  <span class="co"># =&gt; [[0, 1, 2, 3], [4, 5, 6, 7]] (view)</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>A[:, <span class="dv">1</span>]  <span class="co"># =&gt; [1, 5, 9] (view)</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>A[:, <span class="dv">0</span>:<span class="dv">2</span>]  <span class="co"># =&gt; [[0, 1], [4, 5], [8, 9]] (view)</span></span></code></pre></div>
+<p>An important difference between list and array slicing is that,
+whereas in list slicing the returned list is a <em>copy</em> of a
+portion of the original list, in array slicing, the returned value is a
+<span class="keyword">view</span> of a portion of the original array. An
+array view object, just as with <code class="sourceCode python"><span class="bu">dict</span></code> view
+objects (see <a href="/ow">section 1.8</a>), uses the same data as the
+original object. Therefore, mutating a view object mutates its original
+object and vice versa. For instance, using the same <code class="sourceCode python">A</code> matrix from above,</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> A[:, <span class="dv">0</span>]  <span class="co"># =&gt; [0, 4, 8] (first column view)</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>a[<span class="dv">1</span>] <span class="op">=</span> <span class="dv">6</span>  <span class="co"># Assign a new value to view element (second row)</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">0</span>, <span class="dv">0</span>] <span class="op">=</span> <span class="dv">2</span>  <span class="co"># Assign a new value to the original array</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(a)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(A)</span></code></pre></div>
+<p> This prints</p>
+<pre class="sourceCode"><code>[2 6 8]
+[[ 2  1  2  3]
+ [ 6  5  6  7]
+ [ 8  9 10 11]]</code></pre>
+<p> In other words, the data in <code class="sourceCode python">A</code>
+and <code class="sourceCode python">a</code> are the same data. To
+create a copy instead of a view from a slice, simply append the <code class="sourceCode python">copy()</code> method. For instance, the
+following array <code class="sourceCode python">b</code> is a copy of a
+portion of <code class="sourceCode python">A</code>, so its data are
+independent:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> A[:, <span class="dv">0</span>].copy()  <span class="co"># =&gt; [0, 4, 8] (first column copy)</span></span></code></pre></div>
+<p>It is often useful to find the indices of an array that meet some
+condition. Placing an array in a conditional statement returns Boolean
+an array of Boolean values for each element that can be used as an index
+for the array. For instance,</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>], [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>]]) <span class="co"># 3x4</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(A <span class="op">&gt;</span> <span class="dv">4</span>)</span></code></pre></div>
+<p> prints</p>
+<pre class="sourceCode"><code>[[False, False, False, False]
+ [False,  True,  True,  True]
+ [ True,  True,  True,  True]]</code></pre>
+<p> This can be used as an index to select those elements that meet the
+condition. For instance,</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>A[A <span class="op">&gt;</span> <span class="dv">4</span>]</span></code></pre></div>
+<p> returns those elements greater than <code class="sourceCode python"><span class="dv">4</span></code>, as
+follows:</p>
+<pre class="sourceCode"><code>[ 5,  6,  7,  8,  9, 10, 11]</code></pre>
+<p> The use of the Boolean-valued array resulting from the expression
+<code class="sourceCode python">A <span class="op">&gt;</span> <span class="dv">4</span></code>
+as an index is a type of <span class="keyword">advanced indexing</span>
+(i.e., slicing), which uses an array with data type Boolean or integer,
+a non-tuple sequence, or a tuple with at least one sequence object.
+Unlike basic slicing, which returns a view of the original array,
+advanced indexing always returns a copy.</p>
+<p>Because arrays are mutable, elements can be replaced just as with
+lists. For instance, the statements</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>A[<span class="dv">0</span>, <span class="dv">0</span>] <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>A[:, <span class="dv">2</span>] <span class="op">=</span> <span class="dv">2</span></span></code></pre></div>
+<p> mutate <code class="sourceCode python">A</code> such that it now
+prints as</p>
+<pre class="sourceCode"><code>[[ 2,  1,  2,  3],
+ [ 4,  5,  2,  7],
+ [ 8,  9,  2, 11]]</code></pre>
+<p>Combining the conditional indexing from above with assignment, we can
+make assignments based on a condition. For instance, working with the
+same <code class="sourceCode python">A</code> array, we can coerce
+values above <span class="math inline">\(5\)</span> to <span class="math inline">\(5\)</span> as follows:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>A[A <span class="op">&gt;</span> <span class="dv">5</span>] <span class="op">=</span> <span class="dv">5</span></span></code></pre></div>
+<p> Now <code class="sourceCode">A</code> prints as</p>
+<pre class="sourceCode"><code>[[2, 1, 2, 3],
+ [4, 5, 2, 5],
+ [5, 5, 2, 5]]</code></pre>
+</section>
+<section id="sorting-appending-concatenating" class="real-section level2" data-number="1.3" data-h="p5" data-shortid="sorting-appending-concatenating" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/sorting-appending-concatenating" data-0-type="subsection" data-0-hash="p5" data-0-subsec="3.1.3" data-0-problem-num="" data-0-ch="3" data-0-title="Appending To and Concatenating Arrays" data-0-url="" data-0-p="68" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="p5" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">
+<h2 class="real-section" data-h="p5" data-shortid="sorting-appending-concatenating" data-0-wherein="" data-0-v-ts="T1" data-0-example-num="" data-0-id="numerical-representations-io-graphics/arrays/sorting-appending-concatenating" data-0-type="subsection" data-0-hash="p5" data-0-subsec="3.1.3" data-0-problem-num="" data-0-ch="3" data-0-title="Appending To and Concatenating Arrays" data-0-url="" data-0-p="68" data-0-v-ds="D1" data-0-chapterhash="r3" data-0-subsectionhash="p5" data-0-sec="3.1" data-0-sectionhash="wa" data-0-v-specific="no">Appending To and Concatenating Arrays</h2>
+<p>Appending an element to an array is possible with the <code class="sourceCode python">np.append()</code> function (there is no <code class="sourceCode python">append()</code> method), but its use in loops
+is discouraged due to the fact that it creates a new copy of the array
+at every call. However, in some cases it is just the right function, and
+it works as shown in the following code:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> np.array([<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>])</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>np.append(a, <span class="dv">3</span>)  <span class="co"># =&gt; [0, 1, 2, 3]</span></span></code></pre></div>
+<p>When needing to construct the elements of an array in a loop, it is
+vastly more efficient to initialize the array with <code class="sourceCode python">np.full()</code> or similar function (see <a href="/ar">subsection 3.1.1</a>) before beginning the loop, using index
+assignment. For instance,</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> np.full((<span class="dv">5</span>,), np.nan)  <span class="co"># Initialize with nans</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(a)):</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>        a[i] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>        a[i] <span class="op">=</span> (a[i <span class="op">-</span> <span class="dv">1</span>] <span class="op">+</span> <span class="dv">1</span>) <span class="op">**</span> <span class="dv">2</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;It is </span><span class="sc">{</span>np<span class="sc">.</span><span class="bu">any</span>(np.isnan(a))<span class="sc">}</span><span class="ss"> there are nans in a:</span><span class="ch">\n</span><span class="sc">{</span>a<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<p> prints</p>
+<pre class="sourceCode"><code>It is False there are nans in a:
+[1.00000e+00 4.00000e+00 2.50000e+01 6.76000e+02 4.58329e+05]</code></pre>
+<p> The statement <code class="sourceCode python">np.<span class="bu">any</span>(np.isnan(a))</code>
+is a nice idiom for detecting if any <code class="sourceCode">nan</code>s remain in the array. This is a good check
+that we have in fact replaced all elements of the initialized array with
+numbers.</p>
+<p>Array <span class="keyword">concatenation</span> is the ordered
+collection of arrays. The <code class="sourceCode python">np.concatenate()</code> function returns a
+concatenation of arrays given as a tuple to its first argument. For
+instance,</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">1</span>], [<span class="dv">2</span>, <span class="dv">3</span>]])  <span class="co"># 2x2</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> np.array([[<span class="dv">4</span>, <span class="dv">5</span>]])  <span class="co"># 1x2</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>np.concatenate((a, b))  <span class="co"># =&gt; [[0, 1], [2, 3], [4, 5]] (3x2)</span></span></code></pre></div>
+<p>The <code class="sourceCode python">axis</code> optional argument,
+<code class="sourceCode python"><span class="dv">0</span></code> by
+default, determines the dimension along which the array concatenates.
+For instance, with the same <code class="sourceCode python">a</code> and
+<code class="sourceCode python">b</code> from above,</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>np.concatenate((a, b), axis<span class="op">=</span><span class="dv">0</span>)  <span class="co"># =&gt; [[0, 1], [2, 3], [4, 5]] (3x2)</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>np.concatenate((a, b.T), axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># =&gt; [[0, 1, 4], [2, 3, 5]] (2x3)</span></span></code></pre></div>
+<p> Here we have used the <span class="keyword">transpose</span> array
+attribute, which returns a view of the array with its axes swapped (see
+<a href="/qk">subsection 3.2.1</a>). The arrays to be concatenated must
+have matching dimensions except in the <code class="sourceCode">axis</code> dimension.</p>
+<div class="freadinglist">
+<p><span class="plaincite" data-postpost="for a basic and short introduction to NumPy">numpy-basics</span></p>
+</div>
+</section>
+</section>
+
+<h2 id="online-resources-for-section-31">Online Resources for Section 3.1</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

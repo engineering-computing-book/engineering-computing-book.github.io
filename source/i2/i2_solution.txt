@@ -1,0 +1,5 @@
+Mean: 41.125
+Max: 58; Min: 24
+Max Index (first): 2
+Min Index (first): 4
+Sorted: [24, 32, 34, 41, 41, 46, 53, 58]

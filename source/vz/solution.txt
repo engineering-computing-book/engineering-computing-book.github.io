@@ -1,0 +1,5 @@
+which_number(42) => 'int'
+which_number(3.92) => 'float'
+which_number((2-3j)) => 'complex'
+which_number('3.92') => None
+which_number([2, 0]) => None

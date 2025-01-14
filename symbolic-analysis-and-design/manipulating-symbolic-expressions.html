@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <section id="manipulating-symbolic-expressions" class="real-section level1" data-number="1" data-h="nc" data-shortid="manipulating-symbolic-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.0" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-p="103" data-0-prev="ya" data-0-chapterhash="we" data-0-v-specific="no" data-0-next="4u" data-0-v-ds="D1" data-0-subsectionhash="" data-0-hash="nc" data-0-title="Manipulating Symbolic Expressions" data-0-ch="4" data-0-type="section" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions">
+<h1 class="real-section" data-h="nc" data-shortid="manipulating-symbolic-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.0" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-p="103" data-0-prev="ya" data-0-chapterhash="we" data-0-v-specific="no" data-0-next="4u" data-0-v-ds="D1" data-0-subsectionhash="" data-0-hash="nc" data-0-title="Manipulating Symbolic Expressions" data-0-ch="4" data-0-type="section" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions">Manipulating
+Symbolic Expressions</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>In engineering symbolic analysis, the need to manipulate, often
+algebraically, mathematical expressions arises constantly. SymPy has
+several powerful tools for manipulating symbolic expressions, the most
+useful of which we will consider here.</p>
+<section id="simplify-function-method" class="real-section level2" data-number="1.1" data-h="9r" data-shortid="simplify-function-method" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.1" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="The \texttt {simplify()} Function and Method" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="9r" data-0-hash="9r" data-0-v-specific="no" data-0-ch="4" data-0-p="103" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/simplify-function-method">
+<h2 class="real-section" data-h="9r" data-shortid="simplify-function-method" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.1" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="The \texttt {simplify()} Function and Method" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="9r" data-0-hash="9r" data-0-v-specific="no" data-0-ch="4" data-0-p="103" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/simplify-function-method">The
+<code class="sourceCode">simplify()</code> Function and Method</h2>
+<p>A built-in Sympy function and method, <code class="sourceCode python">sp.simplify()</code>, is a common SymPy tool
+for manipulation because simplification is often what we want. Recall
+that some basic simplification occurs automatically; however, in many
+cases this automatic simplification is insufficient. Applying <code class="sourceCode python">sp.simplify()</code> typically results in an
+expression as simple as or simpler than its input; however, the precise
+meaning of “simpler” is quite vague, which can lead to frustrating cases
+in which a version of an expression we consider to be simpler is not
+chosen by the <code class="sourceCode python">sp.simplify()</code>
+algorithm. In such cases, we will often use the more manual techniques
+considered later in this section.</p>
+<p>The predicates (i.e., assumptions) used to define the symbolic
+variables and functions that appear in a symbolic expression are
+respected by <code class="sourceCode python">sp.simplify()</code>.
+Consider the following example:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> sp.symbols(<span class="st">&quot;x&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>e0 <span class="op">=</span> (x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>x <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>x)<span class="op">/</span>(x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>x)<span class="op">;</span> e0  <span class="co"># For display</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>e0.simplify()  <span class="co"># Returns simplified expression, leaves e0 unchanged</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+
+</div>
+<div class="output execute_result" data-execution_count="3">
+
+</div>
+<p> Note that <code class="sourceCode python">e0</code> was slightly
+simplified automatically. The <code class="sourceCode python">simplify()</code> method further simplified by
+canceling an <code class="sourceCode python">x</code>. The use of the
+method does not affect the object, so it the same as the use of the
+function.</p>
+<p>There are a few “knobs” to turn in the form of optional arguments to
+<code class="sourceCode python">sp.simplify()</code>:</p>
+<ul>
+<li><code class="sourceCode python">measure</code> (default: <code class="sourceCode python">sp.count_ops()</code>): A function that serves
+as a heuristic complexity metric. The default <code class="sourceCode python">sp.count_ops()</code> counts the operations in
+the expression.</li>
+<li><code class="sourceCode python">ratio</code> (default: <code class="sourceCode python"><span class="fl">1.7</span></code>): The
+maximum ratio of the measures, output <code class="sourceCode python">out</code> over input <code class="sourceCode python">inp</code>, <code class="sourceCode python">measure(out)<span class="op">/</span>measure(inp)</code>.
+Anything over <code class="sourceCode python"><span class="dv">1</span></code> allows the
+output to be potentially more complex than the input, but it may still
+be simpler because the metric is just a heuristic.</li>
+<li><code class="sourceCode python">rational</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): By
+default (<code class="sourceCode python"><span class="va">False</span></code>),
+floating-point numbers are left alone. If <code class="sourceCode python">rational<span class="op">=</span><span class="va">True</span></code>,
+floating-point numbers are recast as rational numbers. If <code class="sourceCode python">rational<span class="op">=</span><span class="va">None</span></code>,
+floating-point numbers are recast as rational numbers during
+simplification, but recast to floating-point numbers in the result.</li>
+<li><code class="sourceCode python">inverse</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+allows inverse functions to be cancelled in any order without knowing if
+the inner argument falls in the domain for which the inverse holds.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> For instance, this allows <span class="math inline">\(\arccos(\cos x) \rightarrow x\)</span> without
+knowing if <span class="math inline">\(x \in [0, \pi]\)</span>.</li>
+<li><code class="sourceCode python">force</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+predicates (assumptions) of the variables will be ignored.</li>
+</ul>
+</section>
+<section id="polynomial-rational-expressions" class="real-section level2" data-number="1.2" data-h="nv" data-shortid="polynomial-rational-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.2" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Polynomial and Rational Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="nv" data-0-hash="nv" data-0-v-specific="no" data-0-ch="4" data-0-p="104" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/polynomial-rational-expressions">
+<h2 class="real-section" data-h="nv" data-shortid="polynomial-rational-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.2" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Polynomial and Rational Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="nv" data-0-hash="nv" data-0-v-specific="no" data-0-ch="4" data-0-p="104" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/polynomial-rational-expressions">Polynomial
+and Rational Expression Manipulation</h2>
+<p>Here we consider a few SymPy functions and methods that manipulate
+polynomials and rational expressions.</p>
+<section id="the-expand-function-and-method" class="real-section level3" data-number="1.2.1" data-shortid="the-expand-function-and-method">
+<h3 class="real-section" data-shortid="the-expand-function-and-method">The <code class="sourceCode">expand()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">expand()</code> function and
+method expresses a polynomial in the canonical form of a sum of
+monomials. A monomial is a polynomial with exactly one additive term.
+For instance,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sp.expand((x <span class="op">+</span> <span class="dv">3</span>)<span class="op">**</span><span class="dv">2</span>)  <span class="co">## Using the real x from above</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+</div>
+<p>We can also expand a numerator or denominator without expanding the
+entire expression, as follows for <span class="math inline">\((x+3)^2/(x
+- 2)^2\)</span>:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>frac <span class="op">=</span> (x <span class="op">+</span> <span class="dv">3</span>)<span class="op">**</span><span class="dv">2</span><span class="op">/</span>(x <span class="op">-</span> <span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>frac.expand()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>frac.expand(numer<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>frac.expand(denom<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>frac.expand(numer<span class="op">=</span><span class="va">True</span>).expand(denom<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+
+</div>
+<div class="output execute_result" data-execution_count="5">
+
+</div>
+<div class="output execute_result" data-execution_count="5">
+
+</div>
+<div class="output execute_result" data-execution_count="5">
+
+</div>
+<p>There are several additional options for <code class="sourceCode python">expand()</code>, including:</p>
+<ul>
+<li><code class="sourceCode python">mul</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>,
+distributes multiplication over addition (e.g., <span class="math inline">\(5 (x + 1) \rightarrow 5 x + 5\)</span>.</li>
+<li><code class="sourceCode python">multinomial</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>, expands
+multinomial (polynomial that is not a monomial) terms into sums of
+monomials (e.g., <span class="math inline">\((x + y)^2 \rightarrow x^2 +
+2 x y + y^2\)</span>).</li>
+<li><code class="sourceCode python">power_exp</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>, expands
+sums in exponents to products of exponentials (e.g., <span class="math inline">\(e^{3 + x} \rightarrow e^3 e^x\)</span>).</li>
+<li><code class="sourceCode python">log</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>, split log
+products into sums and extract log exponents to multiplicative constants
+(e.g., for <span class="math inline">\(x, y &gt; 0\)</span>, <span class="math inline">\(\ln(x^3 y) \rightarrow 3\ln x + \ln
+y\)</span>).</li>
+<li><code class="sourceCode python">deep</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>, expands
+all levels of the expression tree; if <code class="sourceCode python"><span class="va">False</span></code>, expands
+only the top level (e.g., <span class="math inline">\(x (x + (y+1)^2)
+\rightarrow x^2 + x (y+1)^2\)</span>).</li>
+<li><code class="sourceCode">complex</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+collect real and imaginary parts (e.g., <span class="math inline">\(x +
+y \rightarrow \Re(x) + \Re(y) + j (\Im(x) + \Im(y))\)</span>).</li>
+<li><code class="sourceCode python">func</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+expand nonpolynomial functions (e.g., for the gamma function <span class="math inline">\(\Gamma\)</span>, <span class="math inline">\(\Gamma(x+2) \rightarrow x^2 \Gamma(x) + x
+\Gamma(x)\)</span>).</li>
+<li><code class="sourceCode python">trig</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+expand trigonometric functions (e.g., <span class="math inline">\(\sin(x+y) \rightarrow \sin x \cos y -  \sin y \cos
+x\)</span>).</li>
+</ul>
+</section>
+<section id="the-factor-function-and-method" class="real-section level3" data-number="1.2.2" data-shortid="the-factor-function-and-method">
+<h3 class="real-section" data-shortid="the-factor-function-and-method">The <code class="sourceCode">factor()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">factor()</code> function and
+method returns a factorization into irreducibles factors. For
+polynomials, this is the reverse of <code class="sourceCode python">expand()</code>. Irreducibility of the factors
+is guaranteed for polynomials. Consider the following polynomial
+example:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>e0 <span class="op">=</span> (x <span class="op">+</span> <span class="dv">1</span>)<span class="op">**</span><span class="dv">2</span> <span class="op">*</span> (x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>x<span class="op">*</span>y <span class="op">+</span> y<span class="op">**</span><span class="dv">2</span>)<span class="op">;</span> e0</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>e0.expand()</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>e0.expand().factor()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<div class="output execute_result" data-execution_count="6">
+
+</div>
+<p>Factorization can also be performed over nonpolynomial expressions,
+as in the following example:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>e1 <span class="op">=</span> sp.sin(x) <span class="op">*</span> (sp.cos(x) <span class="op">+</span> sp.sin(x))<span class="op">**</span><span class="dv">2</span><span class="op">;</span> e1  <span class="co"># Using above real x</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>e1.expand()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>e1.expand().factor()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+</div>
+<div class="output execute_result" data-execution_count="7">
+
+</div>
+<div class="output execute_result" data-execution_count="7">
+
+</div>
+<p>There are two options of note:</p>
+<ul>
+<li><code class="sourceCode python">deep</code> (default: <code class="sourceCode python"><span class="va">False</span></code>): If
+<code class="sourceCode python"><span class="va">True</span></code>,
+inner expression tree elements will also be factored (e.g., <span class="math inline">\(\exp(x^2 + 4 x + 4) \rightarrow
+\exp((x+2)^2)\)</span>).</li>
+<li><code class="sourceCode python">fraction</code> (default: <code class="sourceCode python"><span class="va">True</span></code>): If <code class="sourceCode python"><span class="va">True</span></code>, rational
+expressions will be combined.</li>
+</ul>
+<p> An example of the latter option is given here:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>e2 <span class="op">=</span> x <span class="op">-</span> <span class="dv">5</span><span class="op">*</span>sp.exp(<span class="dv">3</span> <span class="op">-</span> x)<span class="op">;</span> e2  <span class="co"># Using real x from above</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>e2.factor(deep<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>e2.factor(deep<span class="op">=</span><span class="va">True</span>, fraction<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+</div>
+<div class="output execute_result" data-execution_count="8">
+
+</div>
+<div class="output execute_result" data-execution_count="8">
+
+</div>
+</section>
+<section id="the-collect-function-and-method" class="real-section level3" data-number="1.2.3" data-shortid="the-collect-function-and-method">
+<h3 class="real-section" data-shortid="the-collect-function-and-method">The <code class="sourceCode">collect()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">collect()</code> function and
+method returns an expression with specific terms collected. For
+instance,</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>x, y, a, b <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y, a, b&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>e3 <span class="op">=</span> a <span class="op">*</span> x <span class="op">+</span> b <span class="op">*</span> x <span class="op">*</span> y <span class="op">+</span> a<span class="op">**</span><span class="dv">2</span> <span class="op">*</span> x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">3</span> <span class="op">*</span> y<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> x <span class="op">*</span> y <span class="op">+</span> <span class="dv">8</span><span class="op">;</span> e3</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>e3.collect(x)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+
+</div>
+<div class="output execute_result" data-execution_count="9">
+
+</div>
+<p>More complicated expressions can be collected as well, as in the
+following example:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>e4 <span class="op">=</span> a<span class="op">*</span>sp.cos(<span class="dv">4</span><span class="op">*</span>x) <span class="op">+</span> b<span class="op">*</span>sp.cos(<span class="dv">4</span><span class="op">*</span>x) <span class="op">+</span> b<span class="op">*</span>sp.cos(<span class="dv">6</span><span class="op">*</span>x) <span class="op">+</span> a <span class="op">*</span> sp.sin(x)<span class="op">;</span> e4</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>e4.collect(sp.cos(<span class="dv">4</span><span class="op">*</span>x))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+
+</div>
+<div class="output execute_result" data-execution_count="10">
+
+</div>
+<p>Derivatives of an undefined symbolic function, as would appear in a
+differential equation, can be collected. If the function is passed to
+<code class="sourceCode python">collect()</code>, as in the following
+example, it and its derivatives are collected:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> sp.Function(<span class="st">&quot;f&quot;</span>)(x)  <span class="co">## Applied undefined function</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>e5 <span class="op">=</span> a<span class="op">*</span>f.diff(x, <span class="dv">2</span>) <span class="op">+</span> a<span class="op">**</span><span class="dv">2</span><span class="op">*</span>f.diff(x) <span class="op">+</span> b<span class="op">**</span><span class="dv">2</span><span class="op">*</span>f.diff(x) <span class="op">+</span> a<span class="op">**</span><span class="dv">3</span><span class="op">*</span>f<span class="op">;</span> e5</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>e5.collect(f)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+
+</div>
+<div class="output execute_result" data-execution_count="11">
+
+</div>
+<p>The <code class="sourceCode python">rcollect()</code> function (not
+available as a method) recursively applies <code class="sourceCode python">collect()</code>. For instance,</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>e6 <span class="op">=</span> (a <span class="op">*</span> x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> b<span class="op">*</span>x<span class="op">*</span>y <span class="op">+</span> a<span class="op">*</span>b<span class="op">*</span>x)<span class="op">/</span>(a<span class="op">*</span>x<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> b<span class="op">*</span>x<span class="op">**</span><span class="dv">2</span>)<span class="op">;</span> e6</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>sp.rcollect(e6, x)  <span class="co"># Collects in numerator and denominator</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+
+</div>
+<div class="output execute_result" data-execution_count="12">
+
+</div>
+<p>Before collection, an expression may need to be expanded via <code class="sourceCode python">expand()</code>.</p>
+</section>
+<section id="the-cancel-function-and-method" class="real-section level3" data-number="1.2.4" data-shortid="the-cancel-function-and-method">
+<h3 class="real-section" data-shortid="the-cancel-function-and-method">The <code class="sourceCode">cancel()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">cancel()</code> function and
+method will return an expression in the form <span class="math inline">\(p/q\)</span>, where <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are polynomials that have been expanded
+and have integer leading coefficients. This is typically used to cancel
+terms that can be factored from the numerator and denominator of a
+rational expression, as in the following example:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>e7 <span class="op">=</span> (x<span class="op">**</span><span class="dv">3</span> <span class="op">-</span> a<span class="op">**</span><span class="dv">3</span>)<span class="op">/</span>(x<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> a<span class="op">**</span><span class="dv">2</span>)<span class="op">;</span> e7</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>e7.cancel()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+
+</div>
+<div class="output execute_result" data-execution_count="13">
+
+</div>
+<p>Note that there is an implicit assumption here that <span class="math inline">\(x \ne a\)</span>. However, the cancelation is
+still valid for the limit as <span class="math inline">\(x\rightarrow
+a\)</span>.</p>
+</section>
+<section id="the-apart-and-together-functions-and-methods" class="real-section level3" data-number="1.2.5" data-shortid="the-apart-and-together-functions-and-methods">
+<h3 class="real-section" data-shortid="the-apart-and-together-functions-and-methods">The <code class="sourceCode">apart()</code> and <code class="sourceCode">together()</code> Functions and Methods</h3>
+<p>The <code class="sourceCode python">apart()</code> function and
+method returns a <span class="keyword">partial fraction expansion</span>
+of a rational expression. A partial fraction expansion rewrites a ratio
+as a sum of a polynomial and one or more ratios with irreducible
+denominators. It is of particular use for computing the inverse Laplace
+transform. The <code class="sourceCode python">together()</code>
+function is the complement of <code class="sourceCode python">apart()</code>. Here is an example of a
+partial fraction expansion:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> sp.symbols(<span class="st">&quot;s&quot;</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>e8 <span class="op">=</span> (s<span class="op">**</span><span class="dv">3</span> <span class="op">+</span> <span class="dv">6</span><span class="op">*</span>s<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">16</span><span class="op">*</span>s <span class="op">+</span> <span class="dv">16</span>)<span class="op">/</span>(s<span class="op">**</span><span class="dv">3</span> <span class="op">+</span> <span class="dv">4</span><span class="op">*</span>s<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> <span class="dv">10</span><span class="op">*</span>s <span class="op">+</span> <span class="dv">7</span>)<span class="op">;</span> e8</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>e8.apart()  <span class="co"># Partial fraction expansion</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>e8.apart().together().cancel()  <span class="co"># Putting it back together</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+
+</div>
+<div class="output execute_result" data-execution_count="14">
+
+</div>
+<div class="output execute_result" data-execution_count="14">
+
+</div>
+</section>
+</section>
+<section id="trigonometric-expressions" class="real-section level2" data-number="1.3" data-h="bc" data-shortid="trigonometric-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.3" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Trigonometric Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="bc" data-0-hash="bc" data-0-v-specific="no" data-0-ch="4" data-0-p="108" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/trigonometric-expressions">
+<h2 class="real-section" data-h="bc" data-shortid="trigonometric-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.3" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Trigonometric Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="bc" data-0-hash="bc" data-0-v-specific="no" data-0-ch="4" data-0-p="108" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/trigonometric-expressions">Trigonometric
+Expression Manipulation</h2>
+<p>As we saw in <a href="/nv">subsection 4.2.2</a>, expressions
+including trigonometric terms can be manipulated with the SymPy
+functions and methods that are nominally for polynomial and rational
+expressions. In addition to these, considered here are two important
+SymPy functions and methods for manipulating expressions including
+trigonometric terms, with a focus on the trigonometric terms
+themselves.</p>
+<section id="the-trigsimp-function-and-method" class="real-section level3" data-number="1.3.1" data-shortid="the-trigsimp-function-and-method">
+<h3 class="real-section" data-shortid="the-trigsimp-function-and-method">The <code class="sourceCode">trigsimp()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">trigsimp()</code> function and
+method attempts to simplify a symbolic expression via trigonometric
+identities. For instance, it will apply the double-angle formulas, as
+follows:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> sp.symbols(<span class="st">&quot;x&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>e9 <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> sp.sin(x) <span class="op">*</span> sp.cos(x)<span class="op">;</span> e9</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>e9.trigsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+
+</div>
+<div class="output execute_result" data-execution_count="15">
+
+</div>
+<p> Here is a more involved expression:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>e10 <span class="op">=</span> sp.cos(x)<span class="op">**</span><span class="dv">4</span> <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>sp.sin(x)<span class="op">**</span><span class="dv">2</span><span class="op">*</span>sp.cos(x)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> sp.sin(x)<span class="op">**</span><span class="dv">4</span><span class="op">;</span> e10</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>e10.trigsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+
+</div>
+<div class="output execute_result" data-execution_count="16">
+
+</div>
+<p>The hyperbolic trignometric functions are also handled by <code class="sourceCode python">trigsimp()</code>, as in the following
+example:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>e11 <span class="op">=</span> sp.cosh(x) <span class="op">*</span> sp.tanh(x)<span class="op">;</span> e11</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>e11.trigsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+
+</div>
+<div class="output execute_result" data-execution_count="17">
+
+</div>
+</section>
+<section id="the-expand_trig-function" class="real-section level3" data-number="1.3.2" data-shortid="the-expand_trig-function">
+<h3 class="real-section" data-shortid="the-expand_trig-function">The
+<code class="sourceCode">expand_trig()</code> Function</h3>
+<p>The <code class="sourceCode python">sp.expand_trig()</code> function
+applies the double-angle or sum identity in the expansive direction,
+opposite the direction of <code class="sourceCode python">trig_simp()</code>; that is,</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>e12 <span class="op">=</span> sp.cos(x <span class="op">+</span> y)<span class="op">;</span> e12</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>sp.expand_trig(e12)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+
+</div>
+<div class="output execute_result" data-execution_count="18">
+
+</div>
+</section>
+</section>
+<section id="power-expression-manipulation" class="real-section level2" data-number="1.4" data-h="2z" data-shortid="power-expression-manipulation" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.4" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Power Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="2z" data-0-hash="2z" data-0-v-specific="no" data-0-ch="4" data-0-p="109" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/power-expression-manipulation">
+<h2 class="real-section" data-h="2z" data-shortid="power-expression-manipulation" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.4" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Power Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="2z" data-0-hash="2z" data-0-v-specific="no" data-0-ch="4" data-0-p="109" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/power-expression-manipulation">Power
+Expression Manipulation</h2>
+<p>There are three important power identities: $$\begin{align}
+x^a x^b &amp;= x^{a + b} \text{ for $x \ne 0, a, b \in \mathbb{C}$} \label{eq:pow1} \\
+u^c v^c &amp;= (u v)^c \text{ for $u, v \ge 0$ and $c \in \mathbb{R}$} \label{eq:pow2} \\
+(z^d)^n &amp;= z^{d n} \text{ for $z, d \in \mathbb{C}$ and $n \in \mathbb{Z}$.} \label{eq:pow3}
+\end{align}$$ Eqns. <strong>¿eq:pow1?</strong>,
+<strong>¿eq:pow2?</strong>, <strong>¿eq:pow3?</strong> are applied in
+several power expression simplification functions and methods considered
+here.</p>
+<section id="the-powsimp-function-and-method" class="real-section level3" data-number="1.4.1" data-shortid="the-powsimp-function-and-method">
+<h3 class="real-section" data-shortid="the-powsimp-function-and-method">The <code class="sourceCode">powsimp()</code> Function and Method</h3>
+<p>The <code class="sourceCode python">powsimp()</code> function and
+method applies the identities of eqns. <strong>¿eq:pow1?</strong>,
+<strong>¿eq:pow2?</strong> from left-to-right (replacing the left
+pattern with the right). It will only apply the identity if it holds.
+Consider the following, applying eq. <strong>¿eq:pow1?</strong>:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> sp.symbols(<span class="st">&quot;x&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>, nonzero<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>a, b <span class="op">=</span> sp.symbols(<span class="st">&quot;a, b&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>e13 <span class="op">=</span> x<span class="op">**</span>a <span class="op">*</span> x<span class="op">**</span>b<span class="op">;</span> e13</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>e13.powsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+
+</div>
+<div class="output execute_result" data-execution_count="19">
+
+</div>
+<p>Applying eq. <strong>¿eq:pow2?</strong>,</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>u, v <span class="op">=</span> sp.symbols(<span class="st">&quot;u, v&quot;</span>, nonnegative<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> sp.symbols(<span class="st">&quot;c&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>e14 <span class="op">=</span> u<span class="op">**</span>c <span class="op">*</span> v<span class="op">**</span>c<span class="op">;</span> e14</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>e14.powsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+
+</div>
+<div class="output execute_result" data-execution_count="20">
+
+</div>
+<p> Under certain conditions (i.e., <span class="math inline">\(c \in
+\mathbb{Q}\)</span>, a literal rational exponent),
+eq. <strong>¿eq:pow2?</strong> is applied right-to-left automatically,
+so <code class="sourceCode python">powsimp()</code> appears to have no
+effect. For instance,</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>e15 <span class="op">=</span> u<span class="op">**</span><span class="dv">3</span> <span class="op">*</span> v<span class="op">**</span><span class="dv">3</span><span class="op">;</span> e15</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>e15.powsimp()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+
+</div>
+<div class="output execute_result" data-execution_count="21">
+
+</div>
+<p>For expressions for which the conditions for an identity does not
+hold, it can still be applied (at your own risk) via the <code class="sourceCode python">force<span class="op">=</span><span class="va">True</span></code>
+argument.</p>
+</section>
+<section id="the-expand_power_exp-and-expand_power_base-functions" class="real-section level3" data-number="1.4.2" data-shortid="the-expand_power_exp-and-expand_power_base-functions">
+<h3 class="real-section" data-shortid="the-expand_power_exp-and-expand_power_base-functions">The
+<code class="sourceCode">expand_power_exp()</code> and <code class="sourceCode">expand_power_base()</code> Functions</h3>
+<p>The <code class="sourceCode python">expand_power_exp()</code>
+function applies eq. <strong>¿eq:pow1?</strong> from right-to-left
+(opposite of <code class="sourceCode python">powsimp()</code>), as
+follows:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>e16 <span class="op">=</span> x<span class="op">**</span>(a <span class="op">+</span> b)<span class="op">;</span> e16</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>sp.expand_power_exp(e16)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+
+</div>
+<div class="output execute_result" data-execution_count="22">
+
+</div>
+<p>Similarly, <code class="sourceCode python">expand_power_base()</code>
+applies eq. <strong>¿eq:pow2?</strong> from right-to-left (opposite of
+<code class="sourceCode python">powsimp()</code>, as follows:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>e17 <span class="op">=</span> (u <span class="op">*</span> v)<span class="op">**</span>c<span class="op">;</span> e17</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>sp.expand_power_base(e17)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+
+</div>
+<div class="output execute_result" data-execution_count="23">
+
+</div>
+<p>Again, the identity will not be applied if its conditions do not hold
+for the expression; however, with the parameter <code class="sourceCode python">force<span class="op">=</span><span class="va">True</span></code>,
+it will be applied in any case.</p>
+</section>
+<section id="the-powdenest-function" class="real-section level3" data-number="1.4.3" data-shortid="the-powdenest-function">
+<h3 class="real-section" data-shortid="the-powdenest-function">The <code class="sourceCode">powdenest()</code> Function</h3>
+<p>The <code class="sourceCode python">powdenest()</code> function
+applies eq. <strong>¿eq:pow3?</strong> from left-to-right. For
+instance,</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>z, d <span class="op">=</span> sp.symbols(<span class="st">&quot;z, d&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> sp.symbols(<span class="st">&quot;n&quot;</span>, integer<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>e18 <span class="op">=</span> (z<span class="op">**</span>d)<span class="op">**</span>n<span class="op">;</span> e18</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>sp.powdenest(e18)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+
+</div>
+<div class="output execute_result" data-execution_count="24">
+
+</div>
+<p> However, as we see from <code class="sourceCode python">e18</code>,
+the denesting is automatically applied. There may be situations in which
+<code class="sourceCode python">powdenest()</code> must still be applied
+manually.</p>
+</section>
+</section>
+<section id="exponential-logarithmic-expression-manipulation" class="real-section level2" data-number="1.5" data-h="2q" data-shortid="exponential-logarithmic-expression-manipulation" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.5" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Exponential and Logarithmic Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="2q" data-0-hash="2q" data-0-v-specific="no" data-0-ch="4" data-0-p="110" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/exponential-logarithmic-expression-manipulation">
+<h2 class="real-section" data-h="2q" data-shortid="exponential-logarithmic-expression-manipulation" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.5" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Exponential and Logarithmic Expression Manipulation" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="2q" data-0-hash="2q" data-0-v-specific="no" data-0-ch="4" data-0-p="110" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/exponential-logarithmic-expression-manipulation">Exponential
+and Logarithmic Expression Manipulation</h2>
+<p>For <span class="math inline">\(x, y \ge 0\)</span> and <span class="math inline">\(n \in \mathbb{R}\)</span>, the following
+identities hold: $$\begin{align}
+\log(x y) &amp;= \log(x) + \log(y) \label{eq:log1} \\
+\log(x^n) &amp;= n \log(x) \label{eq:log2}
+\end{align}$$ These can be applied with the <code class="sourceCode python">expand_log()</code> and <code class="sourceCode python">logcombine()</code> functions.</p>
+<section id="the-expand_log-function" class="real-section level3" data-number="1.5.1" data-shortid="the-expand_log-function">
+<h3 class="real-section" data-shortid="the-expand_log-function">The
+<code class="sourceCode">expand_log()</code> Function</h3>
+<p>The <code class="sourceCode python">expand_log()</code> function
+applies eqns. <strong>¿eq:log1?</strong>, <strong>¿eq:log2?</strong>
+from left-to-right. In the following example, it applies
+eq. <strong>¿eq:log1?</strong>:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y&quot;</span>, positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> sp.symbols(<span class="st">&quot;n&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>e19 <span class="op">=</span> sp.log(x <span class="op">*</span> y)<span class="op">;</span> e19</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>sp.expand_log(e19)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+
+</div>
+<div class="output execute_result" data-execution_count="25">
+
+</div>
+<p>In the following example, it applies
+eq. <strong>¿eq:log1?</strong>:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>e20 <span class="op">=</span> sp.log(x<span class="op">**</span>n)<span class="op">;</span> e20</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>sp.expand_log(e20)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+
+</div>
+<div class="output execute_result" data-execution_count="26">
+
+</div>
+</section>
+<section id="the-logcombine-function" class="real-section level3" data-number="1.5.2" data-shortid="the-logcombine-function">
+<h3 class="real-section" data-shortid="the-logcombine-function">The
+<code class="sourceCode">logcombine()</code> Function</h3>
+<p>The <code class="sourceCode python">logcombine()</code> function
+applies eqns. <strong>¿eq:log1?</strong>, <strong>¿eq:log2?</strong>
+from right-to-left. In the following example, it applies
+eq. <strong>¿eq:log1?</strong>:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>e21 <span class="op">=</span> sp.log(x) <span class="op">+</span> sp.log(y)<span class="op">;</span> e21</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>sp.logcombine(e21)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+
+</div>
+<div class="output execute_result" data-execution_count="27">
+
+</div>
+<p>In the following example, it applies
+eq. <strong>¿eq:log1?</strong>:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>e22 <span class="op">=</span> n <span class="op">*</span> sp.log(x)<span class="op">;</span> e22</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>sp.logcombine(e22)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+
+</div>
+<div class="output execute_result" data-execution_count="28">
+
+</div>
+</section>
+</section>
+<section id="rewriting-with-other-functions" class="real-section level2" data-number="1.6" data-h="3e" data-shortid="rewriting-with-other-functions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.6" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Rewriting Expressions in Terms of Other Functions" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="3e" data-0-hash="3e" data-0-v-specific="no" data-0-ch="4" data-0-p="111" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/rewriting-with-other-functions">
+<h2 class="real-section" data-h="3e" data-shortid="rewriting-with-other-functions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.6" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Rewriting Expressions in Terms of Other Functions" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="3e" data-0-hash="3e" data-0-v-specific="no" data-0-ch="4" data-0-p="111" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/rewriting-with-other-functions">Rewriting
+Expressions in Terms of Other Functions</h2>
+<p>At times, there are identities that can translate an expression in
+terms of one function (or set of functions) into an expression in terms
+of another function (or set of functions). In SymPy, the <code class="sourceCode python">rewrite()</code> method can perform this
+translation. For instance, Euler’s formula, <span class="math inline">\(e^{j x} = \cos x + j \sin x\)</span> can be
+applied:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> sp.symbols(<span class="st">&quot;x&quot;</span>, <span class="bu">complex</span><span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>e23 <span class="op">=</span> sp.exp(<span class="ot">1j</span> <span class="op">*</span> x)<span class="op">;</span> e23</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>e24 <span class="op">=</span> e23.rewrite(sp.cos)<span class="op">;</span> e24  <span class="co"># Apply left-to-right</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>e24.rewrite(sp.exp)  <span class="co"># Apply right-to-left</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+
+</div>
+<div class="output execute_result" data-execution_count="29">
+
+</div>
+<div class="output execute_result" data-execution_count="29">
+
+</div>
+<p>Here is an example with a hyperbolic trigonometric function:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>e25 <span class="op">=</span> sp.tanh(x)<span class="op">;</span> e25</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>e25.rewrite(sp.exp)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+
+</div>
+<div class="output execute_result" data-execution_count="30">
+
+</div>
+<p>Finally, consider the following example with trigonometric
+functions:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y&quot;</span>, real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>e26 <span class="op">=</span> sp.tan(x <span class="op">+</span> y)<span class="op">**</span><span class="dv">2</span><span class="op">;</span> e26</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>e26.rewrite(sp.cos)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+
+</div>
+<div class="output execute_result" data-execution_count="31">
+
+</div>
+</section>
+<section id="substituting-replacing-expressions" class="real-section level2" data-number="1.7" data-h="kn" data-shortid="substituting-replacing-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.7" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Substituting and Replacing Expressions" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="kn" data-0-hash="kn" data-0-v-specific="no" data-0-ch="4" data-0-p="112" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/substituting-replacing-expressions">
+<h2 class="real-section" data-h="kn" data-shortid="substituting-replacing-expressions" data-0-v-ts="T1" data-0-sec="4.2" data-0-example-num="" data-0-wherein="" data-0-subsec="4.2.7" data-0-sectionhash="nc" data-0-problem-num="" data-0-url="" data-0-title="Substituting and Replacing Expressions" data-0-chapterhash="we" data-0-type="subsection" data-0-v-ds="D1" data-0-subsectionhash="kn" data-0-hash="kn" data-0-v-specific="no" data-0-ch="4" data-0-p="112" data-0-id="symbolic-analysis-and-design/manipulating-symbolic-expressions/substituting-replacing-expressions">Substituting
+and Replacing Expressions</h2>
+<p>One expression can be substituted for another via a few different
+methods, the two most useful of which are considered here.</p>
+<section id="the-subs-method" class="real-section level3" data-number="1.7.1" data-shortid="the-subs-method">
+<h3 class="real-section" data-shortid="the-subs-method">The <code class="sourceCode">subs()</code> Method</h3>
+<p>The <code class="sourceCode python">subs()</code> method returns a
+copy of an expression with specific subexpressions replaced. There are
+three ways to specify substitutions for an expression <code class="sourceCode python">expr</code>:</p>
+<ul>
+<li><code class="sourceCode python">expr.subs(old, new)</code>, in which
+<code class="sourceCode python">old</code> is replaced with <code class="sourceCode python">new</code></li>
+<li><code class="sourceCode python">expr.subs(iterable)</code>, in which
+<code class="sourceCode python">iterable</code> (e.g., a <code class="sourceCode python"><span class="bu">list</span></code>) contains
+<code class="sourceCode python">old</code>/<code class="sourceCode python">new</code> pairs like <code class="sourceCode python">[(old0, new0), (old1, new1), ...]</code></li>
+<li><code class="sourceCode python">expr.subs(dictionary)</code>, in
+which <code class="sourceCode python">dictionary</code> contains <code class="sourceCode python">old</code>/<code class="sourceCode python">new</code> pairs like <code class="sourceCode python">{old0: new0, old1: new1, ...}</code></li>
+</ul>
+<p>Consider the following simple examples:</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>x, y, z <span class="op">=</span> sp.symbols(<span class="st">&quot;x, y, z&quot;</span>)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>sp.sqrt(x <span class="op">+</span> y).subs(x, <span class="dv">5</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>(x <span class="op">+</span> y<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> z).subs({x: z, y: <span class="dv">2</span><span class="op">*</span>z})</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+
+</div>
+<div class="output execute_result" data-execution_count="32">
+
+</div>
+<p>By default, when an ordered iterable like a <code class="sourceCode python"><span class="bu">list</span></code> or <code class="sourceCode python"><span class="bu">tuple</span></code> is
+provided, substitutions are performed in the order given, as in the
+following example:</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>(x <span class="op">+</span> y).subs(((x, y), (y, z)))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+
+</div>
+<p> We see that the second substitution <span class="math inline">\(y
+\rightarrow z\)</span> is applied after the first, <span class="math inline">\(x \rightarrow y\)</span>. The parameter <code class="sourceCode python">simultaneous</code>, by default <code class="sourceCode python"><span class="va">False</span></code>, can be
+passed as <code class="sourceCode python"><span class="va">True</span></code> so that
+new subexpressions are ignored by later substitutions, as in the
+following example:</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>(x <span class="op">+</span> y).subs(((x, y), (y, z)), simultaneous<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+
+</div>
+<p>For dictionary substitutions, which are unordered, a canonical
+ordering based on the number of operations is used for reproducibility.
+We do not recommend relying on this canonical ordering, so if the order
+of substitutions is important, we recommend using an ordered
+iterable.</p>
+<p>If the substitutions result in a numerical value, it will by default
+remain a symbolic expression:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>sp.srepr((x <span class="op">+</span> y).subs(((x, <span class="dv">1</span>), (y, <span class="dv">3</span>))))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<pre class="sourceCode"><code>&#39;Integer(4)&#39;</code></pre>
+</div>
+<p>To get a numeric type from the result, the <code class="sourceCode python">evalf()</code> method can be used:</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>(<span class="dv">1</span><span class="op">/</span>y).subs(y, <span class="fl">3.0</span>).evalf(n<span class="op">=</span><span class="dv">20</span>)  <span class="co"># subs() first (20 decimal places)</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>(<span class="dv">1</span><span class="op">/</span>y).evalf(subs<span class="op">=</span>{y: <span class="fl">3.0</span>}, n<span class="op">=</span><span class="dv">20</span>)  <span class="co"># evalfr() subs (20 decimal places)</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="36">
+
+</div>
+<div class="output execute_result" data-execution_count="36">
+
+</div>
+<p>Note that passing the substitutions to through <code class="sourceCode python">evalf()</code> can result in a more accurate
+representation, so this technique is preferred. We will later [TODO:
+ref] return to more powerful techniques for numerical evaluation that
+convert SymPy expressions to numerically evaluable functions.</p>
+</section>
+<section id="the-replace-method" class="real-section level3" data-number="1.7.2" data-shortid="the-replace-method">
+<h3 class="real-section" data-shortid="the-replace-method">The <code class="sourceCode">replace()</code> Method</h3>
+<p>The <code class="sourceCode python">replace()</code> method is
+similar to <code class="sourceCode python">subs()</code>, but it has
+matching capabilities. Common usage of the <code class="sourceCode python">replace()</code> method uses <span class="keyword">wildcard variables</span> of class <code class="sourceCode python">sp.core.symbol.Wild</code> that match anything
+in a pattern. For instance,</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>w <span class="op">=</span> sp.symbols(<span class="st">&quot;w&quot;</span>, cls<span class="op">=</span>sp.Wild)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>expr <span class="op">=</span> sp.sin(x) <span class="op">+</span> sp.sin(<span class="dv">3</span><span class="op">*</span>x)<span class="op">**</span><span class="dv">2</span><span class="op">;</span> expr</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>expr.replace(sp.sin(w), sp.cos(w)<span class="op">/</span>w)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+
+</div>
+<div class="output execute_result" data-execution_count="37">
+
+</div>
+<p>Note that the wildcard variable <code class="sourceCode python">w</code> was able to match both <code class="sourceCode python">x</code> and <code class="sourceCode python"><span class="dv">3</span><span class="op">*</span>x</code>,
+and that the the wildcard could be used in the new expression as well.
+In this example, and in general, these replacement rules are applied
+without head to their validity, so they must be used with caution. For
+more advanced usage, see the documentation on wildcard matching, <span class="plaincite" data-post="§ 6 Symbol (\mpy{sympy.core.symbol}, \mpy{Wild} class)">sympycore</span>
+and the documentation for replacement, <span class="plaincite" data-post="§ Basic (\mpy{sympy.core.basic.Basic}, \mpy{replace()} method)">sympycore</span>.</p>
+<div class="freadinglist">
+<p><span class="plaincite" data-postpost="A tutorial introduction to simplification in SymPy">sympysimplification</span>,
+<span class="plaincite" data-postpost="A tutorial on advanced SymPy expression manipulation, including information about expression trees">sympyadvancedman</span>,
+<span class="plaincite" data-post="§ Basic (\mpy{sympy.core.basic.Basic}, \mpy{subs()} method)" data-postpost="SymPy documentation on the \mpy{subs()} method">sympycore</span>,
+<span class="plaincite" data-post="§ Basic (\mpy{sympy.core.basic.Basic}, \mpy{replace()} method)" data-postpost="SymPy documentation on the \mpy{replace()} method, including more advanced usage">sympycore</span>,
+<span class="plaincite" data-post="6 Symbol (\mpy{sympy.core.symbol}, \mpy{Wild} class)" data-postpost="SymPy documentation on the \mpy{Wild} class, including more advanced pattern matching">sympycore</span></p>
+</div>
+</section>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The usual way of defining the inverse <span class="math inline">\(y = \arccos x\)</span> is to retrict <span class="math inline">\(y\)</span> in <span class="math inline">\(x = \cos
+y\)</span> to <span class="math inline">\([0, \pi]\)</span>. This is
+because <span class="math inline">\(\cos\)</span> is not one-to-one
+(e.g., <span class="math inline">\(\cos 0 = \cos 2\pi = 1\)</span>), so
+its domain must be restricted for a proper inverse to exist. The
+conventional choice of domain restriction to <span class="math inline">\([0, \pi]\)</span> is called the selection of a
+principal branch.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-42">Online Resources for Section 4.2</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

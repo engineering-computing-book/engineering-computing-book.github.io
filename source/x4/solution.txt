@@ -1,0 +1,3 @@
+capital_only(['Foo', 'Bar', 'Baz']) => ['Foo', 'Bar', 'Baz']
+capital_only(['Foo', 'bar', 'Baz']) => ['Foo', 'Baz']
+capital_only(['Foo', 0, 1, 'Bar', 2]) => <class 'ValueError'>: All elements must be strings

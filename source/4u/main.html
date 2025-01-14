@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>The sp.solve() Function {#solve-function h=”bd”} - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!-- The sp.solve() Function {#solve-function h=”bd”} -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <h2 id="the-spsolve-function-solve-function-hbd">The <code class="language-plaintext highlighter-rouge">sp.solve()</code> Function {#solve-function h=”bd”}</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">sp.solve()</code>{.py} function has the capability of solving a large class of systems of equations algebraically.
+The function has many optional arguments, but its basic usage is</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="o">*</span><span class="n">symbols</span><span class="p">,</span> <span class="o">**</span><span class="n">flags</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>\noindent
+Here is a basic interpretation of each argument:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">f</code>{.py}: An equation or expression that is implicitly equal to zero or an iterable of equations or expressions.</li>
+  <li><code class="language-plaintext highlighter-rouge">symbols</code>{.py}: A symbol (e.g., variable) to solve for or an iterable of symbols.</li>
+  <li><code class="language-plaintext highlighter-rouge">flags</code>{.py}: Optional arguments, of which there are many. We recommend always using the <code class="language-plaintext highlighter-rouge">dict=True</code>{.py} option because it guarantees a consistent output: a list of dictionaries, one for each solution.</li>
+</ul>
+
+<p>Consider the linear system of $3$ equations and $3$ unknown variables:
+\begin{subequations} \label{eq:4u-sys1}
+\begin{alignat}{3}
+3 x &amp;{}-{} 2 y &amp;{}+{} 6 z &amp;= -9 <br />
+\phantom{3 x} &amp;{}\mathbin{\phantom{+}}{} 8 y &amp;{}+{} 4 z &amp;= -1 <br />
+-x &amp;{}+{} 4 y &amp;{}\phantom{+}{} &amp;= 0.
+\end{alignat}
+\end{subequations}
+The <code class="language-plaintext highlighter-rouge">sp.solve()</code>{.py} function can be deployed to solve this system as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"x, y, z"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">S1</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="mi">3</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span><span class="o">*</span><span class="n">y</span> <span class="o">+</span> <span class="mi">6</span><span class="o">*</span><span class="n">z</span> <span class="o">+</span> <span class="mi">9</span><span class="p">,</span>  <span class="c1"># == 0
+</span>	<span class="mi">8</span><span class="o">*</span><span class="n">y</span> <span class="o">+</span> <span class="mi">4</span><span class="o">*</span><span class="n">z</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="c1"># == 0
+</span>	<span class="o">-</span><span class="n">x</span> <span class="o">+</span> <span class="mi">4</span><span class="o">*</span><span class="n">y</span><span class="p">,</span> <span class="c1"># == 0
+</span><span class="p">]</span>  <span class="c1"># A system of 3 equations and 3 unknowns 
+</span><span class="n">sol</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">S1</span><span class="p">,</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">],</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">);</span> <span class="n">sol</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”2”}
+    [{x: 15, y: 15/4, z: -31/4}]
+:::</p>
+
+<p>Now consider a simpler system of a single equation that includes a symbolic parameter $a$:
+\(x^2 + 3 x + a.\)
+Applying <code class="language-plaintext highlighter-rouge">sp.solve()</code>{.py},</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"a"</span><span class="p">,</span> <span class="nb">complex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">S2</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">a</span><span class="p">]</span>  <span class="c1"># A system of 1 equation and 1 unknown
+</span><span class="n">sol</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">S2</span><span class="p">,</span> <span class="p">[</span><span class="n">x</span><span class="p">],</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">);</span> <span class="n">sol</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”3”}
+    [{x: -sqrt(1 - a) - 1}, {x: sqrt(1 - a) - 1}]
+:::</p>
+
+<p>\noindent
+The quadratic formula has been applied, which yields two solutions, given in the <code class="language-plaintext highlighter-rouge">sol</code>{.py} list.
+Note that the solver was alerted to which symbolic variable was to be treated as an unknown variable (i.e., <code class="language-plaintext highlighter-rouge">x</code>{.py}) and which was to be treated as a known parameter (i.e., <code class="language-plaintext highlighter-rouge">a</code>{.py}) by the second argument <code class="language-plaintext highlighter-rouge">[x]</code>{.py} (i.e., <code class="language-plaintext highlighter-rouge">symbols</code>).</p>
+
+<p>Suppose the solutions for $x$ were to be substituted into an expression containing $x$.
+The <code class="language-plaintext highlighter-rouge">dict</code>{.py} object returned (here assigned to <code class="language-plaintext highlighter-rouge">sol</code>{.py}) can be used with the <code class="language-plaintext highlighter-rouge">subs()</code>{.py} method.
+For instance,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”4”}</p>
+<pre><code class="language-{=latex}">$\displaystyle 4 - \sqrt{1 - a}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”4”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \sqrt{1 - a} + 4$
+</code></pre>
+<p>:::</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">sp.solve()</code>{.py} function can solve for expressions and undefined functions, as well.
+Here we solve for an undefined function:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">Function</span><span class="p">(</span><span class="s">"f"</span><span class="p">)</span>
+<span class="n">eq</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">Eq</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">diff</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">x</span><span class="p">),</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="n">sol</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eq</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle f^{2}{\left(x \right)} + 2 \frac{d}{d x} f{\left(x \right)} = f{\left(x \right)}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle f{\left(x \right)} = \frac{1}{2} - \frac{\sqrt{1 - 8 \frac{d}{d x} f{\left(x \right)}}}{2}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.output .execute_result execution_count=”6”}</p>
+<pre><code class="language-{=latex}">$\displaystyle f{\left(x \right)} = \frac{\sqrt{1 - 8 \frac{d}{d x} f{\left(x \right)}}}{2} + \frac{1}{2}$
+</code></pre>
+<p>:::</p>
+
+<p>\noindent
+It can solve for the derivative term, too, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sol</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eq</span><span class="p">,</span> <span class="n">sp</span><span class="p">.</span><span class="n">diff</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">x</span><span class="p">),</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”8”}</p>
+<pre><code class="language-{=latex}">$\displaystyle \frac{d}{d x} f{\left(x \right)} = \frac{\left(1 - f{\left(x \right)}\right) f{\left(x \right)}}{2}$
+</code></pre>
+<p>:::</p>
+
+<p>::: {.example h=”au”}</p>
+
+<p>You are designing the truss structure shown in [@fig:truss-01].
+The external load of $\bm{f}_F = -f_F \bm{\hat{j}}$ (we use the standard unit vectors $\bm{\hat{i}}$, $\bm{\hat{j}}$, $\bm{\hat{k}}$), where $f_F &gt; 0$, is given.
+As the designer, you are to make the $w$ dimension as long as possible under the following constraints:</p>
+
+<ul>
+  <li>Minimize the dimension $h$</li>
+  <li>The tension in all members is no more than a given $T$</li>
+  <li>The compression in all members is no more than a given $C$</li>
+  <li>The magnitude of the support force at pin A is no more than a given $P_A$</li>
+  <li>The magnitude of the support force at pin C is no more than a given $P_C$</li>
+</ul>
+
+<p>Use a static analysis and the method of joints to develop a solution for the force in each member $F_{AB}$, $F_{AC}$, etc., and the reaction forces using the sign convention that tension is positive and compression is negative.
+Create a function that determines design feasibility for a given set of design parameters ${f_F, T, C, P_A, P_C}$ and test the function.</p>
+
+<p><img src="common/figures/truss-01/truss-01" alt="A truss with pinned joints, supported by a hinge and a floating support, with an applied force $\bm{f}_F$." />{#fig:truss-01 .figure .standalone .nofloat}</p>
+
+<p>::: {.example-solution}</p>
+
+<p>Using the method of joints, we proceed through the joints, summing forces in the $x$- and $y$-directions.
+We will assume all members are in tension, and their sign will be positive if this is the case and negative, otherwise.
+Beginning with joint A, which includes two reaction forces $R_{Ax}$ and $R_{Ay}$ from the support,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; R_{Ax} + F_{AB} + F_{AC} \cos\theta &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; R_{Ay} - F_{AC} \sin\theta &amp;= 0.
+\end{align}
+The angle $\theta$ is known in terms of the dimensions $w$ and $h$ as
+\(\theta = \arctan\frac{h}{w}.\)
+These equations can be encode symbolically as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RAx</span><span class="p">,</span> <span class="n">RAy</span><span class="p">,</span> <span class="n">FAB</span><span class="p">,</span> <span class="n">FAC</span><span class="p">,</span> <span class="n">theta</span><span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span>
+	<span class="s">"RAx, RAy, FAB, FAC, theta"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span>
+<span class="p">)</span>
+<span class="n">h</span><span class="p">,</span> <span class="n">w</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"h, w"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqAx</span> <span class="o">=</span> <span class="n">RAx</span> <span class="o">+</span> <span class="n">FAB</span> <span class="o">+</span> <span class="n">FAC</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqAy</span> <span class="o">=</span> <span class="n">RAy</span> <span class="o">-</span> <span class="n">FAC</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">theta_wh</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">atan</span><span class="p">(</span><span class="n">h</span><span class="o">/</span><span class="n">w</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Proceeding to joint B,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{AB} + F_{BD} + F_{BE} \cos\theta &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; -F_{BC} - F_{BE} \sin\theta &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FBD</span><span class="p">,</span> <span class="n">FBE</span><span class="p">,</span> <span class="n">FBC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FBD, FBE, FBC"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqBx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAB</span> <span class="o">+</span> <span class="n">FBD</span> <span class="o">+</span> <span class="n">FBE</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqBy</span> <span class="o">=</span> <span class="o">-</span><span class="n">FBC</span> <span class="o">-</span> <span class="n">FBE</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>For joint C, the floating support has a vertical reaction force $R_C$, so the analysis proceeds as follows:
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{AC} \cos\theta + F_{CE} &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; F_{AC} \sin\theta + F_{BC} + R_C &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FCE</span><span class="p">,</span> <span class="n">RC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FCE, RC"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqCx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAC</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">FCE</span>
+<span class="n">eqCy</span> <span class="o">=</span> <span class="n">FAC</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">FBC</span> <span class="o">+</span> <span class="n">RC</span>
+</code></pre></div></div>
+
+<p>For joint D, we can recognize that DE is a zero-force member:
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{BD} + F_{DF} &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; F_{DE} &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FDE</span><span class="p">,</span> <span class="n">FDF</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FDE, FDF"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqDx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FBD</span> <span class="o">+</span> <span class="n">FDF</span>
+<span class="n">eqDy</span> <span class="o">=</span> <span class="n">FDE</span>
+</code></pre></div></div>
+
+<p>Proceeding to joint E,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{CE} - F_{BE} \cos\theta + F_{EF} \cos\theta &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; F_{BE} \sin\theta + F_{DE} + F_{EF} \sin\theta &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FEF</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FEF"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqEx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FCE</span> <span class="o">-</span> <span class="n">FBE</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">FEF</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqEy</span> <span class="o">=</span> <span class="n">FBE</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">FDE</span> <span class="o">+</span> <span class="n">FEF</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Finally, consider joint F, with the externally applied force $\bm{f}<em>F$,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F</em>{DF} - F_{EF} \cos\theta &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; -f_F - F_{EF} \sin\theta &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fF</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"fF"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqFx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FDF</span> <span class="o">-</span> <span class="n">FEF</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqFy</span> <span class="o">=</span> <span class="o">-</span><span class="n">fF</span> <span class="o">-</span> <span class="n">FEF</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In total, we have 12 force equations and 12 unknown forces (9 member forces and three reaction forces).
+Let’s construct the system and solve it for the unkown forces, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">S_forces</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="n">eqAx</span><span class="p">,</span> <span class="n">eqAy</span><span class="p">,</span> <span class="n">eqBx</span><span class="p">,</span> <span class="n">eqBy</span><span class="p">,</span> <span class="n">eqCx</span><span class="p">,</span> <span class="n">eqCy</span><span class="p">,</span> 
+	<span class="n">eqDx</span><span class="p">,</span> <span class="n">eqDy</span><span class="p">,</span> <span class="n">eqEx</span><span class="p">,</span> <span class="n">eqEy</span><span class="p">,</span> <span class="n">eqFx</span><span class="p">,</span> <span class="n">eqFy</span><span class="p">,</span>
+<span class="p">]</span>  <span class="c1"># 12 force equations
+</span><span class="n">forces_unknown</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="n">FAB</span><span class="p">,</span> <span class="n">FAC</span><span class="p">,</span> <span class="n">FBC</span><span class="p">,</span> <span class="n">FBD</span><span class="p">,</span> <span class="n">FBE</span><span class="p">,</span> <span class="n">FCE</span><span class="p">,</span> <span class="n">FDF</span><span class="p">,</span> <span class="n">FDE</span><span class="p">,</span> <span class="n">FEF</span><span class="p">,</span>  <span class="c1"># 9 member forces
+</span>	<span class="n">RAx</span><span class="p">,</span> <span class="n">RAy</span><span class="p">,</span> <span class="n">RC</span><span class="p">,</span> <span class="c1"># 3 reaction forces
+</span><span class="p">]</span>  <span class="c1"># 12 unkown forces
+</span><span class="n">sol_forces</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">S_forces</span><span class="p">,</span> <span class="n">forces_unknown</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">);</span> <span class="n">sol_forces</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”15”}
+    [{FAB: 2<em>fF</em>cos(theta)/sin(theta),
+      FAC: -2<em>fF/sin(theta),
+      FBC: -fF,
+      FBD: fF</em>cos(theta)/sin(theta),
+      FBE: fF/sin(theta),
+      FCE: -2<em>fF</em>cos(theta)/sin(theta),
+      FDE: 0,
+      FDF: fF<em>cos(theta)/sin(theta),
+      FEF: -fF/sin(theta),
+      RAx: 0,
+      RAy: -2</em>fF,
+      RC: 3*fF}]
+:::</p>
+
+<p>This solution is in terms of $f_F$, which is known, and $\theta$.
+Because $w$ and $h$ are our design parameters, let’s substitute <code class="language-plaintext highlighter-rouge">eqtheta</code>{.py}
+such that our solution is rewritten in terms of $f_F$, $w$, and $h$.
+Create a list of solutions as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">forces_wh</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1"># Initialize
+</span><span class="k">for</span> <span class="n">force</span> <span class="ow">in</span> <span class="n">forces_unknown</span><span class="p">:</span>
+	<span class="n">force_wh</span> <span class="o">=</span> <span class="n">force</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span>
+		<span class="n">sol_forces</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+	<span class="p">).</span><span class="n">subs</span><span class="p">(</span>
+		<span class="n">theta</span><span class="p">,</span> <span class="n">theta_wh</span>
+	<span class="p">).</span><span class="n">simplify</span><span class="p">()</span>
+	<span class="n">forces_wh</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">force_wh</span><span class="p">)</span>
+	<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">force</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="n">force_wh</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    FAB = 2<em>fF</em>w/h
+    FAC = -2<em>fF</em>sqrt(h<strong>2 + w</strong>2)/h
+    FBC = -fF
+    FBD = fF<em>w/h
+    FBE = fF</em>sqrt(h<strong>2 + w</strong>2)/h
+    FCE = -2<em>fF</em>w/h
+    FDF = fF<em>w/h
+    FDE = 0
+    FEF = -fF</em>sqrt(h<strong>2 + w</strong>2)/h
+    RAx = 0
+    RAy = -2<em>fF
+    RC = 3</em>fF
+:::</p>
+
+<p>This set of equations is excellent for design purposes.
+Because $f_F, w, h &gt; 0$, the sign of each force indicates tension ($+$) or compression ($-$).
+For the forces with the factor $w/h$, clearly increasing $w$ or decreasing $h$ increases the force, proportionally.
+For the forces with the factor $\sqrt{h^2 + w^2}/h$, things are a bit more subtle.
+Introducing a new parameter $r = w/h$, we can rewrite these equations in a somewhat simpler manner, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">r</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"r"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">forces_r</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1"># Initialize
+</span><span class="n">force_r_subs</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># For substitutions
+</span><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">force</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">forces_wh</span><span class="p">):</span>
+	<span class="n">force_r</span> <span class="o">=</span> <span class="n">force</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">h</span><span class="o">*</span><span class="n">r</span><span class="p">).</span><span class="n">simplify</span><span class="p">()</span>
+	<span class="n">forces_r</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">force_r</span><span class="p">)</span>
+	<span class="n">force_r_subs</span><span class="p">[</span><span class="n">forces_unknown</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">=</span> <span class="n">force_r</span>
+	<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">forces_unknown</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="n">force_r</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    FAB = 2<em>fF</em>r
+    FAC = -2<em>fF</em>sqrt(r<strong>2 + 1)
+    FBC = -fF
+    FBD = fF<em>r
+    FBE = fF</em>sqrt(r</strong>2 + 1)
+    FCE = -2<em>fF</em>r
+    FDF = fF<em>r
+    FDE = 0
+    FEF = -fF</em>sqrt(r<em>*2 + 1)
+    RAx = 0
+    RAy = -2</em>fF
+    RC = 3*fF
+:::</p>
+
+<p>It is worthwhile investigating the term $\sqrt{r^2 + 1}$.
+Generate a graph over a reasonable range of $r = w/h$ and compare it to $r$ and $2 r$, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">r_a</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">51</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">r_a</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">r_a</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="n">label</span><span class="o">=</span><span class="s">"$</span><span class="se">\\</span><span class="s">sqrt{r^2+1}$"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">r_a</span><span class="p">,</span> <span class="n">r_a</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">"$r$"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">r_a</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">r_a</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">"$2 r$"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">"$r = w/h$"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">legend</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”19”}
+<img src="source/4u/figure-0.pgf" alt="A graph of $\sqrt{r^2 + 1}$, where $r=w/h$." />{#fig:4u-figure-0 .figure .pgf}
+:::</p>
+
+<p>So we see that $\sqrt{r^2 + 1}\rightarrow r$.
+That is, $r = w/h$ is the defining parameter and the design requirements are
+to maximize $w$ and minimize $h$, which is tantamount to maximizing $r$.
+Under the reasonable assumption that $r &gt; 1$, we can see the member with the 
+most tension is AB, with its force $F_{AB} = 2 r f_F$, and the member with
+the most compression is AC, with its force $F_{AC} = -2 \sqrt{r^2 + 1} f_F$.
+From our design requirements, then,
+\begin{align}
+F_{AB} &amp;= 2 r f_F \le T <br />
+-F_{AC} &amp;= 2 \sqrt{r^2 + 1} f_F \le C.
+\end{align}
+This leads to two constraints on $r$, call them $r_T$ and $r_C$, both maxima, which can be solved for automatically as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">T</span><span class="p">,</span> <span class="n">C</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"T, C"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqrT</span> <span class="o">=</span> <span class="n">FAB</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">force_r_subs</span><span class="p">)</span> <span class="o">-</span> <span class="n">T</span>  <span class="c1"># &lt;= 0
+</span><span class="n">eqrC</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAC</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">force_r_subs</span><span class="p">)</span> <span class="o">-</span> <span class="n">C</span>  <span class="c1"># &lt;= 0
+</span><span class="n">sol_rT</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eqrT</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1"># Solution for $r_T$
+</span><span class="n">sol_rC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eqrC</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1"># Solution for $r_C$
+</span><span class="n">r_maxima</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="s">"Tension"</span><span class="p">:</span> <span class="n">sol_rT</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> 
+	<span class="s">"Compression"</span><span class="p">:</span> <span class="n">sol_rC</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+<span class="p">}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">r_maxima</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    {‘Tension’: {r: T/(2<em>fF)}, ‘Compression’: {r: sqrt(C<strong>2 - 4*fF</strong>2)/(2</em>fF)}}
+:::</p>
+
+<p>Another set of constraints apply to the supports.
+From the design requirements,
+\begin{align}
+|\bm{R}<em>A| &amp;= \sqrt{R</em>{Ax}^2 + R_{Ay}^2} \le P_A <br />
+|\bm{R}<em>C| &amp;= |R_C| \le P_C
+\end{align}
+From our results above, the reaction forces don’t depend on $r$ (or $w$ or $h$),
+so these constraints are merely to be checked to ensure that the design problem
+is feasible.
+Proceeding in a similar manner as above, we obtain two constraints on $f_F$, maxima
+$f</em>{A}$ and $f_{C}$ as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">PA</span><span class="p">,</span> <span class="n">PC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"PA, PC"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqRA</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">RAx</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">RAy</span><span class="o">**</span><span class="mi">2</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">force_r_subs</span><span class="p">)</span> <span class="o">-</span> <span class="n">PA</span>  <span class="c1"># &lt;= 0
+</span><span class="n">eqRC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">Abs</span><span class="p">(</span><span class="n">RC</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">force_r_subs</span><span class="p">)</span> <span class="o">-</span> <span class="n">PC</span>  <span class="c1"># &lt;= 0
+</span><span class="n">sol_fFA</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eqRA</span><span class="p">,</span> <span class="n">fF</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1"># Solution for $f_{A}$
+</span><span class="n">sol_fFC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eqRC</span><span class="p">,</span> <span class="n">fF</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1"># Solution for $f_{C}$
+</span><span class="n">load_maxima</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="s">"Support A"</span><span class="p">:</span> <span class="n">sol_fFA</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> 
+	<span class="s">"Support C"</span><span class="p">:</span> <span class="n">sol_fFC</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+<span class="p">}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">load_maxima</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    {‘Support A’: {fF: PA/2}, ‘Support C’: {fF: PC/3}}
+:::</p>
+
+<p>Finally, we can create a function to perform the design, given a set of design parameters.
+First, define an auxilliary function to check the support constraints:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">check_supports</span><span class="p">(</span><span class="n">load_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">,</span> <span class="n">report</span><span class="o">=</span><span class="s">""</span><span class="p">):</span>
+	<span class="k">for</span> <span class="n">kLM</span><span class="p">,</span> <span class="n">vLM</span> <span class="ow">in</span> <span class="n">load_maxima</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+		<span class="n">fF_design</span> <span class="o">=</span> <span class="n">fF</span><span class="p">.</span><span class="n">evalf</span><span class="p">(</span><span class="n">subs</span><span class="o">=</span><span class="n">design_params</span><span class="p">)</span>
+		<span class="n">fF_max</span> <span class="o">=</span> <span class="n">fF</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">vLM</span><span class="p">).</span><span class="n">evalf</span><span class="p">(</span><span class="n">subs</span><span class="o">=</span><span class="n">design_params</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">fF_design</span> <span class="o">&gt;</span> <span class="n">fF_max</span><span class="p">:</span>
+			<span class="k">return</span> <span class="bp">False</span><span class="p">,</span> <span class="sa">f</span><span class="s">"Design infeasible due to </span><span class="si">{</span><span class="n">kLM</span><span class="si">}</span><span class="s"> constraint: "</span> \
+				<span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">fF_design</span><span class="p">:.</span><span class="mi">4</span><span class="n">g</span><span class="si">}</span><span class="s"> &lt;/= </span><span class="si">{</span><span class="n">fF_max</span><span class="p">:.</span><span class="mi">4</span><span class="n">g</span><span class="si">}</span><span class="s">."</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">report</span> <span class="o">+=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">kLM</span><span class="si">}</span><span class="s"> constraint satisfied: "</span> \
+				<span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">fF_design</span><span class="p">:.</span><span class="mi">4</span><span class="n">g</span><span class="si">}</span><span class="s"> &lt;= </span><span class="si">{</span><span class="n">fF_max</span><span class="p">:.</span><span class="mi">4</span><span class="n">g</span><span class="si">}</span><span class="s">.</span><span class="se">\n</span><span class="s">"</span>
+	<span class="n">report</span> <span class="o">+=</span> <span class="s">"Design feasible for supports."</span>
+	<span class="k">return</span> <span class="bp">True</span><span class="p">,</span> <span class="n">report</span>
+</code></pre></div></div>
+
+<p>Now define an auxilliary function to maximize $r$:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">maximize_r</span><span class="p">(</span><span class="n">r_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">,</span> <span class="n">report</span><span class="o">=</span><span class="s">""</span><span class="p">):</span>
+	<span class="n">r_maxima_</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1"># Initialize numerical maxima
+</span>	<span class="k">for</span> <span class="n">k_max</span><span class="p">,</span> <span class="n">r_max</span> <span class="ow">in</span> <span class="n">r_maxima</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+		<span class="n">r_max_</span> <span class="o">=</span> <span class="n">r</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">r_max</span><span class="p">).</span><span class="n">evalf</span><span class="p">(</span><span class="n">subs</span><span class="o">=</span><span class="n">design_params</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">np</span><span class="p">.</span><span class="nb">abs</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">imag</span><span class="p">(</span><span class="nb">complex</span><span class="p">(</span><span class="n">r_max_</span><span class="p">)))</span> <span class="o">&gt;</span> <span class="mf">0.</span><span class="p">:</span>  <span class="c1"># Ensure real
+</span>			<span class="n">report</span> <span class="o">+=</span> <span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">No feasible r for </span><span class="si">{</span><span class="n">k_max</span><span class="si">}</span><span class="s"> constraint."</span>
+			<span class="k">return</span> <span class="bp">False</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="n">report</span>
+		<span class="n">r_maxima_</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">r_max_</span><span class="p">)</span>
+		<span class="n">report</span> <span class="o">+=</span> <span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Max r for </span><span class="si">{</span><span class="n">k_max</span><span class="si">}</span><span class="s"> constraint: </span><span class="si">{</span><span class="n">r_max_</span><span class="p">:.</span><span class="mi">4</span><span class="n">g</span><span class="si">}</span><span class="s">."</span>
+	<span class="n">r_max</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">r_maxima_</span><span class="p">)</span>  <span class="c1"># Min of the maxima if the feasible max
+</span>	<span class="n">report</span> <span class="o">+=</span> <span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Overall max r = w/h = </span><span class="si">{</span><span class="n">r_max</span><span class="si">}</span><span class="s">."</span>
+	<span class="k">return</span> <span class="bp">True</span><span class="p">,</span> <span class="n">r_max</span><span class="p">,</span> <span class="n">report</span>
+</code></pre></div></div>
+
+<p>Finally, define the function to design the truss:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">truss_designer</span><span class="p">(</span><span class="n">load_maxima</span><span class="p">,</span> <span class="n">r_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">):</span>
+	<span class="s">"""Returns a dict of r=w/h ratio for the truss and a report"""</span>
+	<span class="n">satisfied</span><span class="p">,</span> <span class="n">report</span> <span class="o">=</span> <span class="n">check_supports</span><span class="p">(</span><span class="n">load_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">)</span>
+	<span class="k">if</span> <span class="ow">not</span> <span class="n">satisfied</span><span class="p">:</span>
+		<span class="k">return</span> <span class="n">satisfied</span><span class="p">,</span> <span class="n">report</span>
+	<span class="n">satisfied</span><span class="p">,</span> <span class="n">r_max</span><span class="p">,</span> <span class="n">report</span> <span class="o">=</span> <span class="n">maximize_r</span><span class="p">(</span>
+		<span class="n">r_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">,</span> <span class="n">report</span>
+	<span class="p">)</span>
+	<span class="k">if</span> <span class="ow">not</span> <span class="n">satisfied</span><span class="p">:</span>
+		<span class="k">return</span> <span class="n">satisfied</span><span class="p">,</span> <span class="n">report</span>
+	<span class="k">return</span> <span class="n">r_max</span><span class="p">,</span> <span class="n">report</span>
+</code></pre></div></div>
+
+<p>Define the three sets of design parameters in a dictionary:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">design_parameters_dict</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="s">"1"</span><span class="p">:</span> <span class="p">{</span><span class="n">fF</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">T</span><span class="p">:</span> <span class="mi">3500</span><span class="p">,</span> <span class="n">C</span><span class="p">:</span> <span class="mi">3200</span><span class="p">,</span> <span class="n">PA</span><span class="p">:</span> <span class="mi">3500</span><span class="p">,</span> <span class="n">PC</span><span class="p">:</span> <span class="mi">3500</span><span class="p">},</span>
+	<span class="s">"2"</span><span class="p">:</span> <span class="p">{</span><span class="n">fF</span><span class="p">:</span> <span class="mi">2000</span><span class="p">,</span> <span class="n">T</span><span class="p">:</span> <span class="mi">4500</span><span class="p">,</span> <span class="n">C</span><span class="p">:</span> <span class="mi">6000</span><span class="p">,</span> <span class="n">PA</span><span class="p">:</span> <span class="mi">3500</span><span class="p">,</span> <span class="n">PC</span><span class="p">:</span> <span class="mi">3500</span><span class="p">},</span>
+	<span class="s">"3"</span><span class="p">:</span> <span class="p">{</span><span class="n">fF</span><span class="p">:</span> <span class="mi">2000</span><span class="p">,</span> <span class="n">T</span><span class="p">:</span> <span class="mi">3500</span><span class="p">,</span> <span class="n">C</span><span class="p">:</span> <span class="mi">3200</span><span class="p">,</span> <span class="n">PA</span><span class="p">:</span> <span class="mi">6500</span><span class="p">,</span> <span class="n">PC</span><span class="p">:</span> <span class="mi">6000</span><span class="p">}</span>
+<span class="p">}</span>  <span class="c1"># Forces in N
+</span></code></pre></div></div>
+
+<p>Loop through the designs, run <code class="language-plaintext highlighter-rouge">truss_designer()</code>{.py}, and print each report:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">design</span><span class="p">,</span> <span class="n">design_params</span> <span class="ow">in</span> <span class="n">design_parameters_dict</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+	<span class="n">r_max</span><span class="p">,</span> <span class="n">rep</span> <span class="o">=</span> <span class="n">truss_designer</span><span class="p">(</span><span class="n">load_maxima</span><span class="p">,</span> <span class="n">r_maxima</span><span class="p">,</span> <span class="n">design_params</span><span class="p">)</span>
+	<span class="n">rep</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"Design </span><span class="si">{</span><span class="n">design</span><span class="si">}</span><span class="s"> report:</span><span class="se">\n\t</span><span class="s">"</span> <span class="o">+</span> <span class="n">rep</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="s">"</span><span class="se">\n\t</span><span class="s">"</span><span class="p">)</span>
+	<span class="k">print</span><span class="p">(</span><span class="n">rep</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    Design 1 report:
+    	Support A constraint satisfied: 1000 &lt;= 1750.
+    	Support C constraint satisfied: 1000 &lt;= 1167.
+    	Design feasible for supports.
+    	Max r for Tension constraint: 1.750.
+    	Max r for Compression constraint: 1.249.
+    	Overall max r = w/h = 1.24899959967968.
+    Design 2 report:
+    	Design infeasible due to Support A constraint: 2000 &lt;/= 1750.
+    Design 3 report:
+    	Support A constraint satisfied: 2000 &lt;= 3250.
+    	Support C constraint satisfied: 2000 &lt;= 2000.
+    	Design feasible for supports.
+    	Max r for Tension constraint: 0.8750.
+    	No feasible r for Compression constraint.
+:::</p>
+
+<p>:::
+:::</p>
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#### Import Packages {-}
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="n">sp</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+</code></pre></div></div>
+
+<h3 id="static-analysis--">Static Analysis {-}</h3>
+
+<p>Using the method of joints, we proceed through the joints, summing forces in the $x$- and $y$-directions.
+We will assume all members are in tension, and their sign will be positive if this is the case and negative, otherwise.
+Beginning with joint A, which includes one reaction force $R_{A}$ from the support,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; F_{AC} + F_{AB} \cos\theta &amp;=0 <br />
+\Sigma F_y &amp;= 0; &amp; R_A + F_{AB} \sin\theta &amp;= 0.
+\end{align}
+The angle $\theta$ is known in terms of the dimensions $w$ and $h$ as
+\(\theta = \arctan\frac{h}{w}.\)
+These equations can be encode symbolically as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RA</span><span class="p">,</span> <span class="n">FAB</span><span class="p">,</span> <span class="n">FAC</span><span class="p">,</span> <span class="n">theta</span><span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span>
+	<span class="s">"RA, FAB, FAC, theta"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span>
+<span class="p">)</span>
+<span class="n">h</span><span class="p">,</span> <span class="n">w</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"h, w"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqAx</span> <span class="o">=</span> <span class="n">FAC</span> <span class="o">+</span> <span class="n">FAB</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqAy</span> <span class="o">=</span> <span class="n">RA</span> <span class="o">+</span> <span class="n">FAB</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">theta_wh</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">atan</span><span class="p">(</span><span class="n">h</span><span class="o">/</span><span class="n">w</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Proceeding to joint B,
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{AB} \cos\theta + F_{BD} \cos\theta &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; -F_{AB} \sin\theta - F_{BD} \sin\theta - F_{BC} &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FBD</span><span class="p">,</span> <span class="n">FBC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FBD, FBC"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqBx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAB</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">FBD</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span>
+<span class="n">eqBy</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAB</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">-</span> <span class="n">FBD</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">-</span> <span class="n">FBC</span>
+</code></pre></div></div>
+
+<p>For joint C, there is an externally applied force $\bm{f}<em>C$, so the analysis proceeds as follows:
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F</em>{AC} + F_{CD} &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; F_{BC} - f_C &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">FCD</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"FCD"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">fC</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"fC"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqCx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FAC</span> <span class="o">+</span> <span class="n">FCD</span>
+<span class="n">eqCy</span> <span class="o">=</span> <span class="n">FBC</span> <span class="o">-</span> <span class="n">fC</span>
+</code></pre></div></div>
+
+<p>For joint D, the pinned reaction forces $R_{Dx}$ and $R_{Dy}$ are present, so the analysis proceeds as follows:
+\begin{align}
+\Sigma F_x &amp;= 0; &amp; -F_{CD} - F_{BD} \cos\theta + R_{Dx} &amp;= 0 <br />
+\Sigma F_y &amp;= 0; &amp; F_{BD} \sin\theta + R_{Dy} &amp;= 0.
+\end{align}
+Encoding these equations,</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RDx</span><span class="p">,</span> <span class="n">RDy</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"RDx, RDy"</span><span class="p">,</span> <span class="n">real</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">eqDx</span> <span class="o">=</span> <span class="o">-</span><span class="n">FCD</span> <span class="o">-</span> <span class="n">FBD</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">RDx</span>
+<span class="n">eqDy</span> <span class="o">=</span> <span class="n">FBD</span><span class="o">*</span><span class="n">sp</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="n">RDy</span>
+</code></pre></div></div>
+
+<p>In total, we have 8 force equations and 8 unknown forces (5 member forces and 3 reaction forces).
+Let’s construct the system and solve it for the unkown forces, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">S_forces</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="n">eqAx</span><span class="p">,</span> <span class="n">eqAy</span><span class="p">,</span> <span class="n">eqBx</span><span class="p">,</span> <span class="n">eqBy</span><span class="p">,</span> <span class="n">eqCx</span><span class="p">,</span> <span class="n">eqCy</span><span class="p">,</span> <span class="n">eqDx</span><span class="p">,</span> <span class="n">eqDy</span>
+<span class="p">]</span>  <span class="c1"># 8 force equations
+</span><span class="n">member_forces</span> <span class="o">=</span> <span class="p">[</span><span class="n">FAB</span><span class="p">,</span> <span class="n">FAC</span><span class="p">,</span> <span class="n">FBC</span><span class="p">,</span> <span class="n">FBD</span><span class="p">,</span> <span class="n">FCD</span><span class="p">]</span>  <span class="c1"># 5 member forces
+</span><span class="n">reaction_forces</span> <span class="o">=</span> <span class="p">[</span><span class="n">RA</span><span class="p">,</span> <span class="n">RDx</span><span class="p">,</span> <span class="n">RDy</span><span class="p">]</span>  <span class="c1"># 3 reaction forces
+</span><span class="n">forces_unknown</span> <span class="o">=</span> <span class="n">member_forces</span> <span class="o">+</span> <span class="n">reaction_forces</span>  <span class="c1"># 8 unkown forces
+</span><span class="n">sol_forces</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">S_forces</span><span class="p">,</span> <span class="n">forces_unknown</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="bp">True</span><span class="p">);</span> <span class="n">sol_forces</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”8”}
+    [{FAB: -fC/(2<em>sin(theta)),
+      FAC: fC</em>cos(theta)/(2<em>sin(theta)),
+      FBC: fC,
+      FBD: -fC/(2</em>sin(theta)),
+      FCD: fC<em>cos(theta)/(2</em>sin(theta)),
+      RA: fC/2,
+      RDx: 0,
+      RDy: fC/2}]
+:::</p>
+
+<p>This solution is in terms of $f_C$ and $\theta$.
+Because $w$ and $h$ are our design parameters, let’s substitute <code class="language-plaintext highlighter-rouge">eqtheta</code>{.py}
+such that our solution is rewritten in terms of $f_F$, $w$, and $h$.
+Create a list of solutions as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">forces_wh</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># Initialize
+</span><span class="k">for</span> <span class="n">force</span> <span class="ow">in</span> <span class="n">forces_unknown</span><span class="p">:</span>
+	<span class="n">force_wh</span> <span class="o">=</span> <span class="n">force</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span>
+		<span class="n">sol_forces</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+	<span class="p">).</span><span class="n">subs</span><span class="p">(</span>
+		<span class="n">theta</span><span class="p">,</span> <span class="n">theta_wh</span>
+	<span class="p">).</span><span class="n">simplify</span><span class="p">()</span>
+	<span class="n">forces_wh</span><span class="p">[</span><span class="n">force</span><span class="p">]</span> <span class="o">=</span> <span class="n">force_wh</span>
+	<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">force</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="n">force_wh</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    FAB = -fC<em>sqrt(h<strong>2 + w</strong>2)/(2</em>h)
+    FAC = fC<em>w/(2</em>h)
+    FBC = fC
+    FBD = -fC<em>sqrt(h<strong>2 + w</strong>2)/(2</em>h)
+    FCD = fC<em>w/(2</em>h)
+    RA = fC/2
+    RDx = 0
+    RDy = fC/2
+:::</p>
+
+<p>Define the constraints as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">C</span><span class="p">,</span> <span class="n">T</span><span class="p">,</span> <span class="n">PA</span><span class="p">,</span> <span class="n">PD</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"C, T, PA, PD"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">member_constraints</span> <span class="o">=</span> <span class="p">{</span><span class="s">"Tension"</span><span class="p">:</span> <span class="n">T</span><span class="p">,</span> <span class="s">"Compression"</span><span class="p">:</span> <span class="n">C</span><span class="p">}</span>
+<span class="n">reaction_constraints</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="n">PA</span><span class="p">:</span> <span class="p">(</span><span class="n">RA</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> 
+	<span class="n">PD</span><span class="p">:</span> <span class="p">(</span><span class="n">RDx</span><span class="p">,</span> <span class="n">RDy</span><span class="p">)</span>
+<span class="p">}</span>  <span class="c1"># Max magnitude: (x force, y force)
+</span></code></pre></div></div>
+
+<p>Define a function that encodes the constraints as a list of expressions that must be nonnegative.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">get_force_constraints</span><span class="p">(</span>
+	<span class="n">forces</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> 
+	<span class="n">member_forces</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span> 
+	<span class="n">member_constraints</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> 
+	<span class="n">reaction_constraints</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span>
+<span class="p">):</span>
+	<span class="s">"""Returns a list of expressions that must be nonnegative
+	
+	Args:
+		- forces: Force solutions {force symbol: solution}
+		- member_forces: List of member symbols [FAB, FAC ...]
+		- member_constraints: 
+			{"Tension": max tension, "Compression": max compression}
+		- reaction_constraints: 
+			{max force symbol: (max x force, max y force)}
+	"""</span>
+	<span class="n">force_constraints</span> <span class="o">=</span> <span class="p">[]</span>
+	<span class="c1"># Append member constraints
+</span>	<span class="k">for</span> <span class="n">f_name</span><span class="p">,</span> <span class="n">f_value</span> <span class="ow">in</span> <span class="n">forces</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+		<span class="k">if</span> <span class="n">f_name</span> <span class="ow">in</span> <span class="n">member_forces</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">f_value</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># Tension
+</span>				<span class="n">force_constraints</span><span class="p">.</span><span class="n">append</span><span class="p">(</span>
+					<span class="n">member_constraints</span><span class="p">[</span><span class="s">"Tension"</span><span class="p">]</span> <span class="o">-</span> <span class="n">f_value</span>
+				<span class="p">)</span>
+			<span class="k">elif</span> <span class="n">f_value</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># Compression
+</span>				<span class="n">force_constraints</span><span class="p">.</span><span class="n">append</span><span class="p">(</span>
+					<span class="n">member_constraints</span><span class="p">[</span><span class="s">"Compression"</span><span class="p">]</span> <span class="o">+</span> <span class="n">f_value</span>
+				<span class="p">)</span>
+	<span class="c1"># Append reaction constraints
+</span>	<span class="k">for</span> <span class="n">constraint</span><span class="p">,</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">reaction_constraints</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+		<span class="n">force_constraints</span><span class="p">.</span><span class="n">append</span><span class="p">(</span>
+			<span class="n">constraint</span> <span class="o">-</span> <span class="n">sp</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">forces_wh</span><span class="p">)</span>
+		<span class="p">)</span>
+	<span class="k">return</span> <span class="n">force_constraints</span>
+</code></pre></div></div>
+
+<p>Now apply the function:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">constraints</span> <span class="o">=</span> <span class="n">get_force_constraints</span><span class="p">(</span>
+	<span class="n">forces_wh</span><span class="p">,</span> <span class="n">member_forces</span><span class="p">,</span> <span class="n">member_constraints</span><span class="p">,</span> <span class="n">reaction_constraints</span>
+<span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">constraints</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    [C - fC<em>sqrt(h<strong>2 + w</strong>2)/(2</em>h), T - fC<em>w/(2</em>h), T - fC, C - fC<em>sqrt(h<strong>2 + w</strong>2)/(2</em>h), T - fC<em>w/(2</em>h), PA - fC/2, PD - fC/2]
+:::</p>
+
+<p>At this point, we can solve for $h$ in each expression that includes $h$.
+Because these constraints are to be nonnegative, solving with equality gives the minimum $h_\text{min}$.
+Expressions that don’t include $h$ must still be checked.
+We can use this opportunity to sort the constraint expressions into those that involve $h$ and those that do not.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h_mins</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">constraints_to_check</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">constraint</span> <span class="ow">in</span> <span class="n">constraints</span><span class="p">:</span>
+	<span class="k">if</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">constraint</span><span class="p">.</span><span class="n">free_symbols</span><span class="p">:</span>
+		<span class="c1"># Solve for h
+</span>		<span class="n">h_min_sol</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">solve</span><span class="p">(</span><span class="n">constraint</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span>
+		<span class="k">for</span> <span class="n">h_min</span> <span class="ow">in</span> <span class="n">h_min_sol</span><span class="p">:</span>
+			<span class="n">h_mins</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">h_min</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">constraints_to_check</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">constraint</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Inspect the <code class="language-plaintext highlighter-rouge">h_mins</code>{.py} and <code class="language-plaintext highlighter-rouge">constraints_to_check</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Min h solutions: </span><span class="si">{</span><span class="n">h_mins</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Constraints to be checked: </span><span class="si">{</span><span class="n">constraints_to_check</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    Min h solutions: [fC<em>w</em>sqrt(1/(2<em>C - fC))/sqrt(2</em>C + fC), fC<em>w/(2</em>T), fC<em>w</em>sqrt(1/(2<em>C - fC))/sqrt(2</em>C + fC), fC<em>w/(2</em>T)]
+    Constraints to be checked: [T - fC, PA - fC/2, PD - fC/2]
+:::</p>
+
+<p>Finally, define a function to design the truss:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">truss_designer</span><span class="p">(</span>
+	<span class="n">h_mins</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+	<span class="n">constraints_to_check</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+	<span class="n">design_params</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span>
+<span class="p">):</span>
+	<span class="s">"""Returns an expression for h(w) using the design parameters provided
+	"""</span>
+	<span class="n">L</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"L"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+	<span class="n">alpha</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"alpha"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+	<span class="k">for</span> <span class="n">constraint</span> <span class="ow">in</span> <span class="n">constraints_to_check</span><span class="p">:</span>
+		<span class="n">constraint_</span> <span class="o">=</span> <span class="n">constraint</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">fC</span><span class="p">,</span> <span class="n">L</span><span class="o">*</span><span class="n">alpha</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">design_params</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">constraint_</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+			<span class="k">raise</span> <span class="nb">Exception</span><span class="p">(</span>
+				<span class="sa">f</span><span class="s">"Design failed for constraint: </span><span class="si">{</span><span class="n">constraint</span><span class="si">}</span><span class="s"> &lt; 0"</span>
+			<span class="p">)</span>
+	<span class="n">h_mins_</span> <span class="o">=</span> <span class="p">[]</span>
+	<span class="k">for</span> <span class="n">h_min</span> <span class="ow">in</span> <span class="n">h_mins</span><span class="p">:</span>
+		<span class="n">h_mins_</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">h_min</span><span class="p">.</span><span class="n">subs</span><span class="p">(</span><span class="n">fC</span><span class="p">,</span> <span class="n">L</span><span class="o">*</span><span class="n">alpha</span><span class="p">).</span><span class="n">subs</span><span class="p">(</span><span class="n">design_params</span><span class="p">))</span>
+	<span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="n">h_mins_</span><span class="p">)</span>  <span class="c1"># Maximum h_min
+</span></code></pre></div></div>
+
+<p>Define the given design parameters in a dictionary:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">alpha</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"alpha"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">design_parameters</span> <span class="o">=</span> <span class="p">{</span> 
+	<span class="n">T</span><span class="p">:</span> <span class="mf">81e3</span><span class="p">,</span> <span class="n">C</span><span class="p">:</span> <span class="mf">81e3</span><span class="p">,</span> <span class="n">PA</span><span class="p">:</span> <span class="mf">50e3</span><span class="p">,</span> <span class="n">PD</span><span class="p">:</span> <span class="mf">50e3</span><span class="p">,</span> <span class="n">alpha</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> 
+<span class="p">}</span>  <span class="c1"># Forces in N
+</span><span class="n">Gamma</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1e3</span><span class="p">,</span> <span class="mf">2e3</span><span class="p">,</span> <span class="mf">4e3</span><span class="p">,</span> <span class="mf">8e3</span><span class="p">,</span> <span class="mf">16e3</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>Loop through the <code class="language-plaintext highlighter-rouge">L</code> loads, running <code class="language-plaintext highlighter-rouge">truss_designer()</code>{.py}:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h_mins_w</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">L</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">"L"</span><span class="p">,</span> <span class="n">positive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">L_</span> <span class="ow">in</span> <span class="n">Gamma</span><span class="p">:</span>
+	<span class="n">design_parameters</span><span class="p">[</span><span class="n">L</span><span class="p">]</span> <span class="o">=</span> <span class="n">L_</span>
+	<span class="n">h_min</span> <span class="o">=</span> <span class="n">truss_designer</span><span class="p">(</span>
+		<span class="n">h_mins</span><span class="p">,</span> <span class="n">constraints_to_check</span><span class="p">,</span> <span class="n">design_parameters</span>
+	<span class="p">)</span>
+	<span class="n">h_mins_w</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">h_min</span><span class="p">)</span>
+	<span class="k">print</span><span class="p">(</span><span class="n">h_min</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>::: {.output .stream .stdout}
+    0.0308789086390917<em>w
+    0.0618463369994117</em>w
+    0.124408521678431<em>w
+    0.254802914503365</em>w
+    0.56790458868584*w
+:::</p>
+
+<p>Convert these symbolic expressions into numerically evaluable function, as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h_min_funs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">h_min</span> <span class="ow">in</span> <span class="n">h_mins_w</span><span class="p">:</span>
+	<span class="n">h_min_funs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span>
+		<span class="n">sp</span><span class="p">.</span><span class="n">lambdify</span><span class="p">([</span><span class="n">w</span><span class="p">],</span> <span class="n">h_min</span><span class="p">,</span> <span class="n">modules</span><span class="o">=</span><span class="n">np</span><span class="p">)</span>
+	<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Plot the design curves as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w_</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">101</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">ih</span><span class="p">,</span> <span class="n">h_min_fun</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">h_min_funs</span><span class="p">):</span>
+	<span class="n">ax</span><span class="p">.</span><span class="n">semilogy</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">w_</span><span class="p">,</span> <span class="n">h_min_fun</span><span class="p">(</span><span class="n">w_</span><span class="p">),</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s">"L = </span><span class="si">{</span><span class="n">Gamma</span><span class="p">[</span><span class="n">ih</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">f</span><span class="s">"width $2w$ (m)"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">f</span><span class="s">"height $h$ (m)"</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">ax</span><span class="p">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>::: {.output .execute_result execution_count=”20”}
+<img src="source/49/figure-0.pgf" alt="Truss design curve." />{#fig:49-figure-0 .figure .pgf}
+:::</p>
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

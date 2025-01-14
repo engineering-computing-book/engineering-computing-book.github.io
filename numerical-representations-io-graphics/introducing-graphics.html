@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> - Engineering Computing Companion Website</title>
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/pygments.css"/>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css"> -->
+<!-- <link href="/assets/css/fa/brands.min.css" rel="stylesheet"> -->
+<!-- <link href="/assets/css/fa/solid.min.css" rel="stylesheet"> -->
+<link href="/assets/css/fa/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.js">
+</script> -->
+<!-- <script src="/assets/js/pseudocode/build/pseudocode.css"> -->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- <div class="mdl-layout--fixed-header mdl-layout__header--scroll"> -->
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        <a href="/">Engineering Computing Companion Website</a>
+      </span>
+      <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Engineering Computing</span>
+    <nav class="mdl-navigation">
+      <div class="nav">
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/wb">1 Introduction</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/mk">1.1 Engineering Computing</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/fk">1.2 Computer Architecture {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/gj">1.3 Programming Computers {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/89">1.4 The Development System</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/c0">1.5 Basic Elements of a Program</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rq">1.7 Tuples and Ranges</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v3">1.9 Functions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cl">1.10 Branching</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ix">1.11 Looping</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6c">1.12 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/6e">1.13 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/xq">2 The Structure, Style, and Design of Programs</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/rz">2.1 Python Interpreters and Interactive Sessions</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/v9">2.2 Scripts, Modules, and Imports</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/tq">2.3 The Python Standard Library and Packages</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rf">2.5 Defining Classes</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/l4">2.6 Style Conventions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/vl">2.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/r3">3 Numerical Representations, Input and Output, and Graphics</a>
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/wa">3.1 Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/84">3.2 Manipulating, Operating On, and Mapping Over Arrays</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j4">3.3 Input and Output</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/sy">3.4 Introducing Graphics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/a5">3.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/we">4 Symbolic Analysis and Design</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/ya">4.1 Symbolic Expressions, Variables, and Functions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nc">4.2 Manipulating Symbolic Expressions</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/4u">4.3 Solving Equations Algebraically</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/ur">4.4 From Symbolics to Numerics</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rd">4.5 Vectors and Matrices</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/iu">4.6 Calculus</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/j1">4.7 Solving Ordinary Differential Equations</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/kb">4.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/dx">5 Numerical Analysis and Design Techniques [Outlined]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/1y">5.1 Sets of Linear Algebraic Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/h6">5.2 Nonlinear Sets of Algebraic Equations via Newton-Raphson</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9k">5.3 Nonlinear Sets of Algebraic Equations via Packages</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/y3">5.4 Integration</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/nj">5.5 Sets of Differential Equations</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/g8">5.6 Optimization via Gradient Descent</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/cq">5.7 Summary {[}Outlined{]}</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/mz">5.8 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ht">6 Engineering Computing for Design [Incomplete]</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qu">6.1 Design as Optimization</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/n8">6.2 Representing Design Constraints</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/uf">6.3 Representing Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/rt">6.4 Solving Design Problems</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/1d">6.5 Problems</a>
+          
+          
+        
+          
+          
+          
+        
+          
+            
+              </div>
+              
+            
+            <a class="nav-cha" href="/ck">A Notebooks [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/av">B Documenting and Presenting Programs [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/vc">C Version Control [Outlined]</a>
+          
+          
+          
+        
+          
+            
+            <a class="nav-cha" href="/ry">D Lists of Figures and Tables</a>
+          
+          
+          
+        
+          
+          
+            
+              <div class="nav-sec-div">
+              
+            
+            <a class="nav-sec" href="/qj">D.1 List of figures</a>
+          
+          
+        
+          
+          
+            
+            <a class="nav-sec" href="/9l">D.2 List of tables</a>
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+        
+          </div>
+        
+      </div>
+    </nav>
+  </div>
+<!-- </div> -->
+
+      <div class="dropdown-container">
+        <div class="dropdown tsd">
+          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
+          <div class="dropdown-content tsd">
+            
+          </div>
+        </div>
+        <div class="dropdown dsd">
+          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
+          <div class="dropdown-content dsd">
+            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn">Links▾</button>
+          <div class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/t1a-setup">T1a Target System Setup</a>
+            <a href="/d1a-setup">D1a Development System Setup</a>
+          </div>
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid page-container">
+  <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
+    <div class="mdl-card__supporting-text">
+      <!-- <div class="section-titles"> -->
+        <!-- <div class="section-title"> -->
+          <!-- <h1> -->
+            <!--  -->
+          <!-- </h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <p></p>
+<section id="introducing-graphics" class="real-section level1" data-number="1" data-h="sy" data-shortid="introducing-graphics" data-0-sectionhash="sy" data-0-title="Introducing Graphics" data-0-id="numerical-representations-io-graphics/introducing-graphics" data-0-hash="sy" data-0-type="section" data-0-prev="j4" data-0-v-ds="D1" data-0-sec="3.4" data-0-subsec="3.4.0" data-0-chapterhash="r3" data-0-next="a5" data-0-subsectionhash="" data-0-example-num="" data-0-url="" data-0-p="82" data-0-wherein="" data-0-ch="3" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">
+<h1 class="real-section" data-h="sy" data-shortid="introducing-graphics" data-0-sectionhash="sy" data-0-title="Introducing Graphics" data-0-id="numerical-representations-io-graphics/introducing-graphics" data-0-hash="sy" data-0-type="section" data-0-prev="j4" data-0-v-ds="D1" data-0-sec="3.4" data-0-subsec="3.4.0" data-0-chapterhash="r3" data-0-next="a5" data-0-subsectionhash="" data-0-example-num="" data-0-url="" data-0-p="82" data-0-wherein="" data-0-ch="3" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">Introducing Graphics</h1>
+<div class="videopdf-container hiddenvideopdf-container">
+
+</div>
+<p>The graphical presentation of numerical data is perhaps the most
+important output of an engineering computing program. We must begin by
+understanding the purpose of graphics:</p>
+<blockquote>
+<p>Graphics <em>reveal</em> data. <span class="citation" data-cites="tufte2001">(Tufte 2001, 13)</span></p>
+</blockquote>
+<p>Data can, of course, be presented in other ways. Small sets of data
+are sometimes best presented in table format. However, most data is best
+presented visually.</p>
+<p>Good graphics require careful design. The following list
+characterizes some aspects of a quality graphic <span class="citation" data-cites="tufte2001">(Tufte 2001, 13)</span>:</p>
+<ul>
+<li>It shows the data</li>
+<li>It draws the viewer to the data, not its presentation</li>
+<li>It presents the truth of the data with minimal distortion</li>
+<li>It presents lots of data in a small space</li>
+<li>It makes understandable large data sets</li>
+<li>It draws the viewer to compare pieces of the data set</li>
+<li>It presents the data in important levels of detail (broad and
+fine)</li>
+<li>It has a clear purpose: description, exploration, tabulation, or
+decoration</li>
+<li>It is closely integrated with accompanying descriptions of the data
+set</li>
+</ul>
+<p>A good graphic is an explanation. For instance, it explains how one
+variable is related to another. In some cases, a causal explanation is
+suggested, as in fig. <strong>¿fig:policy-correlations?</strong>, which
+suggests economic elites have much greater influence on policy adoption
+than do average citizens.</p>
+<figure class="real-figure" id="fig:policy-correlations">
+<img src="/assets/figures/policy-correlations/policy-correlations.svg" class="standalone " alt=" Figure 3.2" />
+<figcaption>Figure 3.2: Percent predicted probability of public policy adoption for economic elites and average citizens. Study, results, and statistical model by <span class="plaincite">gilens2014</span>.</figcaption>
+</figure>
+<p>A powerful Python package for creating graphics is Matplotlib <span class="citation" data-cites="matplotlib">(Hunter 2007)</span>. It is
+included in the base Anaconda environment and its most important module
+can be loaded with the following statement:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+<p> In this book, we will use <code class="sourceCode python">plt</code>
+as the name for this module.</p>
+<p>The rest of this section introduces the three fundamental types of
+graphics: function graphs, plots, and charts. Several important
+Matplotlib functions and methods are presented for generating each
+fundamental type of graphic.</p>
+<section id="function-graphs" class="real-section level2" data-number="1.1" data-h="zr" data-shortid="function-graphs" data-0-sectionhash="sy" data-0-title="Function Graphs" data-0-id="numerical-representations-io-graphics/introducing-graphics/function-graphs" data-0-hash="zr" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.1" data-0-chapterhash="r3" data-0-subsectionhash="zr" data-0-example-num="" data-0-url="" data-0-p="83" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">
+<h2 class="real-section" data-h="zr" data-shortid="function-graphs" data-0-sectionhash="sy" data-0-title="Function Graphs" data-0-id="numerical-representations-io-graphics/introducing-graphics/function-graphs" data-0-hash="zr" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.1" data-0-chapterhash="r3" data-0-subsectionhash="zr" data-0-example-num="" data-0-url="" data-0-p="83" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">Function Graphs</h2>
+<p>A <span class="keyword">function graph</span> is a graphic that
+displays the relationship between a function and one or more of its
+arguments. A single 2D function graph can display the relationship
+between a function and a single argument. For instance, consider the
+polynomial function <span class="math display">\[
+f(x) = a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0,
+\]</span> for real constant coefficients <span class="math inline">\(a_0, \cdots, a_4\)</span>. To visualize the
+function for a given set of coefficients, <span class="math display">\[
+a_0, \cdots, a_4 = 10, 10, -20, -1, 1,
+\]</span> we could write a Python program that begins by defining the
+function <span class="math inline">\(f\)</span> as a Python function as
+follows:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    a0, a1, a2, a3, a4 <span class="op">=</span> <span class="dv">10</span>, <span class="dv">10</span>, <span class="op">-</span><span class="dv">20</span>, <span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> a4 <span class="op">*</span> x <span class="op">**</span> <span class="dv">4</span> <span class="op">+</span> a3 <span class="op">*</span> x <span class="op">**</span> <span class="dv">3</span> <span class="op">+</span> a2 <span class="op">*</span> x <span class="op">**</span> <span class="dv">2</span> <span class="op">+</span> a1 <span class="op">*</span> x <span class="op">+</span> a0</span></code></pre></div>
+<p>Our strategy is to create two NumPy arrays, one for values of <span class="math inline">\(x\)</span> and another for corresponding values of
+<span class="math inline">\(y = f(x)\)</span>. These values should cover
+the domain of interest; for instance,</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">101</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> f(x)</span></code></pre></div>
+<p>The following code will create a figure and an axis, plot <code class="sourceCode python">x</code> and <code class="sourceCode python">y</code> on the axis, set the <span class="math inline">\(x\)</span>-axis and <span class="math inline">\(y\)</span>-axis labels, and display the
+figure:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()  <span class="co"># Create a figure and an axis</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>ax.plot(x, y)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;x&quot;</span>)  <span class="co"># Label the $x$ axis</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;f(x)&quot;</span>)  <span class="co"># Label the $y$ axis</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.show()  <span class="co"># Display the figure</span></span></code></pre></div>
+<p>Consider each of the lines and what it does:</p>
+<ul>
+<li><code class="sourceCode python">fig, ax <span class="op">=</span> plt.subplots()</code>
+This function returns two objects with fundamental Matplotlib classes:
+the <span class="keyword">figure</span> class <code class="sourceCode python">matplotlib.figure.Figure</code> and the <span class="keyword">axes</span> class <code class="sourceCode python">matplotlib.axes.Axes</code>. Figures are the
+top-level containers for all elements in a Matplotlib graphic. Axes are
+the containers for individual plots and subplots, multiple of which can
+be contained in a single figure.</li>
+<li><code class="sourceCode python">ax.plot(x, y)</code> This axes
+method plots <code class="sourceCode python">y</code> versus <code class="sourceCode python">x</code>, drawing a continuous curve
+connecting the points <span class="math inline">\((x_i, y_i)\)</span>.
+There are many optional arguments we will later explore, but the
+defaults will suffice for this example.</li>
+<li><code class="sourceCode python">ax.set_xlabel(<span class="st">&quot;x&quot;</span>)</code>
+This axes method sets the <span class="math inline">\(x\)</span>-axis
+label to the string argument.</li>
+<li><code class="sourceCode python">ax.set_ylabel(<span class="st">&quot;f(x)&quot;</span>)</code>
+This sets the <span class="math inline">\(y\)</span>-axis label.</li>
+<li><code class="sourceCode python">plt.show()</code> This function
+displays all open figures. In an IPython session (e.g., one in Spyder),
+this is superfluous because figures are automatically displayed in this
+environment.</li>
+</ul>
+<p>The execution of this code displays a figure similar to the stylized
+version shown in fig. <strong>¿fig:function-graph-example?</strong>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Note that although Matplotlib
+connects the individual points <span class="math inline">\((x_i,
+y_i)\)</span> on the curve with straight lines, with enough points the
+curve appears smooth.</p>
+<figure class="real-figure" id="fig:function-graph-example">
+<img src="/assets/figures/function-graph-example/function-graph-example.svg" class="standalone " alt=" Figure 3.3" />
+<figcaption>Figure 3.3: A graph of polynomial <span class="math inline"><em>f</em>(<em>x</em>)</span>.</figcaption>
+</figure>
+<p>A Matplotlib figure can contain multiple axes objects and each axes
+object can contain multiple plots. We will explore the former in a later
+section and the latter in <a href="/6f">subsection 3.4.2</a>.</p>
+</section>
+<section id="plots" class="real-section level2" data-number="1.2" data-h="6f" data-shortid="plots" data-0-sectionhash="sy" data-0-title="Plots" data-0-id="numerical-representations-io-graphics/introducing-graphics/plots" data-0-hash="6f" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.2" data-0-chapterhash="r3" data-0-subsectionhash="6f" data-0-example-num="" data-0-url="" data-0-p="84" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">
+<h2 class="real-section" data-h="6f" data-shortid="plots" data-0-sectionhash="sy" data-0-title="Plots" data-0-id="numerical-representations-io-graphics/introducing-graphics/plots" data-0-hash="6f" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.2" data-0-chapterhash="r3" data-0-subsectionhash="6f" data-0-example-num="" data-0-url="" data-0-p="84" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">Plots</h2>
+<p>A <span class="keyword">plot</span> is a graphic that displays
+discrete data in relation to one or more coordinates in a coordinate
+system. Consider a <span class="keyword">data set</span>, a set of <span class="keyword">data points</span>, <span class="math inline">\(n\)</span>-tuples <span class="math inline">\((x_{0i}, \cdots, x_{ni})\)</span>, in a <span class="keyword">coordinate system</span> <span class="math inline">\((x_0, \cdots, x_n)\)</span>. A plot of the data
+set would display each of the data points in the data set. For instance,
+a plot of a data set in a Cartesian coordinate system <span class="math inline">\((x, y)\)</span> would display each of the data
+points <span class="math inline">\((x_i, y_i)\)</span> in the data
+set.</p>
+<p>You may have observed that to create a function graph in <a href="/zr">subsection 3.4.1</a> we generated a data set of Cartesian
+data points <span class="math inline">\((x_i, y_i)\)</span> and actually
+created a <em>plot</em> of that data set. It turns out that a function
+graph is really just a plot that tries to minimize the appearance of
+individual data points to emphasize the continuously varying nature of
+the function it is presenting. On the other hand, plots that are not
+function graphs should usually emphasize its data points.</p>
+<p>Experimental data are frequently presented in plots. For example,
+consider a data set collected in an experiment exploring the
+relationship among the pressure <span class="math inline">\(P\)</span>,
+volume <span class="math inline">\(V\)</span>, and temperature <span class="math inline">\(T\)</span> of a noble gas. You may recall that
+noble gases are good approximations of an ideal gas, which obeys the
+ideal gas law <span class="math display">\[
+P V = n R T,
+\]</span> where <span class="math inline">\(n\)</span> is the (molar)
+amount of gas and <span class="math inline">\(R\)</span> is the ideal
+gas constant (approximately <span class="math inline">\(8.314\)</span> J/(K<span class="math inline">\(\cdot\)</span>mol)). Our Engcom package <code class="sourceCode">data</code> module simulates this data set; the
+module can be imported with the following statement:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<p>A data set can be generated for values of volume <code class="sourceCode python">V</code> and temperature <code class="sourceCode python">T</code> with the following function call:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> engcom.data.ideal_gas(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    V<span class="op">=</span>np.linspace(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">16</span>),  <span class="co"># (m^3) Volume values</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    T<span class="op">=</span>np.linspace(<span class="dv">273</span>, <span class="dv">573</span>, <span class="dv">4</span>),  <span class="co"># (K) Temperature values</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p> Now <code class="sourceCode python">d</code> is a dictionary with
+the following key–value pairs:</p>
+<ul>
+<li><code class="sourceCode python"><span class="co">&quot;volume&quot;</span></code>–<span class="math inline">\(V_{16\times 1}\)</span> (m<span class="math inline">\(^3\)</span>)</li>
+<li><code class="sourceCode python"><span class="co">&quot;temperature&quot;</span></code>–<span class="math inline">\(T_{1\times 4}\)</span> (K)</li>
+<li><code class="sourceCode python"><span class="co">&quot;pressure&quot;</span></code>–<span class="math inline">\(P_{16\times 4}\)</span> (Pa)</li>
+</ul>
+<p>We would like to plot <span class="math inline">\(P\)</span> versus
+<span class="math inline">\(V\)</span> for each of the <span class="math inline">\(4\)</span> temperatures <span class="math inline">\(T\)</span>; that is, plot a sequence of pairs
+<span class="math inline">\((P_i, V_i)\)</span> for each <span class="math inline">\(T_j\)</span>. The following code loops through the
+temperatures and plots to the same axes object:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j, Tj <span class="kw">in</span> <span class="bu">enumerate</span>(d[<span class="st">&quot;temperature&quot;</span>].flatten()):</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> d[<span class="st">&quot;volume&quot;</span>]  <span class="co"># (m^3)</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> d[<span class="st">&quot;pressure&quot;</span>][:,j] <span class="op">/</span> <span class="fl">1e6</span>  <span class="co"># (MPa)</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    ax.plot(x, y, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, color<span class="op">=</span><span class="st">&quot;dodgerblue&quot;</span>)  <span class="co"># Circle markers</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    ax.text(x<span class="op">=</span>x[<span class="op">-</span><span class="dv">1</span>], y<span class="op">=</span>y[<span class="op">-</span><span class="dv">1</span>], s<span class="op">=</span><span class="ss">f&quot;$T = </span><span class="sc">{</span>Tj<span class="sc">}</span><span class="ss">$ K&quot;</span>)  <span class="co"># Label last point</span></span></code></pre></div>
+<p> Finally, we label the axes and display the figure with the following
+code:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Volume (m$^3$)&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;Pressure (MPa)&quot;</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<p> The figure should appear as shown in
+fig. <strong>¿fig:ideal-gas?</strong>.</p>
+<figure class="real-figure" id="fig:ideal-gas">
+<img src="/assets/figures/ideal-gas/ideal-gas.svg" class="standalone " alt=" Figure 3.4" />
+<figcaption>Figure 3.4: Ideal gas pressure versus volume for different temperatures.</figcaption>
+</figure>
+<p>Note the practice of labeling the individual data plots instead of
+creating a separate legend. At times a legend is necessary, but often it
+is better to simply label the data so the viewer needn’t perform
+unnecessary work moving back-and-forth between the legend and the
+plot.</p>
+</section>
+<section id="charts" class="real-section level2" data-number="1.3" data-h="zv" data-shortid="charts" data-0-sectionhash="sy" data-0-title="Charts" data-0-id="numerical-representations-io-graphics/introducing-graphics/charts" data-0-hash="zv" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.3" data-0-chapterhash="r3" data-0-subsectionhash="zv" data-0-example-num="" data-0-url="" data-0-p="86" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">
+<h2 class="real-section" data-h="zv" data-shortid="charts" data-0-sectionhash="sy" data-0-title="Charts" data-0-id="numerical-representations-io-graphics/introducing-graphics/charts" data-0-hash="zv" data-0-type="subsection" data-0-v-ds="D1" data-0-ch="3" data-0-subsec="3.4.3" data-0-chapterhash="r3" data-0-subsectionhash="zv" data-0-example-num="" data-0-url="" data-0-p="86" data-0-wherein="" data-0-sec="3.4" data-0-v-specific="no" data-0-v-ts="T1" data-0-problem-num="">Charts</h2>
+<p>The third fundamental type of graphic is the <span class="keyword">chart</span>: a data set presentation in which <span class="keyword">signs</span> (i.e., icons, indices, and symbols)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> represent data. Some signs have
+become commonplace for representing data:</p>
+<ul>
+<li>The <span class="keyword">dot</span> <span class="math inline">\(\bullet\)</span> represents a data point</li>
+<li>The <span class="keyword">curve</span> represents a continuously
+varying quantity or a connection between sequential data points</li>
+<li>The <span class="keyword">bar</span> represents a quantity via its
+length</li>
+</ul>
+<p>A function graph (<a href="/zr">subsection 3.4.1</a>) represents a
+continuously varying quantity with a curve. A plot (<a href="/6f">subsection 3.4.2</a>) represents data points with dots and
+connections among sequential data points with curves. The chart can use
+dots, curves, bars, or any other sign to represent data. Therefore,
+“chart” is the most general term: a function graph is a type of plot,
+which is a type of chart.</p>
+<p>There are many flavors of chart in addition to the function graph and
+plot. Perhaps the most important are variations on the bar chart and the
+related histogram, covered here.</p>
+<section id="bar-charts" class="real-section level3" data-number="1.3.1" data-shortid="bar-charts">
+<h3 class="real-section" data-shortid="bar-charts">Bar Charts</h3>
+<p>A <span class="keyword">bar chart</span> represents and compares
+quantities of some type (e.g., density) for a collection of discrete
+<span class="keyword">categories</span> (e.g., liquids). The categories
+may have a natural progression, in which case they should be ordered
+accordingly; otherwise, they should be ordered by quantity.</p>
+<p>Consider the bar chart of thermal conductivity for various metals
+shown in fig. <strong>¿fig:charts-bar-thermal-conductivity?</strong>.
+The quantity charted is thermal conductivity and the categories are
+types of metal. Note that not only can we easily see the conductivity of
+each metal, we can easily compare conductivities in this graphic. A
+simple table of data would be much less informative in this regard.</p>
+<figure class="real-figure" id="fig:charts-bar-thermal-conductivity">
+<img src="/assets/figures/charts-bar-thermal-conductivity/charts-bar-thermal-conductivity.svg" class="standalone figure " alt=" Figure 3.5" />
+<figcaption>Figure 3.5: A bar chart of thermal conductivity for metals (data from <span class="plaincite">carvill1994</span>).</figcaption>
+</figure>
+<p>We can produce the bar chart of
+fig. <strong>¿fig:charts-bar-thermal-conductivity?</strong> as follows.
+Begin by loading packages:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> engcom.data</span></code></pre></div>
+<p>The data can be loaded from the <code class="sourceCode python">engcom.data</code> module as follows:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> engcom.data.thermal_conductivity(category<span class="op">=</span><span class="st">&quot;Metals&quot;</span>, paired<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.arange(<span class="bu">len</span>(d[<span class="st">&quot;labels&quot;</span>]))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>x_alpha <span class="op">=</span> d[<span class="st">&quot;conductivity&quot;</span>]  <span class="co"># Alphabetically sorted</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>labels_alpha <span class="op">=</span> np.array(d[<span class="st">&quot;labels&quot;</span>])  <span class="co"># Alphabetically sorted</span></span></code></pre></div>
+<p> The data is here sorted alphabetically. However, we prefer to sort
+it by quantity, which can be achieved with the use of the <code class="sourceCode python">np.lexsort()</code> function as follows:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>ix <span class="op">=</span> np.lexsort((labels_alpha, x_alpha))  <span class="co"># Sort indices</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x_alpha[ix]</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> labels_alpha[ix].tolist()</span></code></pre></div>
+<p>Now we can use Matplotlib’s <code class="sourceCode python">ax.barh()</code> axes method (for a vertical
+bar chart, use <code class="sourceCode python">ax.bar()</code>) as
+follows:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>ax.barh(y, x, color<span class="op">=</span><span class="st">&quot;dodgerblue&quot;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>ax.set_yticks(y, labels<span class="op">=</span>labels)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Thermal conductivity (W/(m$</span><span class="ch">\\</span><span class="st">cdot$K))&quot;</span>)</span></code></pre></div>
+<p>In some cases we present a group of subcategories for each category,
+in which case a <code class="sourceCode python"><span class="bu">tuple</span></code> of
+subcategories can be passed to <code class="sourceCode">ax.barh()</code>
+or <code class="sourceCode">ax.bar()</code>.</p>
+<p>There are other ways to present this type of information (i.e.,
+quantities for a collection of categories), but it is difficult to do
+better than the bar chart.</p>
+</section>
+<section id="histograms" class="real-section level3" data-number="1.3.2" data-shortid="histograms">
+<h3 class="real-section" data-shortid="histograms">Histograms</h3>
+<p>A <span class="keyword">histogram</span> is a chart that presents a
+distribution of a variable. Its use of bars makes it closely related to
+the bar chart, but it represents the frequency a variable falls in each
+<span class="keyword">bin</span>: an interval of values treated as a
+category.</p>
+<p>Consider the histogram of my movie ratings on a <span class="math inline">\(0\)</span>–<span class="math inline">\(10\)</span>
+scale shown in
+fig. <strong>¿fig:charts-histogram-movie-ratings?</strong>. Ratings most
+frequently fall in the <span class="math inline">\([6, 7)\)</span> bin.
+Only two movies are in the <span class="math inline">\([9, 10]\)</span>
+bin. With the histogram we can easily compare the relative frequencies
+of values.</p>
+<figure class="real-figure" id="fig:charts-histogram-movie-ratings">
+<img src="/assets/figures/charts-histogram-movie-ratings/charts-histogram-movie-ratings.svg" class="standalone figure " alt=" Figure 3.6" />
+<figcaption>Figure 3.6: A histogram of my movie ratings on a <span class="math inline">0</span>–<span class="math inline">10</span> scale.</figcaption>
+</figure>
+<p>We can produce the histogram chart of
+fig. <strong>¿fig:charts-histogram-movie-ratings?</strong> as follows.
+After loading the same packages as we did for the bar chart, the data
+can be loaded from the <code class="sourceCode python">engcom.data</code> module as follows:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> engcom.data.movie_ratings_binned()</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(d[<span class="st">&quot;rating_freq&quot;</span>])))</span></code></pre></div>
+<p>Now we can use Matplotlib’s <code class="sourceCode python">ax.bar()</code> axes method (for a horizontal
+histogram, use <code class="sourceCode python">ax.barh()</code>) as
+follows:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>ax.bar(x, d[<span class="st">&quot;rating_freq&quot;</span>], color<span class="op">=</span><span class="st">&quot;dodgerblue&quot;</span>, width<span class="op">=</span><span class="fl">.9</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>ax.set_xticks(x)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels(d[<span class="st">&quot;labels&quot;</span>])</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Rating out of $10$&quot;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;Frequency&quot;</span>)</span></code></pre></div>
+<p>Note that Matplotlib does have a <code class="sourceCode python">hist()</code> function that can make
+generating histograms slightly easier. However, we prefer the
+flexibility of the <code class="sourceCode python">bar()</code>
+method.</p>
+</section>
+<section id="other-types" class="real-section level3" data-number="1.3.3" data-shortid="other-types">
+<h3 class="real-section" data-shortid="other-types">Other Types of
+Charts</h3>
+<!-- ![cap](figures/dynamic-system-responses/dynamic-system-responses){#fig:dynamic-system-responses .standalone} -->
+</section>
+</section>
+</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-matplotlib" class="csl-entry" role="listitem">
+Hunter, J. D. 2007. <span>“Matplotlib: A 2D Graphics
+Environment.”</span> <em>Computing in Science &amp; Engineering</em> 9
+(3): 90–95. <a href="https://doi.org/10.1109/MCSE.2007.55">https://doi.org/10.1109/MCSE.2007.55</a>.
+</div>
+<div id="ref-tufte2001" class="csl-entry" role="listitem">
+Tufte, Edward R. 2001. <em>The Visual Display of Quantitative
+Information</em>. 2nd ed. Graphics Press.
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>We will later explore how to style and save figures. The
+stylization of book figures will be minimal but necessary to demonstate
+the aesthetic cohesion with the text for which we should strive.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The field of <span class="keyword">semiotics</span> (the
+study of signs) defines a sign as something that communicates a meaning.
+Charles Sanders Peirce distinguished three types of signs in terms of a
+sign’s relation to its object: an <span class="keyword">icon</span> has
+a topographical similarity with its object (e.g., <span class="unicode">☽︎</span> is an icon representing a waxing moon), an
+<span class="keyword">index</span> indicates something else (e.g., <span class="unicode">↑</span> points to something), and a <span class="keyword">symbol</span> is a sign for an object only by convention
+(e.g., <span class="unicode">☣</span> is the biohazard symbol). The type
+of a given sign can be ambiguous (e.g., <span class="unicode">☜</span>
+is an icon insofar as its object is a hand, but is an index insofar as
+it indicates the direction <em>left</em>).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<h2 id="online-resources-for-section-34">Online Resources for Section 3.4</h2>
+
+<p>No online resources.</p>
+
+
+    </div>
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+    
+  </div>
+  <div class="mdl-mega-footer__bottom-section">
+    <ul class="mdl-mega-footer__link-list">
+      
+    </ul>
+  </div>
+</footer>
+
+      </main>
+    </div>
+  </body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY4MZ8WFBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY4MZ8WFBC');
+</script>
+  <script src="/assets/js/versioning.js"></script>
+<script src="/assets/js/heading-detailer.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"> -->
+</script>
+<script>
+  console.log("running algorithm");
+  document.querySelectorAll("pre.algorithm").forEach(function(element) {
+    console.log(element);  
+    pseudocode.renderElement(element);
+  });
+</script>
+<script src="/assets/js/mathjax_config.js" async></script>
+</html>

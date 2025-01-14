@@ -1,0 +1,7 @@
+First element: 4
+Last element: -16
+First 3 elements: [4, -12, 6]
+Last 3 elements: [-14, 8, -16]
+Every other element: [4, 6, 8]
+Length: 6
+sum: -24

@@ -1,0 +1,6 @@
+Early return! Had 2 passes left.
+Sorted [4, 2, 6, 1, 9] into [1, 2, 4, 6, 9]
+Sorted [3.0, -1.0, 10.0, -33.0] into [-33.0, -1.0, 3.0, 10.0]
+Early return! Had 4 passes left.
+Sorted [1, 2, 3, 4, 5, 3] into [1, 2, 3, 3, 4, 5]
+Sorted [5, 4, 3, 2, 1, 0] into [0, 1, 2, 3, 4, 5]
