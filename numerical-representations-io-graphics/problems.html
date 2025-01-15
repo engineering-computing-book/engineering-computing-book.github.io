@@ -1075,26 +1075,25 @@
 <!-- </div> -->
 
       <div class="dropdown-container">
-        <div class="dropdown tsd">
-          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
-          <div class="dropdown-content tsd">
-            
+        <div class="dropdown v">
+          <button id="vmenu" class="dropbtn vd">v ▾</button>
+          <div class="dropdown-content vd">
+            <a id="v1" data-title="Spyder" onclick="set_v('v1')" href=#>v1 <span>Spyder</span></a>
+<a id="v2" data-title="VS Code" onclick="set_v('v2')" href=#>v2 <span>VS Code</span></a>
           </div>
         </div>
-        <div class="dropdown dsd">
+        <!-- <div class="dropdown dsd">
           <button id="dsmenu" class="dropbtn dsd">DX▾</button>
           <div class="dropdown-content dsd">
             <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
 
           </div>
-        </div>
+        </div> -->
         <div class="dropdown">
           <button id="menu" class="dropbtn">Links▾</button>
           <div class="dropdown-content">
-            <a href="/index.html">Home</a>
-            <a href="/t1a-setup">T1a Target System Setup</a>
-            <a href="/d1a-setup">D1a Development System Setup</a>
-          </div>
+  <a href="/index.html">Home</a>
+</div>
         </div>
       </div>
       <main class="mdl-layout__content">
@@ -2158,8 +2157,9 @@ world:</p>
 <span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>start3[<span class="dv">15</span>:(<span class="dv">15</span><span class="op">+</span>gg.shape[<span class="dv">0</span>]), <span class="dv">2</span>:(<span class="dv">2</span><span class="op">+</span>gg.shape[<span class="dv">1</span>])] <span class="op">=</span> gg</span>
 <span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>starting_states <span class="op">=</span> (start1, start2, start3)</span></code></pre></div>
 </section>
-<section id="functions-for-visualizing-games" class="real-section level2" data-number="7.3" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-chapterhash="dx" data-0-problem-num="" data-0-example-num="" data-0-sec="5.5" data-0-subsectionhash="" data-0-prev="y3" data-0-ch="5" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-url="" data-0-next="g8" data-0-title="Sets of Differential Equations" data-0-v-ts="T1" data-0-v-ds="D1" data-0-wherein="" data-0-p="183" data-0-hash="nj" data-0-sectionhash="nj" data-0-v-specific="no" data-0-type="section" data-0-subsec="5.5.0">
-<h2 class="real-section" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-chapterhash="dx" data-0-problem-num="" data-0-example-num="" data-0-sec="5.5" data-0-subsectionhash="" data-0-prev="y3" data-0-ch="5" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-url="" data-0-next="g8" data-0-title="Sets of Differential Equations" data-0-v-ts="T1" data-0-v-ds="D1" data-0-wherein="" data-0-p="183" data-0-hash="nj" data-0-sectionhash="nj" data-0-v-specific="no" data-0-type="section" data-0-subsec="5.5.0">Functions for Visualizing Games</h2>
+<section id="functions-for-visualizing-games" class="real-section level2" data-number="7.3" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-type="section" data-0-subsectionhash="" data-0-v-specific="no" data-0-sectionhash="nj" data-0-example-num="" data-0-next="g8" data-0-v-ts="T1" data-0-chapterhash="dx" data-0-subsec="5.5.0" data-0-wherein="" data-0-url="" data-0-v-ds="D1" data-0-problem-num="" data-0-ch="5" data-0-sec="5.5" data-0-hash="nj" data-0-prev="y3" data-0-title="Sets of Differential Equations" data-0-p="183" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations">
+<h2 class="real-section" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-type="section" data-0-subsectionhash="" data-0-v-specific="no" data-0-sectionhash="nj" data-0-example-num="" data-0-next="g8" data-0-v-ts="T1" data-0-chapterhash="dx" data-0-subsec="5.5.0" data-0-wherein="" data-0-url="" data-0-v-ds="D1" data-0-problem-num="" data-0-ch="5" data-0-sec="5.5" data-0-hash="nj" data-0-prev="y3" data-0-title="Sets of Differential Equations" data-0-p="183" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations">Functions
+for Visualizing Games</h2>
 <p>The following function can visualize a single state of the world:</p>
 <div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> visualize_state(state: np.ndarray):</span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Visualize a single state of a game&quot;&quot;&quot;</span></span>

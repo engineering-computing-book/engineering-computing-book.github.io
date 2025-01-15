@@ -1075,26 +1075,25 @@
 <!-- </div> -->
 
       <div class="dropdown-container">
-        <div class="dropdown tsd">
-          <button id="tsmenu" class="dropbtn tsd">TX▾</button>
-          <div class="dropdown-content tsd">
-            
+        <div class="dropdown v">
+          <button id="vmenu" class="dropbtn vd">v ▾</button>
+          <div class="dropdown-content vd">
+            <a id="v1" data-title="Spyder" onclick="set_v('v1')" href=#>v1 <span>Spyder</span></a>
+<a id="v2" data-title="VS Code" onclick="set_v('v2')" href=#>v2 <span>VS Code</span></a>
           </div>
         </div>
-        <div class="dropdown dsd">
+        <!-- <div class="dropdown dsd">
           <button id="dsmenu" class="dropbtn dsd">DX▾</button>
           <div class="dropdown-content dsd">
             <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
 
           </div>
-        </div>
+        </div> -->
         <div class="dropdown">
           <button id="menu" class="dropbtn">Links▾</button>
           <div class="dropdown-content">
-            <a href="/index.html">Home</a>
-            <a href="/t1a-setup">T1a Target System Setup</a>
-            <a href="/d1a-setup">D1a Development System Setup</a>
-          </div>
+  <a href="/index.html">Home</a>
+</div>
         </div>
       </div>
       <main class="mdl-layout__content">
@@ -1108,8 +1107,8 @@
           <!-- </h1> -->
         <!-- </div> -->
       <!-- </div> -->
-      <section id="branching" class="real-section level1" data-number="1" data-h="cl" data-shortid="branching" data-0-next="ix" data-0-sectionhash="cl" data-0-p="30" data-0-title="Branching" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.0" data-0-problem-num="" data-0-id="introduction/branching" data-0-subsectionhash="" data-0-example-num="" data-0-v-ts="T1" data-0-v-specific="no" data-0-hash="cl" data-0-prev="v3" data-0-sec="1.10" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="section">
-<h1 class="real-section" data-h="cl" data-shortid="branching" data-0-next="ix" data-0-sectionhash="cl" data-0-p="30" data-0-title="Branching" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.0" data-0-problem-num="" data-0-id="introduction/branching" data-0-subsectionhash="" data-0-example-num="" data-0-v-ts="T1" data-0-v-specific="no" data-0-hash="cl" data-0-prev="v3" data-0-sec="1.10" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="section">Branching</h1>
+      <section id="branching" class="real-section level1" data-number="1" data-h="cl" data-shortid="branching" data-0-ch="1" data-0-problem-num="" data-0-prev="v3" data-0-subsec="1.10.0" data-0-type="section" data-0-hash="cl" data-0-wherein="" data-0-id="introduction/branching" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="" data-0-chapterhash="wb" data-0-title="Branching" data-0-v-specific="no" data-0-v-ts="T1" data-0-sectionhash="cl" data-0-p="30" data-0-next="ix">
+<h1 class="real-section" data-h="cl" data-shortid="branching" data-0-ch="1" data-0-problem-num="" data-0-prev="v3" data-0-subsec="1.10.0" data-0-type="section" data-0-hash="cl" data-0-wherein="" data-0-id="introduction/branching" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="" data-0-chapterhash="wb" data-0-title="Branching" data-0-v-specific="no" data-0-v-ts="T1" data-0-sectionhash="cl" data-0-p="30" data-0-next="ix">Branching</h1>
 <div class="videopdf-container hiddenvideopdf-container">
 
 </div>
@@ -1118,8 +1117,9 @@ the programmer to control which portions are to be executed next (or at
 all); that is, the <span class="keyword">control flow</span>. The
 primary forms of control flow statements are <span class="keyword">branching</span> and <span class="keyword">looping</span>, and we introduce branching in this
 section and looping in <a href="/ix">section 1.11</a>.</p>
-<section id="if-elif-else" class="real-section level2" data-number="1.1" data-h="us" data-shortid="if-elif-else" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="us" data-0-title="Branching with \texttt {if}/\texttt {elif}/\texttt {else} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.1" data-0-problem-num="" data-0-id="introduction/branching/if-elif-else" data-0-subsectionhash="us" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="30" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">
-<h2 class="real-section" data-h="us" data-shortid="if-elif-else" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="us" data-0-title="Branching with \texttt {if}/\texttt {elif}/\texttt {else} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.1" data-0-problem-num="" data-0-id="introduction/branching/if-elif-else" data-0-subsectionhash="us" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="30" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">Branching with <code class="sourceCode">if</code>/<code class="sourceCode">elif</code>/<code class="sourceCode">else</code> Statements</h2>
+<section id="if-elif-else" class="real-section level2" data-number="1.1" data-h="us" data-shortid="if-elif-else" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.1" data-0-type="subsection" data-0-hash="us" data-0-wherein="" data-0-id="introduction/branching/if-elif-else" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="us" data-0-chapterhash="wb" data-0-title="Branching with \texttt {if}/\texttt {elif}/\texttt {else} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="30">
+<h2 class="real-section" data-h="us" data-shortid="if-elif-else" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.1" data-0-type="subsection" data-0-hash="us" data-0-wherein="" data-0-id="introduction/branching/if-elif-else" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="us" data-0-chapterhash="wb" data-0-title="Branching with \texttt {if}/\texttt {elif}/\texttt {else} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="30">Branching with <code class="sourceCode">if</code>/<code class="sourceCode">elif</code>/<code class="sourceCode">else</code>
+Statements</h2>
 <p>Branching control flow statements are based on logical conditions
 that are tested by the statement. The primary branching statements in
 Python are the <code class="sourceCode python"><span class="cf">if</span></code>/<code class="sourceCode python"><span class="cf">elif</span></code>/<code class="sourceCode python"><span class="cf">else</span></code>
@@ -1182,9 +1182,8 @@ Empty string</code></pre>
 </div>
 </div>
 </section>
-<section id="match-case" class="real-section level2" data-number="1.2" data-h="ke" data-shortid="match-case" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="ke" data-0-title="Branching with \texttt {match}/\texttt {case} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.2" data-0-problem-num="" data-0-id="introduction/branching/match-case" data-0-subsectionhash="ke" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="31" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">
-<h2 class="real-section" data-h="ke" data-shortid="match-case" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="ke" data-0-title="Branching with \texttt {match}/\texttt {case} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.2" data-0-problem-num="" data-0-id="introduction/branching/match-case" data-0-subsectionhash="ke" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="31" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">Branching with <code class="sourceCode">match</code>/<code class="sourceCode">case</code>
-Statements</h2>
+<section id="match-case" class="real-section level2" data-number="1.2" data-h="ke" data-shortid="match-case" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.2" data-0-type="subsection" data-0-hash="ke" data-0-wherein="" data-0-id="introduction/branching/match-case" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="ke" data-0-chapterhash="wb" data-0-title="Branching with \texttt {match}/\texttt {case} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="31">
+<h2 class="real-section" data-h="ke" data-shortid="match-case" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.2" data-0-type="subsection" data-0-hash="ke" data-0-wherein="" data-0-id="introduction/branching/match-case" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="ke" data-0-chapterhash="wb" data-0-title="Branching with \texttt {match}/\texttt {case} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="31">Branching with <code class="sourceCode">match</code>/<code class="sourceCode">case</code> Statements</h2>
 <p>In Python 3.10, a new kind of branching statement was introduced:
 <code class="sourceCode python">match</code>/<code class="sourceCode python">case</code>. Its use is never strictly
 necessary, but it can make a program more readable. For example,</p>
@@ -1210,8 +1209,8 @@ code blocks are evaluated.</p>
 be matched. See <span class="plaincite" data-post="§ 4.6">pydocs</span>
 for more details.</p>
 </section>
-<section id="try-except-finally" class="real-section level2" data-number="1.3" data-h="mq" data-shortid="try-except-finally" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="mq" data-0-title="Branching with \texttt {try}/\texttt {except}/\texttt {finally} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.3" data-0-problem-num="" data-0-id="introduction/branching/try-except-finally" data-0-subsectionhash="mq" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="32" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">
-<h2 class="real-section" data-h="mq" data-shortid="try-except-finally" data-0-v-specific="no" data-0-sectionhash="cl" data-0-hash="mq" data-0-title="Branching with \texttt {try}/\texttt {except}/\texttt {finally} Statements" data-0-chapterhash="wb" data-0-ch="1" data-0-subsec="1.10.3" data-0-problem-num="" data-0-id="introduction/branching/try-except-finally" data-0-subsectionhash="mq" data-0-example-num="" data-0-v-ts="T1" data-0-sec="1.10" data-0-p="32" data-0-v-ds="D1" data-0-wherein="" data-0-url="" data-0-type="subsection">Branching with <code class="sourceCode">try</code>/<code class="sourceCode">except</code>/<code class="sourceCode">finally</code>
+<section id="try-except-finally" class="real-section level2" data-number="1.3" data-h="mq" data-shortid="try-except-finally" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.3" data-0-type="subsection" data-0-hash="mq" data-0-wherein="" data-0-id="introduction/branching/try-except-finally" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="mq" data-0-chapterhash="wb" data-0-title="Branching with \texttt {try}/\texttt {except}/\texttt {finally} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="32">
+<h2 class="real-section" data-h="mq" data-shortid="try-except-finally" data-0-ch="1" data-0-problem-num="" data-0-subsec="1.10.3" data-0-type="subsection" data-0-hash="mq" data-0-wherein="" data-0-id="introduction/branching/try-except-finally" data-0-example-num="" data-0-sec="1.10" data-0-v-ds="D1" data-0-url="" data-0-subsectionhash="mq" data-0-chapterhash="wb" data-0-title="Branching with \texttt {try}/\texttt {except}/\texttt {finally} Statements" data-0-v-specific="no" data-0-sectionhash="cl" data-0-v-ts="T1" data-0-p="32">Branching with <code class="sourceCode">try</code>/<code class="sourceCode">except</code>/<code class="sourceCode">finally</code>
 Statements</h2>
 <p>Sometimes a statement can yield an <span class="keyword">exception</span>, which is not a syntax error, but has a
 similar effect in that it can stop the execution of the program. Common
