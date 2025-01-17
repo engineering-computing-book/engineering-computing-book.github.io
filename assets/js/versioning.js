@@ -162,8 +162,10 @@ document.querySelectorAll("div.videopdf-container").forEach(function(element) {
 	if (previous_header_element == null) {
 		console.log("No previous header element found");
 	}
+	console.log(previous_header_element);
 	console.log(previous_header_element.classList);
-	console.log(previous_header_element.classList.contains('real-section'));
+	console.log(!previous_header_element.classList.contains('real-section'));
+	console.log(previous_header_element.classList.contains('faux'));
 	if (!previous_header_element.classList.contains('real-section') || previous_header_element.classList.contains('faux')) {
 		// Print the previous header element class list
 		element.style.display = 'none';
@@ -204,9 +206,13 @@ document.querySelectorAll("section.real-section.level1").forEach(function(elemen
 					pdf_button.classList.add("pdf-button");
 					pdf_button.href = "/assets/split/partial/" + pdf_filename;
 					pdf_button.target = "_blank";
-					// Add the pdf button at the end of the videopdf-container div
-					var videopdf_container = document.querySelector("div.videopdf-container");
-					videopdf_container.appendChild(pdf_button);
+					// Add the pdf button at the end of each videopdf-container div
+					// var videopdf_container = document.querySelector("div.videopdf-container");
+					// videopdf_container.appendChild(pdf_button);
+					var videopdf_containers = document.querySelectorAll("div.videopdf-container");
+					for (var i = 0; i < videopdf_containers.length; i++) {
+						videopdf_containers[i].appendChild(pdf_button.cloneNode(true));
+					}
 				}
 			} else {
 				console.error("Request failed with status: " + http.status);
