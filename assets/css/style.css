@@ -3762,6 +3762,6 @@ a.pdf-button:hover { filter: invert(50%) sepia(93%); }
 
 div.exercise-solution { display: none; }
 
-div.exercise::before { content: "Problem " attr(data-problem-num) " "; font-weight: bold; display: inline; margin-right: 5px; font-size: 12pt; color: black; }
+div.exercise::before { content: "Problem " attr(data-problem-num) " (" attr(data-H) ") "; font-weight: bold; display: inline; margin-right: 5px; font-size: 12pt; color: black; }
 
 div.exercise p:first-of-type { display: inline; }
