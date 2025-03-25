@@ -2038,9 +2038,8 @@ world:</p>
 <span id="cb44-16"><a href="#cb44-16" aria-hidden="true" tabindex="-1"></a>start3[<span class="dv">15</span>:(<span class="dv">15</span><span class="op">+</span>gg.shape[<span class="dv">0</span>]), <span class="dv">2</span>:(<span class="dv">2</span><span class="op">+</span>gg.shape[<span class="dv">1</span>])] <span class="op">=</span> gg</span>
 <span id="cb44-17"><a href="#cb44-17" aria-hidden="true" tabindex="-1"></a>starting_states <span class="op">=</span> (start1, start2, start3)</span></code></pre></div>
 </section>
-<section id="functions-for-visualizing-games" class="real-section level2" data-number="7.3" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-v-specific="no" data-0-subsec="5.5.0" data-0-sec="5.5" data-0-title="Sets of Differential Equations" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-ch="5" data-0-v-ds="D1" data-0-hash="nj" data-0-type="section" data-0-subsectionhash="" data-0-sectionhash="nj" data-0-v-ts="T1" data-0-url="" data-0-next="g8" data-0-v="v1" data-0-prev="y3" data-0-wherein="" data-0-chapterhash="dx" data-0-example-num="" data-0-problem-num="" data-0-p="185">
-<h2 class="real-section" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-v-specific="no" data-0-subsec="5.5.0" data-0-sec="5.5" data-0-title="Sets of Differential Equations" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-ch="5" data-0-v-ds="D1" data-0-hash="nj" data-0-type="section" data-0-subsectionhash="" data-0-sectionhash="nj" data-0-v-ts="T1" data-0-url="" data-0-next="g8" data-0-v="v1" data-0-prev="y3" data-0-wherein="" data-0-chapterhash="dx" data-0-example-num="" data-0-problem-num="" data-0-p="185">Functions for Visualizing
-Games</h2>
+<section id="functions-for-visualizing-games" class="real-section level2" data-number="7.3" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-hash="nj" data-0-sectionhash="nj" data-0-prev="y3" data-0-type="section" data-0-ch="5" data-0-title="Sets of Differential Equations" data-0-problem-num="" data-0-url="" data-0-subsec="5.5.0" data-0-v-ts="T1" data-0-v-specific="no" data-0-p="185" data-0-v="v1" data-0-v-ds="D1" data-0-example-num="" data-0-chapterhash="dx" data-0-subsectionhash="" data-0-sec="5.5" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-next="g8" data-0-wherein="">
+<h2 class="real-section" data-h="nj" data-shortid="functions-for-visualizing-games" data-0-hash="nj" data-0-sectionhash="nj" data-0-prev="y3" data-0-type="section" data-0-ch="5" data-0-title="Sets of Differential Equations" data-0-problem-num="" data-0-url="" data-0-subsec="5.5.0" data-0-v-ts="T1" data-0-v-specific="no" data-0-p="185" data-0-v="v1" data-0-v-ds="D1" data-0-example-num="" data-0-chapterhash="dx" data-0-subsectionhash="" data-0-sec="5.5" data-0-id="numerical-analysis-and-design-techniques/sets-of-differential-equations" data-0-next="g8" data-0-wherein="">Functions for Visualizing Games</h2>
 <p>The following function can visualize a single state of the world:</p>
 <div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> visualize_state(state: np.ndarray):</span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Visualize a single state of a game&quot;&quot;&quot;</span></span>
@@ -2346,12 +2345,12 @@ t\)</span>. The mass’s position at time <span class="math inline">\(t_i\)</spa
 \end{bmatrix}^\top\)</span>. In discrete time, the mass’s velocity at
 time <span class="math inline">\(t_i\)</span> is given by the vector
 <span class="math display">\[
-\vec{v}_i = \frac{\vec{r}_{i+1} - \vec{r}_i}{\Delta t},
+\vec{v}_i = \frac{\vec{r}_{i} - \vec{r}_{i-1}}{\Delta t},
 \]</span> which approximates the derivative of the position vector with
 respect to time.</p>
 <p>We will model the trajectories of several masses. In this problem,
-there will be no forces acting on the masses, so they will move at a
-constant velocity. (See <a href="/forcefields">problem 3.14</a> for an
+there will be no forces acting on the masses, so they will move at
+constant speed. (See <a href="/forcefields">problem 3.14</a> for an
 extension with force fields.)</p>
 <p>Write a program that meets the following requirements:</p>
 <ol>
@@ -2359,9 +2358,9 @@ extension with force fields.)</p>
 represents the state of a mass at a given time. The class should have
 the following attributes:</p>
 <ol>
-<li><code class="sourceCode python">position</code>, a NumPy array
+<li><code class="sourceCode python">position</code>, an array
 representing the position at the current time</li>
-<li><code class="sourceCode python">velocity</code>, a NumPy array
+<li><code class="sourceCode python">velocity</code>, an array
 representing the velocity at the current time</li>
 </ol></li>
 <li><p>Define a class <code class="sourceCode python">Region</code> that
@@ -2382,8 +2381,8 @@ have the following attributes:</p>
 <ol>
 <li><code class="sourceCode python">initial_state</code>, a <code class="sourceCode python">State</code> instance representing the mass’s
 initial state (required to initialize)</li>
-<li><code class="sourceCode python">time</code>, a NumPy array
-representing the corresponding times (required to initialize)</li>
+<li><code class="sourceCode python">time</code>, an array representing
+the corresponding times (required to initialize)</li>
 <li><code class="sourceCode python">region</code>, a <code class="sourceCode python">Region</code> instance representing the region
 in which the mass moves (required to initialize)</li>
 <li><code class="sourceCode python">states</code>, a list of <code class="sourceCode python">State</code> instances representing the mass’s
@@ -2392,7 +2391,8 @@ states at each time step</li>
 <li><p>Define an instance method <code class="sourceCode python">bounce(s: State) <span class="op">-&gt;</span> State</code>
 for the <code class="sourceCode python">Trajectory</code> class that
 updates the mass’s position and velocity when it bounces off a wall.
-(The angle of incidence equals the angle of reflection.)</p></li>
+(The angle of incidence equals the angle of reflection, but no
+trigonometry is needed.)</p></li>
 <li><p>Define an instance method <code class="sourceCode python">step_state()</code> for the <code class="sourceCode python">Trajectory</code> class that advances the
 mass’s state by one time step. Wall bouncing should be handled here by
 calling <code class="sourceCode python">bounce()</code>.</p></li>
@@ -2401,12 +2401,14 @@ mass’s state through time until a specified end time. This method should
 call <code class="sourceCode python">step_state()</code> repeatedly and
 populate the <code class="sourceCode python">states</code>
 attribute.</p></li>
-<li><p>Define class instance methods <code class="sourceCode python">get_x()</code> and <code class="sourceCode python">get_y()</code> for the <code class="sourceCode python">Trajectory</code> class that return NumPy
-arrays of the <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> components of the mass’s positions at
+<li><p>Define class instance methods <code class="sourceCode python">get_x()</code> and <code class="sourceCode python">get_y()</code> for the <code class="sourceCode python">Trajectory</code> class that return arrays of
+the <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> components of the mass’s positions at
 each time step.</p></li>
 <li><p>Define a class <code class="sourceCode python">Trajectories</code> that represents a
 collection of <code class="sourceCode python">Trajectory</code>
-instances. The class should have the attribute <code class="sourceCode python">trajectories</code>, a list of <code class="sourceCode python">Trajectory</code> instances.</p></li>
+instances. The class should have the attribute <code class="sourceCode python">trajectories</code>, a list of <code class="sourceCode python">Trajectory</code> instances. It should be
+initialized with a list of initial states, a time array, and a region,
+from which it constructs the <code class="sourceCode python">Trajectory</code> instances.</p></li>
 <li><p>Define an instance method <code class="sourceCode python">plot()</code> for the <code class="sourceCode python">Trajectories</code> class that plots the
 trajectories of all masses in the collection. The method should plot the
 trajectories as differently colored lines and the initial positions as
@@ -2435,21 +2437,21 @@ trajectories with the following initial states:</p>
 <div class="exercise" data-h="FORCEFIELDS" data-problem-num="3.14">
 <p>In this problem, we will extend the model of a mass’s trajectory on a
 2D rectangular region of space with walls from <a href="/inertia">problem 3.13</a> to include force fields acting on the
-masses. The force field is a vector field <span class="math inline">\(\vec{F}(\vec{r})\)</span> that gives the force
-acting on the mass at position <span class="math inline">\(\vec{r}\)</span>. The acceleration of the mass at
-position <span class="math inline">\(\vec{r}\)</span> is given by
-Newton’s second law: <span class="math display">\[
+masses. A force field is a vector field <span class="math inline">\(\vec{F}(\vec{r})\)</span> that gives the force
+acting on the mass at position <span class="math inline">\(\vec{r}\)</span>. If <span class="math inline">\(\vec{F}\)</span> is the only force, the
+acceleration of the mass at position <span class="math inline">\(\vec{r}\)</span> is given by Newton’s second law:
+<span class="math display">\[
 \vec{a}(\vec{r}) = \vec{F}(\vec{r})/m,
 \]</span> where <span class="math inline">\(m\)</span> is the mass of
 the object. In discrete time, the mass’s velocity at time <span class="math inline">\(t_i\)</span> is given by the vector <span class="math display">\[
-\vec{v}_{i+1} = \vec{v}_i + \vec{a}_i \Delta t,
+\vec{v}_{i} = \vec{v}_{i-1} + \vec{a}_i \Delta t,
 \]</span> where <span class="math inline">\(\vec{a}_i =
 \vec{F}(\vec{r}_i)/m\)</span>.</p>
 <p>A force field can be represented by a function that takes a position
 vector as input and returns a force vector. Consider the following force
 fields: $$\begin{align}
 \vec{F}_0(\vec{r}) &amp;= c_0 \frac{\vec{r} - \vec{r}_0}{|\vec{r} - \vec{r}_0|^2}\text{ and} \\
-\vec{F}_1(\vec{r}) &amp;= c_1 \frac{\vec{r_1} - \vec{r}}{|\vec{r_1} - \vec{r}|^2},
+\vec{F}_1(\vec{r}) &amp;= c_1 \frac{\vec{r}_1 - \vec{r}}{|\vec{r}_1 - \vec{r}|^2},
 \end{align}$$ where <span class="math inline">\(\vec{r}_0,
 \vec{r}_1\)</span> are fixed positions vectors, <span class="math inline">\(|\cdot|\)</span> is the vector length, and <span class="math inline">\(c_0, c_1\)</span> are positive constants with
 units N<span class="math inline">\(\cdot\)</span>m that determine the
@@ -2470,13 +2472,13 @@ fields should be functions that take a position vector as input and
 return a force vector.</p></li>
 <li><p>Extend the <code class="sourceCode python">step_state()</code>
 method of the <code class="sourceCode python">Trajectory</code> class to
-include the acceleration due to the sum of the force fields acting on
-the mass.</p></li>
-<li><p>Extend the <code class="sourceCode python">step_state()</code>
-method of the <code class="sourceCode python">Trajectory</code> class to
 include a damping force given by <span class="math display">\[
 \vec{F}_\text{damp} = -0.3 |\vec{v}| \vec{v}.
 \]</span></p></li>
+<li><p>Extend the <code class="sourceCode python">step_state()</code>
+method of the <code class="sourceCode python">Trajectory</code> class to
+include the acceleration due to the sum of the force fields acting on
+the mass and the damping force.</p></li>
 <li><p>Extend the <code class="sourceCode python">Trajectories</code>
 class constructor to accept a list of mass values and a list of force
 fields for each trajectory.</p></li>
