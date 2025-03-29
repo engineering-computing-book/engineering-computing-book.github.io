@@ -137,8 +137,32 @@
         
           
           
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
             
             <a class="nav-sec" href="/kx">1.6 Lists</a>
+          
+          
+        
+          
+          
+          
+        
+          
           
           
         
@@ -169,6 +193,10 @@
           
             
             <a class="nav-sec" href="/ow">1.8 Dictionaries</a>
+          
+          
+        
+          
           
           
         
@@ -287,6 +315,10 @@
         
           
           
+          
+        
+          
+          
             
             <a class="nav-sec" href="/yz">2.4 Namespaces, Scopes, and Contexts</a>
           
@@ -326,6 +358,10 @@
           
             
             <a class="nav-sec" href="/mw">2.7 The Design of Programs</a>
+          
+          
+        
+          
           
           
         
@@ -1075,21 +1111,7 @@
 <!-- </div> -->
 
       <div class="dropdown-container">
-        <div class="dropdown v">
-          <button id="vmenu" class="dropbtn vd">v ▾</button>
-          <div class="dropdown-content vd">
-            <!-- <a id="v1" data-title="Spyder" onclick="set_v('v1')" href=#>v1 <span>Spyder</span></a> -->
-<!-- <a id="v2" data-title="VS Code" onclick="set_v('v2')" href=#>v2 <span>VS Code</span></a> -->
-<a id="v1" data-title="VS Code" onclick="set_v('v1')" href=#>v1 <span>VS Code</span></a>
-          </div>
-        </div>
-        <!-- <div class="dropdown dsd">
-          <button id="dsmenu" class="dropbtn dsd">DX▾</button>
-          <div class="dropdown-content dsd">
-            <a id="miD1" data-title="Spyder Python development system" onclick="set_v_ds('D1')" href=#>D1 <span>Spyder Python development system</span></a>
-
-          </div>
-        </div> -->
+        
         <div class="dropdown">
           <button id="menu" class="dropbtn">Links▾</button>
           <div class="dropdown-content">
@@ -1098,7 +1120,7 @@
         </div>
       </div>
       <main class="mdl-layout__content">
-        <div class="mdl-grid page-container">
+        <div class="mdl-grid page-container section-page">
   <div class="mdl-card mdl-cell--12-col mdl-shadow--4dp">
     <div class="mdl-card__supporting-text">
       <!-- <div class="section-titles"> -->
@@ -1108,7 +1130,7 @@
           <!-- </h1> -->
         <!-- </div> -->
       <!-- </div> -->
-      <div class="exercise" data-h="wq" data-problem-num="2.1">
+      <div class="exercise" data-h="WQ" data-problem-num="2.1">
 <p>Write a program in a single script that meets the following
 requirements:</p>
 <ol>
@@ -1200,7 +1222,7 @@ times and prints the results.</li>
 </code></pre>
 </div>
 </div>
-<div class="exercise" data-h="sk" data-problem-num="2.2">
+<div class="exercise" data-h="SK" data-problem-num="2.2">
 <p>Rewrite the program from <a href="/wq">problem 2.1</a> such that it
 meets the following requirements:</p>
 <ol>
@@ -1286,7 +1308,7 @@ function blocks).</p>
 </code></pre>
 </div>
 </div>
-<div class="exercise" data-h="ye" data-problem-num="2.3">
+<div class="exercise" data-h="YE" data-problem-num="2.3">
 <p>Write a program in a single script that meets the following
 requirements:</p>
 <ol>
@@ -1465,7 +1487,7 @@ rand_sliders(20, 44, x0=42, d=5, wrap=False):
 </code></pre>
 </div>
 </div>
-<div class="exercise" data-h="8g" data-problem-num="2.4">
+<div class="exercise" data-h="8G" data-problem-num="2.4">
 <p>Rewrite the program from <a href="/ye">problem 2.3</a> such that it
 meets the following requirements:</p>
 <ol>
@@ -1598,7 +1620,7 @@ rand_sliding.rand_sliders(20, 44, x0=2, d=5, wrap=False):
 </code></pre>
 </div>
 </div>
-<div class="exercise" data-h="uz" data-problem-num="2.5">
+<div class="exercise" data-h="UZ" data-problem-num="2.5">
 <p>Begin with the <code class="sourceCode python">Screwdriver</code>,
 <code class="sourceCode python">Screw</code>, and <code class="sourceCode python">SetScrew</code> class definitions of <a href="/rf">section 2.5</a>. Add the following features:</p>
 <ul>
@@ -1770,7 +1792,7 @@ catch and print the exception as follows:</p>
 </section>
 </div>
 </div>
-<div class="exercise" data-h="vx" data-problem-num="2.6">
+<div class="exercise" data-h="VX" data-problem-num="2.6">
 <p>Improve the bubble sort algorithm of <a href="/alg:bubble-sort-basic"></a> by adding a test that can return the
 list if it is sorted before completing all the loops. Implement the
 improved bubble sort algorithm in a program that it meets the following
@@ -1784,36 +1806,11 @@ different lists of numbers.</li>
 us from making extra passes through the list.</li>
 </ol>
 <div class="exercise-solution">
-<p>A more efficient bubble sort algorithm is given in <a href="/alg:bubble-sort"></a>.</p>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{4.5in}
-\begin{algorithm}[H]
-\caption{\mc{bubble_sort} pseudocode}\label{alg:bubble-sort}
-\begin{algorithmic}
-\Function{bubble\_sort}{$\mathit{list}$}
-  \For{$i\gets 0, n-1$}
-  \Comment{Repeat $n$ times}
-    \State{$\mathit{swapped} \gets \mathit{false}$}
-    \Comment{Initialize $\mathit{swapped}$ test for early return}
-    \For{$j \gets 0, n-i-1$}
-    \Comment{Pass through potentially unsorted elements}
-        \If{$\mathit{list}[j] &gt; \mathit{list}[j+1]$}
-          \State{Swap $\mathit{list}[j]$ and $\mathit{list}[j+1]$}
-          \State{$\mathit{swapped} \gets \mathit{true}$}
-        \EndIf
-    \EndFor
-    \If{$\mathit{swapped} = \mathit{false}$}
-        \State{\textbf{return} $\mathit{list}$}
-    \EndIf
-  \EndFor
-  \State{\textbf{return} $\mathit{list}$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
+<p>A more efficient bubble sort algorithm is given in <a href="/alg:bubble-sort2"></a>.</p>
+<figure class="real-figure algorithm" id="alg:bubble-sort2">
+<figcaption>Algorithm : Pseudocode for a more efficient bubble sort algorithm.</figcaption>
+<img src="/assets/figures/bubble-sort2/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
 <p>The following program meets the requirements:</p>
 <div class="sourceCode" id="cb33"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Part of the Solution to Chapter 2 Problem VX&quot;&quot;&quot;</span></span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1870,7 +1867,7 @@ demonstrates that more passes would have been performed without the
 early return logic.</p>
 </div>
 </div>
-<div class="exercise" data-h="ys" data-problem-num="2.7">
+<div class="exercise" data-h="YS" data-problem-num="2.7">
 <p><strong>Preprogramming work</strong>: In this problem,
 <em>before</em> writing the program specified, (1) draw a functional
 design method diagram (see <a href="/3w">subsection 2.7.1</a>) and (2)
@@ -1927,112 +1924,26 @@ fig. <strong>¿fig:ys-functional-diagram?</strong>.</p>
 <figcaption>Figure : Functional analysis diagram.</figcaption>
 </figure>
 <p><span><a href="/alg:ys-stats"></a>, <a href="/alg:ys-mean"></a>, <a href="/alg:ys-var"></a>, <a href="/alg:ys-std"></a>, <a href="/alg:ys-median"></a></span> show pseudocode for each function.</p>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{3.5in}
-\begin{algorithm}[H]
-\caption{\mc{stats()} pseudocode}\label{alg:ys-stats}
-\begin{algorithmic}
-\Function{stats}{$x$}
-  \State{$\mathit{mean\_val} \gets \mathit{mean}(x)$}
-  \State{$\mathit{var\_val} \gets \mathit{var}(x, \mathit{mean\_val})$}
-  \State{$\mathit{std\_val} \gets \mathit{std}(\mathit{var\_val})$}
-  \State{$\mathit{med\_val} \gets \mathit{median}(x)$}
-  \State{$d \gets \text{dictionary of $\mathit{mean\_val}$, $\mathit{var\_val}$, $\mathit{std\_val}$, $\mathit{med\_val}$}$}
-  \State{\textbf{return} $d$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{3.5in}
-\begin{algorithm}[H]
-\caption{\mc{mean()} pseudocode}\label{alg:ys-mean}
-\begin{algorithmic}
-\Function{mean}{$x$}
-  \State{$s \gets \text{sum}(x)$}
-    \Comment{Sum of elements}
-  \State{$n \gets \text{len}(x)$}
-    \Comment{Number of elements}
-  \State{\textbf{return} $s/n$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{3.5in}
-\begin{algorithm}[H]
-\caption{\mc{var()} pseudocode}\label{alg:ys-var}
-\begin{algorithmic}
-\Function{mean}{$x, m$}
-  \If{mean value $m$ is not provided}
-    \State{$m \gets \mathit{mean}(x)$}
-  \EndIf
-  \State{$\mathit{summand} \gets []$}
-    \Comment{Initialize new list}
-  \For{$x_i \in x$}
-    \State{$s \gets (x_i - m)^2$}
-    \State{Append $s$ to $\mathit{summand}$}
-  \EndFor
-  \State{$s \gets \text{sum}(\mathit{summand})$}
-  \State{$n \gets \text{len}(\mathit{summand})$}
-  \State{\textbf{return} $s/(n - 1)$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{3.5in}
-\begin{algorithm}[H]
-\caption{\mc{std()} pseudocode}\label{alg:ys-std}
-\begin{algorithmic}
-\Function{std}{$v$}
-  \Comment{$v$ is the variance}
-  \State{\textbf{return} $\sqrt{v}$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
-<pre class="algorithm">
-\begin{algorithmcenter}
-\begin{minipage}{3.5in}
-\begin{algorithm}[H]
-\caption{\mc{median()} pseudocode}\label{alg:ys-median}
-\begin{algorithmic}
-\Function{median}{$x$}
-  \State{$x' \gets \text{sort}(x)$}
-    \Comment{New, sorted list}
-  \State{$n \gets \text{len}(x')$}
-  \State{$i_M \gets (n-1)/2$}
-    \Comment{Nominal middle index}
-  \If{$i_M \in \mathbb{Z}$ (i.e., if it's an integer)}
-    \State{$\mathit{med\_val} \gets x'_{i}$}
-  \Else
-    \State{$x_\text{down} \gets x'_{\lfloor i_M \rfloor}$}
-      \Comment{Element from rounded-down index}
-    \State{$x_\text{up} \gets x'_{\lceil i_M \rceil}$}
-      \Comment{Element from rounded-up index}
-    \State{$\mathit{med\_val} \gets (x_\text{down} + x_\text{up})/2$}
-      \Comment{Mean}
-  \EndIf
-  \State{\textbf{return} $\mathit{med\_val}$}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
-\end{minipage}
-\end{algorithmcenter}
-</pre>
+<figure class="real-figure algorithm" id="alg:ys-stats">
+<figcaption>Algorithm : Pseudocode for the <code class="sourceCode python">stats()</code> function.</figcaption>
+<img src="/assets/figures/ys-stats/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
+<figure class="real-figure algorithm" id="alg:ys-mean">
+<figcaption>Algorithm : Pseudocode for the <code class="sourceCode python">mean()</code> function.</figcaption>
+<img src="/assets/figures/ys-mean/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
+<figure class="real-figure algorithm" id="alg:ys-var">
+<figcaption>Algorithm : Pseudocode for the <code class="sourceCode python">var()</code> function.</figcaption>
+<img src="/assets/figures/ys-var/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
+<figure class="real-figure algorithm" id="alg:ys-std">
+<figcaption>Algorithm : Pseudocode for the <code class="sourceCode python">std()</code> function.</figcaption>
+<img src="/assets/figures/ys-std/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
+<figure class="real-figure algorithm" id="alg:ys-median">
+<figcaption>Algorithm : Pseudocode for the <code class="sourceCode python">median()</code> function.</figcaption>
+<img src="/assets/figures/ys-median/main.svg" class="algorithm " alt="Algorithm" />
+</figure>
 <p>The following program meets the requirements:</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode py nosamepage python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;&quot;Part of the Solution to Chapter 2 Problem YS&quot;&quot;&quot;</span></span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
