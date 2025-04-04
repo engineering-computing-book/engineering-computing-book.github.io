@@ -818,6 +818,18 @@
           
         
           
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
             
               </div>
               
@@ -1130,7 +1142,7 @@
           <!-- </h1> -->
         <!-- </div> -->
       <!-- </div> -->
-      <div class="exercise" data-h="5z" data-problem-num="4.1">
+      <div class="exercise" data-h="5Z" data-problem-num="4.1">
 <p>Let <span class="math inline">\(s \in \mathbb{C}\)</span>. Use SymPy
 to perform a partial fraction expansion on the following expression:
 <span class="math display">\[
@@ -1149,7 +1161,7 @@ be directly applied to find the partial fraction expansion:</p>
 </div>
 </div>
 </div>
-<div class="exercise" data-h="ie" data-problem-num="4.2">
+<div class="exercise" data-h="IE" data-problem-num="4.2">
 <p>Let <span class="math inline">\(x, a_1, a_2, a_3, a_4 \in
 \mathbb{R}\)</span>. Use SymPy to combine the cosine and sine terms that
 share arguments into single sinusoids with phase shifts in the following
@@ -1258,7 +1270,49 @@ simplification, as follows:</p>
 </div>
 </div>
 </div>
-<div class="exercise" data-h="kr" data-problem-num="4.3">
+<div class="exercise" data-h="K2" data-problem-num="4.3">
+<p>Let <span class="math inline">\(s \in \mathbb{C}\)</span> and <span class="math inline">\(a_i, b_j \in \mathbb{R}\)</span>. Consider the
+following expression: <span class="math display">\[
+\frac{a_3 s^3 + a_2 s^2}{a_1 s + a_0} \cdot \frac{b_2 s^2}{b_1 s + b_0}.
+\]</span> Use SymPy to write the expression as a fraction with the
+numerator and denominator as polynomials in <span class="math inline">\(s\)</span> with the terms collected such that each
+power of <span class="math inline">\(s\)</span> appears only once in
+each polynomial.</p>
+<div class="exercise-solution">
+
+</div>
+</div>
+<div class="exercise" data-h="QR" data-problem-num="4.4">
+<p>Let <span class="math inline">\(t \in \mathbb{R}\)</span>. Use SymPy
+to simplify the following expression: <span class="math display">\[
+\frac{\cos(t) + \sin(t)}{\cos(t) - \sin(t)} + (\cos(t) + \sin(t))^2.
+\]</span> First try using the <code class="sourceCode python">simplify()</code> function. Then try using the
+<code class="sourceCode python">trigsimp()</code> function.</p>
+<div class="exercise-solution">
+
+</div>
+</div>
+<div class="exercise" data-h="W1" data-problem-num="4.5">
+<p>Let <span class="math inline">\(x, y, z \in \mathbb{R}\)</span> be
+variables and <span class="math inline">\(a, b, c \in
+\mathbb{R}\)</span> be parameters. Suppose we have the following
+solutions for <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> in terms of <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, and <span class="math inline">\(c\)</span>: $$\begin{align}
+x &amp;= a^2 + b^2 \\
+y &amp;= a^2 - b^2 \\
+z &amp;= a^2 b^2.
+\end{align}$$ Furthermore, suppose the numerical values of the
+parameters are <span class="math display">\[
+a = 1,\quad b = 2,\quad c = 3.
+\]</span> Use SymPy to substitute the solutions for <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> into the following expression: <span class="math display">\[
+\frac{x + y}{x - y} + (x + y)^2 + (x - y)^2 + z^2.
+\]</span> The resulting expression should be in terms of <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, and <span class="math inline">\(c\)</span> only. Now substitute the numerical
+values of the parameters into the expression and evaluate it. The final
+result should be a single number.</p>
+<div class="exercise-solution">
+
+</div>
+</div>
+<div class="exercise" data-h="KR" data-problem-num="4.6">
 <p>Consider the following equation, where <span class="math inline">\(x
 \in \mathbb{C}\)</span> and <span class="math inline">\(a, b, c \in
 \mathbb{R_+}\)</span>, <span class="math display">\[
@@ -1281,7 +1335,7 @@ follows:</p>
 <p>This is a cubic solution, so it is unwieldy.</p>
 </div>
 </div>
-<div class="exercise" data-h="g9" data-problem-num="4.4">
+<div class="exercise" data-h="G9" data-problem-num="4.7">
 <p>Let <span class="math inline">\(w, x, y, z \in \mathbb{R}\)</span>.
 Consider the following system of equations: $$\begin{alignat*}{3}
 8 w &amp;{}-{} 6 x &amp;{}+{} 5 y &amp;{}+{} 4 z &amp;{}={} -20 \\
@@ -1310,7 +1364,7 @@ follows:</p>
 </div>
 </div>
 </div>
-<div class="exercise" data-h="iv" data-problem-num="4.5">
+<div class="exercise" data-h="IV" data-problem-num="4.8">
 <p>Consider the truss shown in fig. <strong>¿fig:truss-03?</strong>. Use
 a static analysis and the method of joints to develop a solution for the
 force in each member <span class="math inline">\(F_{AC}\)</span>, <span class="math inline">\(F_{AD}\)</span>, etc., and the reaction forces
@@ -1452,7 +1506,7 @@ magnitude <span class="math display">\[
 </section>
 </div>
 </div>
-<div class="exercise" data-h="49" data-problem-num="4.6">
+<div class="exercise" data-h="49" data-problem-num="4.9">
 <p>You are designing the truss structure shown in
 fig. <strong>¿fig:truss-02?</strong>, which is to support the hanging of
 an external load <span class="math inline">\(\bm{f}_C = -f_C
@@ -1731,7 +1785,7 @@ function, as follows:</p>
 </section>
 </div>
 </div>
-<div class="exercise" data-h="w5" data-problem-num="4.7">
+<div class="exercise" data-h="W5" data-problem-num="4.10">
 <p>Consider an LTI system modeled by the state equation of the
 state-space model, eq. <strong>¿eq:state-space-model-state?</strong>. A
 <span class="keyword">steady state</span> of a system is defined as the
@@ -1840,7 +1894,7 @@ the symbolic variables as follows:</p>
 </div>
 </div>
 </div>
-<div class="exercise" data-h="8u" data-problem-num="4.8">
+<div class="exercise" data-h="8U" data-problem-num="4.11">
 <p>Consider the electromechanical state-space model described in <a href="/m4">example</a>. For a given set of parameters, input voltage,
 and initial conditions, the following vector-valued functions have been
 derived: <span class="math display">\[
@@ -1932,9 +1986,9 @@ given, so we are ready to write <code class="sourceCode python">energy()</code> 
 </div>
 </div>
 </div>
-<div class="exercise" data-h="fj" data-problem-num="4.9">
+<div class="exercise" data-h="FJ" data-problem-num="4.12">
 <p>For the circuit and state-space model given in <a href="/w5">problem
-4.7</a>, use SymPy to solve for <span class="math inline">\(\vec{x}(t)\)</span> and <span class="math inline">\(\vec{y}(t)\)</span> given the following:</p>
+4.10</a>, use SymPy to solve for <span class="math inline">\(\vec{x}(t)\)</span> and <span class="math inline">\(\vec{y}(t)\)</span> given the following:</p>
 <ul>
 <li>A constant input voltage <span class="math inline">\(V_S(t) =
 \overline{V_S}\)</span></li>
